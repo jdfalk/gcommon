@@ -302,7 +302,7 @@ We welcome contributions! Current priority areas:
 3. **Documentation improvements**
 4. **Example applications**
 
-See our [contribution guidelines](.github/CONTRIBUTING.md) for code style, testing requirements, and development workflow.
+See our [contribution guidelines](CONTRIBUTING.md) for code style, testing requirements, and development workflow.
 
 ## 📄 License
 
