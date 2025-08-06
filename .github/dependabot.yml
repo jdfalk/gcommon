@@ -1,3 +1,6 @@
+# file: .github/dependabot.yml
+# version: 1.0.0
+# guid: 5b1b7e5b-317a-470e-bf6f-fddf1c808ca0
 # Smart Dependabot configuration for gcommon
 # Automatically detected: Go, Node.js/npm, Python, Docker, GitHub Actions, Protobuf
 
@@ -17,6 +20,7 @@ updates:
       include: "scope"
     labels:
       - "dependencies"
+      - "go"
     allow:
       - dependency-type: "direct"
     ignore:
@@ -37,6 +41,7 @@ updates:
       include: "scope"
     labels:
       - "dependencies"
+      - "javascript"
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
@@ -68,6 +73,7 @@ updates:
       include: "scope"
     labels:
       - "dependencies"
+      - "python"
     allow:
       - dependency-type: "direct"
     ignore:
@@ -88,7 +94,8 @@ updates:
       include: "scope"
     labels:
       - "dependencies"
-      - "ci/cd"
+      - "ci-cd"
+      - "github-actions"
     groups:
       ci-dependencies:
         patterns:
