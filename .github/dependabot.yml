@@ -1,0 +1,38 @@
+# Dependabot Configuration
+# version: 1.0.0
+# guid: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+
+version: 2
+
+multi-ecosystem-groups:
+  dependencies:
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: "10:00"
+      timezone: America/New_York
+    labels:
+      - dependencies
+      - dependabot
+    commit-message:
+      prefix: deps
+      include: scope
+
+updates:
+  # Github Actions
+  - package-ecosystem: github-actions
+    directory: /
+    patterns: ["*"]
+    multi-ecosystem-group: dependencies
+    labels:
+      - github-actions
+      - ci-cd
+
+  # Gomod
+  - package-ecosystem: gomod
+    directory: /
+    patterns: ["*"]
+    multi-ecosystem-group: dependencies
+    labels:
+      - tech:go
+
