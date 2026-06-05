@@ -1,20 +1,20 @@
-module github.com/jdfalk/gcommon
+module github.com/falkcorp/gcommon
 
 go 1.24.0
 
 // Replace directives for local sub-modules
-replace github.com/jdfalk/gcommon/internal => ./internal
+replace github.com/falkcorp/gcommon/internal => ./internal
 
-replace github.com/jdfalk/gcommon/services => ./services
+replace github.com/falkcorp/gcommon/services => ./services
 
-replace github.com/jdfalk/gcommon/services/health => ./services/health
+replace github.com/falkcorp/gcommon/services/health => ./services/health
 
-replace github.com/jdfalk/gcommon/services/auth => ./services/auth
+replace github.com/falkcorp/gcommon/services/auth => ./services/auth
 
-replace github.com/jdfalk/gcommon/pkg/authpb/v2 => ./pkg/authpb/v2
+replace github.com/falkcorp/gcommon/pkg/authpb/v2 => ./pkg/authpb/v2
 
 require (
-	github.com/jdfalk/gcommon/internal v0.0.0-20251003134307-5cabf522c911
+	github.com/falkcorp/gcommon/internal v0.0.0-20251003134307-5cabf522c911
 	google.golang.org/grpc v1.75.1
 )
 

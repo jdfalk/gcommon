@@ -4,7 +4,7 @@
 
 version: v2
 deps:
-  - buf.build/jdfalk/gcommon
+  - buf.build/falkcorp/gcommon
   - buf.build/googleapis/googleapis
   - buf.build/bufbuild/protovalidate
   - buf.build/protocolbuffers/wellknowntypes

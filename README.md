@@ -8,20 +8,20 @@ Go SDK for gcommon protocol buffers with generated Go bindings
 
 ## Overview
 
-This repository provides Go bindings for the [gcommon](https://github.com/jdfalk/gcommon) protocol buffer definitions via the [Buf Schema Registry](https://buf.build/jdfalk/gcommon). It includes all generated Go code and provides a stable Go module for consuming gcommon services.
+This repository provides Go bindings for the [gcommon](https://github.com/falkcorp/gcommon) protocol buffer definitions via the [Buf Schema Registry](https://buf.build/falkcorp/gcommon). It includes all generated Go code and provides a stable Go module for consuming gcommon services.
 
 ## Features
 
-- **BSR Integration**: Uses buf.build/jdfalk/gcommon for protocol buffer definitions
+- **BSR Integration**: Uses buf.build/falkcorp/gcommon for protocol buffer definitions
 - **Generated Go Code**: Pre-generated Go bindings for all gcommon services
 - **Versioned Releases**: Follows semantic versioning for compatibility
-- **Module Support**: Proper Go module with github.com/jdfalk/gcommon path
+- **Module Support**: Proper Go module with github.com/falkcorp/gcommon path
 - **Documentation**: Comprehensive API documentation
 
 ## Installation
 
 ```bash
-go get github.com/jdfalk/gcommon
+go get github.com/falkcorp/gcommon
 ```
 
 ## Usage
@@ -30,9 +30,9 @@ go get github.com/jdfalk/gcommon
 
 ```go
 import (
-    "github.com/jdfalk/gcommon/common/v1"
-    "github.com/jdfalk/gcommon/health/v1"
-    "github.com/jdfalk/gcommon/metrics/v1"
+    "github.com/falkcorp/gcommon/common/v1"
+    "github.com/falkcorp/gcommon/health/v1"
+    "github.com/falkcorp/gcommon/metrics/v1"
     // ... other modules
 )
 ```
@@ -46,8 +46,8 @@ import (
     "context"
     "log"
 
-    commonv1 "github.com/jdfalk/gcommon/common/v1"
-    healthv1 "github.com/jdfalk/gcommon/health/v1"
+    commonv1 "github.com/falkcorp/gcommon/common/v1"
+    healthv1 "github.com/falkcorp/gcommon/health/v1"
 )
 
 func main() {
@@ -69,22 +69,22 @@ The Go SDK includes bindings for all 9 gcommon modules:
 
 | Module           | Package Path                                | Description                      |
 | ---------------- | ------------------------------------------- | -------------------------------- |
-| **common**       | `github.com/jdfalk/gcommon/common/v1`       | Shared types, errors, pagination |
-| **config**       | `github.com/jdfalk/gcommon/config/v1`       | Configuration management         |
-| **database**     | `github.com/jdfalk/gcommon/database/v1`     | Database operations              |
-| **health**       | `github.com/jdfalk/gcommon/health/v1`       | Health checks and monitoring     |
-| **media**        | `github.com/jdfalk/gcommon/media/v1`        | Media processing                 |
-| **metrics**      | `github.com/jdfalk/gcommon/metrics/v1`      | System metrics                   |
-| **organization** | `github.com/jdfalk/gcommon/organization/v1` | Organization management          |
-| **queue**        | `github.com/jdfalk/gcommon/queue/v1`        | Message queuing                  |
-| **web**          | `github.com/jdfalk/gcommon/web/v1`          | Web services                     |
+| **common**       | `github.com/falkcorp/gcommon/common/v1`       | Shared types, errors, pagination |
+| **config**       | `github.com/falkcorp/gcommon/config/v1`       | Configuration management         |
+| **database**     | `github.com/falkcorp/gcommon/database/v1`     | Database operations              |
+| **health**       | `github.com/falkcorp/gcommon/health/v1`       | Health checks and monitoring     |
+| **media**        | `github.com/falkcorp/gcommon/media/v1`        | Media processing                 |
+| **metrics**      | `github.com/falkcorp/gcommon/metrics/v1`      | System metrics                   |
+| **organization** | `github.com/falkcorp/gcommon/organization/v1` | Organization management          |
+| **queue**        | `github.com/falkcorp/gcommon/queue/v1`        | Message queuing                  |
+| **web**          | `github.com/falkcorp/gcommon/web/v1`          | Web services                     |
 
 ## Development
 
 ### Building from Source
 
 ```bash
-git clone https://github.com/jdfalk/gcommon-go.git
+git clone https://github.com/falkcorp/gcommon-go.git
 cd gcommon-go
 make build
 ```
@@ -99,8 +99,8 @@ buf generate
 
 ## Related Repositories
 
-- **[gcommon](https://github.com/jdfalk/gcommon)** - Protocol buffer definitions (BSR: buf.build/jdfalk/gcommon)
-- **[gcommon-py](https://github.com/jdfalk/gcommon-py)** - Python SDK
+- **[gcommon](https://github.com/falkcorp/gcommon)** - Protocol buffer definitions (BSR: buf.build/falkcorp/gcommon)
+- **[gcommon-py](https://github.com/falkcorp/gcommon-py)** - Python SDK
 
 ## Contributing
 
