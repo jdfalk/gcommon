@@ -49,13 +49,13 @@ jobs:
 
       - name: Generate Go code from BSR
         run: |
-          echo "Generating Go code from buf.build/jdfalk/gcommon..."
+          echo "Generating Go code from buf.build/falkcorp/gcommon..."
           buf generate
 
       - name: Update go.mod module reference
         run: |
           # Ensure generated .pb.go files use the correct module path
-          find . -name "*.pb.go" -type f -exec sed -i 's|github.com/jdfalk/gcommon-go|github.com/jdfalk/gcommon|g' {} \;
+          find . -name "*.pb.go" -type f -exec sed -i 's|github.com/falkcorp/gcommon-go|github.com/falkcorp/gcommon|g' {} \;
 
       - name: Run go mod tidy
         run: go mod tidy
@@ -81,7 +81,7 @@ jobs:
           git add .
           git commit -m "feat(gen): regenerate Go code from BSR
 
-          Automatically regenerated Go code from buf.build/jdfalk/gcommon.
+          Automatically regenerated Go code from buf.build/falkcorp/gcommon.
 
           Generated from latest protocol buffer definitions."
           git push
@@ -96,4 +96,4 @@ jobs:
           else
             echo "ℹ️ No changes detected - generated code is up to date" >> $GITHUB_STEP_SUMMARY
           fi
-          echo "🔗 Source: buf.build/jdfalk/gcommon" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 Source: buf.build/falkcorp/gcommon" >> $GITHUB_STEP_SUMMARY

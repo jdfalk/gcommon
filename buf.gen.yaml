@@ -4,7 +4,7 @@
 
 version: v2
 inputs:
-  - module: buf.build/jdfalk/gcommon
+  - module: buf.build/falkcorp/gcommon
 managed:
   enabled: true
   disable:
@@ -15,87 +15,87 @@ managed:
     # BSR still has old structure (common/v1/) but we want new Go packages (pkg/commonpb)
     # v1 files: common/v1/ -> pkg/commonpb (no v1 subdirectory)
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: common/v1
-      value: github.com/jdfalk/gcommon/pkg/commonpb
+      value: github.com/falkcorp/gcommon/pkg/commonpb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: config/v1
-      value: github.com/jdfalk/gcommon/pkg/configpb
+      value: github.com/falkcorp/gcommon/pkg/configpb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: database/v1
-      value: github.com/jdfalk/gcommon/pkg/databasepb
+      value: github.com/falkcorp/gcommon/pkg/databasepb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: health/v1
-      value: github.com/jdfalk/gcommon/pkg/healthpb
+      value: github.com/falkcorp/gcommon/pkg/healthpb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: media/v1
-      value: github.com/jdfalk/gcommon/pkg/mediapb
+      value: github.com/falkcorp/gcommon/pkg/mediapb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: metrics/v1
-      value: github.com/jdfalk/gcommon/pkg/metricspb
+      value: github.com/falkcorp/gcommon/pkg/metricspb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: organization/v1
-      value: github.com/jdfalk/gcommon/pkg/organizationpb
+      value: github.com/falkcorp/gcommon/pkg/organizationpb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: queue/v1
-      value: github.com/jdfalk/gcommon/pkg/queuepb
+      value: github.com/falkcorp/gcommon/pkg/queuepb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: web/v1
-      value: github.com/jdfalk/gcommon/pkg/webpb
+      value: github.com/falkcorp/gcommon/pkg/webpb
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: auth/v1
-      value: github.com/jdfalk/gcommon/pkg/authpb
+      value: github.com/falkcorp/gcommon/pkg/authpb
 
     # v2 files: old BSR paths to new pb-suffixed Go packages with v2 subdirectory
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: common/v2
-      value: github.com/jdfalk/gcommon/pkg/commonpb/v2
+      value: github.com/falkcorp/gcommon/pkg/commonpb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: config/v2
-      value: github.com/jdfalk/gcommon/pkg/configpb/v2
+      value: github.com/falkcorp/gcommon/pkg/configpb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: database/v2
-      value: github.com/jdfalk/gcommon/pkg/databasepb/v2
+      value: github.com/falkcorp/gcommon/pkg/databasepb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: health/v2
-      value: github.com/jdfalk/gcommon/pkg/healthpb/v2
+      value: github.com/falkcorp/gcommon/pkg/healthpb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: media/v2
-      value: github.com/jdfalk/gcommon/pkg/mediapb/v2
+      value: github.com/falkcorp/gcommon/pkg/mediapb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: metrics/v2
-      value: github.com/jdfalk/gcommon/pkg/metricspb/v2
+      value: github.com/falkcorp/gcommon/pkg/metricspb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: organization/v2
-      value: github.com/jdfalk/gcommon/pkg/organizationpb/v2
+      value: github.com/falkcorp/gcommon/pkg/organizationpb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: queue/v2
-      value: github.com/jdfalk/gcommon/pkg/queuepb/v2
+      value: github.com/falkcorp/gcommon/pkg/queuepb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: web/v2
-      value: github.com/jdfalk/gcommon/pkg/webpb/v2
+      value: github.com/falkcorp/gcommon/pkg/webpb/v2
     - file_option: go_package_prefix
-      module: buf.build/jdfalk/gcommon
+      module: buf.build/falkcorp/gcommon
       path: auth/v2
-      value: github.com/jdfalk/gcommon/pkg/authpb/v2
+      value: github.com/falkcorp/gcommon/pkg/authpb/v2
 plugins:
   - local: protoc-gen-go
     out: pkg
