@@ -12,7 +12,6 @@ import (
 	"encoding/hex"
 	"fmt"
 	"log"
-	"net"
 	"net/http"
 	"net/url"
 	"strings"
@@ -20,10 +19,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/jdfalk/gcommon/services/auth/types"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/falkcorp/gcommon/services/auth/types"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -731,8 +727,14 @@ func (s *AuthenticationService) HandleOAuthCallback(ctx context.Context, req *ty
 		}, nil
 	}
 	
-	provider := s.providers[req.Provider]
-	
+	provider, exists := s.providers[req.Provider]
+	if !exists || !provider.IsActive {
+		return &types.HandleOAuthCallbackResponse{
+			Success: false,
+			Message: "unknown or inactive OAuth2 provider",
+		}, nil
+	}
+
 	// In a real implementation, you would:
 	// 1. Exchange code for access token with OAuth2 provider
 	// 2. Get user info from OAuth2 provider  

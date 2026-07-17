@@ -62,67 +62,6 @@ func AddCliFlags(cmd *cobra.Command, prefix string) {
 	viper.BindPFlag(prefix+"auth.private_key_path", cmd.Flags().Lookup(prefix+"auth.private-key-path"))
 }
 
-// ConfigFromViper creates an auth service config from viper settings
-func ConfigFromViper(prefix string) *Config {
-	if prefix != "" {
-		prefix = prefix + "."
-	}
-
-	config := &Config{
-		JWTSecret:           viper.GetString(prefix + "auth.jwt_secret"),
-		JWTExpiration:       viper.GetDuration(prefix + "auth.jwt_expiration"),
-		RefreshExpiration:   viper.GetDuration(prefix + "auth.refresh_expiration"),
-		EnableOAuth2:        viper.GetBool(prefix + "auth.enable_oauth2"),
-		OAuth2ClientID:      viper.GetString(prefix + "auth.oauth2_client_id"),
-		OAuth2ClientSecret:  viper.GetString(prefix + "auth.oauth2_client_secret"),
-		OAuth2RedirectURL:   viper.GetString(prefix + "auth.oauth2_redirect_url"),
-		Require2FA:          viper.GetBool(prefix + "auth.require_2fa"),
-		MaxLoginAttempts:    viper.GetInt(prefix + "auth.max_login_attempts"),
-		LockoutDuration:     viper.GetDuration(prefix + "auth.lockout_duration"),
-		PasswordMinLength:   viper.GetInt(prefix + "auth.password_min_length"),
-		PasswordRequireSpec: viper.GetBool(prefix + "auth.password_require_special"),
-		AllowedOrigins:      viper.GetStringSlice(prefix + "auth.allowed_origins"),
-	}
-
-	// Set defaults if not provided
-	if config.JWTSecret == "" {
-		config.JWTSecret = "default-secret-change-in-production"
-	}
-	if config.JWTExpiration == 0 {
-		config.JWTExpiration = 24 * time.Hour
-	}
-	if config.RefreshExpiration == 0 {
-		config.RefreshExpiration = 7 * 24 * time.Hour
-	}
-	if config.MaxLoginAttempts == 0 {
-		config.MaxLoginAttempts = 5
-	}
-	if config.LockoutDuration == 0 {
-		config.LockoutDuration = 15 * time.Minute
-	}
-	if config.PasswordMinLength == 0 {
-		config.PasswordMinLength = 8
-	}
-	if len(config.AllowedOrigins) == 0 {
-		config.AllowedOrigins = []string{"*"}
-	}
-
-	// Load RSA keys if paths provided
-	publicKeyPath := viper.GetString(prefix + "auth.public_key_path")
-	privateKeyPath := viper.GetString(prefix + "auth.private_key_path")
-
-	if publicKeyPath != "" {
-		// In production, load actual RSA keys from files
-		// config.PublicKey = loadPublicKey(publicKeyPath)
-	}
-	if privateKeyPath != "" {
-		// In production, load actual RSA keys from files
-		// config.PrivateKey = loadPrivateKey(privateKeyPath)
-	}
-
-	return config
-}
-
 // OAuth2ConfigFromViper creates OAuth2-specific configuration
 func OAuth2ConfigFromViper(prefix string) *OAuth2Config {
 	if prefix != "" {
