@@ -46,6 +46,7 @@ type AuthenticationService struct {
 	// Background cleanup
 	cleanupTicker *time.Ticker
 	shutdownCh    chan struct{}
+	closeOnce     sync.Once
 }
 
 // NewAuthService creates a new authentication service with full v2 capabilities
@@ -224,10 +225,12 @@ func (s *AuthenticationService) cleanupExpiredTokensAndSessions() {
 
 // Graceful shutdown
 func (s *AuthenticationService) Close() error {
-	close(s.shutdownCh)
-	if s.cleanupTicker != nil {
-		s.cleanupTicker.Stop()
-	}
+	s.closeOnce.Do(func() {
+		close(s.shutdownCh)
+		if s.cleanupTicker != nil {
+			s.cleanupTicker.Stop()
+		}
+	})
 	return nil
 }
 

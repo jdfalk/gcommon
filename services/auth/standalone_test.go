@@ -50,7 +50,7 @@ func TestAuthServiceV2Features(t *testing.T) {
 		t.Logf("✓ Scopes: %v", createResp.Scopes)
 
 		// Test API key authentication
-		authResp, err := service.AuthenticateAPIKey(ctx, createResp.APIKey)
+		authResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: createResp.APIKey})
 		if err != nil {
 			t.Fatalf("AuthenticateAPIKey failed: %v", err)
 		}
@@ -99,7 +99,7 @@ func TestAuthServiceV2Features(t *testing.T) {
 		t.Log("✓ API key revoked successfully")
 
 		// Verify revoked key no longer works
-		revokedAuthResp, err := service.AuthenticateAPIKey(ctx, createResp.APIKey)
+		revokedAuthResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: createResp.APIKey})
 		if err != nil {
 			t.Fatalf("AuthenticateAPIKey with revoked key failed: %v", err)
 		}

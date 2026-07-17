@@ -10,7 +10,6 @@ import (
 	"log"
 	"time"
 
-	"github.com/falkcorp/gcommon/pkg/authpb"
 	"github.com/falkcorp/gcommon/services/auth/types"
 )
 
@@ -31,19 +30,18 @@ func ExampleAuthService() {
 
 	// 1. Traditional Login
 	fmt.Println("1. Traditional Username/Password Login:")
-	loginReq := &authpb.LoginRequest{
+	loginReq := &types.LoginRequest{
 		Username: "admin",
 		Password: "admin123",
 	}
 
-	loginResp, err := service.Login(ctx, loginReq)
+	loginResp, err := service.LoginInternal(ctx, loginReq)
 	if err != nil {
 		log.Fatalf("Login failed: %v", err)
 	}
 
-	fmt.Printf("   ✓ Login successful for user: %s\n", loginResp.UserId)
+	fmt.Printf("   ✓ Login successful\n")
 	fmt.Printf("   ✓ Access token: %s...\n", loginResp.AccessToken[:20])
-	fmt.Printf("   ✓ User roles: %v\n", loginResp.Roles)
 	fmt.Println()
 
 	// 2. API Key Authentication
@@ -64,7 +62,7 @@ func ExampleAuthService() {
 	fmt.Printf("   ✓ Scopes: %v\n", apiKeyResp.Scopes)
 
 	// Test API key authentication
-	apiAuthResp, err := service.AuthenticateAPIKey(ctx, apiKeyResp.APIKey)
+	apiAuthResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: apiKeyResp.APIKey})
 	if err != nil {
 		log.Fatalf("API key authentication failed: %v", err)
 	}
@@ -203,21 +201,8 @@ func ExampleAuthService() {
 	}
 	fmt.Println()
 
-	// 7. Token Validation (existing functionality)
-	fmt.Println("7. Token Validation:")
-	validateReq := &authpb.ValidateTokenRequest{
-		Token: loginResp.AccessToken,
-	}
-
-	validateResp, err := service.ValidateToken(ctx, validateReq)
-	if err != nil {
-		log.Fatalf("Token validation failed: %v", err)
-	}
-
-	fmt.Printf("   ✓ Token valid: %v\n", validateResp.Valid)
-	fmt.Printf("   ✓ User ID: %s\n", validateResp.UserId)
-	fmt.Printf("   ✓ Roles: %v\n", validateResp.Roles)
-	fmt.Println()
+	// Note: gRPC-wired JWT validation (ValidateToken) is not demonstrated here;
+	// it's commented out in service.go pending the authpb v2 protobuf rework.
 
 	fmt.Println("=== AuthService v2 Demo Complete ===")
 	fmt.Println()
@@ -228,7 +213,7 @@ func ExampleAuthService() {
 	fmt.Println("   • Enhanced session management")
 	fmt.Println("   • User profile management")
 	fmt.Println("   • Password change functionality")
-	fmt.Println("   • JWT token generation and validation")
+	fmt.Println("   • JWT token generation")
 	fmt.Println("   • Background cleanup of expired tokens")
 	fmt.Println("   • Production-ready security (bcrypt, secure key generation)")
 	fmt.Println("   • Comprehensive error handling and logging")
