@@ -41,7 +41,7 @@ func TestAuthServiceV2Methods(t *testing.T) {
 		}
 
 		// Authenticate with API key
-		authResp, err := service.AuthenticateAPIKey(ctx, createResp.APIKey)
+		authResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: createResp.APIKey})
 		if err != nil {
 			t.Fatalf("Failed to authenticate API key: %v", err)
 		}
@@ -272,7 +272,7 @@ func TestAllV2MethodsImplemented(t *testing.T) {
 			return err
 		}},
 		{"AuthenticateAPIKey", func() error {
-			_, err := service.AuthenticateAPIKey(ctx, "invalid-key")
+			_, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: "invalid-key"})
 			return err
 		}},
 		{"RevokeAPIKey", func() error {

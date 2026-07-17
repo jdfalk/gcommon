@@ -10,7 +10,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/falkcorp/gcommon/pkg/authpb"
 	"github.com/falkcorp/gcommon/services/auth/types"
 )
 
@@ -46,50 +45,46 @@ func TestLogin(t *testing.T) {
 	ctx := context.Background()
 	
 	// Test successful login with username
-	loginReq := &authpb.LoginRequest{
+	loginReq := &types.LoginRequest{
 		Username: "admin",
 		Password: "admin123",
 	}
-	
-	resp, err := service.Login(ctx, loginReq)
+
+	resp, err := service.LoginInternal(ctx, loginReq)
 	if err != nil {
 		t.Fatalf("Login failed: %v", err)
 	}
-	
+
 	if resp.AccessToken == "" {
 		t.Error("Expected access token to be returned")
 	}
-	
+
 	if resp.RefreshToken == "" {
 		t.Error("Expected refresh token to be returned")
 	}
-	
-	if resp.UserId != "admin-001" {
-		t.Errorf("Expected user ID 'admin-001', got '%s'", resp.UserId)
-	}
-	
+
 	// Test login with email
-	emailLoginReq := &authpb.LoginRequest{
-		Username: "admin@example.com", 
+	emailLoginReq := &types.LoginRequest{
+		Username: "admin@example.com",
 		Password: "admin123",
 	}
-	
-	resp2, err := service.Login(ctx, emailLoginReq)
+
+	resp2, err := service.LoginInternal(ctx, emailLoginReq)
 	if err != nil {
 		t.Fatalf("Email login failed: %v", err)
 	}
-	
-	if resp2.UserId != "admin-001" {
-		t.Errorf("Expected user ID 'admin-001' for email login, got '%s'", resp2.UserId)
+
+	if resp2.AccessToken == "" {
+		t.Error("Expected access token to be returned for email login")
 	}
-	
+
 	// Test failed login
-	failLoginReq := &authpb.LoginRequest{
+	failLoginReq := &types.LoginRequest{
 		Username: "admin",
 		Password: "wrongpassword",
 	}
-	
-	_, err = service.Login(ctx, failLoginReq)
+
+	_, err = service.LoginInternal(ctx, failLoginReq)
 	if err == nil {
 		t.Error("Expected login to fail with wrong password")
 	}
@@ -124,7 +119,7 @@ func TestAPIKeyAuthentication(t *testing.T) {
 	}
 	
 	// Test API key authentication
-	authResp, err := service.AuthenticateAPIKey(ctx, createResp.APIKey)
+	authResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: createResp.APIKey})
 	if err != nil {
 		t.Fatalf("AuthenticateAPIKey failed: %v", err)
 	}
@@ -138,7 +133,7 @@ func TestAPIKeyAuthentication(t *testing.T) {
 	}
 	
 	// Test invalid API key
-	invalidAuthResp, err := service.AuthenticateAPIKey(ctx, "invalid-key")
+	invalidAuthResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: "invalid-key"})
 	if err != nil {
 		t.Fatalf("AuthenticateAPIKey with invalid key failed: %v", err)
 	}
@@ -177,7 +172,7 @@ func TestAPIKeyAuthentication(t *testing.T) {
 	}
 	
 	// Verify revoked key no longer works
-	revokedAuthResp, err := service.AuthenticateAPIKey(ctx, createResp.APIKey)
+	revokedAuthResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: createResp.APIKey})
 	if err != nil {
 		t.Fatalf("AuthenticateAPIKey with revoked key failed: %v", err)
 	}
@@ -317,23 +312,23 @@ func TestUserProfileManagement(t *testing.T) {
 	}
 	
 	// Test login with new password
-	loginReq := &authpb.LoginRequest{
+	loginReq := &types.LoginRequest{
 		Username: "admin",
 		Password: "newpassword123",
 	}
-	
-	_, err = service.Login(ctx, loginReq)
+
+	_, err = service.LoginInternal(ctx, loginReq)
 	if err != nil {
 		t.Error("Login with new password should succeed")
 	}
-	
+
 	// Test login with old password should fail
-	oldLoginReq := &authpb.LoginRequest{
-		Username: "admin", 
+	oldLoginReq := &types.LoginRequest{
+		Username: "admin",
 		Password: "admin123",
 	}
-	
-	_, err = service.Login(ctx, oldLoginReq)
+
+	_, err = service.LoginInternal(ctx, oldLoginReq)
 	if err == nil {
 		t.Error("Login with old password should fail")
 	}

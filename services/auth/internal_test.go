@@ -101,7 +101,7 @@ func TestInternalAuthServiceFeatures(t *testing.T) {
 		t.Logf("✓ Created API key through service: %s", createResp.APIKeyID)
 
 		// Authenticate with the created API key
-		authResp, err := service.AuthenticateAPIKey(ctx, createResp.APIKey)
+		authResp, err := service.AuthenticateAPIKey(ctx, &types.APIKeyAuthRequest{APIKey: createResp.APIKey})
 		if err != nil {
 			t.Fatalf("AuthenticateAPIKey failed: %v", err)
 		}
