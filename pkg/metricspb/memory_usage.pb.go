@@ -205,7 +205,7 @@ const file_metricspb_v1_memory_usage_proto_rawDesc = "" +
 	"\rusage_percent\x18\x03 \x01(\x01B\x17\xbaH\x14\x12\x12\x19\x00\x00\x00\x00\x00\x00Y@)\x00\x00\x00\x00\x00\x00\x00\x00R\fusagePercent\x12&\n" +
 	"\n" +
 	"peak_bytes\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\tpeakBytesB\x9c\x01\n" +
-	"\x0ecom.metrics.v1B\x10MemoryUsageProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x10MemoryUsageProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -344,7 +344,7 @@ const file_configpb_v1_promotion_rule_proto_rawDesc = "" +
 	"\afilters\x18\t \x03(\tR\afilters\x12(\n" +
 	"\x0ftransformations\x18\n" +
 	" \x03(\tR\x0ftransformationsB\x98\x01\n" +
-	"\rcom.config.v1B\x12PromotionRuleProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x12PromotionRuleProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_promotion_rule_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

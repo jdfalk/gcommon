@@ -30,7 +30,7 @@ const file_healthpb_v1_health_service_proto_rawDesc = "" +
 	"\x05Check\x12\x1d.health.v1.HealthCheckRequest\x1a\x1e.health.v1.HealthCheckResponse\x12U\n" +
 	"\x0eCheckReadiness\x12 .health.v1.ReadinessCheckRequest\x1a!.health.v1.ReadinessCheckResponse\x12N\n" +
 	"\vWatchHealth\x12\x1d.health.v1.WatchHealthRequest\x1a\x1e.health.v1.WatchHealthResponse0\x01B\x98\x01\n" +
-	"\rcom.health.v1B\x12HealthServiceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v1B\x12HealthServiceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
 	"Health::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v1_health_service_proto_goTypes = []any{

@@ -240,7 +240,7 @@ const file_webpb_v2_csrf_config_proto_rawDesc = "" +
 	"\ttoken_ttl\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\btokenTtl\x12\x16\n" +
 	"\x06secure\x18\x05 \x01(\bR\x06secureB\x86\x01\n" +
 	"\n" +
-	"com.web.v2B\x0fCsrfConfigProtoP\x01Z&github.com/jdfalk/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x0fCsrfConfigProtoP\x01Z&github.com/falkcorp/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_csrf_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_csrf_config_proto_goTypes = []any{

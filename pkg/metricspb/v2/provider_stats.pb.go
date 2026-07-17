@@ -262,7 +262,7 @@ const file_metricspb_v2_provider_stats_proto_rawDesc = "" +
 	"\n" +
 	"error_rate\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\terrorRate\x12@\n" +
 	"\x0eresource_usage\x18\x06 \x01(\v2\x19.metrics.v2.ResourceUsageR\rresourceUsageB\xa1\x01\n" +
-	"\x0ecom.metrics.v2B\x12ProviderStatsProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x12ProviderStatsProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

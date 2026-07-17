@@ -172,7 +172,7 @@ const file_commonpb_v1_generate_api_key_response_proto_rawDesc = "" +
 	"\x03key\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x03key\x12\x1e\n" +
 	"\x06key_id\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05keyId\x127\n" +
 	"\bmetadata\x18\x03 \x01(\v2\x1b.common.v1.ResponseMetadataR\bmetadataB\xa1\x01\n" +
-	"\rcom.common.v1B\x1bGenerateApiKeyResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1bGenerateApiKeyResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_generate_api_key_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

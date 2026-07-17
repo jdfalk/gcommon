@@ -300,7 +300,7 @@ const file_mediapb_v1_subtitle_track_proto_rawDesc = "" +
 	"\x06forced\x18\x05 \x01(\bR\x06forced\x12)\n" +
 	"\x10hearing_impaired\x18\x06 \x01(\bR\x0fhearingImpaired\x12#\n" +
 	"\rdefault_track\x18\a \x01(\bR\fdefaultTrackB\x92\x01\n" +
-	"\fcom.media.v1B\x12SubtitleTrackProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x12SubtitleTrackProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_subtitle_track_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_subtitle_track_proto_goTypes = []any{

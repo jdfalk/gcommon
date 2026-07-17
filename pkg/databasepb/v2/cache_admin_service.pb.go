@@ -33,7 +33,7 @@ const file_databasepb_v2_cache_admin_service_proto_rawDesc = "" +
 	"\x0eListNamespaces\x12\".database.v2.ListNamespacesRequest\x1a#.database.v2.ListNamespacesResponse\x12b\n" +
 	"\x11GetNamespaceStats\x12%.database.v2.GetNamespaceStatsRequest\x1a&.database.v2.GetNamespaceStatsResponse\x12\\\n" +
 	"\x0fConfigurePolicy\x12#.database.v2.ConfigurePolicyRequest\x1a$.database.v2.ConfigurePolicyResponseB\xab\x01\n" +
-	"\x0fcom.database.v2B\x16CacheAdminServiceProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x16CacheAdminServiceProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_cache_admin_service_proto_goTypes = []any{
 	(*CreateNamespaceRequest)(nil),    // 0: database.v2.CreateNamespaceRequest

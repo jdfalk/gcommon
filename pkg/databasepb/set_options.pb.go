@@ -218,7 +218,7 @@ const file_databasepb_v1_set_options_proto_rawDesc = "" +
 	"\x0fonly_if_present\x18\x02 \x01(\bR\ronlyIfPresent\x12/\n" +
 	"\x03ttl\x18\x03 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\x03ttl\x12'\n" +
 	"\x0freturn_previous\x18\x04 \x01(\bR\x0ereturnPreviousB\xa1\x01\n" +
-	"\x0fcom.database.v1B\x0fSetOptionsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\x0fSetOptionsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_set_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v1_set_options_proto_goTypes = []any{

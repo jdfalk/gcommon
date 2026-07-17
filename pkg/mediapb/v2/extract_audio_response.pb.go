@@ -191,7 +191,7 @@ const file_mediapb_v2_extract_audio_response_proto_rawDesc = "" +
 	"\x06status\x18\x02 \x01(\tR\x06status\x12&\n" +
 	"\x0foutput_file_ids\x18\x03 \x03(\tR\routputFileIds\x12#\n" +
 	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\x9c\x01\n" +
-	"\fcom.media.v2B\x19ExtractAudioResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x19ExtractAudioResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_extract_audio_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_extract_audio_response_proto_goTypes = []any{

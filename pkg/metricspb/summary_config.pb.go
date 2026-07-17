@@ -161,7 +161,7 @@ const file_metricspb_v1_summary_config_proto_rawDesc = "" +
 	"\vtime_window\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\n" +
 	"timeWindow\x12 \n" +
 	"\amax_age\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06maxAgeB\x9e\x01\n" +
-	"\x0ecom.metrics.v1B\x12SummaryConfigProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x12SummaryConfigProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

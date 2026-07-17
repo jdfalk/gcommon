@@ -75,7 +75,7 @@ const file_commonpb_v1_verification_type_proto_rawDesc = "" +
 	"\x1dVERIFICATION_TYPE_UNSPECIFIED\x10\x00\x12\x1b\n" +
 	"\x17VERIFICATION_TYPE_EMAIL\x10\x01\x12\x19\n" +
 	"\x15VERIFICATION_TYPE_SMS\x10\x02B\x9b\x01\n" +
-	"\rcom.common.v1B\x15VerificationTypeProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x15VerificationTypeProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_verification_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -225,7 +225,7 @@ const file_metricspb_v1_scrape_job_proto_rawDesc = "" +
 	"\x06active\x18\x03 \x01(\bR\x06active\x12D\n" +
 	"\x10last_scrape_time\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampR\x0elastScrapeTime\x12D\n" +
 	"\x10next_scrape_time\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\x0enextScrapeTimeB\x9a\x01\n" +
-	"\x0ecom.metrics.v1B\x0eScrapeJobProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x0eScrapeJobProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

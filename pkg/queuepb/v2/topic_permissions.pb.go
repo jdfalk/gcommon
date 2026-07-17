@@ -265,7 +265,7 @@ const file_queuepb_v2_topic_permissions_proto_rawDesc = "" +
 	"can_delete\x18\x04 \x01(\bR\tcanDelete\x124\n" +
 	"\x16can_manage_permissions\x18\x05 \x01(\bR\x14canManagePermissions\x12$\n" +
 	"\x0ecan_view_stats\x18\x06 \x01(\bR\fcanViewStatsB\x98\x01\n" +
-	"\fcom.queue.v2B\x15TopicPermissionsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x15TopicPermissionsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_topic_permissions_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_topic_permissions_proto_goTypes = []any{

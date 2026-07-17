@@ -206,7 +206,7 @@ const file_metricspb_v2_batch_context_proto_rawDesc = "" +
 	"\n" +
 	"batch_size\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tbatchSize\x12\x17\n" +
 	"\ais_last\x18\x04 \x01(\bR\x06isLastB\xa0\x01\n" +
-	"\x0ecom.metrics.v2B\x11BatchContextProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x11BatchContextProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -279,7 +279,7 @@ const file_commonpb_v2_revoke_token_response_proto_rawDesc = "" +
 	"\auser_id\x18\x04 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x06userId\x12+\n" +
 	"\x11revocation_reason\x18\x05 \x01(\tR\x10revocationReason\x121\n" +
 	"\x15last_token_in_session\x18\x06 \x01(\bR\x12lastTokenInSessionB\xa1\x01\n" +
-	"\rcom.common.v2B\x18RevokeTokenResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x18RevokeTokenResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_revoke_token_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

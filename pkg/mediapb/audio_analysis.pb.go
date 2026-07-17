@@ -184,7 +184,7 @@ const file_mediapb_v1_audio_analysis_proto_rawDesc = "" +
 	"\trms_level\x18\x02 \x01(\x01R\brmsLevel\x12J\n" +
 	"\x0fsilent_segments\x18\x03 \x03(\v2\x17.media.v1.SilentSegmentB\b\xbaH\x05\x92\x01\x02\b\x01R\x0esilentSegments\x12#\n" +
 	"\rdynamic_range\x18\x04 \x01(\x01R\fdynamicRangeB\x92\x01\n" +
-	"\fcom.media.v1B\x12AudioAnalysisProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x12AudioAnalysisProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_audio_analysis_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_audio_analysis_proto_goTypes = []any{

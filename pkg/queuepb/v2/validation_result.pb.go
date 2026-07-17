@@ -232,7 +232,7 @@ const file_queuepb_v2_validation_result_proto_rawDesc = "" +
 	"\x14integrity_validation\x18\x04 \x01(\v2\x1d.queue.v2.IntegrityValidationR\x13integrityValidation\x12P\n" +
 	"\x11validation_errors\x18\x05 \x03(\v2\x19.queue.v2.ValidationErrorB\b\xbaH\x05\x92\x01\x02\b\x01R\x10validationErrors\x12J\n" +
 	"\x13validation_duration\x18\x06 \x01(\v2\x19.google.protobuf.DurationR\x12validationDurationB\x98\x01\n" +
-	"\fcom.queue.v2B\x15ValidationResultProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x15ValidationResultProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_validation_result_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_validation_result_proto_goTypes = []any{

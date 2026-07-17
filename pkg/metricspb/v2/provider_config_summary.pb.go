@@ -181,7 +181,7 @@ const file_metricspb_v2_provider_config_summary_proto_rawDesc = "" +
 	"\x10security_enabled\x18\x02 \x01(\bR\x0fsecurityEnabled\x12J\n" +
 	"\x0fresource_limits\x18\x03 \x01(\v2!.metrics.v2.ResourceLimitsSummaryR\x0eresourceLimits\x129\n" +
 	"\x13export_destinations\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x12exportDestinationsB\xa9\x01\n" +
-	"\x0ecom.metrics.v2B\x1aProviderConfigSummaryProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x1aProviderConfigSummaryProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

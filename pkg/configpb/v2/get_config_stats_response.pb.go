@@ -99,7 +99,7 @@ const file_configpb_v2_get_config_stats_response_proto_rawDesc = "" +
 	"+configpb/v2/get_config_stats_response.proto\x12\tconfig.v2\x1a\x1econfigpb/v2/config_stats.proto\x1a!google/protobuf/go_features.proto\"F\n" +
 	"\x16GetConfigStatsResponse\x12,\n" +
 	"\x05stats\x18\x01 \x01(\v2\x16.config.v2.ConfigStatsR\x05statsB\xa4\x01\n" +
-	"\rcom.config.v2B\x1bGetConfigStatsResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x1bGetConfigStatsResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_get_config_stats_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

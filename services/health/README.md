@@ -13,14 +13,14 @@ This health service is a **complete, production-ready replacement** for subtitle
 
 **REPLACE WITH:**
 
-- `import "github.com/jdfalk/gcommon/services/health"`
+- `import "github.com/falkcorp/gcommon/services/health"`
 
 ## 🚀 Quick Integration
 
 ### 1. Basic Setup
 
 ```go
-import "github.com/jdfalk/gcommon/services/health"
+import "github.com/falkcorp/gcommon/services/health"
 
 // In your main.go or setup function:
 config := &health.Config{
@@ -120,7 +120,7 @@ curl http://localhost:8080/health
 
 ## 🔄 Migration Steps
 
-1. **Add dependency**: `go get github.com/jdfalk/gcommon/services/health`
+1. **Add dependency**: `go get github.com/falkcorp/gcommon/services/health`
 2. **Remove old code**: Delete `pkg/webserver/health.go` and related files
 3. **Add health service**: Use the setup code above
 4. **Update routes**: Replace health endpoints with new handlers

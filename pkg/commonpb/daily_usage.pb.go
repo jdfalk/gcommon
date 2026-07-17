@@ -139,7 +139,7 @@ const file_commonpb_v1_daily_usage_proto_rawDesc = "" +
 	"DailyUsage\x12\x12\n" +
 	"\x04date\x18\x01 \x01(\tR\x04date\x12,\n" +
 	"\rrequest_count\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\frequestCountB\x95\x01\n" +
-	"\rcom.common.v1B\x0fDailyUsageProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x0fDailyUsageProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_daily_usage_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

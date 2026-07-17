@@ -8,7 +8,7 @@ package queuepb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -257,7 +257,7 @@ const file_queuepb_v1_deserialization_config_proto_rawDesc = "" +
 	"\x14allow_unknown_fields\x18\x04 \x01(\bR\x12allowUnknownFields\x128\n" +
 	"\x13custom_deserializer\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x12customDeserializer\x121\n" +
 	"\x10max_message_size\x18\x06 \x01(\x04B\a\xbaH\x042\x02(\x00R\x0emaxMessageSizeB\x9a\x01\n" +
-	"\fcom.queue.v1B\x1aDeserializationConfigProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x1aDeserializationConfigProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_deserialization_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_deserialization_config_proto_goTypes = []any{

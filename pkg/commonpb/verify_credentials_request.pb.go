@@ -238,7 +238,7 @@ const file_commonpb_v1_verify_credentials_request_proto_rawDesc = "" +
 	"\bpassword\x18\x02 \x01(\v2\x1e.common.v1.PasswordCredentialsH\x00R\bpassword\x127\n" +
 	"\aapi_key\x18\x03 \x01(\v2\x1c.common.v1.APIKeyCredentialsH\x00R\x06apiKeyB\r\n" +
 	"\vcredentialsB\xa3\x01\n" +
-	"\rcom.common.v1B\x1dVerifyCredentialsRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1dVerifyCredentialsRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_verify_credentials_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

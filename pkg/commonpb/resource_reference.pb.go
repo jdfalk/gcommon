@@ -217,7 +217,7 @@ const file_commonpb_v1_resource_reference_proto_rawDesc = "" +
 	"\x02id\x18\x02 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x02id\x12\x1d\n" +
 	"\x04name\x18\x03 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04name\x12\x16\n" +
 	"\x06module\x18\x04 \x01(\tR\x06moduleB\x9c\x01\n" +
-	"\rcom.common.v1B\x16ResourceReferenceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x16ResourceReferenceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_resource_reference_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

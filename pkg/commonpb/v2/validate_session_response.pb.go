@@ -239,7 +239,7 @@ const file_commonpb_v2_validate_session_response_proto_rawDesc = "" +
 	"\asession\x18\x02 \x01(\v2\x12.common.v2.SessionB\x02(\x01R\asession\x124\n" +
 	"\tuser_info\x18\x03 \x01(\v2\x13.common.v2.UserInfoB\x02(\x01R\buserInfo\x12*\n" +
 	"\x05error\x18\x04 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\xa5\x01\n" +
-	"\rcom.common.v2B\x1cValidateSessionResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x1cValidateSessionResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_validate_session_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

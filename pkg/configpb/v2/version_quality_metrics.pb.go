@@ -343,7 +343,7 @@ const file_configpb_v2_version_quality_metrics_proto_rawDesc = "" +
 	"\x13quality_gate_passed\x18\a \x01(\bR\x11qualityGatePassed\x12@\n" +
 	"\x06issues\x18\b \x03(\v2\x1e.config.v2.VersionQualityIssueB\b\xbaH\x05\x92\x01\x02\b\x01R\x06issues\x128\n" +
 	"\ttimestamp\x18\t \x01(\v2\x1a.google.protobuf.TimestampR\ttimestampB\xa3\x01\n" +
-	"\rcom.config.v2B\x1aVersionQualityMetricsProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x1aVersionQualityMetricsProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_version_quality_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -193,7 +193,7 @@ const file_organizationpb_v2_dns_config_proto_rawDesc = "" +
 	"\azone_id\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06zoneId\x12>\n" +
 	"\arecords\x18\x03 \x03(\v2\x1a.organization.v2.DNSRecordB\b\xbaH\x05\x92\x01\x02\b\x01R\arecords\x12\x19\n" +
 	"\x03ttl\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x03ttlB\xbb\x01\n" +
-	"\x13com.organization.v2B\x0eDnsConfigProtoP\x01Z/github.com/jdfalk/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v2B\x0eDnsConfigProtoP\x01Z/github.com/falkcorp/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_dns_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_dns_config_proto_goTypes = []any{

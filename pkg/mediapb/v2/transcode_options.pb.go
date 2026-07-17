@@ -299,7 +299,7 @@ const file_mediapb_v2_transcode_options_proto_rawDesc = "" +
 	"\raudio_bitrate\x18\x05 \x01(\x05R\faudioBitrate\x12-\n" +
 	"\x12preserve_subtitles\x18\x06 \x01(\bR\x11preserveSubtitles\x12+\n" +
 	"\x11preserve_chapters\x18\a \x01(\bR\x10preserveChaptersB\x98\x01\n" +
-	"\fcom.media.v2B\x15TranscodeOptionsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x15TranscodeOptionsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_transcode_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_transcode_options_proto_goTypes = []any{

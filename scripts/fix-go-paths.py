@@ -7,8 +7,8 @@
 Post-buf-generate script to fix Go module paths for pb-suffixed packages.
 
 Go has specific versioning rules:
-- v1 modules: Import path cannot contain /v1 (e.g., github.com/jdfalk/gcommon/pkg/commonpb)
-- v2+ modules: Import path must contain /v2+ (e.g., github.com/jdfalk/gcommon/pkg/commonpb/v2)
+- v1 modules: Import path cannot contain /v1 (e.g., github.com/falkcorp/gcommon/pkg/commonpb)
+- v2+ modules: Import path must contain /v2+ (e.g., github.com/falkcorp/gcommon/pkg/commonpb/v2)
 
 This script:
 1. Moves v1 files from pkg/*/v1/ to pkg/*/
@@ -95,7 +95,7 @@ def create_go_mod_v1(module_dir: Path, module_name: str):
 // version: 1.0.0
 // guid: go-mod-{module_name}-v1
 
-module github.com/jdfalk/gcommon/pkg/{module_name}
+module github.com/falkcorp/gcommon/pkg/{module_name}
 
 go 1.24
 
@@ -133,7 +133,7 @@ def create_go_mod_v2(v2_dir: Path, module_name: str):
 // version: 1.0.0
 // guid: go-mod-{module_name}-v2
 
-module github.com/jdfalk/gcommon/pkg/{module_name}/v2
+module github.com/falkcorp/gcommon/pkg/{module_name}/v2
 
 go 1.24
 

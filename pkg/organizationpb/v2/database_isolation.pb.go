@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -319,7 +319,7 @@ const file_organizationpb_v2_database_isolation_proto_rawDesc = "" +
 	"\x12allowed_operations\x18\x06 \x03(\tR\x11allowedOperations\x12'\n" +
 	"\x0fmax_connections\x18\a \x01(\x05R\x0emaxConnections\x122\n" +
 	"\x15query_timeout_seconds\x18\b \x01(\x05R\x13queryTimeoutSecondsB\xc3\x01\n" +
-	"\x13com.organization.v2B\x16DatabaseIsolationProtoP\x01Z/github.com/jdfalk/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v2B\x16DatabaseIsolationProtoP\x01Z/github.com/falkcorp/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_database_isolation_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_database_isolation_proto_goTypes = []any{

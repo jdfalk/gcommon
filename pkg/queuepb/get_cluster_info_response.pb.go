@@ -204,7 +204,7 @@ const file_queuepb_v1_get_cluster_info_response_proto_rawDesc = "" +
 	"is_healthy\x18\x03 \x01(\bR\tisHealthy\x12$\n" +
 	"\bwarnings\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\bwarnings\x12,\n" +
 	"\rerror_message\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\ferrorMessageB\x9b\x01\n" +
-	"\fcom.queue.v1B\x1bGetClusterInfoResponseProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x1bGetClusterInfoResponseProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_get_cluster_info_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_get_cluster_info_response_proto_goTypes = []any{

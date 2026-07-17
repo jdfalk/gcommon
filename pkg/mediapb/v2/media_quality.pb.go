@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -242,7 +242,7 @@ const file_mediapb_v2_media_quality_proto_rawDesc = "" +
 	"\xbaH\a\n" +
 	"\x05-\x00\x00\x00\x00R\x0fdurationSeconds\x12<\n" +
 	"\rquality_score\x18\x05 \x01(\x0e2\x17.common.v2.QualityScoreR\fqualityScoreB\x94\x01\n" +
-	"\fcom.media.v2B\x11MediaQualityProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x11MediaQualityProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_media_quality_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_media_quality_proto_goTypes = []any{

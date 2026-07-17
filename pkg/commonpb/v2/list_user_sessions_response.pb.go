@@ -387,7 +387,7 @@ const file_commonpb_v2_list_user_sessions_response_proto_rawDesc = "" +
 	"\x05error\x18= \x01(\v2\x10.common.v2.ErrorR\x05error\x12=\n" +
 	"\fgenerated_at\x183 \x01(\v2\x1a.google.protobuf.TimestampR\vgeneratedAt\x12F\n" +
 	"\x11data_refreshed_at\x184 \x01(\v2\x1a.google.protobuf.TimestampR\x0fdataRefreshedAtB\xa6\x01\n" +
-	"\rcom.common.v2B\x1dListUserSessionsResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x1dListUserSessionsResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_list_user_sessions_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -211,7 +211,7 @@ const file_commonpb_v1_reset_health_stats_response_proto_rawDesc = "" +
 	"\breset_at\x18\x03 \x01(\v2\x1a.google.protobuf.TimestampR\aresetAt\x12&\n" +
 	"\x05error\x18\x04 \x01(\v2\x10.common.v1.ErrorR\x05error\x123\n" +
 	"\x10reset_categories\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fresetCategoriesB\xa3\x01\n" +
-	"\rcom.common.v1B\x1dResetHealthStatsResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1dResetHealthStatsResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_reset_health_stats_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

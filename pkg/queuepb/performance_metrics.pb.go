@@ -326,7 +326,7 @@ const file_queuepb_v1_performance_metrics_proto_rawDesc = "" +
 	"\x18network_bytes_per_second\x18\x06 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x15networkBytesPerSecond\x126\n" +
 	"\x12active_connections\x18\a \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x11activeConnections\x120\n" +
 	"\x0fmax_connections\x18\b \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0emaxConnectionsB\x97\x01\n" +
-	"\fcom.queue.v1B\x17PerformanceMetricsProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x17PerformanceMetricsProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_performance_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_performance_metrics_proto_goTypes = []any{

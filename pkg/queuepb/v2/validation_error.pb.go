@@ -203,7 +203,7 @@ const file_queuepb_v2_validation_error_proto_rawDesc = "" +
 	"\vdescription\x18\x02 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x12!\n" +
 	"\fpartition_id\x18\x03 \x01(\x05R\vpartitionId\x12<\n" +
 	"\x0eaffected_range\x18\x04 \x01(\v2\x15.queue.v2.OffsetRangeR\raffectedRangeB\x97\x01\n" +
-	"\fcom.queue.v2B\x14ValidationErrorProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14ValidationErrorProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_validation_error_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_validation_error_proto_goTypes = []any{

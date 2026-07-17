@@ -361,7 +361,7 @@ const file_metricspb_v1_gauge_metric_proto_rawDesc = "" +
 	"\vLabelsEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
 	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\x9c\x01\n" +
-	"\x0ecom.metrics.v1B\x10GaugeMetricProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x10GaugeMetricProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

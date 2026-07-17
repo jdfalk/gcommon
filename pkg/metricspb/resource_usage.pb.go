@@ -202,7 +202,7 @@ const file_metricspb_v1_resource_usage_proto_rawDesc = "" +
 	"\x10cpu_used_percent\x18\x02 \x01(\x01B\x17\xbaH\x14\x12\x12\x19\x00\x00\x00\x00\x00\x00Y@)\x00\x00\x00\x00\x00\x00\x00\x00R\x0ecpuUsedPercent\x12/\n" +
 	"\x0fdisk_used_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\rdiskUsedBytes\x12M\n" +
 	"\x1fnetwork_bandwidth_bytes_per_sec\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x1bnetworkBandwidthBytesPerSecB\x9e\x01\n" +
-	"\x0ecom.metrics.v1B\x12ResourceUsageProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x12ResourceUsageProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

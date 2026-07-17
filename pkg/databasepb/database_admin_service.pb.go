@@ -36,7 +36,7 @@ const file_databasepb_v1_database_admin_service_proto_rawDesc = "" +
 	"\n" +
 	"DropSchema\x12\x1e.database.v1.DropSchemaRequest\x1a\x16.google.protobuf.Empty\x12P\n" +
 	"\vListSchemas\x12\x1f.database.v1.ListSchemasRequest\x1a .database.v1.ListSchemasResponseB\xab\x01\n" +
-	"\x0fcom.database.v1B\x19DatabaseAdminServiceProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\x19DatabaseAdminServiceProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_database_admin_service_proto_goTypes = []any{
 	(*CreateDatabaseRequest)(nil),   // 0: database.v1.CreateDatabaseRequest

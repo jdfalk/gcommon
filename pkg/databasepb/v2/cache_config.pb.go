@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -339,7 +339,7 @@ const file_databasepb_v2_cache_config_proto_rawDesc = "" +
 	"\x12enable_persistence\x18\x06 \x01(\bR\x11enablePersistence\x12)\n" +
 	"\x10persistence_file\x18\a \x01(\tR\x0fpersistenceFile\x12\x1d\n" +
 	"\x04name\x18\b \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04nameB\xa5\x01\n" +
-	"\x0fcom.database.v2B\x10CacheConfigProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x10CacheConfigProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_cache_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_cache_config_proto_goTypes = []any{

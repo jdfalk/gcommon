@@ -119,7 +119,7 @@ const file_commonpb_v1_get_system_stats_request_proto_rawDesc = "" +
 	"*commonpb/v1/get_system_stats_request.proto\x12\tcommon.v1\x1a\"commonpb/v1/request_metadata.proto\x1a!google/protobuf/go_features.proto\"S\n" +
 	"\x15GetSystemStatsRequest\x12:\n" +
 	"\bmetadata\x18\x01 \x01(\v2\x1a.common.v1.RequestMetadataB\x02(\x01R\bmetadataB\xa0\x01\n" +
-	"\rcom.common.v1B\x1aGetSystemStatsRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1aGetSystemStatsRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_get_system_stats_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

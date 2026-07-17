@@ -124,7 +124,7 @@ const file_commonpb_v2_send_notification_request_proto_rawDesc = "" +
 	"\x17SendNotificationRequest\x126\n" +
 	"\bmetadata\x18\x01 \x01(\v2\x1a.common.v2.RequestMetadataR\bmetadata\x12B\n" +
 	"\fnotification\x18\x02 \x01(\v2\x1e.common.v2.NotificationMessageR\fnotificationB\xa5\x01\n" +
-	"\rcom.common.v2B\x1cSendNotificationRequestProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x1cSendNotificationRequestProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_send_notification_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

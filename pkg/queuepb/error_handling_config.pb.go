@@ -210,7 +210,7 @@ const file_queuepb_v1_error_handling_config_proto_rawDesc = "" +
 	"\rerror_actions\x18\x03 \x03(\v2\x1b.queue.v1.ErrorActionConfigB\b\xbaH\x05\x92\x01\x02\b\x01R\ferrorActions\x120\n" +
 	"\x14enable_error_logging\x18\x04 \x01(\bR\x12enableErrorLogging\x12R\n" +
 	"\x13notification_config\x18\x05 \x01(\v2!.queue.v1.ErrorNotificationConfigR\x12notificationConfigB\x98\x01\n" +
-	"\fcom.queue.v1B\x18ErrorHandlingConfigProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x18ErrorHandlingConfigProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_error_handling_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_error_handling_config_proto_goTypes = []any{

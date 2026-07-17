@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	authpb "github.com/jdfalk/gcommon/pkg/authpb/v2"
+	authpb "github.com/falkcorp/gcommon/pkg/authpb/v2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

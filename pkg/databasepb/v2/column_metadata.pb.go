@@ -263,7 +263,7 @@ const file_databasepb_v2_column_metadata_proto_rawDesc = "" +
 	"\rMetadataEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
 	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa8\x01\n" +
-	"\x0fcom.database.v2B\x13ColumnMetadataProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x13ColumnMetadataProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_column_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_databasepb_v2_column_metadata_proto_goTypes = []any{

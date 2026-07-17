@@ -237,7 +237,7 @@ const file_metricspb_v2_resource_limits_update_proto_rawDesc = "" +
 	"\vmax_metrics\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
 	"maxMetrics\x12C\n" +
 	"\x1amax_data_points_per_metric\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x16maxDataPointsPerMetricB\xa8\x01\n" +
-	"\x0ecom.metrics.v2B\x19ResourceLimitsUpdateProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x19ResourceLimitsUpdateProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

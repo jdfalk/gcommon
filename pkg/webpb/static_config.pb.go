@@ -159,7 +159,7 @@ const file_webpb_v1_static_config_proto_rawDesc = "" +
 	"indexFiles\x12%\n" +
 	"\x0eenable_listing\x18\x03 \x01(\bR\renableListingB\x85\x01\n" +
 	"\n" +
-	"com.web.v1B\x11StaticConfigProtoP\x01Z#github.com/jdfalk/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v1B\x11StaticConfigProtoP\x01Z#github.com/falkcorp/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v1_static_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v1_static_config_proto_goTypes = []any{

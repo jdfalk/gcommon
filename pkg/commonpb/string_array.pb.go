@@ -91,7 +91,7 @@ const file_commonpb_v1_string_array_proto_rawDesc = "" +
 	"\x1ecommonpb/v1/string_array.proto\x12\tcommon.v1\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"/\n" +
 	"\vStringArray\x12 \n" +
 	"\x06values\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x06valuesB\x96\x01\n" +
-	"\rcom.common.v1B\x10StringArrayProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x10StringArrayProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_string_array_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

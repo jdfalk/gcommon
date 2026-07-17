@@ -397,7 +397,7 @@ const file_metricspb_v1_resource_limits_summary_proto_rawDesc = "" +
 	"\x0flimits_enforced\x18\t \x01(\bR\x0elimitsEnforced\x122\n" +
 	"\x10violations_count\x18\n" +
 	" \x01(\rB\a\xbaH\x04*\x02(\x00R\x0fviolationsCountB\xa6\x01\n" +
-	"\x0ecom.metrics.v1B\x1aResourceLimitsSummaryProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x1aResourceLimitsSummaryProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

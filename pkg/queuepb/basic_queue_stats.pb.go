@@ -402,7 +402,7 @@ const file_queuepb_v1_basic_queue_stats_proto_rawDesc = "" +
 	"\x10avg_message_size\x18\t \x01(\x01R\x0eavgMessageSize\x12$\n" +
 	"\x0equeue_depth_ms\x18\n" +
 	" \x01(\x04R\fqueueDepthMsB\x94\x01\n" +
-	"\fcom.queue.v1B\x14BasicQueueStatsProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x14BasicQueueStatsProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_basic_queue_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_basic_queue_stats_proto_goTypes = []any{

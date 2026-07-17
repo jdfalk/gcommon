@@ -331,7 +331,7 @@ const file_configpb_v2_template_output_proto_rawDesc = "" +
 	"\x05group\x18\x06 \x01(\tR\x05group\x12\x16\n" +
 	"\x06format\x18\a \x01(\tR\x06format\x12\x1a\n" +
 	"\bexamples\x18\b \x03(\tR\bexamplesB\x9c\x01\n" +
-	"\rcom.config.v2B\x13TemplateOutputProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x13TemplateOutputProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_template_output_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -90,7 +90,7 @@ const file_databasepb_v1_list_schemas_response_proto_rawDesc = "" +
 	")databasepb/v1/list_schemas_response.proto\x12\vdatabase.v1\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"9\n" +
 	"\x13ListSchemasResponse\x12\"\n" +
 	"\aschemas\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\aschemasB\xaa\x01\n" +
-	"\x0fcom.database.v1B\x18ListSchemasResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\x18ListSchemasResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_list_schemas_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v1_list_schemas_response_proto_goTypes = []any{

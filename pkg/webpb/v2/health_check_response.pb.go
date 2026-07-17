@@ -7,7 +7,7 @@
 package v2
 
 import (
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -198,7 +198,7 @@ const file_webpb_v2_health_check_response_proto_rawDesc = "" +
 	"\rresponse_time\x18\x02 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\fresponseTime\x12*\n" +
 	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\x8f\x01\n" +
 	"\n" +
-	"com.web.v2B\x18HealthCheckResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x18HealthCheckResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_health_check_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_health_check_response_proto_goTypes = []any{

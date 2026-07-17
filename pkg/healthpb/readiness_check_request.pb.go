@@ -7,7 +7,7 @@
 package healthpb
 
 import (
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -231,7 +231,7 @@ const file_healthpb_v1_readiness_check_request_proto_rawDesc = "" +
 	"\atimeout\x18\x03 \x01(\v2\x19.google.protobuf.DurationR\atimeout\x121\n" +
 	"\x14include_dependencies\x18\x04 \x01(\bR\x13includeDependencies\x12(\n" +
 	"\x10min_health_score\x18\x05 \x01(\x05R\x0eminHealthScoreB\xa0\x01\n" +
-	"\rcom.health.v1B\x1aReadinessCheckRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v1B\x1aReadinessCheckRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
 	"Health::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v1_readiness_check_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

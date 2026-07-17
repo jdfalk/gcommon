@@ -141,7 +141,7 @@ const file_metricspb_v2_metric_quantile_proto_rawDesc = "" +
 	"\x0eMetricQuantile\x12*\n" +
 	"\bquantile\x18\x01 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\bquantile\x12$\n" +
 	"\x05value\x18\x02 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x05valueB\xa2\x01\n" +
-	"\x0ecom.metrics.v2B\x13MetricQuantileProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x13MetricQuantileProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -7,7 +7,7 @@
 package v2
 
 import (
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -275,7 +275,7 @@ const file_healthpb_v2_readiness_check_response_proto_rawDesc = "" +
 	"\fDetailsEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
 	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa4\x01\n" +
-	"\rcom.health.v2B\x1bReadinessCheckResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/healthpb/v2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v2B\x1bReadinessCheckResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/healthpb/v2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_readiness_check_response_proto_msgTypes = make([]protoimpl.MessageInfo, 3)

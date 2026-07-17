@@ -242,7 +242,7 @@ const file_metricspb_v1_export_config_update_proto_rawDesc = "" +
 	"\tfrequency\x18\x06 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tfrequency\x12&\n" +
 	"\n" +
 	"batch_size\x18\a \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tbatchSizeB\xa3\x01\n" +
-	"\x0ecom.metrics.v1B\x17ExportConfigUpdateProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x17ExportConfigUpdateProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

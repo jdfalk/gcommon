@@ -78,7 +78,7 @@ const file_commonpb_v2_replication_level_proto_rawDesc = "" +
 	"\x15REPLICATION_LEVEL_ONE\x10\x01\x12\x1c\n" +
 	"\x18REPLICATION_LEVEL_QUORUM\x10\x02\x12\x19\n" +
 	"\x15REPLICATION_LEVEL_ALL\x10\x03B\x9e\x01\n" +
-	"\rcom.common.v2B\x15ReplicationLevelProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x15ReplicationLevelProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_replication_level_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

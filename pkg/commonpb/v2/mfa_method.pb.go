@@ -89,7 +89,7 @@ const file_commonpb_v2_mfa_method_proto_rawDesc = "" +
 	"\x10MFA_METHOD_EMAIL\x10\x02\x12\x13\n" +
 	"\x0fMFA_METHOD_TOTP\x10\x03\x12\x1b\n" +
 	"\x17MFA_METHOD_HARDWARE_KEY\x10\x04B\x97\x01\n" +
-	"\rcom.common.v2B\x0eMfaMethodProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x0eMfaMethodProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_mfa_method_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -210,7 +210,7 @@ const file_configpb_v2_compliance_audit_proto_rawDesc = "" +
 	"\x04name\x18\x02 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04name\x12\x12\n" +
 	"\x04type\x18\x03 \x01(\tR\x04type\x12\x18\n" +
 	"\aenabled\x18\x04 \x01(\bR\aenabledB\x9d\x01\n" +
-	"\rcom.config.v2B\x14ComplianceAuditProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x14ComplianceAuditProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_compliance_audit_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

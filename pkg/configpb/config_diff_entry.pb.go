@@ -234,7 +234,7 @@ const file_configpb_v1_config_diff_entry_proto_rawDesc = "" +
 	"\vchange_type\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\n" +
 	"changeType\x12%\n" +
 	"\tnamespace\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tnamespaceB\x9a\x01\n" +
-	"\rcom.config.v1B\x14ConfigDiffEntryProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x14ConfigDiffEntryProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_config_diff_entry_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

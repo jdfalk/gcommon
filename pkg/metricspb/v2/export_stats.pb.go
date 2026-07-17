@@ -280,7 +280,7 @@ const file_metricspb_v2_export_stats_proto_rawDesc = "" +
 	"\x13export_success_rate\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x11exportSuccessRate\x12]\n" +
 	"\x13export_destinations\x18\x06 \x03(\v2\".metrics.v2.ExportDestinationStatsB\b\xbaH\x05\x92\x01\x02\b\x01R\x12exportDestinations\x12P\n" +
 	"\x16last_successful_export\x18\a \x01(\v2\x1a.google.protobuf.TimestampR\x14lastSuccessfulExportB\x9f\x01\n" +
-	"\x0ecom.metrics.v2B\x10ExportStatsProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x10ExportStatsProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

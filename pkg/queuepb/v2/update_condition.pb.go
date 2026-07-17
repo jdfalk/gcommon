@@ -274,7 +274,7 @@ const file_queuepb_v2_update_condition_proto_rawDesc = "" +
 	"\x15only_if_not_delivered\x18\x04 \x01(\bR\x12onlyIfNotDelivered\x12&\n" +
 	"\x0fonly_if_visible\x18\x05 \x01(\bR\ronlyIfVisible\x12:\n" +
 	"\x14condition_expression\x18\x06 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x13conditionExpressionB\x97\x01\n" +
-	"\fcom.queue.v2B\x14UpdateConditionProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14UpdateConditionProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_update_condition_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_update_condition_proto_goTypes = []any{

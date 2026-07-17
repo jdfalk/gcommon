@@ -250,7 +250,7 @@ const file_commonpb_v2_metrics_config_change_proto_rawDesc = "" +
 	"\told_value\x18\x03 \x01(\tR\boldValue\x12\x1b\n" +
 	"\tnew_value\x18\x04 \x01(\tR\bnewValue\x12*\n" +
 	"\vdescription\x18\x05 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescriptionB\xa1\x01\n" +
-	"\rcom.common.v2B\x18MetricsConfigChangeProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x18MetricsConfigChangeProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_config_change_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

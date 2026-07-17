@@ -379,7 +379,7 @@ const file_commonpb_v1_list_users_request_proto_rawDesc = "" +
 	"\asort_by\x18\a \x01(\tR\x06sortBy\x12%\n" +
 	"\x0esort_direction\x18\b \x01(\tR\rsortDirection\x12'\n" +
 	"\x0finclude_deleted\x18\t \x01(\bR\x0eincludeDeletedB\x9b\x01\n" +
-	"\rcom.common.v1B\x15ListUsersRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x15ListUsersRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_list_users_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -257,7 +257,7 @@ const file_queuepb_v1_throughput_metrics_proto_rawDesc = "" +
 	"\x16messages_per_second_1h\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x13messagesPerSecond1h\x12G\n" +
 	"\x18peak_messages_per_second\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x15peakMessagesPerSecond\x12A\n" +
 	"\x0epeak_timestamp\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\rpeakTimestampB\x96\x01\n" +
-	"\fcom.queue.v1B\x16ThroughputMetricsProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x16ThroughputMetricsProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_throughput_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_throughput_metrics_proto_goTypes = []any{

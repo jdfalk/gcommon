@@ -158,7 +158,7 @@ const file_mediapb_v1_list_media_files_response_proto_rawDesc = "" +
 	"\x0fnext_page_token\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\rnextPageToken\x12(\n" +
 	"\vtotal_count\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\n" +
 	"totalCountB\x9b\x01\n" +
-	"\fcom.media.v1B\x1bListMediaFilesResponseProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x1bListMediaFilesResponseProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_list_media_files_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_list_media_files_response_proto_goTypes = []any{

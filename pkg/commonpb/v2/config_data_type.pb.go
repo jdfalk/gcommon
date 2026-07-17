@@ -167,7 +167,7 @@ const file_commonpb_v2_config_data_type_proto_rawDesc = "" +
 	"\x15CONFIG_DATA_TYPE_UUID\x10\x17\x12\x1b\n" +
 	"\x17CONFIG_DATA_TYPE_BASE64\x10\x18\x12\x18\n" +
 	"\x14CONFIG_DATA_TYPE_HEX\x10\x19B\x9c\x01\n" +
-	"\rcom.common.v2B\x13ConfigDataTypeProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x13ConfigDataTypeProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_config_data_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

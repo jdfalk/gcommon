@@ -273,7 +273,7 @@ const file_metricspb_v2_unregistration_result_proto_rawDesc = "" +
 	"\x0fstopped_exports\x18\x06 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0estoppedExports\x12I\n" +
 	"\x12scheduled_deletion\x18\a \x01(\v2\x1a.google.protobuf.TimestampR\x11scheduledDeletion\x12>\n" +
 	"\x0edry_run_result\x18\b \x01(\v2\x18.metrics.v2.DryRunResultR\fdryRunResultB\xa8\x01\n" +
-	"\x0ecom.metrics.v2B\x19UnregistrationResultProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x19UnregistrationResultProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

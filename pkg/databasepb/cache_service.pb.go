@@ -41,7 +41,7 @@ const file_databasepb_v1_cache_service_proto_rawDesc = "" +
 	"\bGetStats\x12!.database.v1.CacheGetStatsRequest\x1a\".database.v1.CacheGetStatsResponse\x12>\n" +
 	"\x05Flush\x12\x19.database.v1.FlushRequest\x1a\x1a.database.v1.FlushResponse\x12\\\n" +
 	"\x0fTouchExpiration\x12#.database.v1.TouchExpirationRequest\x1a$.database.v1.TouchExpirationResponseB\xa3\x01\n" +
-	"\x0fcom.database.v1B\x11CacheServiceProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\x11CacheServiceProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_cache_service_proto_goTypes = []any{
 	(*GetRequest)(nil),              // 0: database.v1.GetRequest

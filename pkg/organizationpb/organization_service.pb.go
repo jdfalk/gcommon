@@ -38,7 +38,7 @@ const file_organizationpb_v1_organization_service_proto_rawDesc = "" +
 	"\vListMembers\x12#.organization.v1.ListMembersRequest\x1a$.organization.v1.ListMembersResponse\x12|\n" +
 	"\x17GetOrganizationSettings\x12/.organization.v1.GetOrganizationSettingsRequest\x1a0.organization.v1.GetOrganizationSettingsResponse\x12\x85\x01\n" +
 	"\x1aUpdateOrganizationSettings\x122.organization.v1.UpdateOrganizationSettingsRequest\x1a3.organization.v1.UpdateOrganizationSettingsResponseB\xc2\x01\n" +
-	"\x13com.organization.v1B\x18OrganizationServiceProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x18OrganizationServiceProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_organization_service_proto_goTypes = []any{
 	(*CreateOrganizationRequest)(nil),          // 0: organization.v1.CreateOrganizationRequest

@@ -136,7 +136,7 @@ const file_commonpb_v1_audit_operation_type_proto_rawDesc = "" +
 	"\x1dAUDIT_OPERATION_TYPE_ROLLBACK\x10\v\x12!\n" +
 	"\x1dAUDIT_OPERATION_TYPE_VALIDATE\x10\f\x12\x1d\n" +
 	"\x19AUDIT_OPERATION_TYPE_SYNC\x10\rB\x9d\x01\n" +
-	"\rcom.common.v1B\x17AuditOperationTypeProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17AuditOperationTypeProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_audit_operation_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

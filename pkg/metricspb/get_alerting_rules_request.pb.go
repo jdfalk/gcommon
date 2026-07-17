@@ -8,7 +8,7 @@ package metricspb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -155,7 +155,7 @@ const file_metricspb_v1_get_alerting_rules_request_proto_rawDesc = "" +
 	"\x17GetAlertingRulesRequest\x12$\n" +
 	"\tmetric_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\bmetricId\x12:\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v1.RequestMetadataB\x02(\x01R\bmetadataB\xa8\x01\n" +
-	"\x0ecom.metrics.v1B\x1cGetAlertingRulesRequestProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x1cGetAlertingRulesRequestProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

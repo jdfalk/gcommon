@@ -290,7 +290,7 @@ const file_organizationpb_v1_network_isolation_proto_rawDesc = "" +
 	"\rload_balancer\x18\x06 \x01(\v2/.organization.v1.OrganizationLoadBalancerConfigR\floadBalancer\x12,\n" +
 	"\x03cdn\x18\a \x01(\v2\x1a.organization.v1.CDNConfigR\x03cdn\x125\n" +
 	"\x06domain\x18\b \x01(\v2\x1d.organization.v1.DomainConfigR\x06domainB\xbf\x01\n" +
-	"\x13com.organization.v1B\x15NetworkIsolationProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x15NetworkIsolationProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_network_isolation_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_network_isolation_proto_goTypes = []any{

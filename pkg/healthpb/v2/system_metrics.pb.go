@@ -521,7 +521,7 @@ const file_healthpb_v2_system_metrics_proto_rawDesc = "" +
 	"\x10load_average_15m\x18\f \x01(\x01R\x0eloadAverage15m\x12#\n" +
 	"\rprocess_count\x18\r \x01(\x05R\fprocessCount\x12%\n" +
 	"\x0euptime_seconds\x18\x0e \x01(\x03R\ruptimeSecondsB\x9b\x01\n" +
-	"\rcom.health.v2B\x12SystemMetricsProtoP\x01Z)github.com/jdfalk/gcommon/pkg/healthpb/v2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v2B\x12SystemMetricsProtoP\x01Z)github.com/falkcorp/gcommon/pkg/healthpb/v2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_system_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

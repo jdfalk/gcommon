@@ -229,7 +229,7 @@ const file_mediapb_v2_analyze_audio_quality_response_proto_rawDesc = "" +
 	"\x10dynamic_range_db\x18\x03 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x0edynamicRangeDb\x12A\n" +
 	"\x15signal_to_noise_ratio\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x12signalToNoiseRatio\x12+\n" +
 	"\x11clipping_detected\x18\x05 \x01(\bR\x10clippingDetectedB\xa3\x01\n" +
-	"\fcom.media.v2B AnalyzeAudioQualityResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B AnalyzeAudioQualityResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_analyze_audio_quality_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_analyze_audio_quality_response_proto_goTypes = []any{

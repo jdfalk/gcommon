@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -893,7 +893,7 @@ const file_organizationpb_v2_team_proto_rawDesc = "" +
 	"objectives\x12\x12\n" +
 	"\x04kpis\x18\x18 \x03(\tR\x04kpis\x12)\n" +
 	"\x10cross_functional\x18\x19 \x01(\bR\x0fcrossFunctionalB\xb6\x01\n" +
-	"\x13com.organization.v2B\tTeamProtoP\x01Z/github.com/jdfalk/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v2B\tTeamProtoP\x01Z/github.com/falkcorp/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_team_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_team_proto_goTypes = []any{

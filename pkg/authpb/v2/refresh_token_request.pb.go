@@ -110,7 +110,7 @@ const file_authpb_v2_refresh_token_request_proto_rawDesc = "" +
 	"%authpb/v2/refresh_token_request.proto\x12\aauth.v2\x1a!google/protobuf/go_features.proto\":\n" +
 	"\x13RefreshTokenRequest\x12#\n" +
 	"\rrefresh_token\x18\x01 \x01(\tR\frefreshTokenB\x92\x01\n" +
-	"\vcom.auth.v2B\x18RefreshTokenRequestProtoP\x01Z$github.com/jdfalk/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vcom.auth.v2B\x18RefreshTokenRequestProtoP\x01Z$github.com/falkcorp/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_refresh_token_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_refresh_token_request_proto_goTypes = []any{

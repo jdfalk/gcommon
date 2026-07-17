@@ -341,7 +341,7 @@ const file_metricspb_v1_pagination_info_proto_rawDesc = "" +
 	"\vnext_cursor\x18\a \x01(\tB\a\xbaH\x04r\x02\x10\x01R\n" +
 	"nextCursor\x120\n" +
 	"\x0fprevious_cursor\x18\b \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0epreviousCursorB\x9f\x01\n" +
-	"\x0ecom.metrics.v1B\x13PaginationInfoProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x13PaginationInfoProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

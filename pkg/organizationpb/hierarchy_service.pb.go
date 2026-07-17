@@ -42,7 +42,7 @@ const file_organizationpb_v1_hierarchy_service_proto_rawDesc = "" +
 	"\tListTeams\x12!.organization.v1.ListTeamsRequest\x1a\".organization.v1.ListTeamsResponse\x12[\n" +
 	"\fGetHierarchy\x12$.organization.v1.GetHierarchyRequest\x1a%.organization.v1.GetHierarchyResponse\x12d\n" +
 	"\x0fUpdateHierarchy\x12'.organization.v1.UpdateHierarchyRequest\x1a(.organization.v1.UpdateHierarchyResponseB\xbf\x01\n" +
-	"\x13com.organization.v1B\x15HierarchyServiceProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x15HierarchyServiceProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_hierarchy_service_proto_goTypes = []any{
 	(*CreateDepartmentRequest)(nil),  // 0: organization.v1.CreateDepartmentRequest

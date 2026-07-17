@@ -7,7 +7,7 @@
 package metricspb
 
 import (
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -302,7 +302,7 @@ const file_metricspb_v1_record_histogram_response_proto_rawDesc = "" +
 	"\ris_new_metric\x18\x06 \x01(\bR\visNewMetric\x12?\n" +
 	"\x0faffected_bucket\x18\a \x01(\v2\x16.metrics.v1.BucketInfoR\x0eaffectedBucket\x12C\n" +
 	"\x0frecording_stats\x18\b \x01(\v2\x1a.metrics.v1.RecordingStatsR\x0erecordingStatsB\xa8\x01\n" +
-	"\x0ecom.metrics.v1B\x1cRecordHistogramResponseProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x1cRecordHistogramResponseProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

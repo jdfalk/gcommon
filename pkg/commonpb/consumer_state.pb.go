@@ -104,7 +104,7 @@ const file_commonpb_v1_consumer_state_proto_rawDesc = "" +
 	"\x14CONSUMER_STATE_ERROR\x10\x05\x12\x1d\n" +
 	"\x19CONSUMER_STATE_CONNECTING\x10\x06\x12\x1f\n" +
 	"\x1bCONSUMER_STATE_DISCONNECTED\x10\aB\x98\x01\n" +
-	"\rcom.common.v1B\x12ConsumerStateProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x12ConsumerStateProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_consumer_state_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

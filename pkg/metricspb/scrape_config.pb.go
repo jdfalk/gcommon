@@ -161,7 +161,7 @@ const file_metricspb_v1_scrape_config_proto_rawDesc = "" +
 	"\bjob_name\x18\x01 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\ajobName\x122\n" +
 	"\atargets\x18\x02 \x03(\v2\x18.metrics.v1.ScrapeTargetR\atargets\x126\n" +
 	"\x17scrape_interval_seconds\x18\x03 \x01(\x05R\x15scrapeIntervalSecondsB\x9d\x01\n" +
-	"\x0ecom.metrics.v1B\x11ScrapeConfigProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x11ScrapeConfigProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -13,77 +13,77 @@ managed:
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: commonpb/v1
-      value: github.com/jdfalk/gcommon/pkg/commonpb
+      value: github.com/falkcorp/gcommon/pkg/commonpb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: configpb/v1
-      value: github.com/jdfalk/gcommon/pkg/configpb
+      value: github.com/falkcorp/gcommon/pkg/configpb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: databasepb/v1
-      value: github.com/jdfalk/gcommon/pkg/databasepb
+      value: github.com/falkcorp/gcommon/pkg/databasepb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: healthpb/v1
-      value: github.com/jdfalk/gcommon/pkg/healthpb
+      value: github.com/falkcorp/gcommon/pkg/healthpb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: mediapb/v1
-      value: github.com/jdfalk/gcommon/pkg/mediapb
+      value: github.com/falkcorp/gcommon/pkg/mediapb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: metricspb/v1
-      value: github.com/jdfalk/gcommon/pkg/metricspb
+      value: github.com/falkcorp/gcommon/pkg/metricspb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: organizationpb/v1
-      value: github.com/jdfalk/gcommon/pkg/organizationpb
+      value: github.com/falkcorp/gcommon/pkg/organizationpb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: queuepb/v1
-      value: github.com/jdfalk/gcommon/pkg/queuepb
+      value: github.com/falkcorp/gcommon/pkg/queuepb
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: webpb/v1
-      value: github.com/jdfalk/gcommon/pkg/webpb
+      value: github.com/falkcorp/gcommon/pkg/webpb
 
     # v2 files: *pb/v2/ -> pkg/*pb/v2 (with v2 subdirectory)
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: commonpb/v2
-      value: github.com/jdfalk/gcommon/pkg/commonpb/v2
+      value: github.com/falkcorp/gcommon/pkg/commonpb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: configpb/v2
-      value: github.com/jdfalk/gcommon/pkg/configpb/v2
+      value: github.com/falkcorp/gcommon/pkg/configpb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: databasepb/v2
-      value: github.com/jdfalk/gcommon/pkg/databasepb/v2
+      value: github.com/falkcorp/gcommon/pkg/databasepb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: healthpb/v2
-      value: github.com/jdfalk/gcommon/pkg/healthpb/v2
+      value: github.com/falkcorp/gcommon/pkg/healthpb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: mediapb/v2
-      value: github.com/jdfalk/gcommon/pkg/mediapb/v2
+      value: github.com/falkcorp/gcommon/pkg/mediapb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: metricspb/v2
-      value: github.com/jdfalk/gcommon/pkg/metricspb/v2
+      value: github.com/falkcorp/gcommon/pkg/metricspb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: organizationpb/v2
-      value: github.com/jdfalk/gcommon/pkg/organizationpb/v2
+      value: github.com/falkcorp/gcommon/pkg/organizationpb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: queuepb/v2
-      value: github.com/jdfalk/gcommon/pkg/queuepb/v2
+      value: github.com/falkcorp/gcommon/pkg/queuepb/v2
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: webpb/v2
-      value: github.com/jdfalk/gcommon/pkg/webpb/v2
+      value: github.com/falkcorp/gcommon/pkg/webpb/v2
 plugins:
   - remote: buf.build/protocolbuffers/go
     out: pkg

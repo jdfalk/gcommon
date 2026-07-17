@@ -147,7 +147,7 @@ const file_commonpb_v1_value_source_proto_rawDesc = "" +
 	"\x16VALUE_SOURCE_INHERITED\x10\x12\x12\x19\n" +
 	"\x15VALUE_SOURCE_OVERRIDE\x10\x13\x12\x17\n" +
 	"\x13VALUE_SOURCE_CUSTOM\x10\x14B\x96\x01\n" +
-	"\rcom.common.v1B\x10ValueSourceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x10ValueSourceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_value_source_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

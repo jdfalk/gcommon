@@ -298,7 +298,7 @@ const file_metricspb_v2_batch_stats_proto_rawDesc = "" +
 	"\x10parallel_workers\x18\x05 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0fparallelWorkers\x125\n" +
 	"\x12storage_latency_ms\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x10storageLatencyMs\x125\n" +
 	"\x12memory_usage_bytes\x18\a \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x10memoryUsageBytesB\x9e\x01\n" +
-	"\x0ecom.metrics.v2B\x0fBatchStatsProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x0fBatchStatsProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

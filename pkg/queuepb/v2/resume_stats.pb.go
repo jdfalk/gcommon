@@ -265,7 +265,7 @@ const file_queuepb_v2_resume_stats_proto_rawDesc = "" +
 	"\x0eresume_time_ms\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fresumeTimeMs\x12I\n" +
 	"\x1cimmediate_messages_processed\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x1aimmediateMessagesProcessed\x12D\n" +
 	"\x16post_resume_throughput\x18\x06 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x14postResumeThroughputB\x93\x01\n" +
-	"\fcom.queue.v2B\x10ResumeStatsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x10ResumeStatsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_resume_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_resume_stats_proto_goTypes = []any{

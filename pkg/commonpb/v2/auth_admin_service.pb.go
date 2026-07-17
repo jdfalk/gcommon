@@ -49,7 +49,7 @@ const file_commonpb_v2_auth_admin_service_proto_rawDesc = "" +
 	"\tListRoles\x12\x1b.common.v2.ListRolesRequest\x1a\x1c.common.v2.ListRolesResponse\x12Z\n" +
 	"\x16InvalidateUserSessions\x12(.common.v2.InvalidateUserSessionsRequest\x1a\x16.google.protobuf.Empty\x12U\n" +
 	"\x0eGetSystemStats\x12 .common.v2.GetSystemStatsRequest\x1a!.common.v2.GetSystemStatsResponseB\x9e\x01\n" +
-	"\rcom.common.v2B\x15AuthAdminServiceProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x15AuthAdminServiceProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_auth_admin_service_proto_goTypes = []any{

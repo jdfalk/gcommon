@@ -370,7 +370,7 @@ const file_commonpb_v1_complete_password_reset_response_proto_rawDesc = "" +
 	"\x13revoked_token_count\x18\a \x01(\x05R\x11revokedTokenCount\x12H\n" +
 	" requires_additional_verification\x18\b \x01(\bR\x1erequiresAdditionalVerification\x12\x18\n" +
 	"\amessage\x18\t \x01(\tR\amessageB\xa8\x01\n" +
-	"\rcom.common.v1B\"CompletePasswordResetResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\"CompletePasswordResetResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_complete_password_reset_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

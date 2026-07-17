@@ -35,7 +35,7 @@ const file_queuepb_v1_queue_admin_service_proto_rawDesc = "" +
 	"\n" +
 	"PurgeQueue\x12\x16.queue.v1.PurgeRequest\x1a\x17.queue.v1.PurgeResponse\x12V\n" +
 	"\x0fResetQueueStats\x12 .queue.v1.ResetQueueStatsRequest\x1a!.queue.v1.ResetQueueStatsResponseB\x96\x01\n" +
-	"\fcom.queue.v1B\x16QueueAdminServiceProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x16QueueAdminServiceProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_queue_admin_service_proto_goTypes = []any{
 	(*CreateQueueRequest)(nil),      // 0: queue.v1.CreateQueueRequest

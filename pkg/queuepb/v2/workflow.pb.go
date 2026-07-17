@@ -249,7 +249,7 @@ const file_queuepb_v2_workflow_proto_rawDesc = "" +
 	"\aversion\x18\x03 \x01(\tR\aversion\x12*\n" +
 	"\vdescription\x18\x04 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x12\x18\n" +
 	"\aenabled\x18\x05 \x01(\bR\aenabledB\x90\x01\n" +
-	"\fcom.queue.v2B\rWorkflowProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\rWorkflowProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_workflow_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_workflow_proto_goTypes = []any{

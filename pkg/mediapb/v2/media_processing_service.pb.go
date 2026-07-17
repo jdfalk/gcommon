@@ -32,7 +32,7 @@ const file_mediapb_v2_media_processing_service_proto_rawDesc = "" +
 	"\fExtractAudio\x12\x1d.media.v2.ExtractAudioRequest\x1a\x1e.media.v2.ExtractAudioResponse\x12Y\n" +
 	"\x10ExtractSubtitles\x12!.media.v2.ExtractSubtitlesRequest\x1a\".media.v2.ExtractSubtitlesResponse\x12b\n" +
 	"\x13GetProcessingStatus\x12$.media.v2.GetProcessingStatusRequest\x1a%.media.v2.GetProcessingStatusResponseB\x9e\x01\n" +
-	"\fcom.media.v2B\x1bMediaProcessingServiceProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x1bMediaProcessingServiceProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_media_processing_service_proto_goTypes = []any{
 	(*TranscodeMediaRequest)(nil),       // 0: media.v2.TranscodeMediaRequest

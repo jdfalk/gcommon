@@ -197,7 +197,7 @@ const file_queuepb_v2_rebalance_stats_proto_rawDesc = "" +
 	"\x0elast_rebalance\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\rlastRebalance\x12B\n" +
 	"\x19avg_rebalance_duration_ms\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02 \x00R\x16avgRebalanceDurationMs\x124\n" +
 	"\x11failed_rebalances\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x10failedRebalancesB\x96\x01\n" +
-	"\fcom.queue.v2B\x13RebalanceStatsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x13RebalanceStatsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_rebalance_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_rebalance_stats_proto_goTypes = []any{

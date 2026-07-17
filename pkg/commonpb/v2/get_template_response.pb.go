@@ -119,7 +119,7 @@ const file_commonpb_v2_get_template_response_proto_rawDesc = "" +
 	"'commonpb/v2/get_template_response.proto\x12\tcommon.v2\x1a\x1acommonpb/v2/template.proto\x1a!google/protobuf/go_features.proto\"J\n" +
 	"\x13GetTemplateResponse\x123\n" +
 	"\btemplate\x18\x01 \x01(\v2\x13.common.v2.TemplateB\x02(\x01R\btemplateB\xa1\x01\n" +
-	"\rcom.common.v2B\x18GetTemplateResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x18GetTemplateResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_get_template_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

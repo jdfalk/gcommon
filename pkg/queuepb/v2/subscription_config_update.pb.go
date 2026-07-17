@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -313,7 +313,7 @@ const file_queuepb_v2_subscription_config_update_proto_rawDesc = "" +
 	"\x15max_inflight_messages\x18\x06 \x01(\x05R\x13maxInflightMessages\x12$\n" +
 	"\x0eack_timeout_ms\x18\a \x01(\x05R\fackTimeoutMs\x12%\n" +
 	"\x0epriority_level\x18\b \x01(\x05R\rpriorityLevelB\xa0\x01\n" +
-	"\fcom.queue.v2B\x1dSubscriptionConfigUpdateProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x1dSubscriptionConfigUpdateProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_subscription_config_update_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_subscription_config_update_proto_goTypes = []any{

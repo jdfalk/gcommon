@@ -8,7 +8,7 @@ package queuepb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -521,7 +521,7 @@ const file_queuepb_v1_acknowledge_response_proto_rawDesc = "" +
 	"\x05error\x18= \x01(\v2\x10.common.v1.ErrorR\x05error\x12C\n" +
 	"\x0facknowledged_at\x183 \x01(\v2\x1a.google.protobuf.TimestampR\x0eacknowledgedAt\x12N\n" +
 	"\x15response_generated_at\x184 \x01(\v2\x1a.google.protobuf.TimestampR\x13responseGeneratedAtB\x98\x01\n" +
-	"\fcom.queue.v1B\x18AcknowledgeResponseProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x18AcknowledgeResponseProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_acknowledge_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_acknowledge_response_proto_goTypes = []any{

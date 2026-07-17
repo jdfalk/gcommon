@@ -86,7 +86,7 @@ const file_commonpb_v2_statistic_grouping_proto_rawDesc = "" +
 	"\x1eSTATISTIC_GROUPING_BY_CONSUMER\x10\x03\x12%\n" +
 	"!STATISTIC_GROUPING_BY_TIME_PERIOD\x10\x04\x12&\n" +
 	"\"STATISTIC_GROUPING_BY_MESSAGE_TYPE\x10\x05B\x9f\x01\n" +
-	"\rcom.common.v2B\x16StatisticGroupingProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x16StatisticGroupingProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_statistic_grouping_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

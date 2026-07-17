@@ -153,7 +153,7 @@ const file_mediapb_v2_detect_chapters_response_proto_rawDesc = "" +
 	"\bchapters\x18\x01 \x03(\v2\x15.media.v2.ChapterInfoB\b\xbaH\x05\x92\x01\x02\b\x01R\bchapters\x12.\n" +
 	"\x0etotal_chapters\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\rtotalChapters\x12)\n" +
 	"\x10confidence_score\x18\x03 \x01(\x01R\x0fconfidenceScoreB\x9e\x01\n" +
-	"\fcom.media.v2B\x1bDetectChaptersResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x1bDetectChaptersResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_detect_chapters_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_detect_chapters_response_proto_goTypes = []any{

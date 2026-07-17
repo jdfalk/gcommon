@@ -94,7 +94,7 @@ const file_commonpb_v2_schema_format_proto_rawDesc = "" +
 	"\x16SCHEMA_FORMAT_PROTOBUF\x10\x03\x12\x1c\n" +
 	"\x18SCHEMA_FORMAT_XML_SCHEMA\x10\x04\x12\x18\n" +
 	"\x14SCHEMA_FORMAT_CUSTOM\x10\x05B\x9a\x01\n" +
-	"\rcom.common.v2B\x11SchemaFormatProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x11SchemaFormatProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_schema_format_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -475,7 +475,7 @@ const file_databasepb_v2_cache_metrics_proto_rawDesc = "" +
 	"\x11cpu_usage_percent\x18\v \x01(\x01B\x17\xbaH\x14\x12\x12\x19\x00\x00\x00\x00\x00\x00Y@)\x00\x00\x00\x00\x00\x00\x00\x00R\x0fcpuUsagePercent\x12I\n" +
 	"\x14memory_usage_percent\x18\f \x01(\x01B\x17\xbaH\x14\x12\x12\x19\x00\x00\x00\x00\x00\x00Y@)\x00\x00\x00\x00\x00\x00\x00\x00R\x12memoryUsagePercent\x12=\n" +
 	"\fcollected_at\x18\r \x01(\v2\x1a.google.protobuf.TimestampR\vcollectedAtB\xa6\x01\n" +
-	"\x0fcom.database.v2B\x11CacheMetricsProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x11CacheMetricsProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_cache_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_cache_metrics_proto_goTypes = []any{

@@ -423,7 +423,7 @@ const file_mediapb_v2_media_metadata_proto_rawDesc = "" +
 	"seriesInfo\x122\n" +
 	"\n" +
 	"movie_info\x18\r \x01(\v2\x13.media.v2.MovieInfoR\tmovieInfoB\x95\x01\n" +
-	"\fcom.media.v2B\x12MediaMetadataProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x12MediaMetadataProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_media_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_media_metadata_proto_goTypes = []any{

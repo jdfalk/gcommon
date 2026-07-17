@@ -8,7 +8,7 @@ package organizationpb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -833,7 +833,7 @@ const file_organizationpb_v1_organization_member_proto_rawDesc = "" +
 	"avatar_url\x18\x16 \x01(\tB\b\xbaH\x05r\x03\x88\x01\x01R\tavatarUrl\x12\x14\n" +
 	"\x05phone\x18\x17 \x01(\tR\x05phone\x12\x1a\n" +
 	"\blocation\x18\x18 \x01(\tR\blocationB\xc1\x01\n" +
-	"\x13com.organization.v1B\x17OrganizationMemberProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x17OrganizationMemberProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_organization_member_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_organization_member_proto_goTypes = []any{

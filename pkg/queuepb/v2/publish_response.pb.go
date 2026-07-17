@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -198,7 +198,7 @@ const file_queuepb_v2_publish_response_proto_rawDesc = "" +
 	"\asuccess\x18\x02 \x01(\bR\asuccess\x12&\n" +
 	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorR\x05error\x12E\n" +
 	"\x10request_metadata\x18\x04 \x01(\v2\x1a.common.v2.RequestMetadataR\x0frequestMetadataB\x97\x01\n" +
-	"\fcom.queue.v2B\x14PublishResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14PublishResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_publish_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_publish_response_proto_goTypes = []any{

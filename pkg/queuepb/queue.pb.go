@@ -27,7 +27,7 @@ const file_queuepb_v1_queue_proto_rawDesc = "" +
 	"\n" +
 	"\x16queuepb/v1/queue.proto\x12\bqueue.v1\x1a!google/protobuf/go_features.protoB\x8a\x01\n" +
 	"\fcom.queue.v1B\n" +
-	"QueueProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"QueueProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_queue_proto_goTypes = []any{}
 var file_queuepb_v1_queue_proto_depIdxs = []int32{

@@ -140,7 +140,7 @@ const file_queuepb_v1_delete_topic_request_proto_rawDesc = "" +
 	"\x12DeleteTopicRequest\x12\x1d\n" +
 	"\x05topic\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05topic\x12\x14\n" +
 	"\x05force\x18\x02 \x01(\bR\x05forceB\x97\x01\n" +
-	"\fcom.queue.v1B\x17DeleteTopicRequestProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x17DeleteTopicRequestProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_delete_topic_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_delete_topic_request_proto_goTypes = []any{

@@ -381,7 +381,7 @@ const file_commonpb_v1_update_permission_request_proto_rawDesc = "" +
 	"\bmetadata\x18\t \x01(\v2\x1a.common.v1.RequestMetadataR\bmetadata\x12\x16\n" +
 	"\x06reason\x18\n" +
 	" \x01(\tR\x06reasonB\xa2\x01\n" +
-	"\rcom.common.v1B\x1cUpdatePermissionRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1cUpdatePermissionRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_update_permission_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

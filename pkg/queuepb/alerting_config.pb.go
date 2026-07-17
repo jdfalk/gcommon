@@ -8,7 +8,7 @@ package queuepb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -206,7 +206,7 @@ const file_queuepb_v1_alerting_config_proto_rawDesc = "" +
 	"\bchannels\x18\x03 \x03(\v2\".queue.v1.QueueNotificationChannelB\b\xbaH\x05\x92\x01\x02\b\x01R\bchannels\x12I\n" +
 	"\x10default_severity\x18\x04 \x01(\x0e2\x1e.common.v1.CommonAlertSeverityR\x0fdefaultSeverity\x12H\n" +
 	"\x12aggregation_window\x18\x05 \x01(\v2\x19.google.protobuf.DurationR\x11aggregationWindowB\x93\x01\n" +
-	"\fcom.queue.v1B\x13AlertingConfigProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x13AlertingConfigProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_alerting_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_alerting_config_proto_goTypes = []any{

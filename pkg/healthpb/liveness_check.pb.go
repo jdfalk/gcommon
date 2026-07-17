@@ -356,7 +356,7 @@ const file_healthpb_v1_liveness_check_proto_rawDesc = "" +
 	"\n" +
 	"created_at\x18\b \x01(\v2\x1a.google.protobuf.TimestampR\tcreatedAt\x12\x16\n" +
 	"\x06active\x18\t \x01(\bR\x06activeB\x98\x01\n" +
-	"\rcom.health.v1B\x12LivenessCheckProtoP\x01Z&github.com/jdfalk/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v1B\x12LivenessCheckProtoP\x01Z&github.com/falkcorp/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
 	"Health::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v1_liveness_check_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -212,7 +212,7 @@ const file_queuepb_v2_routing_config_proto_rawDesc = "" +
 	"keyPattern\x12\x16\n" +
 	"\x06sticky\x18\x03 \x01(\bR\x06sticky\x12,\n" +
 	"\rload_balancer\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\floadBalancerB\x95\x01\n" +
-	"\fcom.queue.v2B\x12RoutingConfigProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x12RoutingConfigProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_routing_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_routing_config_proto_goTypes = []any{

@@ -311,7 +311,7 @@ const file_configpb_v1_version_compatibility_info_proto_rawDesc = "" +
 	"maxVersion\x129\n" +
 	"\x13deprecated_features\x18\a \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x12deprecatedFeatures\x120\n" +
 	"\x0fmigration_guide\x18\b \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0emigrationGuideB\xa3\x01\n" +
-	"\rcom.config.v1B\x1dVersionCompatibilityInfoProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x1dVersionCompatibilityInfoProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_version_compatibility_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

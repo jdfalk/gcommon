@@ -205,7 +205,7 @@ const file_queuepb_v1_flow_control_config_proto_rawDesc = "" +
 	"\xbaH\a\x1a\x05\x18\x96\x01(\x00R\x16maxOutstandingMessages\x12;\n" +
 	"\x15max_outstanding_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x13maxOutstandingBytes\x12%\n" +
 	"\talgorithm\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\talgorithmB\x96\x01\n" +
-	"\fcom.queue.v1B\x16FlowControlConfigProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x16FlowControlConfigProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_flow_control_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_flow_control_config_proto_goTypes = []any{

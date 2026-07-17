@@ -248,7 +248,7 @@ const file_organizationpb_v1_billing_settings_proto_rawDesc = "" +
 	"\x06tax_id\x18\x03 \x01(\tR\x05taxId\x12\x1a\n" +
 	"\bcurrency\x18\x04 \x01(\tR\bcurrency\x12#\n" +
 	"\rbilling_cycle\x18\x05 \x01(\tR\fbillingCycleB\xbe\x01\n" +
-	"\x13com.organization.v1B\x14BillingSettingsProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x14BillingSettingsProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_billing_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_billing_settings_proto_goTypes = []any{

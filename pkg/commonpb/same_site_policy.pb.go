@@ -85,7 +85,7 @@ const file_commonpb_v1_same_site_policy_proto_rawDesc = "" +
 	"\x15SAME_SITE_POLICY_NONE\x10\x01\x12\x18\n" +
 	"\x14SAME_SITE_POLICY_LAX\x10\x02\x12\x1b\n" +
 	"\x17SAME_SITE_POLICY_STRICT\x10\x03B\x99\x01\n" +
-	"\rcom.common.v1B\x13SameSitePolicyProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x13SameSitePolicyProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_same_site_policy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

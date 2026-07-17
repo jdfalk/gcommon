@@ -189,7 +189,7 @@ const file_authpb_v2_list_sessions_response_proto_rawDesc = "" +
 	"pagination\x18\x03 \x01(\v2\x17.auth.v2.PaginationInfoR\n" +
 	"pagination\x12#\n" +
 	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\x93\x01\n" +
-	"\vcom.auth.v2B\x19ListSessionsResponseProtoP\x01Z$github.com/jdfalk/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vcom.auth.v2B\x19ListSessionsResponseProtoP\x01Z$github.com/falkcorp/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_list_sessions_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_list_sessions_response_proto_goTypes = []any{

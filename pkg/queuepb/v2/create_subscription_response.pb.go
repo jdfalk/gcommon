@@ -277,7 +277,7 @@ const file_queuepb_v2_create_subscription_response_proto_rawDesc = "" +
 	"\n" +
 	"created_at\x18\x05 \x01(\x04R\tcreatedAt\x12)\n" +
 	"\x10initial_position\x18\x06 \x01(\x04R\x0finitialPositionB\xa2\x01\n" +
-	"\fcom.queue.v2B\x1fCreateSubscriptionResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x1fCreateSubscriptionResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_create_subscription_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_create_subscription_response_proto_goTypes = []any{

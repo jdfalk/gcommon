@@ -184,7 +184,7 @@ const file_databasepb_v2_get_response_proto_rawDesc = "" +
 	"\x05entry\x18\x01 \x01(\v2\x17.database.v2.CacheEntryB\x02(\x01R\x05entry\x12\x14\n" +
 	"\x05found\x18\x02 \x01(\bR\x05found\x12\x1b\n" +
 	"\tcache_hit\x18\x03 \x01(\bR\bcacheHitB\xa5\x01\n" +
-	"\x0fcom.database.v2B\x10GetResponseProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x10GetResponseProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_get_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_get_response_proto_goTypes = []any{

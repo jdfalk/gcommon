@@ -207,7 +207,7 @@ const file_queuepb_v2_create_topic_response_proto_rawDesc = "" +
 	"created_at\x18\x03 \x01(\v2\x1a.google.protobuf.TimestampB\x06\xbaH\x03\xc8\x01\x01R\tcreatedAt\x12\x1a\n" +
 	"\bwarnings\x18\x04 \x03(\tR\bwarnings\x12<\n" +
 	"\x0eapplied_config\x18\x05 \x01(\v2\x15.queue.v2.TopicConfigR\rappliedConfigB\x9b\x01\n" +
-	"\fcom.queue.v2B\x18CreateTopicResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x18CreateTopicResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_create_topic_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_create_topic_response_proto_goTypes = []any{

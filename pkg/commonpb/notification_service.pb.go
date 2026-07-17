@@ -34,7 +34,7 @@ const file_commonpb_v1_notification_service_proto_rawDesc = "" +
 	"\n" +
 	"MarkAsRead\x12\x1c.common.v1.MarkAsReadRequest\x1a\x1d.common.v1.MarkAsReadResponse\x12U\n" +
 	"\x06Delete\x12$.common.v1.DeleteNotificationRequest\x1a%.common.v1.DeleteNotificationResponseB\x9e\x01\n" +
-	"\rcom.common.v1B\x18NotificationServiceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x18NotificationServiceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_notification_service_proto_goTypes = []any{

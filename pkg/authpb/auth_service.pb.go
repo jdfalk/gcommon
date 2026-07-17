@@ -33,7 +33,7 @@ const file_authpb_v1_auth_service_proto_rawDesc = "" +
 	"\rGenerateToken\x12\x1d.auth.v1.GenerateTokenRequest\x1a\x1e.auth.v1.GenerateTokenResponse\x12K\n" +
 	"\fRefreshToken\x12\x1c.auth.v1.RefreshTokenRequest\x1a\x1d.auth.v1.RefreshTokenResponse\x12H\n" +
 	"\vRevokeToken\x12\x1b.auth.v1.RevokeTokenRequest\x1a\x1c.auth.v1.RevokeTokenResponseB\x8a\x01\n" +
-	"\vcom.auth.v1B\x10AuthServiceProtoP\x01Z$github.com/jdfalk/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V1\xca\x02\aAuth\\V1\xe2\x02\x13Auth\\V1\\GPBMetadata\xea\x02\bAuth::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vcom.auth.v1B\x10AuthServiceProtoP\x01Z$github.com/falkcorp/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V1\xca\x02\aAuth\\V1\xe2\x02\x13Auth\\V1\\GPBMetadata\xea\x02\bAuth::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v1_auth_service_proto_goTypes = []any{
 	(*LoginRequest)(nil),          // 0: auth.v1.LoginRequest

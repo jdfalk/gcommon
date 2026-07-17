@@ -179,7 +179,7 @@ const file_metricspb_v1_metric_type_config_proto_rawDesc = "" +
 	"\asummary\x18\x02 \x01(\v2\x19.metrics.v1.SummaryConfigR\asummary\x12-\n" +
 	"\x05gauge\x18\x03 \x01(\v2\x17.metrics.v1.GaugeConfigR\x05gauge\x123\n" +
 	"\acounter\x18\x04 \x01(\v2\x19.metrics.v1.CounterConfigR\acounterB\xa1\x01\n" +
-	"\x0ecom.metrics.v1B\x15MetricTypeConfigProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x15MetricTypeConfigProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

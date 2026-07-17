@@ -247,7 +247,7 @@ const file_metricspb_v1_stats_d_settings_update_proto_rawDesc = "" +
 	"sampleRate\x12(\n" +
 	"\vbuffer_size\x18\x05 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\n" +
 	"bufferSizeB\xa5\x01\n" +
-	"\x0ecom.metrics.v1B\x19StatsDSettingsUpdateProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x19StatsDSettingsUpdateProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

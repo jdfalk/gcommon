@@ -341,7 +341,7 @@ const file_queuepb_v2_partition_config_proto_rawDesc = "" +
 	"\x0emin_partitions\x18\x06 \x01(\rB\a\xbaH\x04*\x02(\x00R\rminPartitions\x12.\n" +
 	"\x0emax_partitions\x18\a \x01(\rB\a\xbaH\x04*\x02(\x00R\rmaxPartitions\x125\n" +
 	"\x12scale_threshold_mb\x18\b \x01(\x04B\a\xbaH\x042\x02(\x00R\x10scaleThresholdMbB\x97\x01\n" +
-	"\fcom.queue.v2B\x14PartitionConfigProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14PartitionConfigProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_partition_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_partition_config_proto_goTypes = []any{

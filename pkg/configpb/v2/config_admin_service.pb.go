@@ -39,7 +39,7 @@ const file_configpb_v2_config_admin_service_proto_rawDesc = "" +
 	"\x0eGetConfigStats\x12 .config.v2.GetConfigStatsRequest\x1a!.config.v2.GetConfigStatsResponse\x12X\n" +
 	"\vHealthCheck\x12#.config.v2.ConfigHealthCheckRequest\x1a$.config.v2.ConfigHealthCheckResponse\x12H\n" +
 	"\rUnwatchConfig\x12\x1f.config.v2.UnwatchConfigRequest\x1a\x16.google.protobuf.EmptyB\xa0\x01\n" +
-	"\rcom.config.v2B\x17ConfigAdminServiceProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x17ConfigAdminServiceProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_config_admin_service_proto_goTypes = []any{

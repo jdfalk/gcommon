@@ -173,7 +173,7 @@ const file_commonpb_v2_send_verification_email_response_proto_rawDesc = "" +
 	"\rerror_message\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\ferrorMessage\x12&\n" +
 	"\n" +
 	"expires_at\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\texpiresAtB\xab\x01\n" +
-	"\rcom.common.v2B\"SendVerificationEmailResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\"SendVerificationEmailResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_send_verification_email_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

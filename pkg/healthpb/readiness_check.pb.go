@@ -310,7 +310,7 @@ const file_healthpb_v1_readiness_check_proto_rawDesc = "" +
 	"\n" +
 	"updated_at\x18\a \x01(\v2\x1a.google.protobuf.TimestampR\tupdatedAt\x12\x18\n" +
 	"\aenabled\x18\b \x01(\bR\aenabledB\x99\x01\n" +
-	"\rcom.health.v1B\x13ReadinessCheckProtoP\x01Z&github.com/jdfalk/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v1B\x13ReadinessCheckProtoP\x01Z&github.com/falkcorp/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
 	"Health::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v1_readiness_check_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

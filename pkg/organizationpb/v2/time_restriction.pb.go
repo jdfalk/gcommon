@@ -211,7 +211,7 @@ const file_organizationpb_v2_time_restriction_proto_rawDesc = "" +
 	"start_time\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tstartTime\x12\"\n" +
 	"\bend_time\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\aendTime\x12#\n" +
 	"\btimezone\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\btimezoneB\xc1\x01\n" +
-	"\x13com.organization.v2B\x14TimeRestrictionProtoP\x01Z/github.com/jdfalk/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v2B\x14TimeRestrictionProtoP\x01Z/github.com/falkcorp/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_time_restriction_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_time_restriction_proto_goTypes = []any{

@@ -8,7 +8,7 @@ package configpb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -245,7 +245,7 @@ const file_configpb_v1_rollback_info_proto_rawDesc = "" +
 	"\x06method\x18\x03 \x01(\x0e2\x19.common.v1.RollbackMethodR\x06method\x12>\n" +
 	"\x0etarget_version\x18\x04 \x01(\tB\x17\xbaH\x14r\x122\x10^v?\\d+\\.\\d+\\.\\d+R\rtargetVersion\x12\x1c\n" +
 	"\tautomatic\x18\x05 \x01(\bR\tautomaticB\x97\x01\n" +
-	"\rcom.config.v1B\x11RollbackInfoProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x11RollbackInfoProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_rollback_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

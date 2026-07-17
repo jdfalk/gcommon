@@ -330,7 +330,7 @@ const file_metricspb_v2_summary_options_proto_rawDesc = "" +
 	"\x11include_retention\x18\x06 \x01(\bR\x10includeRetention\x122\n" +
 	"\x15include_export_status\x18\a \x01(\bR\x13includeExportStatus\x123\n" +
 	"\x11top_metrics_limit\x18\b \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0ftopMetricsLimitB\xa2\x01\n" +
-	"\x0ecom.metrics.v2B\x13SummaryOptionsProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x13SummaryOptionsProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -258,7 +258,7 @@ const file_queuepb_v2_circuit_breaker_config_proto_rawDesc = "" +
 	"\atimeout\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\atimeout\x12*\n" +
 	"\fmax_requests\x18\x05 \x01(\rB\a\xbaH\x04*\x02(\x00R\vmaxRequests\x125\n" +
 	"\binterval\x18\x06 \x01(\v2\x19.google.protobuf.DurationR\bintervalB\x9c\x01\n" +
-	"\fcom.queue.v2B\x19CircuitBreakerConfigProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x19CircuitBreakerConfigProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_circuit_breaker_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_circuit_breaker_config_proto_goTypes = []any{

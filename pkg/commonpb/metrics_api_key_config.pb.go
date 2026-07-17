@@ -157,7 +157,7 @@ const file_commonpb_v1_metrics_api_key_config_proto_rawDesc = "" +
 	"headerName\x12\x1a\n" +
 	"\brequired\x18\x02 \x01(\bR\brequired\x12!\n" +
 	"\fallowed_keys\x18\x03 \x03(\tR\vallowedKeysB\x9e\x01\n" +
-	"\rcom.common.v1B\x18MetricsApiKeyConfigProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x18MetricsApiKeyConfigProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_metrics_api_key_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

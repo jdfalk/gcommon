@@ -30,7 +30,7 @@ const file_commonpb_v1_authorization_service_proto_rawDesc = "" +
 	"\tAuthorize\x12\x1f.common.v1.AuthAuthorizeRequest\x1a .common.v1.AuthAuthorizeResponse\x12a\n" +
 	"\x12GetUserPermissions\x12$.common.v1.GetUserPermissionsRequest\x1a%.common.v1.GetUserPermissionsResponse\x12O\n" +
 	"\fGetUserRoles\x12\x1e.common.v1.GetUserRolesRequest\x1a\x1f.common.v1.GetUserRolesResponseB\x9f\x01\n" +
-	"\rcom.common.v1B\x19AuthorizationServiceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x19AuthorizationServiceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_authorization_service_proto_goTypes = []any{

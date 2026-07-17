@@ -508,7 +508,7 @@ const file_metricspb_v2_provider_summary_proto_rawDesc = "" +
 	"\fhealth_score\x18\f \x01(\x01R\vhealthScore\x12\x12\n" +
 	"\x04tags\x18\r \x03(\tR\x04tags\x12*\n" +
 	"\vdescription\x18\x0e \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescriptionB\xa3\x01\n" +
-	"\x0ecom.metrics.v2B\x14ProviderSummaryProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x14ProviderSummaryProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

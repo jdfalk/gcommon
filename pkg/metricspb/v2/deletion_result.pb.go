@@ -348,7 +348,7 @@ const file_metricspb_v2_deletion_result_proto_rawDesc = "" +
 	"\x11deletion_duration\x18\t \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x10deletionDuration\x12>\n" +
 	"\x0edry_run_result\x18\n" +
 	" \x01(\v2\x18.metrics.v2.DryRunResultR\fdryRunResultB\xa2\x01\n" +
-	"\x0ecom.metrics.v2B\x13DeletionResultProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x13DeletionResultProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

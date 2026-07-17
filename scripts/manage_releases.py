@@ -159,7 +159,7 @@ Protocol buffer definitions and Go SDK for common types and services.
 
 ## Installation
 ```go
-go get github.com/jdfalk/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/common@{tag}
 ```
 
 ## BSR Registry
@@ -189,7 +189,7 @@ Next-generation protocol buffer definitions with enhanced features.
 
 ## Installation
 ```go
-go get github.com/jdfalk/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/common@{tag}
 ```
 
 ## BSR Registry
@@ -214,7 +214,7 @@ Latest {series} series release with all recent fixes and improvements.
 
 ## Quick Start
 ```go
-go get github.com/jdfalk/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/common@{tag}
 ```
 
 ---
@@ -228,7 +228,7 @@ Latest {series} release with all fixes and features.
 
 ## Installation
 ```go
-go get github.com/jdfalk/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/common@{tag}
 ```
 
 ---

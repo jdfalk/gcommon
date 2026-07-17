@@ -136,7 +136,7 @@ const file_commonpb_v1_retention_policy_info_proto_rawDesc = "" +
 	"\x13RetentionPolicyInfo\x129\n" +
 	"\x06policy\x18\x01 \x01(\x0e2!.common.v1.MetricsRetentionPolicyR\x06policy\x12?\n" +
 	"\x06config\x18\x02 \x01(\v2'.common.v1.MetricsRetentionPolicyConfigR\x06configB\x9e\x01\n" +
-	"\rcom.common.v1B\x18RetentionPolicyInfoProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x18RetentionPolicyInfoProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_retention_policy_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

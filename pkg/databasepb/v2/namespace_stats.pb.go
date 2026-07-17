@@ -359,7 +359,7 @@ const file_databasepb_v2_namespace_stats_proto_rawDesc = "" +
 	"\x12avg_key_size_bytes\x18\a \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x0favgKeySizeBytes\x12?\n" +
 	"\x14avg_value_size_bytes\x18\b \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x11avgValueSizeBytes\x12D\n" +
 	"\x10last_access_time\x18\t \x01(\v2\x1a.google.protobuf.TimestampR\x0elastAccessTimeB\xa8\x01\n" +
-	"\x0fcom.database.v2B\x13NamespaceStatsProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x13NamespaceStatsProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_namespace_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_namespace_stats_proto_goTypes = []any{

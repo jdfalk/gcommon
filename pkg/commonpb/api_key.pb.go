@@ -340,7 +340,7 @@ const file_commonpb_v1_api_key_proto_rawDesc = "" +
 	"\n" +
 	"expires_at\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\texpiresAt\x12\x16\n" +
 	"\x06active\x18\a \x01(\bR\x06activeB\x91\x01\n" +
-	"\rcom.common.v1B\vApiKeyProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\vApiKeyProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_api_key_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

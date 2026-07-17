@@ -377,7 +377,7 @@ const file_queuepb_v2_backup_queue_request_proto_rawDesc = "" +
 	"\rend_timestamp\x18\b \x01(\x03R\fendTimestamp\x12\x1d\n" +
 	"\n" +
 	"timeout_ms\x18\t \x01(\x05R\ttimeoutMsB\x9a\x01\n" +
-	"\fcom.queue.v2B\x17BackupQueueRequestProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x17BackupQueueRequestProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_backup_queue_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_backup_queue_request_proto_goTypes = []any{

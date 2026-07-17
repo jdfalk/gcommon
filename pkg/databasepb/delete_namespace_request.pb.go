@@ -174,7 +174,7 @@ const file_databasepb_v1_delete_namespace_request_proto_rawDesc = "" +
 	"\fnamespace_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vnamespaceId\x12\x14\n" +
 	"\x05force\x18\x02 \x01(\bR\x05force\x12\x16\n" +
 	"\x06backup\x18\x03 \x01(\bR\x06backupB\xad\x01\n" +
-	"\x0fcom.database.v1B\x1bDeleteNamespaceRequestProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\x1bDeleteNamespaceRequestProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_delete_namespace_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v1_delete_namespace_request_proto_goTypes = []any{

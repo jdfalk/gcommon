@@ -159,7 +159,7 @@ const file_queuepb_v2_routing_settings_proto_rawDesc = "" +
 	"\x13routing_key_pattern\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x11routingKeyPattern\x125\n" +
 	"\x11target_partitions\x18\x02 \x03(\x05B\b\xbaH\x05\x92\x01\x02\b\x01R\x10targetPartitions\x122\n" +
 	"\x10routing_strategy\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0froutingStrategyB\x97\x01\n" +
-	"\fcom.queue.v2B\x14RoutingSettingsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14RoutingSettingsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_routing_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_routing_settings_proto_goTypes = []any{

@@ -7,7 +7,7 @@
 package organizationpb
 
 import (
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -159,7 +159,7 @@ const file_organizationpb_v1_create_team_request_proto_rawDesc = "" +
 	"\bmetadata\x18\x01 \x01(\v2\x1a.common.v1.RequestMetadataR\bmetadata\x12)\n" +
 	"\x04team\x18\x02 \x01(\v2\x15.organization.v1.TeamR\x04team\x12#\n" +
 	"\rvalidate_only\x18\x03 \x01(\bR\fvalidateOnlyB\xc0\x01\n" +
-	"\x13com.organization.v1B\x16CreateTeamRequestProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x16CreateTeamRequestProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_create_team_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_create_team_request_proto_goTypes = []any{

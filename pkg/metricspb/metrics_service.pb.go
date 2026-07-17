@@ -38,7 +38,7 @@ const file_metricspb_v1_metrics_service_proto_rawDesc = "" +
 	"\x11GetMetricMetadata\x12$.metrics.v1.GetMetricMetadataRequest\x1a%.metrics.v1.GetMetricMetadataResponse\x12Q\n" +
 	"\fQueryMetrics\x12\x1f.metrics.v1.QueryMetricsRequest\x1a .metrics.v1.QueryMetricsResponse\x12`\n" +
 	"\x11GetMetricsSummary\x12$.metrics.v1.GetMetricsSummaryRequest\x1a%.metrics.v1.GetMetricsSummaryResponseB\x9f\x01\n" +
-	"\x0ecom.metrics.v1B\x13MetricsServiceProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x13MetricsServiceProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

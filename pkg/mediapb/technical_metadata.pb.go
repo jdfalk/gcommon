@@ -256,7 +256,7 @@ const file_mediapb_v1_technical_metadata_proto_rawDesc = "" +
 	"\x05video\x18\x05 \x01(\v2\x19.media.v1.VideoStreamInfoR\x05video\x12H\n" +
 	"\raudio_streams\x18\x06 \x03(\v2\x19.media.v1.AudioStreamInfoB\b\xbaH\x05\x92\x01\x02\b\x01R\faudioStreams\x12Q\n" +
 	"\x10subtitle_streams\x18\a \x03(\v2\x1c.media.v1.SubtitleStreamInfoB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fsubtitleStreamsB\x96\x01\n" +
-	"\fcom.media.v1B\x16TechnicalMetadataProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x16TechnicalMetadataProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_technical_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_technical_metadata_proto_goTypes = []any{

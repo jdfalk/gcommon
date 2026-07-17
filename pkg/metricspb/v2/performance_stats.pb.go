@@ -525,7 +525,7 @@ const file_metricspb_v2_performance_stats_proto_rawDesc = "" +
 	"\x12memory_utilization\x18\f \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x11memoryUtilization\x12F\n" +
 	"\x18network_io_bytes_per_sec\x18\r \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x14networkIoBytesPerSec\x12@\n" +
 	"\x15disk_io_bytes_per_sec\x18\x0e \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x11diskIoBytesPerSecB\xa4\x01\n" +
-	"\x0ecom.metrics.v2B\x15PerformanceStatsProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x15PerformanceStatsProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

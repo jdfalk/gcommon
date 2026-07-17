@@ -29,7 +29,7 @@ const file_queuepb_v2_workflow_service_proto_rawDesc = "" +
 	"\x0fWorkflowService\x12P\n" +
 	"\rStartWorkflow\x12\x1e.queue.v2.StartWorkflowRequest\x1a\x1f.queue.v2.StartWorkflowResponse\x12M\n" +
 	"\fStopWorkflow\x12\x1d.queue.v2.StopWorkflowRequest\x1a\x1e.queue.v2.StopWorkflowResponseB\x97\x01\n" +
-	"\fcom.queue.v2B\x14WorkflowServiceProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14WorkflowServiceProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_workflow_service_proto_goTypes = []any{
 	(*StartWorkflowRequest)(nil),  // 0: queue.v2.StartWorkflowRequest

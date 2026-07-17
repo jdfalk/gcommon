@@ -216,7 +216,7 @@ const file_queuepb_v1_size_distribution_proto_rawDesc = "" +
 	"\x0emax_size_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fmaxSizeBytes\x12<\n" +
 	"\x12average_size_bytes\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x10averageSizeBytes\x12:\n" +
 	"\x11median_size_bytes\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x0fmedianSizeBytesB\x95\x01\n" +
-	"\fcom.queue.v1B\x15SizeDistributionProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x15SizeDistributionProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_size_distribution_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_size_distribution_proto_goTypes = []any{

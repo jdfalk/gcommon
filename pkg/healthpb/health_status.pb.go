@@ -105,7 +105,7 @@ const file_healthpb_v1_health_status_proto_rawDesc = "" +
 	"\x16HEALTH_STATUS_STOPPING\x10\x05\x12\x19\n" +
 	"\x15HEALTH_STATUS_UNKNOWN\x10\x06\x12\x1d\n" +
 	"\x19HEALTH_STATUS_MAINTENANCE\x10\aB\x97\x01\n" +
-	"\rcom.health.v1B\x11HealthStatusProtoP\x01Z&github.com/jdfalk/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v1B\x11HealthStatusProtoP\x01Z&github.com/falkcorp/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
 	"Health::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v1_health_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

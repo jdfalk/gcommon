@@ -173,7 +173,7 @@ const file_queuepb_v1_delete_queue_request_proto_rawDesc = "" +
 	"\x05force\x18\x02 \x01(\bR\x05force\x12\x1f\n" +
 	"\vpurge_first\x18\x03 \x01(\bR\n" +
 	"purgeFirstB\x97\x01\n" +
-	"\fcom.queue.v1B\x17DeleteQueueRequestProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x17DeleteQueueRequestProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_delete_queue_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_delete_queue_request_proto_goTypes = []any{

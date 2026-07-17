@@ -172,7 +172,7 @@ const file_metricspb_v1_performance_trend_proto_rawDesc = "" +
 	"\rlatency_trend\x18\x01 \x01(\tR\flatencyTrend\x12)\n" +
 	"\x10throughput_trend\x18\x02 \x01(\tR\x0fthroughputTrend\x12)\n" +
 	"\x10trend_confidence\x18\x03 \x01(\x01R\x0ftrendConfidenceB\xa1\x01\n" +
-	"\x0ecom.metrics.v1B\x15PerformanceTrendProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x15PerformanceTrendProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

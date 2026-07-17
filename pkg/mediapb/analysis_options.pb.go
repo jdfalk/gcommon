@@ -227,7 +227,7 @@ const file_mediapb_v1_analysis_options_proto_rawDesc = "" +
 	"\rdetect_scenes\x18\x03 \x01(\bR\fdetectScenes\x12-\n" +
 	"\x12extract_thumbnails\x18\x04 \x01(\bR\x11extractThumbnails\x12#\n" +
 	"\ranalyze_audio\x18\x05 \x01(\bR\fanalyzeAudioB\x94\x01\n" +
-	"\fcom.media.v1B\x14AnalysisOptionsProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x14AnalysisOptionsProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_analysis_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_analysis_options_proto_goTypes = []any{

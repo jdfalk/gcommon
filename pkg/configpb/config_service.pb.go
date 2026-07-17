@@ -37,7 +37,7 @@ const file_configpb_v1_config_service_proto_rawDesc = "" +
 	"\vSetMultiple\x12#.config.v1.SetMultipleConfigRequest\x1a$.config.v1.SetMultipleConfigResponse\x12O\n" +
 	"\bValidate\x12 .config.v1.ValidateConfigRequest\x1a!.config.v1.ValidateConfigResponse\x12F\n" +
 	"\tGetSchema\x12\x1b.config.v1.GetSchemaRequest\x1a\x1c.config.v1.GetSchemaResponseB\x98\x01\n" +
-	"\rcom.config.v1B\x12ConfigServiceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x12ConfigServiceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_config_service_proto_goTypes = []any{

@@ -198,7 +198,7 @@ const file_metricspb_v2_resource_usage_stats_proto_rawDesc = "" +
 	"\x04disk\x18\x03 \x01(\v2\x15.metrics.v2.DiskUsageR\x04disk\x122\n" +
 	"\anetwork\x18\x04 \x01(\v2\x18.metrics.v2.NetworkUsageR\anetwork\x12X\n" +
 	"\x13resource_timeseries\x18\x05 \x03(\v2\x1d.metrics.v2.ResourceDataPointB\b\xbaH\x05\x92\x01\x02\b\x01R\x12resourceTimeseriesB\xa6\x01\n" +
-	"\x0ecom.metrics.v2B\x17ResourceUsageStatsProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x17ResourceUsageStatsProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

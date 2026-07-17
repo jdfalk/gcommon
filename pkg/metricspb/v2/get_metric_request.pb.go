@@ -8,7 +8,7 @@ package v2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -155,7 +155,7 @@ const file_metricspb_v2_get_metric_request_proto_rawDesc = "" +
 	"\x10GetMetricRequest\x12$\n" +
 	"\tmetric_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\bmetricId\x12:\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xa4\x01\n" +
-	"\x0ecom.metrics.v2B\x15GetMetricRequestProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x15GetMetricRequestProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

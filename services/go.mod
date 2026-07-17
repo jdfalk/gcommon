@@ -2,20 +2,24 @@
 // version: 1.0.0
 // guid: e3f4a5b6-c7d8-9e0f-1a2b-3c4d5e6f7a8b
 
-module github.com/jdfalk/gcommon/services
+module github.com/falkcorp/gcommon/services
 
-go 1.24
+go 1.25.0
 
 // Use local versions
-replace github.com/jdfalk/gcommon => ../
+replace github.com/falkcorp/gcommon => ../
 
-replace github.com/jdfalk/gcommon/internal => ../internal/
+replace github.com/falkcorp/gcommon/internal => ../internal/
+
+replace github.com/falkcorp/gcommon/pkg/commonpb => ../pkg/commonpb
+
+replace github.com/falkcorp/gcommon/pkg/healthpb => ../pkg/healthpb
 
 require (
-	github.com/jdfalk/gcommon/pkg/commonpb v0.0.0-20250926164202-48e80cd3f3d1
-	github.com/jdfalk/gcommon/pkg/healthpb v0.0.0-20250926191523-27df7a7ed049
+	github.com/falkcorp/gcommon/pkg/commonpb v0.0.0-20251003134307-5cabf522c911
+	github.com/falkcorp/gcommon/pkg/healthpb v0.0.0-20250926191523-27df7a7ed049
 	github.com/spf13/viper v1.21.0
-	google.golang.org/grpc v1.75.1
+	google.golang.org/grpc v1.79.3
 )
 
 require (
@@ -33,11 +37,11 @@ require (
 )
 
 require (
-	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.9-20250912141014-52f32327d4b0.1 // indirect
+	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.10-20250912141014-52f32327d4b0.1 // indirect
 	github.com/spf13/cobra v1.10.1
-	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250707201910-8d1bb00bc6a7 // indirect
-	google.golang.org/protobuf v1.36.9 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 )

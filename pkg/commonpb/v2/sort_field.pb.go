@@ -95,7 +95,7 @@ const file_commonpb_v2_sort_field_proto_rawDesc = "" +
 	"\x15SORT_FIELD_CREATED_AT\x10\x03\x12\x14\n" +
 	"\x10SORT_FIELD_STATE\x10\x04\x12\x15\n" +
 	"\x11SORT_FIELD_HEALTH\x10\x05B\x97\x01\n" +
-	"\rcom.common.v2B\x0eSortFieldProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x0eSortFieldProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_sort_field_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

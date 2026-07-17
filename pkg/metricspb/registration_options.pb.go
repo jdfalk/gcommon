@@ -201,7 +201,7 @@ const file_metricspb_v1_registration_options_proto_rawDesc = "" +
 	"\adry_run\x18\x02 \x01(\bR\x06dryRun\x12%\n" +
 	"\x0ecreate_indices\x18\x03 \x01(\bR\rcreateIndices\x12'\n" +
 	"\x0fenable_alerting\x18\x04 \x01(\bR\x0eenableAlertingB\xa4\x01\n" +
-	"\x0ecom.metrics.v1B\x18RegistrationOptionsProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x18RegistrationOptionsProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -188,7 +188,7 @@ const file_mediapb_v2_sync_subtitles_request_proto_rawDesc = "" +
 	"\rmedia_file_id\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vmediaFileId\x12,\n" +
 	"\x12auto_detect_timing\x18\x03 \x01(\bR\x10autoDetectTiming\x12$\n" +
 	"\x0esync_points_ms\x18\x04 \x03(\x03R\fsyncPointsMsB\x9c\x01\n" +
-	"\fcom.media.v2B\x19SyncSubtitlesRequestProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x19SyncSubtitlesRequestProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_sync_subtitles_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_sync_subtitles_request_proto_goTypes = []any{

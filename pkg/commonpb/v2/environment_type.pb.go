@@ -121,7 +121,7 @@ const file_commonpb_v2_environment_type_proto_rawDesc = "" +
 	"\x1cENVIRONMENT_TYPE_PERFORMANCE\x10\t\x12\x1d\n" +
 	"\x19ENVIRONMENT_TYPE_SECURITY\x10\n" +
 	"B\x9d\x01\n" +
-	"\rcom.common.v2B\x14EnvironmentTypeProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x14EnvironmentTypeProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_environment_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

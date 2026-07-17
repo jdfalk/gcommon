@@ -160,7 +160,7 @@ const file_webpb_v2_auth_config_proto_rawDesc = "" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
 	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\x86\x01\n" +
 	"\n" +
-	"com.web.v2B\x0fAuthConfigProtoP\x01Z&github.com/jdfalk/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x0fAuthConfigProtoP\x01Z&github.com/falkcorp/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_auth_config_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_webpb_v2_auth_config_proto_goTypes = []any{

@@ -368,7 +368,7 @@ const file_queuepb_v1_topic_stats_proto_rawDesc = "" +
 	"\x10bytes_per_second\x18\a \x01(\x01R\x0ebytesPerSecond\x12*\n" +
 	"\x11last_message_time\x18\b \x01(\x04R\x0flastMessageTime\x120\n" +
 	"\x14average_message_size\x18\t \x01(\x01R\x12averageMessageSizeB\x8f\x01\n" +
-	"\fcom.queue.v1B\x0fTopicStatsProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x0fTopicStatsProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_topic_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_topic_stats_proto_goTypes = []any{

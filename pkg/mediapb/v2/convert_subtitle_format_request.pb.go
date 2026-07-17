@@ -173,7 +173,7 @@ const file_mediapb_v2_convert_subtitle_format_request_proto_rawDesc = "" +
 	"\x10subtitle_file_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0esubtitleFileId\x12#\n" +
 	"\rtarget_format\x18\x02 \x01(\tR\ftargetFormat\x12)\n" +
 	"\x10preserve_styling\x18\x03 \x01(\bR\x0fpreserveStylingB\xa4\x01\n" +
-	"\fcom.media.v2B!ConvertSubtitleFormatRequestProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B!ConvertSubtitleFormatRequestProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_convert_subtitle_format_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_convert_subtitle_format_request_proto_goTypes = []any{

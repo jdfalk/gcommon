@@ -89,7 +89,7 @@ const file_commonpb_v1_stream_restart_policy_proto_rawDesc = "" +
 	"\x1fSTREAM_RESTART_POLICY_IMMEDIATE\x10\x02\x12-\n" +
 	")STREAM_RESTART_POLICY_EXPONENTIAL_BACKOFF\x10\x03\x12%\n" +
 	"!STREAM_RESTART_POLICY_FIXED_DELAY\x10\x04B\x9e\x01\n" +
-	"\rcom.common.v1B\x18StreamRestartPolicyProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x18StreamRestartPolicyProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_stream_restart_policy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -33,7 +33,7 @@ const file_queuepb_v1_queue_service_proto_rawDesc = "" +
 	"\fGetQueueInfo\x12\x1d.queue.v1.GetQueueInfoRequest\x1a\x1e.queue.v1.GetQueueInfoResponse\x12K\n" +
 	"\tSubscribe\x12\x1f.queue.v1.QueueSubscribeRequest\x1a\x1b.queue.v1.SubscribeResponse0\x01\x12C\n" +
 	"\aPublish\x12\x1d.queue.v1.QueuePublishRequest\x1a\x19.queue.v1.PublishResponseB\x91\x01\n" +
-	"\fcom.queue.v1B\x11QueueServiceProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x11QueueServiceProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_queue_service_proto_goTypes = []any{
 	(*EnqueueRequest)(nil),        // 0: queue.v1.EnqueueRequest

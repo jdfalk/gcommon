@@ -163,7 +163,7 @@ const file_databasepb_v2_get_connection_info_response_proto_rawDesc = "" +
 	"\x19GetConnectionInfoResponse\x12@\n" +
 	"\tpool_info\x18\x01 \x01(\v2\x1f.database.v2.ConnectionPoolInfoB\x02(\x01R\bpoolInfo\x12B\n" +
 	"\rdatabase_info\x18\x02 \x01(\v2\x19.database.v2.DatabaseInfoB\x02(\x01R\fdatabaseInfoB\xb3\x01\n" +
-	"\x0fcom.database.v2B\x1eGetConnectionInfoResponseProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x1eGetConnectionInfoResponseProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_get_connection_info_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_get_connection_info_response_proto_goTypes = []any{

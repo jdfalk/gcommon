@@ -46,7 +46,7 @@ const file_authpb_v2_auth_service_proto_rawDesc = "" +
 	"\x0eGetUserProfile\x12\x1b.auth.v2.UserProfileRequest\x1a\x1c.auth.v2.UserProfileResponse\x12R\n" +
 	"\x11UpdateUserProfile\x12\x1d.auth.v2.UpdateProfileRequest\x1a\x1e.auth.v2.UpdateProfileResponse\x12Q\n" +
 	"\x0eChangePassword\x12\x1e.auth.v2.ChangePasswordRequest\x1a\x1f.auth.v2.ChangePasswordResponseB\x8a\x01\n" +
-	"\vcom.auth.v2B\x10AuthServiceProtoP\x01Z$github.com/jdfalk/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vcom.auth.v2B\x10AuthServiceProtoP\x01Z$github.com/falkcorp/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_auth_service_proto_goTypes = []any{
 	(*LoginRequest)(nil),           // 0: auth.v2.LoginRequest

@@ -7,7 +7,7 @@
 package v2
 
 import (
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -230,7 +230,7 @@ const file_queuepb_v2_health_check_response_proto_rawDesc = "" +
 	"\rconnection_ok\x18\x02 \x01(\bR\fconnectionOk\x12B\n" +
 	"\rresponse_time\x18\x03 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\fresponseTime\x12*\n" +
 	"\x05error\x18\x04 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\x9b\x01\n" +
-	"\fcom.queue.v2B\x18HealthCheckResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x18HealthCheckResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_health_check_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_health_check_response_proto_goTypes = []any{

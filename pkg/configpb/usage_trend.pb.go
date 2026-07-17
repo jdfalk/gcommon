@@ -170,7 +170,7 @@ const file_configpb_v1_usage_trend_proto_rawDesc = "" +
 	"\vusage_count\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
 	"usageCount\x12%\n" +
 	"\tdirection\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tdirectionB\x95\x01\n" +
-	"\rcom.config.v1B\x0fUsageTrendProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x0fUsageTrendProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_usage_trend_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

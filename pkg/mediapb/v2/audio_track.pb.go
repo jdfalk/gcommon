@@ -302,7 +302,7 @@ const file_mediapb_v2_audio_track_proto_rawDesc = "" +
 	"\vsample_rate\x18\x06 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\n" +
 	"sampleRate\x12#\n" +
 	"\rdefault_track\x18\a \x01(\bR\fdefaultTrackB\x92\x01\n" +
-	"\fcom.media.v2B\x0fAudioTrackProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x0fAudioTrackProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_audio_track_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_audio_track_proto_goTypes = []any{

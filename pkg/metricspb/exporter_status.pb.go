@@ -236,7 +236,7 @@ const file_metricspb_v1_exporter_status_proto_rawDesc = "" +
 	"\x0eexported_count\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\rexportedCount\x12;\n" +
 	"\vlast_export\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\n" +
 	"lastExportB\x9f\x01\n" +
-	"\x0ecom.metrics.v1B\x13ExporterStatusProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x13ExporterStatusProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -149,7 +149,7 @@ const file_databasepb_v2_batch_operation_proto_rawDesc = "" +
 	"parameters\x18\x02 \x03(\v2\x1b.database.v2.QueryParameterB\n" +
 	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\n" +
 	"parametersB\xa8\x01\n" +
-	"\x0fcom.database.v2B\x13BatchOperationProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x13BatchOperationProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_batch_operation_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_batch_operation_proto_goTypes = []any{

@@ -543,7 +543,7 @@ const file_commonpb_v1_template_parameter_proto_rawDesc = "" +
 	"\rdocumentation\x18\r \x01(\tR\rdocumentation\x12,\n" +
 	"\fdisplay_name\x18\x0e \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\vdisplayName\x12 \n" +
 	"\vplaceholder\x18\x0f \x01(\tR\vplaceholderB\x9c\x01\n" +
-	"\rcom.common.v1B\x16TemplateParameterProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x16TemplateParameterProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_template_parameter_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

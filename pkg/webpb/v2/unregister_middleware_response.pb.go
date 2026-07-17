@@ -7,7 +7,7 @@
 package v2
 
 import (
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -134,7 +134,7 @@ const file_webpb_v2_unregister_middleware_response_proto_rawDesc = "" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12&\n" +
 	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\x98\x01\n" +
 	"\n" +
-	"com.web.v2B!UnregisterMiddlewareResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B!UnregisterMiddlewareResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_unregister_middleware_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_unregister_middleware_response_proto_goTypes = []any{

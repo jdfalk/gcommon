@@ -217,7 +217,7 @@ const file_commonpb_v2_organization_compliance_settings_proto_rawDesc = "" +
 	"\x13data_export_enabled\x18\x03 \x01(\bR\x11dataExportEnabled\x122\n" +
 	"\x15data_deletion_enabled\x18\x04 \x01(\bR\x13dataDeletionEnabled\x120\n" +
 	"\x0ecertifications\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0ecertificationsB\xac\x01\n" +
-	"\rcom.common.v2B#OrganizationComplianceSettingsProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B#OrganizationComplianceSettingsProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_organization_compliance_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

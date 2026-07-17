@@ -143,7 +143,7 @@ const file_configpb_v2_validate_config_response_proto_rawDesc = "" +
 	"\x05valid\x18\x01 \x01(\bR\x05valid\x12B\n" +
 	"\x06errors\x18\x02 \x03(\v2 .config.v2.ConfigValidationErrorB\b\xbaH\x05\x92\x01\x02\b\x01R\x06errors\x12H\n" +
 	"\bwarnings\x18\x03 \x03(\v2\".config.v2.ConfigValidationWarningB\b\xbaH\x05\x92\x01\x02\b\x01R\bwarningsB\xa4\x01\n" +
-	"\rcom.config.v2B\x1bValidateConfigResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x1bValidateConfigResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_validate_config_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

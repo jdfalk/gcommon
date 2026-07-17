@@ -36,7 +36,7 @@ const file_commonpb_v1_session_service_proto_rawDesc = "" +
 	"\rDeleteSession\x12#.common.v1.AuthDeleteSessionRequest\x1a$.common.v1.AuthDeleteSessionResponse\x12[\n" +
 	"\x10ListUserSessions\x12\".common.v1.ListUserSessionsRequest\x1a#.common.v1.ListUserSessionsResponse\x12W\n" +
 	"\fListSessions\x12\".common.v1.AuthListSessionsRequest\x1a#.common.v1.AuthListSessionsResponseB\x99\x01\n" +
-	"\rcom.common.v1B\x13SessionServiceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x13SessionServiceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_session_service_proto_goTypes = []any{

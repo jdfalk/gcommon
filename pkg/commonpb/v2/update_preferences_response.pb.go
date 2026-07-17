@@ -106,7 +106,7 @@ const file_commonpb_v2_update_preferences_response_proto_rawDesc = "" +
 	"-commonpb/v2/update_preferences_response.proto\x12\tcommon.v2\x1a!google/protobuf/go_features.proto\"5\n" +
 	"\x19UpdatePreferencesResponse\x12\x18\n" +
 	"\asuccess\x18\x01 \x01(\bR\asuccessB\xa7\x01\n" +
-	"\rcom.common.v2B\x1eUpdatePreferencesResponseProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x1eUpdatePreferencesResponseProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_update_preferences_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

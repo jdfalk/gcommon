@@ -113,7 +113,7 @@ const file_databasepb_v1_row_proto_rawDesc = "" +
 	"\x03Row\x128\n" +
 	"\x06values\x18\x01 \x03(\v2\x14.google.protobuf.AnyB\n" +
 	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\x06valuesB\x9a\x01\n" +
-	"\x0fcom.database.v1B\bRowProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\bRowProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_row_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v1_row_proto_goTypes = []any{

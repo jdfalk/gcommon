@@ -290,7 +290,7 @@ const file_queuepb_v2_timeout_config_proto_rawDesc = "" +
 	"\x12management_timeout\x18\x06 \x01(\v2\x19.google.protobuf.DurationR\x11managementTimeout\x12K\n" +
 	"\x14health_check_timeout\x18\a \x01(\v2\x19.google.protobuf.DurationR\x12healthCheckTimeout\x12L\n" +
 	"\x14subscription_timeout\x18\b \x01(\v2\x19.google.protobuf.DurationR\x13subscriptionTimeoutB\x95\x01\n" +
-	"\fcom.queue.v2B\x12TimeoutConfigProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x12TimeoutConfigProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_timeout_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_timeout_config_proto_goTypes = []any{

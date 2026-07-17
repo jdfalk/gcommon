@@ -268,7 +268,7 @@ const file_mediapb_v1_subtitle_stream_info_proto_rawDesc = "" +
 	"\x05title\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05title\x12\x16\n" +
 	"\x06forced\x18\x05 \x01(\bR\x06forced\x12)\n" +
 	"\x10hearing_impaired\x18\x06 \x01(\bR\x0fhearingImpairedB\x97\x01\n" +
-	"\fcom.media.v1B\x17SubtitleStreamInfoProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x17SubtitleStreamInfoProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_subtitle_stream_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_subtitle_stream_info_proto_goTypes = []any{

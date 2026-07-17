@@ -170,7 +170,7 @@ const file_queuepb_v2_rate_limit_config_proto_rawDesc = "" +
 	"\x0emax_per_second\x18\x01 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\fmaxPerSecond\x12\x1d\n" +
 	"\x05burst\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x05burst\x12\x18\n" +
 	"\aenabled\x18\x03 \x01(\bR\aenabledB\x97\x01\n" +
-	"\fcom.queue.v2B\x14RateLimitConfigProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14RateLimitConfigProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_rate_limit_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_rate_limit_config_proto_goTypes = []any{

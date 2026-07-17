@@ -367,7 +367,7 @@ const file_commonpb_v1_notification_message_proto_rawDesc = "" +
 	"\x06status\x18\a \x01(\x0e2\x19.common.v1.DeliveryStatusR\x06status\x12C\n" +
 	"\n" +
 	"created_at\x18\b \x01(\v2\x1a.google.protobuf.TimestampB\b\xbaH\x03\xc8\x01\x01(\x01R\tcreatedAtB\x9e\x01\n" +
-	"\rcom.common.v1B\x18NotificationMessageProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x18NotificationMessageProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_notification_message_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

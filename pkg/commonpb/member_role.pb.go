@@ -87,7 +87,7 @@ const file_commonpb_v1_member_role_proto_rawDesc = "" +
 	"\x12MEMBER_ROLE_MEMBER\x10\x03\x12\x16\n" +
 	"\x12MEMBER_ROLE_VIEWER\x10\x04\x12\x15\n" +
 	"\x11MEMBER_ROLE_GUEST\x10\x05B\x95\x01\n" +
-	"\rcom.common.v1B\x0fMemberRoleProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x0fMemberRoleProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_member_role_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

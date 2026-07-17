@@ -238,7 +238,7 @@ const file_configpb_v1_approval_stage_proto_rawDesc = "" +
 	"conditions\x12#\n" +
 	"\rtimeout_hours\x18\x05 \x01(\x05R\ftimeoutHours\x12\x14\n" +
 	"\x05order\x18\x06 \x01(\x05R\x05orderB\x98\x01\n" +
-	"\rcom.config.v1B\x12ApprovalStageProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x12ApprovalStageProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_approval_stage_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

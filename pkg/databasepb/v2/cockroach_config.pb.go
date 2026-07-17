@@ -383,7 +383,7 @@ const file_databasepb_v2_cockroach_config_proto_rawDesc = "" +
 	"\x14retry_backoff_factor\x18\b \x01(\x02R\x12retryBackoffFactor\x12\x1f\n" +
 	"\vmax_retries\x18\t \x01(\x05R\n" +
 	"maxRetriesB\xa9\x01\n" +
-	"\x0fcom.database.v2B\x14CockroachConfigProtoP\x01Z+github.com/jdfalk/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v2B\x14CockroachConfigProtoP\x01Z+github.com/falkcorp/gcommon/pkg/databasepb/v2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_cockroach_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_cockroach_config_proto_goTypes = []any{

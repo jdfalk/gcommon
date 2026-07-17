@@ -126,7 +126,7 @@ const file_commonpb_v1_get_preferences_response_proto_rawDesc = "" +
 	"\x16GetPreferencesResponse\x12D\n" +
 	"\vpreferences\x18\x01 \x01(\v2\".common.v1.SubscriptionPreferencesR\vpreferences\x127\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1b.common.v1.ResponseMetadataR\bmetadataB\xa1\x01\n" +
-	"\rcom.common.v1B\x1bGetPreferencesResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1bGetPreferencesResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_get_preferences_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

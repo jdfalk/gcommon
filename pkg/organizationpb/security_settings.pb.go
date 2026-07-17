@@ -391,7 +391,7 @@ const file_organizationpb_v1_security_settings_proto_rawDesc = "" +
 	"\x0eapi_rate_limit\x18\n" +
 	" \x01(\v2,.organization.v1.OrganizationRateLimitConfigR\fapiRateLimit\x12@\n" +
 	"\x18audit_log_retention_days\x18\v \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x15auditLogRetentionDaysB\xbf\x01\n" +
-	"\x13com.organization.v1B\x15SecuritySettingsProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x15SecuritySettingsProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_security_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_security_settings_proto_goTypes = []any{

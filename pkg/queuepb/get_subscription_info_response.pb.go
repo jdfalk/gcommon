@@ -500,7 +500,7 @@ const file_queuepb_v1_get_subscription_info_response_proto_rawDesc = "" +
 	"\x10active_consumers\x18\v \x01(\rR\x0factiveConsumers\x12%\n" +
 	"\x0etotal_consumed\x18\f \x01(\x04R\rtotalConsumed\x12)\n" +
 	"\x10consumption_rate\x18\r \x01(\x01R\x0fconsumptionRateB\xa0\x01\n" +
-	"\fcom.queue.v1B GetSubscriptionInfoResponseProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B GetSubscriptionInfoResponseProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_get_subscription_info_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_get_subscription_info_response_proto_goTypes = []any{

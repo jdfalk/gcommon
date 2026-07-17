@@ -90,7 +90,7 @@ const file_commonpb_v1_comparison_operator_proto_rawDesc = "" +
 	")COMPARISON_OPERATOR_GREATER_THAN_OR_EQUAL\x10\x04\x12!\n" +
 	"\x1dCOMPARISON_OPERATOR_LESS_THAN\x10\x05\x12*\n" +
 	"&COMPARISON_OPERATOR_LESS_THAN_OR_EQUAL\x10\x06B\x9d\x01\n" +
-	"\rcom.common.v1B\x17ComparisonOperatorProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17ComparisonOperatorProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_comparison_operator_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

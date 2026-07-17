@@ -100,7 +100,7 @@ const file_commonpb_v2_queue_metric_type_proto_rawDesc = "" +
 	"\x1cQUEUE_METRIC_TYPE_ERROR_RATE\x10\x04\x12$\n" +
 	" QUEUE_METRIC_TYPE_CONSUMER_COUNT\x10\x05\x12!\n" +
 	"\x1dQUEUE_METRIC_TYPE_QUEUE_DEPTH\x10\x06B\x9d\x01\n" +
-	"\rcom.common.v2B\x14QueueMetricTypeProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x14QueueMetricTypeProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_queue_metric_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

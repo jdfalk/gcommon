@@ -78,7 +78,7 @@ const file_commonpb_v1_conflict_resolution_proto_rawDesc = "" +
 	" COMMON_CONFLICT_RESOLUTION_MERGE\x10\x01\x12(\n" +
 	"$COMMON_CONFLICT_RESOLUTION_OVERWRITE\x10\x02\x12#\n" +
 	"\x1fCOMMON_CONFLICT_RESOLUTION_FAIL\x10\x03B\x9d\x01\n" +
-	"\rcom.common.v1B\x17ConflictResolutionProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17ConflictResolutionProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_conflict_resolution_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

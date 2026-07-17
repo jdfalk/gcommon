@@ -109,7 +109,7 @@ const file_webpb_v2_get_handler_info_response_proto_rawDesc = "" +
 	"\x16GetHandlerInfoResponse\x12)\n" +
 	"\vplaceholder\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vplaceholderB\x92\x01\n" +
 	"\n" +
-	"com.web.v2B\x1bGetHandlerInfoResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x1bGetHandlerInfoResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/webpb/v2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_get_handler_info_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_get_handler_info_response_proto_goTypes = []any{

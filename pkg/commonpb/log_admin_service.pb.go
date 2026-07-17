@@ -28,7 +28,7 @@ const file_commonpb_v1_log_admin_service_proto_rawDesc = "" +
 	"#commonpb/v1/log_admin_service.proto\x12\tcommon.v1\x1a*commonpb/v1/configure_logger_request.proto\x1a+commonpb/v1/configure_logger_response.proto\x1a!google/protobuf/go_features.proto2k\n" +
 	"\x0fLogAdminService\x12X\n" +
 	"\x0fConfigureLogger\x12!.common.v1.ConfigureLoggerRequest\x1a\".common.v1.ConfigureLoggerResponseB\x9a\x01\n" +
-	"\rcom.common.v1B\x14LogAdminServiceProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x14LogAdminServiceProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_log_admin_service_proto_goTypes = []any{

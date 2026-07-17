@@ -116,7 +116,7 @@ const file_queuepb_v2_historical_stats_proto_rawDesc = "" +
 	"\vdata_points\x18\x01 \x03(\v2\x1d.queue.v2.HistoricalDataPointB\b\xbaH\x05\x92\x01\x02\b\x01R\n" +
 	"dataPoints\x12H\n" +
 	"\x12aggregation_period\x18\x02 \x01(\v2\x19.google.protobuf.DurationR\x11aggregationPeriodB\x97\x01\n" +
-	"\fcom.queue.v2B\x14HistoricalStatsProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x14HistoricalStatsProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_historical_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_historical_stats_proto_goTypes = []any{

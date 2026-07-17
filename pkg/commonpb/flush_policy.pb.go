@@ -94,7 +94,7 @@ const file_commonpb_v1_flush_policy_proto_rawDesc = "" +
 	"\x12FLUSH_POLICY_TIMED\x10\x03\x12\x1c\n" +
 	"\x18FLUSH_POLICY_BUFFER_FULL\x10\x04\x12\x17\n" +
 	"\x13FLUSH_POLICY_MANUAL\x10\x05B\x96\x01\n" +
-	"\rcom.common.v1B\x10FlushPolicyProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x10FlushPolicyProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_flush_policy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -93,7 +93,7 @@ const file_commonpb_v1_get_user_roles_response_proto_rawDesc = "" +
 	")commonpb/v1/get_user_roles_response.proto\x12\tcommon.v1\x1a\x16commonpb/v1/role.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"G\n" +
 	"\x14GetUserRolesResponse\x12/\n" +
 	"\x05roles\x18\x01 \x03(\v2\x0f.common.v1.RoleB\b\xbaH\x05\x92\x01\x02\b\x01R\x05rolesB\x9f\x01\n" +
-	"\rcom.common.v1B\x19GetUserRolesResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x19GetUserRolesResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_get_user_roles_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

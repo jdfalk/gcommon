@@ -80,7 +80,7 @@ const file_commonpb_v1_database_status_code_proto_rawDesc = "" +
 	" DATABASE_STATUS_CODE_UNSPECIFIED\x10\x00\x12\x1b\n" +
 	"\x17DATABASE_STATUS_CODE_OK\x10\x01\x12\x1e\n" +
 	"\x1aDATABASE_STATUS_CODE_ERROR\x10\x02B\x9d\x01\n" +
-	"\rcom.common.v1B\x17DatabaseStatusCodeProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17DatabaseStatusCodeProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_database_status_code_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

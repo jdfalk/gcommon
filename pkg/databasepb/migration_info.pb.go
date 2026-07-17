@@ -174,7 +174,7 @@ const file_databasepb_v1_migration_info_proto_rawDesc = "" +
 	"\vdescription\x18\x02 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x129\n" +
 	"\n" +
 	"applied_at\x18\x03 \x01(\v2\x1a.google.protobuf.TimestampR\tappliedAtB\xa4\x01\n" +
-	"\x0fcom.database.v1B\x12MigrationInfoProtoP\x01Z(github.com/jdfalk/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fcom.database.v1B\x12MigrationInfoProtoP\x01Z(github.com/falkcorp/gcommon/pkg/databasepb\xa2\x02\x03DXX\xaa\x02\vDatabase.V1\xca\x02\vDatabase\\V1\xe2\x02\x17Database\\V1\\GPBMetadata\xea\x02\fDatabase::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v1_migration_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v1_migration_info_proto_goTypes = []any{

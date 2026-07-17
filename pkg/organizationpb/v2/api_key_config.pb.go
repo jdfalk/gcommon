@@ -207,7 +207,7 @@ const file_organizationpb_v2_api_key_config_proto_rawDesc = "" +
 	"\x06scopes\x18\x03 \x03(\tR\x06scopes\x12=\n" +
 	"\n" +
 	"expires_at\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\texpiresAtB\xbe\x01\n" +
-	"\x13com.organization.v2B\x11ApiKeyConfigProtoP\x01Z/github.com/jdfalk/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v2B\x11ApiKeyConfigProtoP\x01Z/github.com/falkcorp/gcommon/pkg/organizationpb/v2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_api_key_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_api_key_config_proto_goTypes = []any{

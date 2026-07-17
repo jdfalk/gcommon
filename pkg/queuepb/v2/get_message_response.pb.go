@@ -234,7 +234,7 @@ const file_queuepb_v2_get_message_response_proto_rawDesc = "" +
 	"\x0emessage_offset\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\rmessageOffset\x12(\n" +
 	"\vqueue_depth\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
 	"queueDepthB\x9a\x01\n" +
-	"\fcom.queue.v2B\x17GetMessageResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x17GetMessageResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_get_message_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_get_message_response_proto_goTypes = []any{

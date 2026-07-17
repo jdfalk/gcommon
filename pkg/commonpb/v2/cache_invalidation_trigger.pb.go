@@ -86,7 +86,7 @@ const file_commonpb_v2_cache_invalidation_trigger_proto_rawDesc = "" +
 	"!CACHE_INVALIDATION_TRIGGER_EXPIRE\x10\x03\x12%\n" +
 	"!CACHE_INVALIDATION_TRIGGER_MANUAL\x10\x04\x12'\n" +
 	"#CACHE_INVALIDATION_TRIGGER_SCHEDULE\x10\x05B\xa6\x01\n" +
-	"\rcom.common.v2B\x1dCacheInvalidationTriggerProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x1dCacheInvalidationTriggerProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_cache_invalidation_trigger_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

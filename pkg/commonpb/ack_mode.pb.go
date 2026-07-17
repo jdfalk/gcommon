@@ -86,7 +86,7 @@ const file_commonpb_v1_ack_mode_proto_rawDesc = "" +
 	"\x0fACK_MODE_MANUAL\x10\x01\x12\x11\n" +
 	"\rACK_MODE_AUTO\x10\x02\x12\x13\n" +
 	"\x0fACK_MODE_CLIENT\x10\x03B\x92\x01\n" +
-	"\rcom.common.v1B\fAckModeProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\fAckModeProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_ack_mode_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

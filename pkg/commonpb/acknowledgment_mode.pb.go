@@ -89,7 +89,7 @@ const file_commonpb_v1_acknowledgment_mode_proto_rawDesc = "" +
 	"\x18ACKNOWLEDGMENT_MODE_AUTO\x10\x01\x12\x1e\n" +
 	"\x1aACKNOWLEDGMENT_MODE_MANUAL\x10\x02\x12\x1c\n" +
 	"\x18ACKNOWLEDGMENT_MODE_NONE\x10\x03B\x9d\x01\n" +
-	"\rcom.common.v1B\x17AcknowledgmentModeProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17AcknowledgmentModeProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_acknowledgment_mode_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

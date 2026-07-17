@@ -126,7 +126,7 @@ const file_commonpb_v2_scrape_status_proto_rawDesc = "" +
 	"\x1aSCRAPE_STATUS_CONFIG_ERROR\x10\n" +
 	"\x12\x1d\n" +
 	"\x19SCRAPE_STATUS_IN_PROGRESS\x10\vB\x9a\x01\n" +
-	"\rcom.common.v2B\x11ScrapeStatusProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x11ScrapeStatusProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_scrape_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

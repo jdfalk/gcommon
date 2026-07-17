@@ -206,7 +206,7 @@ const file_organizationpb_v1_domain_config_proto_rawDesc = "" +
 	"\x0fssl_certificate\x18\x02 \x01(\tR\x0esslCertificate\x12,\n" +
 	"\x03dns\x18\x03 \x01(\v2\x1a.organization.v1.DNSConfigR\x03dns\x12+\n" +
 	"\x11validation_status\x18\x04 \x01(\tR\x10validationStatusB\xbb\x01\n" +
-	"\x13com.organization.v1B\x11DomainConfigProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x11DomainConfigProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_domain_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_domain_config_proto_goTypes = []any{

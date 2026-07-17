@@ -167,7 +167,7 @@ const file_commonpb_v1_security_policy_proto_rawDesc = "" +
 	"\x13min_password_length\x18\x01 \x01(\rB\a\xbaH\x04*\x02(\x00R\x11minPasswordLength\x12<\n" +
 	"\fpassword_ttl\x18\x02 \x01(\v2\x19.google.protobuf.DurationR\vpasswordTtl\x127\n" +
 	"\x13max_failed_attempts\x18\x03 \x01(\rB\a\xbaH\x04*\x02(\x00R\x11maxFailedAttemptsB\x99\x01\n" +
-	"\rcom.common.v1B\x13SecurityPolicyProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x13SecurityPolicyProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_security_policy_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

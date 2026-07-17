@@ -82,7 +82,7 @@ const file_commonpb_v1_version_health_status_proto_rawDesc = "" +
 	"\x1eVERSION_HEALTH_STATUS_DEGRADED\x10\x02\x12#\n" +
 	"\x1fVERSION_HEALTH_STATUS_UNHEALTHY\x10\x03\x12!\n" +
 	"\x1dVERSION_HEALTH_STATUS_UNKNOWN\x10\x04B\x9e\x01\n" +
-	"\rcom.common.v1B\x18VersionHealthStatusProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x18VersionHealthStatusProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_version_health_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

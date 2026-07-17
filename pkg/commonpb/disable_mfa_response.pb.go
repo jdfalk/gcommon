@@ -156,7 +156,7 @@ const file_commonpb_v1_disable_mfa_response_proto_rawDesc = "" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12I\n" +
 	"\x10disabled_methods\x18\x02 \x03(\x0e2\x14.common.v1.MfaMethodB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fdisabledMethods\x12,\n" +
 	"\rerror_message\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\ferrorMessageB\x9d\x01\n" +
-	"\rcom.common.v1B\x17DisableMfaResponseProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17DisableMfaResponseProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_disable_mfa_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

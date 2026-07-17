@@ -8,7 +8,7 @@ package webpb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -189,7 +189,7 @@ const file_webpb_v1_load_balancer_config_proto_rawDesc = "" +
 	"\x11health_check_path\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0fhealthCheckPath\x123\n" +
 	"\atimeout\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\atimeoutB\x8b\x01\n" +
 	"\n" +
-	"com.web.v1B\x17LoadBalancerConfigProtoP\x01Z#github.com/jdfalk/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v1B\x17LoadBalancerConfigProtoP\x01Z#github.com/falkcorp/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v1_load_balancer_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v1_load_balancer_config_proto_goTypes = []any{

@@ -32,7 +32,7 @@ const file_mediapb_v1_subtitle_service_proto_rawDesc = "" +
 	"\x14AdjustSubtitleTiming\x12%.media.v1.AdjustSubtitleTimingRequest\x1a&.media.v1.AdjustSubtitleTimingResponse\x12h\n" +
 	"\x15ConvertSubtitleFormat\x12&.media.v1.ConvertSubtitleFormatRequest\x1a'.media.v1.ConvertSubtitleFormatResponse\x12\\\n" +
 	"\x11ValidateSubtitles\x12\".media.v1.ValidateSubtitlesRequest\x1a#.media.v1.ValidateSubtitlesResponseB\x94\x01\n" +
-	"\fcom.media.v1B\x14SubtitleServiceProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x14SubtitleServiceProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_subtitle_service_proto_goTypes = []any{
 	(*MergeSubtitlesRequest)(nil),         // 0: media.v1.MergeSubtitlesRequest

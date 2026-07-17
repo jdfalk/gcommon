@@ -201,7 +201,7 @@ const file_configpb_v1_config_stats_proto_rawDesc = "" +
 	"\x0eactive_configs\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\ractiveConfigs\x126\n" +
 	"\x12deprecated_configs\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x11deprecatedConfigs\x12@\n" +
 	"\x14avg_access_frequency\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x12avgAccessFrequencyB\x96\x01\n" +
-	"\rcom.config.v1B\x10ConfigStatsProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x10ConfigStatsProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_config_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

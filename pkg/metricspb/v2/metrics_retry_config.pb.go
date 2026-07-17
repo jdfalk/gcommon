@@ -203,7 +203,7 @@ const file_metricspb_v2_metrics_retry_config_proto_rawDesc = "" +
 	"\x15initial_delay_seconds\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x13initialDelaySeconds\x123\n" +
 	"\x11max_delay_seconds\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0fmaxDelaySeconds\x12=\n" +
 	"\x12backoff_multiplier\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x11backoffMultiplierB\xa6\x01\n" +
-	"\x0ecom.metrics.v2B\x17MetricsRetryConfigProtoP\x01Z*github.com/jdfalk/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v2B\x17MetricsRetryConfigProtoP\x01Z*github.com/falkcorp/gcommon/pkg/metricspb/v2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

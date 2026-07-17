@@ -7,7 +7,7 @@
 package healthpb
 
 import (
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -171,7 +171,7 @@ const file_healthpb_v1_unregister_check_request_proto_rawDesc = "" +
 	"\bcheck_id\x18\x01 \x01(\tR\acheckId\x126\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v1.RequestMetadataR\bmetadata\x12\x14\n" +
 	"\x05force\x18\x03 \x01(\bR\x05forceB\xa1\x01\n" +
-	"\rcom.health.v1B\x1bUnregisterCheckRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v1B\x1bUnregisterCheckRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/healthpb\xa2\x02\x03HXX\xaa\x02\tHealth.V1\xca\x02\tHealth\\V1\xe2\x02\x15Health\\V1\\GPBMetadata\xea\x02\n" +
 	"Health::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v1_unregister_check_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

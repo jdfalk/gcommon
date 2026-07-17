@@ -8,7 +8,7 @@ package mediapb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -418,7 +418,7 @@ const file_mediapb_v1_media_file_proto_rawDesc = "" +
 	"\faudio_tracks\x18\n" +
 	" \x03(\v2\x14.media.v1.AudioTrackR\vaudioTracks\x120\n" +
 	"\aquality\x18\v \x01(\v2\x16.media.v1.MediaQualityR\aqualityB\x8e\x01\n" +
-	"\fcom.media.v1B\x0eMediaFileProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x0eMediaFileProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_media_file_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_media_file_proto_goTypes = []any{

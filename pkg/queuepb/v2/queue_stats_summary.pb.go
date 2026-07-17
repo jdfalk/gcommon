@@ -293,7 +293,7 @@ const file_queuepb_v2_queue_stats_summary_proto_rawDesc = "" +
 	"\fhealth_score\x18\x05 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vhealthScore\x122\n" +
 	"\x10active_consumers\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x0factiveConsumers\x127\n" +
 	"\x13total_storage_bytes\x18\a \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x11totalStorageBytesB\x99\x01\n" +
-	"\fcom.queue.v2B\x16QueueStatsSummaryProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x16QueueStatsSummaryProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_queue_stats_summary_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_queue_stats_summary_proto_goTypes = []any{

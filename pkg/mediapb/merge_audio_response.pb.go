@@ -107,7 +107,7 @@ const file_mediapb_v1_merge_audio_response_proto_rawDesc = "" +
 	"%mediapb/v1/merge_audio_response.proto\x12\bmedia.v1\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"N\n" +
 	"\x12MergeAudioResponse\x128\n" +
 	"\x14merged_audio_file_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x11mergedAudioFileIdB\x97\x01\n" +
-	"\fcom.media.v1B\x17MergeAudioResponseProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x17MergeAudioResponseProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_merge_audio_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_merge_audio_response_proto_goTypes = []any{

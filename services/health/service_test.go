@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	healthpb "github.com/jdfalk/gcommon/pkg/healthpb"
+	healthpb "github.com/falkcorp/gcommon/pkg/healthpb"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

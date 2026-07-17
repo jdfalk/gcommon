@@ -78,7 +78,7 @@ Services can depend on:
 ### 1. Choose a Service
 
 ```go
-import "github.com/jdfalk/gcommon/services/health"
+import "github.com/falkcorp/gcommon/services/health"
 ```
 
 ### 2. Configure Dependencies
@@ -142,7 +142,7 @@ services:
 ### Configuration Loading
 
 ```go
-import "github.com/jdfalk/gcommon/internal/config"
+import "github.com/falkcorp/gcommon/internal/config"
 
 cfg, err := config.Load("config.yaml")
 if err != nil {

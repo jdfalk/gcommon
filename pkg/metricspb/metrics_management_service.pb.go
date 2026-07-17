@@ -33,7 +33,7 @@ const file_metricspb_v1_metrics_management_service_proto_rawDesc = "" +
 	"\x15DeleteMetricsProvider\x12!.metrics.v1.DeleteProviderRequest\x1a\".metrics.v1.DeleteProviderResponse\x12[\n" +
 	"\x14ListMetricsProviders\x12 .metrics.v1.ListProvidersRequest\x1a!.metrics.v1.ListProvidersResponse\x12]\n" +
 	"\x10GetProviderStats\x12#.metrics.v1.GetProviderStatsRequest\x1a$.metrics.v1.GetProviderStatsResponseB\xa9\x01\n" +
-	"\x0ecom.metrics.v1B\x1dMetricsManagementServiceProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x1dMetricsManagementServiceProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

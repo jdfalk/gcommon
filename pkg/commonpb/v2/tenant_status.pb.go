@@ -110,7 +110,7 @@ const file_commonpb_v2_tenant_status_proto_rawDesc = "" +
 	"\x13TENANT_STATUS_TRIAL\x10\x06\x12\x1a\n" +
 	"\x16TENANT_STATUS_ARCHIVED\x10\a\x12\x19\n" +
 	"\x15TENANT_STATUS_DELETED\x10\bB\x9a\x01\n" +
-	"\rcom.common.v2B\x11TenantStatusProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x11TenantStatusProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_tenant_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

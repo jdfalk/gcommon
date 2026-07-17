@@ -163,7 +163,7 @@ const file_commonpb_v1_audit_action_proto_rawDesc = "" +
 	"\x1bAUDIT_ACTION_CONFIG_UPDATED\x10\x13\x12\x1e\n" +
 	"\x1aAUDIT_ACTION_SYSTEM_BACKUP\x10\x14\x12\x1f\n" +
 	"\x1bAUDIT_ACTION_SYSTEM_RESTORE\x10\x15B\x96\x01\n" +
-	"\rcom.common.v1B\x10AuditActionProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x10AuditActionProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_audit_action_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

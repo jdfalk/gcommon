@@ -217,7 +217,7 @@ const file_organizationpb_v1_cache_key_policy_proto_rawDesc = "" +
 	"\x10header_whitelist\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fheaderWhitelist\x12'\n" +
 	"\x0finclude_cookies\x18\x05 \x01(\bR\x0eincludeCookies\x123\n" +
 	"\x10cookie_whitelist\x18\x06 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fcookieWhitelistB\xbd\x01\n" +
-	"\x13com.organization.v1B\x13CacheKeyPolicyProtoP\x01Z,github.com/jdfalk/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13com.organization.v1B\x13CacheKeyPolicyProtoP\x01Z,github.com/falkcorp/gcommon/pkg/organizationpb\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V1\xca\x02\x0fOrganization\\V1\xe2\x02\x1bOrganization\\V1\\GPBMetadata\xea\x02\x10Organization::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v1_cache_key_policy_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v1_cache_key_policy_proto_goTypes = []any{

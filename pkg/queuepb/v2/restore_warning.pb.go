@@ -273,7 +273,7 @@ const file_queuepb_v2_restore_warning_proto_rawDesc = "" +
 	"\x12affected_component\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x11affectedComponent\x12*\n" +
 	"\fpartition_id\x18\x05 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vpartitionId\x12=\n" +
 	"\fwarning_time\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\vwarningTimeB\x96\x01\n" +
-	"\fcom.queue.v2B\x13RestoreWarningProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x13RestoreWarningProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_restore_warning_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_restore_warning_proto_goTypes = []any{

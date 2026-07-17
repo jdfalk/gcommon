@@ -271,7 +271,7 @@ const file_queuepb_v2_update_topic_config_response_proto_rawDesc = "" +
 	"\x0fconfig_revision\x18\x05 \x01(\x04R\x0econfigRevision\x12'\n" +
 	"\x0fmodified_fields\x18\x06 \x03(\tR\x0emodifiedFields\x12\x1a\n" +
 	"\bwarnings\x18\a \x03(\tR\bwarningsB\xa1\x01\n" +
-	"\fcom.queue.v2B\x1eUpdateTopicConfigResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x1eUpdateTopicConfigResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_update_topic_config_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_update_topic_config_response_proto_goTypes = []any{

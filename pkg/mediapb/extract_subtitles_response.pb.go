@@ -192,7 +192,7 @@ const file_mediapb_v1_extract_subtitles_response_proto_rawDesc = "" +
 	"\x06status\x18\x02 \x01(\tR\x06status\x12V\n" +
 	"\x13extracted_subtitles\x18\x03 \x03(\v2\x1b.media.v1.ExtractedSubtitleB\b\xbaH\x05\x92\x01\x02\b\x01R\x12extractedSubtitles\x12#\n" +
 	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\x9d\x01\n" +
-	"\fcom.media.v1B\x1dExtractSubtitlesResponseProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x1dExtractSubtitlesResponseProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_extract_subtitles_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_extract_subtitles_response_proto_goTypes = []any{

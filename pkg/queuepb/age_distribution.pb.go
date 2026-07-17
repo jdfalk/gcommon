@@ -154,7 +154,7 @@ const file_queuepb_v1_age_distribution_proto_rawDesc = "" +
 	"\abuckets\x18\x01 \x03(\v2\x13.queue.v1.AgeBucketB\b\xbaH\x05\x92\x01\x02\b\x01R\abuckets\x12>\n" +
 	"\x13average_age_seconds\x18\x02 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x11averageAgeSeconds\x12K\n" +
 	"\x1aoldest_message_age_seconds\x18\x03 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x17oldestMessageAgeSecondsB\x94\x01\n" +
-	"\fcom.queue.v1B\x14AgeDistributionProtoP\x01Z%github.com/jdfalk/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v1B\x14AgeDistributionProtoP\x01Z%github.com/falkcorp/gcommon/pkg/queuepb\xa2\x02\x03QXX\xaa\x02\bQueue.V1\xca\x02\bQueue\\V1\xe2\x02\x14Queue\\V1\\GPBMetadata\xea\x02\tQueue::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v1_age_distribution_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v1_age_distribution_proto_goTypes = []any{

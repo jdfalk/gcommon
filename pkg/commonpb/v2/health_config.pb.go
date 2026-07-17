@@ -375,7 +375,7 @@ const file_commonpb_v2_health_config_proto_rawDesc = "" +
 	"\x10interval_seconds\x18\a \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0fintervalSeconds\x129\n" +
 	"\x14grace_period_seconds\x18\b \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x12gracePeriodSeconds\x12!\n" +
 	"\aretries\x18\t \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\aretriesB\x9a\x01\n" +
-	"\rcom.common.v2B\x11HealthConfigProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x11HealthConfigProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_health_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

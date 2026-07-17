@@ -8,7 +8,7 @@ package webpb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -343,7 +343,7 @@ const file_webpb_v1_cookie_data_proto_rawDesc = "" +
 	"\x06secure\x18\a \x01(\bR\x06secure\x126\n" +
 	"\tsame_site\x18\b \x01(\x0e2\x19.common.v1.CookieSameSiteR\bsameSiteB\x83\x01\n" +
 	"\n" +
-	"com.web.v1B\x0fCookieDataProtoP\x01Z#github.com/jdfalk/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v1B\x0fCookieDataProtoP\x01Z#github.com/falkcorp/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v1_cookie_data_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v1_cookie_data_proto_goTypes = []any{

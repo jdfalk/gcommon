@@ -14,8 +14,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
-	healthpb "github.com/jdfalk/gcommon/pkg/healthpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
+	healthpb "github.com/falkcorp/gcommon/pkg/healthpb"
 )
 
 // Internal domain types for business logic

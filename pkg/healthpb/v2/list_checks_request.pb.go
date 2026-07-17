@@ -7,7 +7,7 @@
 package v2
 
 import (
-	v2 "github.com/jdfalk/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -287,7 +287,7 @@ const file_healthpb_v2_list_checks_request_proto_rawDesc = "" +
 	"\fenabled_only\x18\x05 \x01(\bR\venabledOnly\x12\x14\n" +
 	"\x05limit\x18\x06 \x01(\x05R\x05limit\x12\x16\n" +
 	"\x06offset\x18\a \x01(\x05R\x06offsetB\x9f\x01\n" +
-	"\rcom.health.v2B\x16ListChecksRequestProtoP\x01Z)github.com/jdfalk/gcommon/pkg/healthpb/v2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.health.v2B\x16ListChecksRequestProtoP\x01Z)github.com/falkcorp/gcommon/pkg/healthpb/v2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_list_checks_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

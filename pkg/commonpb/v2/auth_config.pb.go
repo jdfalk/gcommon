@@ -163,7 +163,7 @@ const file_commonpb_v2_auth_config_proto_rawDesc = "" +
 	"\x11refresh_token_ttl\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\x0frefreshTokenTtl\x12\x1f\n" +
 	"\vrequire_mfa\x18\x03 \x01(\bR\n" +
 	"requireMfaB\x98\x01\n" +
-	"\rcom.common.v2B\x0fAuthConfigProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x0fAuthConfigProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_auth_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

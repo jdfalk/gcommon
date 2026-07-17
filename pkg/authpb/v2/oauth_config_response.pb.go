@@ -386,7 +386,7 @@ const file_authpb_v2_oauth_config_response_proto_rawDesc = "" +
 	"configured\x18\x03 \x01(\bR\n" +
 	"configured\x12%\n" +
 	"\x0edefault_scopes\x18\x04 \x03(\tR\rdefaultScopesB\x92\x01\n" +
-	"\vcom.auth.v2B\x18OauthConfigResponseProtoP\x01Z$github.com/jdfalk/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vcom.auth.v2B\x18OauthConfigResponseProtoP\x01Z$github.com/falkcorp/gcommon/pkg/authpb\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_oauth_config_response_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_authpb_v2_oauth_config_response_proto_goTypes = []any{

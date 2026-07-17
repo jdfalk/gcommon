@@ -160,7 +160,7 @@ const file_commonpb_v1_update_preferences_request_proto_rawDesc = "" +
 	"\x18UpdatePreferencesRequest\x12H\n" +
 	"\vpreferences\x18\x01 \x01(\v2\".common.v1.SubscriptionPreferencesB\x02(\x01R\vpreferences\x12:\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v1.RequestMetadataB\x02(\x01R\bmetadataB\xa3\x01\n" +
-	"\rcom.common.v1B\x1dUpdatePreferencesRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x1dUpdatePreferencesRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_update_preferences_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -139,7 +139,7 @@ const file_mediapb_v1_delete_media_file_request_proto_rawDesc = "" +
 	"\x16DeleteMediaFileRequest\x12g\n" +
 	"\x02id\x18\x01 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x02id\x12.\n" +
 	"\x13delete_from_storage\x18\x02 \x01(\bR\x11deleteFromStorageB\x9b\x01\n" +
-	"\fcom.media.v1B\x1bDeleteMediaFileRequestProtoP\x01Z%github.com/jdfalk/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v1B\x1bDeleteMediaFileRequestProtoP\x01Z%github.com/falkcorp/gcommon/pkg/mediapb\xa2\x02\x03MXX\xaa\x02\bMedia.V1\xca\x02\bMedia\\V1\xe2\x02\x14Media\\V1\\GPBMetadata\xea\x02\tMedia::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v1_delete_media_file_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v1_delete_media_file_request_proto_goTypes = []any{

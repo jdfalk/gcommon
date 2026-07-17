@@ -224,7 +224,7 @@ const file_configpb_v2_approval_workflow_proto_rawDesc = "" +
 	"conditions\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\n" +
 	"conditions\x12.\n" +
 	"\rnotifications\x18\x06 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\rnotificationsB\x9e\x01\n" +
-	"\rcom.config.v2B\x15ApprovalWorkflowProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x15ApprovalWorkflowProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_approval_workflow_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

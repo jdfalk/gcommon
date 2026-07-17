@@ -145,7 +145,7 @@ const file_commonpb_v1_verify_email_request_proto_rawDesc = "" +
 	"identifier\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\n" +
 	"identifier\x126\n" +
 	"\x12verification_token\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x11verificationTokenB\x9d\x01\n" +
-	"\rcom.common.v1B\x17VerifyEmailRequestProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x17VerifyEmailRequestProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_verify_email_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

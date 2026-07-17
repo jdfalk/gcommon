@@ -7,7 +7,7 @@
 package webpb
 
 import (
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -199,7 +199,7 @@ const file_webpb_v1_update_ssl_certificate_response_proto_rawDesc = "" +
 	"\x05error\x18= \x01(\v2\x10.common.v1.ErrorR\x05error\x12N\n" +
 	"\x15response_generated_at\x183 \x01(\v2\x1a.google.protobuf.TimestampR\x13responseGeneratedAtB\x95\x01\n" +
 	"\n" +
-	"com.web.v1B!UpdateSslCertificateResponseProtoP\x01Z#github.com/jdfalk/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v1B!UpdateSslCertificateResponseProtoP\x01Z#github.com/falkcorp/gcommon/pkg/webpb\xa2\x02\x03WXX\xaa\x02\x06Web.V1\xca\x02\x06Web\\V1\xe2\x02\x12Web\\V1\\GPBMetadata\xea\x02\aWeb::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v1_update_ssl_certificate_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v1_update_ssl_certificate_response_proto_goTypes = []any{

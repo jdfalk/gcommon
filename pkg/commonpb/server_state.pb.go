@@ -82,7 +82,7 @@ const file_commonpb_v1_server_state_proto_rawDesc = "" +
 	"\x14SERVER_STATE_RUNNING\x10\x02\x12\x19\n" +
 	"\x15SERVER_STATE_STOPPING\x10\x03\x12\x18\n" +
 	"\x14SERVER_STATE_STOPPED\x10\x04B\x96\x01\n" +
-	"\rcom.common.v1B\x10ServerStateProtoP\x01Z&github.com/jdfalk/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v1B\x10ServerStateProtoP\x01Z&github.com/falkcorp/gcommon/pkg/commonpb\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v1_server_state_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

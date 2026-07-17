@@ -300,7 +300,7 @@ const file_commonpb_v2_user_preferences_proto_rawDesc = "" +
 	"\x12two_factor_enabled\x18\x05 \x01(\bR\x10twoFactorEnabled\x12?\n" +
 	"\x17session_timeout_minutes\x18\x06 \x01(\x05B\a\xbaH\x04\x1a\x02 \x00R\x15sessionTimeoutMinutes\x12\x1d\n" +
 	"\x05theme\x18\a \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05themeB\x9d\x01\n" +
-	"\rcom.common.v2B\x14UserPreferencesProtoP\x01Z)github.com/jdfalk/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.common.v2B\x14UserPreferencesProtoP\x01Z)github.com/falkcorp/gcommon/pkg/commonpb/v2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_user_preferences_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

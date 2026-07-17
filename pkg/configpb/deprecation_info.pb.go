@@ -8,7 +8,7 @@ package configpb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -302,7 +302,7 @@ const file_configpb_v1_deprecation_info_proto_rawDesc = "" +
 	"\fremoval_date\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\vremovalDate\x120\n" +
 	"\x0fmigration_guide\x18\x06 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0emigrationGuide\x121\n" +
 	"\x05level\x18\a \x01(\x0e2\x1b.common.v1.DeprecationLevelR\x05levelB\x9a\x01\n" +
-	"\rcom.config.v1B\x14DeprecationInfoProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x14DeprecationInfoProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_deprecation_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

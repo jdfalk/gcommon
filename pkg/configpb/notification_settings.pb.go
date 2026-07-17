@@ -8,7 +8,7 @@ package configpb
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	commonpb "github.com/jdfalk/gcommon/pkg/commonpb"
+	commonpb "github.com/falkcorp/gcommon/pkg/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -252,7 +252,7 @@ const file_configpb_v1_notification_settings_proto_rawDesc = "" +
 	"recipients\x12,\n" +
 	"\rdelay_minutes\x18\x06 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\fdelayMinutes\x127\n" +
 	"\bbatching\x18\a \x01(\v2\x1b.config.v1.BatchingSettingsR\bbatchingB\x9f\x01\n" +
-	"\rcom.config.v1B\x19NotificationSettingsProtoP\x01Z&github.com/jdfalk/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v1B\x19NotificationSettingsProtoP\x01Z&github.com/falkcorp/gcommon/pkg/configpb\xa2\x02\x03CXX\xaa\x02\tConfig.V1\xca\x02\tConfig\\V1\xe2\x02\x15Config\\V1\\GPBMetadata\xea\x02\n" +
 	"Config::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v1_notification_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

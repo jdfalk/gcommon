@@ -401,7 +401,7 @@ const file_configpb_v2_value_usage_statistics_proto_rawDesc = "" +
 	"\x10peak_usage_count\x18\n" +
 	" \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x0epeakUsageCount\x12<\n" +
 	"\x06trends\x18\v \x03(\v2\x1a.config.v2.ValueUsageTrendB\b\xbaH\x05\x92\x01\x02\b\x01R\x06trendsB\xa2\x01\n" +
-	"\rcom.config.v2B\x19ValueUsageStatisticsProtoP\x01Z)github.com/jdfalk/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\rcom.config.v2B\x19ValueUsageStatisticsProtoP\x01Z)github.com/falkcorp/gcommon/pkg/configpb/v2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_value_usage_statistics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

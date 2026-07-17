@@ -175,7 +175,7 @@ const file_queuepb_v2_header_routing_config_proto_rawDesc = "" +
 	"\vexact_match\x18\x02 \x01(\bR\n" +
 	"exactMatch\x12%\n" +
 	"\x0ecase_sensitive\x18\x03 \x01(\bR\rcaseSensitiveB\x9b\x01\n" +
-	"\fcom.queue.v2B\x18HeaderRoutingConfigProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x18HeaderRoutingConfigProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_header_routing_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_header_routing_config_proto_goTypes = []any{

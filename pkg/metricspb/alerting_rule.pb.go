@@ -278,7 +278,7 @@ const file_metricspb_v1_alerting_rule_proto_rawDesc = "" +
 	"\tcondition\x18\x04 \x01(\tR\tcondition\x12\x1c\n" +
 	"\tthreshold\x18\x05 \x01(\x01R\tthreshold\x12\x18\n" +
 	"\aenabled\x18\x06 \x01(\bR\aenabledB\x9d\x01\n" +
-	"\x0ecom.metrics.v1B\x11AlertingRuleProtoP\x01Z'github.com/jdfalk/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0ecom.metrics.v1B\x11AlertingRuleProtoP\x01Z'github.com/falkcorp/gcommon/pkg/metricspb\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V1\xca\x02\n" +
 	"Metrics\\V1\xe2\x02\x16Metrics\\V1\\GPBMetadata\xea\x02\vMetrics::V1\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

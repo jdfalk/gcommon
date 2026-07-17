@@ -169,7 +169,7 @@ const file_queuepb_v2_get_queue_info_response_proto_rawDesc = "" +
 	"queue_info\x18\x01 \x01(\v2\x13.queue.v2.QueueInfoR\tqueueInfo\x12\x18\n" +
 	"\asuccess\x18\x02 \x01(\bR\asuccess\x12\x1d\n" +
 	"\x05error\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05errorB\x9c\x01\n" +
-	"\fcom.queue.v2B\x19GetQueueInfoResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.queue.v2B\x19GetQueueInfoResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/queuepb/v2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_get_queue_info_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_get_queue_info_response_proto_goTypes = []any{

@@ -98,7 +98,7 @@ const file_mediapb_v2_update_media_file_response_proto_rawDesc = "" +
 	"\x17UpdateMediaFileResponse\x122\n" +
 	"\n" +
 	"media_file\x18\x01 \x01(\v2\x13.media.v2.MediaFileR\tmediaFileB\x9f\x01\n" +
-	"\fcom.media.v2B\x1cUpdateMediaFileResponseProtoP\x01Z(github.com/jdfalk/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fcom.media.v2B\x1cUpdateMediaFileResponseProtoP\x01Z(github.com/falkcorp/gcommon/pkg/mediapb/v2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_update_media_file_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_update_media_file_response_proto_goTypes = []any{
