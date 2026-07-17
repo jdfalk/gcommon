@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jdfalk/gcommon/services/auth/types"
+	"github.com/falkcorp/gcommon/services/auth/types"
 )
 
 // This file demonstrates all the v2 methods are implemented
