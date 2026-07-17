@@ -1,5 +1,5 @@
-// file: services/auth/demo_v2.go
-// version: 1.0.0
+// file: services/auth/examples/demo_v2/main.go
+// version: 1.0.1
 // guid: demo-v2-12345678-90ab-cdef-1234-567890abcdef
 
 package main
@@ -12,7 +12,7 @@ import (
 )
 
 // This file demonstrates all the v2 methods are implemented
-// Run with: go run demo_v2.go
+// Run with: go run ./examples/demo_v2
 
 func main() {
 	fmt.Println("🚀 AuthService v2 Implementation Demonstration")
