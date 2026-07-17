@@ -10,8 +10,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/jdfalk/gcommon/pkg/authpb"
-	"github.com/jdfalk/gcommon/services/auth/types"
+	"github.com/falkcorp/gcommon/pkg/authpb"
+	"github.com/falkcorp/gcommon/services/auth/types"
 )
 
 // ExampleAuthService demonstrates all authentication capabilities
