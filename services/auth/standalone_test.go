@@ -1,6 +1,7 @@
 // file: services/auth/standalone_test.go
-// version: 1.0.0
+// version: 1.0.1
 // guid: auth-service-standalone-test-v2
+// last-edited: 2026-07-19
 
 package auth
 

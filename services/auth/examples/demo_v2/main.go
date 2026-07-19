@@ -1,6 +1,7 @@
 // file: services/auth/examples/demo_v2/main.go
-// version: 1.0.1
+// version: 1.0.2
 // guid: demo-v2-12345678-90ab-cdef-1234-567890abcdef
+// last-edited: 2026-07-19
 
 package main
 
