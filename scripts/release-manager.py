@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # file: scripts/release-manager.py
-# version: 2.0.0
+# version: 2.0.1
 # guid: b9f7c8d3-2a4e-4c5b-8f1a-9e6d7b2c1a3f
 # last-edited: 2026-07-19
 
@@ -21,19 +21,17 @@ Usage:
 """
 
 import argparse
-import json
 import logging
 import re
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import List, Optional
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -46,7 +44,9 @@ class ReleaseManager:
         self.current_version = None
         self.next_version = None
 
-    def run_command(self, cmd: List[str], check: bool = True, capture_output: bool = True) -> subprocess.CompletedProcess:
+    def run_command(
+        self, cmd: List[str], check: bool = True, capture_output: bool = True
+    ) -> subprocess.CompletedProcess:
         """Run a command and return the result."""
         logger.debug(f"Running command: {' '.join(cmd)}")
         try:
@@ -55,7 +55,7 @@ class ReleaseManager:
                 cwd=self.repo_path,
                 check=check,
                 capture_output=capture_output,
-                text=True
+                text=True,
             )
             return result
         except subprocess.CalledProcessError as e:
@@ -87,8 +87,8 @@ class ReleaseManager:
 
         # Check if we're ahead of origin
         result = self.run_command(["git", "status", "--porcelain=v1", "--branch"])
-        status_lines = result.stdout.strip().split('\n')
-        if any('[ahead' in line for line in status_lines):
+        status_lines = result.stdout.strip().split("\n")
+        if any("[ahead" in line for line in status_lines):
             logger.warning("⚠️  Local branch is ahead of origin")
             logger.info("💡 Consider pushing changes: git push origin main")
 
@@ -102,10 +102,10 @@ class ReleaseManager:
         try:
             # Get all tags sorted by version
             result = self.run_command(["git", "tag", "-l", "--sort=-version:refname"])
-            tags = [tag.strip() for tag in result.stdout.split('\n') if tag.strip()]
+            tags = [tag.strip() for tag in result.stdout.split("\n") if tag.strip()]
 
             # Filter to semantic version tags
-            version_pattern = re.compile(r'^v?\d+\.\d+\.\d+$')
+            version_pattern = re.compile(r"^v?\d+\.\d+\.\d+$")
             version_tags = [tag for tag in tags if version_pattern.match(tag)]
 
             if not version_tags:
@@ -127,7 +127,7 @@ class ReleaseManager:
             self.current_version = self.get_current_version()
 
         # Parse current version
-        version_match = re.match(r'^v?(\d+)\.(\d+)\.(\d+)$', self.current_version)
+        version_match = re.match(r"^v?(\d+)\.(\d+)\.(\d+)$", self.current_version)
         if not version_match:
             logger.error(f"Invalid version format: {self.current_version}")
             sys.exit(1)
@@ -167,7 +167,7 @@ class ReleaseManager:
             cwd=self.repo_path,
             check=False,
             capture_output=True,
-            text=True
+            text=True,
         )
 
         if result.returncode == 0:
@@ -186,16 +186,23 @@ class ReleaseManager:
         try:
             # Get commits since last tag
             if self.current_version and self.current_version != "v0.0.0":
-                result = self.run_command([
-                    "git", "log", f"{self.current_version}..HEAD",
-                    "--oneline", "--no-merges"
-                ])
+                result = self.run_command(
+                    [
+                        "git",
+                        "log",
+                        f"{self.current_version}..HEAD",
+                        "--oneline",
+                        "--no-merges",
+                    ]
+                )
             else:
-                result = self.run_command([
-                    "git", "log", "--oneline", "--no-merges", "-10"
-                ])
+                result = self.run_command(
+                    ["git", "log", "--oneline", "--no-merges", "-10"]
+                )
 
-            commits = [line.strip() for line in result.stdout.split('\n') if line.strip()]
+            commits = [
+                line.strip() for line in result.stdout.split("\n") if line.strip()
+            ]
 
             if not commits:
                 return "## Changes\n\n- Minor updates and improvements"
@@ -206,9 +213,9 @@ class ReleaseManager:
             chores = []
 
             for commit in commits:
-                if commit.startswith(('feat:', 'feature:')):
+                if commit.startswith(("feat:", "feature:")):
                     features.append(commit)
-                elif commit.startswith(('fix:', 'bugfix:')):
+                elif commit.startswith(("fix:", "bugfix:")):
                     fixes.append(commit)
                 else:
                     chores.append(commit)
@@ -240,7 +247,9 @@ class ReleaseManager:
 
     def _create_and_push_one_tag(self, tag_name: str, message: str) -> bool:
         """Create one annotated tag and push it to origin."""
-        result = self.run_command(["git", "tag", "-a", tag_name, "-m", message], check=False)
+        result = self.run_command(
+            ["git", "tag", "-a", tag_name, "-m", message], check=False
+        )
         if result.returncode != 0:
             logger.error(f"Failed to create tag: {tag_name}")
             return False
@@ -271,7 +280,9 @@ class ReleaseManager:
             return False
 
         logger.info(f"🏷️  Creating tag: {self.next_version}")
-        if not self._create_and_push_one_tag(self.next_version, f"Release {self.next_version}"):
+        if not self._create_and_push_one_tag(
+            self.next_version, f"Release {self.next_version}"
+        ):
             return False
 
         logger.info(f"✅ Successfully created and pushed tag: {self.next_version}")
@@ -289,7 +300,9 @@ class ReleaseManager:
         try:
             self.run_command(["gh", "--version"])
         except subprocess.CalledProcessError:
-            logger.error("GitHub CLI (gh) not found. Please install: https://cli.github.com/")
+            logger.error(
+                "GitHub CLI (gh) not found. Please install: https://cli.github.com/"
+            )
             return False
 
         # Create release
@@ -297,12 +310,20 @@ class ReleaseManager:
 
         try:
             # Create release with changelog
-            result = self.run_command([
-                "gh", "release", "create", self.next_version,
-                "--title", release_title,
-                "--notes", changelog,
-                "--latest"
-            ], check=False)
+            result = self.run_command(
+                [
+                    "gh",
+                    "release",
+                    "create",
+                    self.next_version,
+                    "--title",
+                    release_title,
+                    "--notes",
+                    changelog,
+                    "--latest",
+                ],
+                check=False,
+            )
 
             if result.returncode != 0:
                 logger.error(f"Failed to create GitHub release: {result.stderr}")
@@ -343,7 +364,9 @@ class ReleaseManager:
 
         # Step 6: Create GitHub release
         if not self.create_github_release(changelog):
-            logger.warning("GitHub release creation failed, but tags were created successfully")
+            logger.warning(
+                "GitHub release creation failed, but tags were created successfully"
+            )
 
         logger.info("🎉 Release workflow completed successfully!")
         logger.info(f"📦 Released version: {self.next_version}")
@@ -361,18 +384,14 @@ def main():
         nargs="?",
         choices=["patch", "minor", "major"],
         default="patch",
-        help="Type of version bump (default: patch)"
+        help="Type of version bump (default: patch)",
     )
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Show what would be done without making changes"
+        help="Show what would be done without making changes",
     )
-    parser.add_argument(
-        "--verbose",
-        action="store_true",
-        help="Enable verbose logging"
-    )
+    parser.add_argument("--verbose", action="store_true", help="Enable verbose logging")
 
     args = parser.parse_args()
 

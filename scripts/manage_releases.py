@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # file: scripts/manage_releases.py
-# version: 1.0.0
+# version: 1.1.0
 # guid: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+# last-edited: 2026-07-19
 
 """
 GitHub Release Management Script
@@ -18,13 +19,13 @@ Usage:
     python scripts/manage_releases.py --list
 """
 
-import os
 import sys
 import json
 import subprocess
 import argparse
-from typing import List, Dict, Optional
+from typing import List, Dict
 from datetime import datetime
+
 
 class GitHubReleaseManager:
     def __init__(self, repo_owner: str = "falkcorp", repo_name: str = "gcommon"):
@@ -37,12 +38,7 @@ class GitHubReleaseManager:
         cmd = ["gh"] + args
         print(f"Running: {' '.join(cmd)}")
         try:
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=True,
-                check=False
-            )
+            result = subprocess.run(cmd, capture_output=True, text=True, check=False)
             if result.returncode != 0:
                 print(f"Error: {result.stderr}")
                 return result
@@ -54,12 +50,18 @@ class GitHubReleaseManager:
     def get_all_releases(self) -> List[Dict]:
         """Get all releases from the repository"""
         print("Fetching all releases...")
-        result = self.run_gh_command([
-            "release", "list",
-            "--repo", self.repo_full,
-            "--json", "tagName,name,id,createdAt",
-            "--limit", "100"
-        ])
+        result = self.run_gh_command(
+            [
+                "release",
+                "list",
+                "--repo",
+                self.repo_full,
+                "--json",
+                "tagName,name,id,createdAt",
+                "--limit",
+                "100",
+            ]
+        )
 
         if result.returncode != 0:
             print("Failed to fetch releases")
@@ -88,11 +90,16 @@ class GitHubReleaseManager:
             tag_name = release.get("tagName", "unknown")
             print(f"Deleting release: {tag_name}")
 
-            result = self.run_gh_command([
-                "release", "delete", tag_name,
-                "--repo", self.repo_full,
-                "--yes"  # Skip confirmation
-            ])
+            result = self.run_gh_command(
+                [
+                    "release",
+                    "delete",
+                    tag_name,
+                    "--repo",
+                    self.repo_full,
+                    "--yes",  # Skip confirmation
+                ]
+            )
 
             if result.returncode == 0:
                 success_count += 1
@@ -110,19 +117,20 @@ class GitHubReleaseManager:
             ["git", "tag", "-l"],
             capture_output=True,
             text=True,
-            cwd="/Users/jdfalk/repos/github.com/falkcorp/gcommon"
+            cwd="/Users/jdfalk/repos/github.com/falkcorp/gcommon",
         )
 
         if result.returncode != 0:
             print("Failed to fetch tags")
             return []
 
-        tags = [tag.strip() for tag in result.stdout.split('\n') if tag.strip()]
+        tags = [tag.strip() for tag in result.stdout.split("\n") if tag.strip()]
+
         # Sort tags to prioritize patch versions, then minor, then major
         def sort_key(tag):
-            if tag.count('.') == 2:  # patch version (e.g., v1.9.5)
+            if tag.count(".") == 2:  # patch version (e.g., v1.9.5)
                 return (0, tag)
-            elif tag.count('.') == 1:  # minor version (e.g., v1.9)
+            elif tag.count(".") == 1:  # minor version (e.g., v1.9)
                 return (1, tag)
             else:  # major version (e.g., v1)
                 return (2, tag)
@@ -135,8 +143,8 @@ class GitHubReleaseManager:
         """Generate release notes for a tag"""
         current_date = datetime.now().strftime("%Y-%m-%d")
 
-        if tag.count('.') == 2:  # Patch version
-            if 'v1.' in tag:
+        if tag.count(".") == 2:  # Patch version
+            if "v1." in tag:
                 return f"""# gcommon {tag}
 
 Protocol buffer definitions and Go SDK for common types and services.
@@ -201,8 +209,8 @@ buf dep update buf.build/falkcorp/gcommon:{tag}
 *Released: {current_date}*
 *BSR: buf.build/falkcorp/gcommon*"""
 
-        elif tag.count('.') == 1:  # Minor version
-            series = "v1" if 'v1.' in tag else "v2"
+        elif tag.count(".") == 1:  # Minor version
+            series = "v1" if "v1." in tag else "v2"
             return f"""# gcommon {tag} ({series.upper()} Series)
 
 Latest {series} series release with all recent fixes and improvements.
@@ -241,16 +249,20 @@ go get github.com/falkcorp/gcommon/v2@{tag}
         release_notes = self.generate_release_notes(tag)
         release_title = f"gcommon {tag}"
 
-        # Determine if this should be a prerelease
-        is_prerelease = False  # All our tags are stable releases
-
-        result = self.run_gh_command([
-            "release", "create", tag,
-            "--repo", self.repo_full,
-            "--title", release_title,
-            "--notes", release_notes,
-            "--latest" if tag in ["v1", "v2"] else ""
-        ])
+        result = self.run_gh_command(
+            [
+                "release",
+                "create",
+                tag,
+                "--repo",
+                self.repo_full,
+                "--title",
+                release_title,
+                "--notes",
+                release_notes,
+                "--latest" if tag in ["v1", "v2"] else "",
+            ]
+        )
 
         if result.returncode == 0:
             print(f"✅ Created release: {tag}")
@@ -293,12 +305,19 @@ go get github.com/falkcorp/gcommon/v2@{tag}
             created = release.get("createdAt", "unknown")
             print(f"  {tag:10} | {name:25} | {created}")
 
+
 def main():
     parser = argparse.ArgumentParser(description="Manage GitHub releases for gcommon")
-    parser.add_argument("--delete-all", action="store_true", help="Delete all existing releases")
-    parser.add_argument("--create-all", action="store_true", help="Create releases for all tags")
+    parser.add_argument(
+        "--delete-all", action="store_true", help="Delete all existing releases"
+    )
+    parser.add_argument(
+        "--create-all", action="store_true", help="Create releases for all tags"
+    )
     parser.add_argument("--list", action="store_true", help="List current releases")
-    parser.add_argument("--repo", default="falkcorp/gcommon", help="Repository (owner/name)")
+    parser.add_argument(
+        "--repo", default="falkcorp/gcommon", help="Repository (owner/name)"
+    )
 
     args = parser.parse_args()
 
@@ -337,6 +356,7 @@ def main():
         print("\n❌ Operation cancelled by user")
     except Exception as e:
         print(f"❌ Unexpected error: {e}")
+
 
 if __name__ == "__main__":
     main()

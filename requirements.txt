@@ -1,0 +1,8 @@
+# file: requirements.txt
+# version: 1.0.0
+# guid: gcommon-requirements-txt
+# last-edited: 2026-07-19
+
+# Only third-party dependency across scripts/*.py: PyGithub, used by
+# scripts/create_github_issue.py. Everything else in scripts/ is stdlib-only.
+PyGithub>=2.0,<3.0
