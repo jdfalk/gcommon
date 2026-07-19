@@ -97,8 +97,8 @@ const file_commonpb_v2_rotation_frequency_proto_rawDesc = "" +
 	"\x1aROTATION_FREQUENCY_MONTHLY\x10\x04\x12 \n" +
 	"\x1cROTATION_FREQUENCY_QUARTERLY\x10\x05\x12\x1d\n" +
 	"\x19ROTATION_FREQUENCY_YEARLY\x10\x06\x12 \n" +
-	"\x1cROTATION_FREQUENCY_ON_EXPIRY\x10\aB\xaa\x01\n" +
-	"\rcom.common.v2B\x16RotationFrequencyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1cROTATION_FREQUENCY_ON_EXPIRY\x10\aB\xad\x01\n" +
+	"\rcom.common.v2B\x16RotationFrequencyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_rotation_frequency_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

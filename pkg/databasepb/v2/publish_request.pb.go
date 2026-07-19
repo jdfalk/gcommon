@@ -12,7 +12,7 @@ package databasev2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -203,8 +203,8 @@ const file_databasepb_v2_publish_request_proto_rawDesc = "" +
 	"\x13CachePublishRequest\x12\x1d\n" +
 	"\x05topic\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05topic\x122\n" +
 	"\apayload\x18\x02 \x01(\v2\x14.google.protobuf.AnyB\x02(\x01R\apayload\x12:\n" +
-	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xb5\x01\n" +
-	"\x0fcom.database.v2B\x13PublishRequestProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xb8\x01\n" +
+	"\x0fcom.database.v2B\x13PublishRequestProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_publish_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_publish_request_proto_goTypes = []any{

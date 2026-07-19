@@ -180,8 +180,8 @@ const file_commonpb_v2_delete_role_response_proto_rawDesc = "" +
 	"\x12DeleteRoleResponse\x12\x18\n" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12,\n" +
 	"\rerror_message\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\ferrorMessage\x124\n" +
-	"\x11affected_subjects\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x10affectedSubjectsB\xab\x01\n" +
-	"\rcom.common.v2B\x17DeleteRoleResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x11affected_subjects\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x10affectedSubjectsB\xae\x01\n" +
+	"\rcom.common.v2B\x17DeleteRoleResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_delete_role_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

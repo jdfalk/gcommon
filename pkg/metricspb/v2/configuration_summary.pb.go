@@ -198,8 +198,8 @@ const file_metricspb_v2_configuration_summary_proto_rawDesc = "" +
 	"\x0eexporter_count\x18\x01 \x01(\x05B\v\xbaH\b\x1a\x06\x18\xff\xff\x03(\x01R\rexporterCount\x127\n" +
 	"\bsecurity\x18\x02 \x01(\v2\x1b.metrics.v2.SecuritySummaryR\bsecurity\x12J\n" +
 	"\x0fresource_limits\x18\x03 \x01(\v2!.metrics.v2.ResourceLimitsSummaryR\x0eresourceLimits\x12>\n" +
-	"\x0econfig_version\x18\x04 \x01(\tB\x17\xbaH\x14r\x122\x10^v?\\d+\\.\\d+\\.\\d+R\rconfigVersionB\xb4\x01\n" +
-	"\x0ecom.metrics.v2B\x19ConfigurationSummaryProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0econfig_version\x18\x04 \x01(\tB\x17\xbaH\x14r\x122\x10^v?\\d+\\.\\d+\\.\\d+R\rconfigVersionB\xb7\x01\n" +
+	"\x0ecom.metrics.v2B\x19ConfigurationSummaryProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

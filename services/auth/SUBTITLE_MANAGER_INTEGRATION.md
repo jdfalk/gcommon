@@ -1,5 +1,5 @@
 <!-- file: services/auth/SUBTITLE_MANAGER_INTEGRATION.md -->
-<!-- version: 1.0.0 -->
+<!-- version: 1.1.0 -->
 <!-- guid: integration-guide-12345678-90ab-cdef-1234-567890abcdef -->
 
 # AuthService v2 - Subtitle-Manager Integration Guide
@@ -27,7 +27,7 @@ The AuthService v2 has been expanded from 6 methods to 18 methods specifically t
 
 **ADD to subtitle-manager:**
 ```go
-import "github.com/falkcorp/gcommon/services/auth"
+import "github.com/falkcorp/gcommon/v2/services/auth"
 
 // Replace existing auth with gcommon AuthService
 authService, err := auth.NewAuthService([]byte("your-jwt-secret"))

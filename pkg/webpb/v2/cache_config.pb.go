@@ -12,7 +12,7 @@ package webv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -253,9 +253,9 @@ const file_webpb_v2_cache_config_proto_rawDesc = "" +
 	"\x03ttl\x18\x03 \x01(\v2\x19.google.protobuf.DurationR\x03ttl\x12\x18\n" +
 	"\aenabled\x18\x04 \x01(\bR\aenabled\x12(\n" +
 	"\n" +
-	"cache_name\x18\x05 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\tcacheNameB\x8f\x01\n" +
+	"cache_name\x18\x05 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\tcacheNameB\x92\x01\n" +
 	"\n" +
-	"com.web.v2B\x10CacheConfigProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x10CacheConfigProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_cache_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_cache_config_proto_goTypes = []any{

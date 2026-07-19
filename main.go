@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/falkcorp/gcommon/internal/config"
-	"github.com/falkcorp/gcommon/internal/logging"
-	"github.com/falkcorp/gcommon/internal/metrics"
+	"github.com/falkcorp/gcommon/v2/internal/config"
+	"github.com/falkcorp/gcommon/v2/internal/logging"
+	"github.com/falkcorp/gcommon/v2/internal/metrics"
 )
 
 func main() {

@@ -11,7 +11,7 @@
 package mediav2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -206,8 +206,8 @@ const file_mediapb_v2_merge_options_proto_rawDesc = "" +
 	"\routput_format\x18\x01 \x01(\tR\foutputFormat\x12/\n" +
 	"\x13preserve_formatting\x18\x02 \x01(\bR\x12preserveFormatting\x12N\n" +
 	"\x13conflict_resolution\x18\x03 \x01(\x0e2\x1d.common.v2.ConflictResolutionR\x12conflictResolution\x12*\n" +
-	"\x11sort_by_timestamp\x18\x04 \x01(\bR\x0fsortByTimestampB\x9e\x01\n" +
-	"\fcom.media.v2B\x11MergeOptionsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x11sort_by_timestamp\x18\x04 \x01(\bR\x0fsortByTimestampB\xa1\x01\n" +
+	"\fcom.media.v2B\x11MergeOptionsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_merge_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_merge_options_proto_goTypes = []any{

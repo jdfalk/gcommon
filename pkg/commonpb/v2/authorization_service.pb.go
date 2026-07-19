@@ -33,8 +33,8 @@ const file_commonpb_v2_authorization_service_proto_rawDesc = "" +
 	"\x14AuthorizationService\x12N\n" +
 	"\tAuthorize\x12\x1f.common.v2.AuthAuthorizeRequest\x1a .common.v2.AuthAuthorizeResponse\x12a\n" +
 	"\x12GetUserPermissions\x12$.common.v2.GetUserPermissionsRequest\x1a%.common.v2.GetUserPermissionsResponse\x12O\n" +
-	"\fGetUserRoles\x12\x1e.common.v2.GetUserRolesRequest\x1a\x1f.common.v2.GetUserRolesResponseB\xad\x01\n" +
-	"\rcom.common.v2B\x19AuthorizationServiceProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\fGetUserRoles\x12\x1e.common.v2.GetUserRolesRequest\x1a\x1f.common.v2.GetUserRolesResponseB\xb0\x01\n" +
+	"\rcom.common.v2B\x19AuthorizationServiceProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_authorization_service_proto_goTypes = []any{

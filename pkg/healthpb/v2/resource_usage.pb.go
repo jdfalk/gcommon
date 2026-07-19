@@ -831,8 +831,8 @@ const file_healthpb_v2_resource_usage_proto_rawDesc = "" +
 	"\x0ebytes_received\x18\x01 \x01(\x03R\rbytesReceived\x12\x1d\n" +
 	"\n" +
 	"bytes_sent\x18\x02 \x01(\x03R\tbytesSent\x12-\n" +
-	"\x12active_connections\x18\x03 \x01(\x05R\x11activeConnectionsB\xa6\x01\n" +
-	"\rcom.health.v2B\x12ResourceUsageProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\x12active_connections\x18\x03 \x01(\x05R\x11activeConnectionsB\xa9\x01\n" +
+	"\rcom.health.v2B\x12ResourceUsageProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_resource_usage_proto_msgTypes = make([]protoimpl.MessageInfo, 5)

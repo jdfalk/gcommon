@@ -150,8 +150,8 @@ const file_commonpb_v2_delete_session_request_proto_rawDesc = "" +
 	"\x18AuthDeleteSessionRequest\x12&\n" +
 	"\n" +
 	"session_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tsessionId\x12\x14\n" +
-	"\x05force\x18\x02 \x01(\bR\x05forceB\xad\x01\n" +
-	"\rcom.common.v2B\x19DeleteSessionRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05force\x18\x02 \x01(\bR\x05forceB\xb0\x01\n" +
+	"\rcom.common.v2B\x19DeleteSessionRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_delete_session_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

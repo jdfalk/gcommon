@@ -275,8 +275,8 @@ const file_commonpb_v2_batch_operation_proto_rawDesc = "" +
 	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\n" +
 	"operations\x12;\n" +
 	"\aoptions\x18\x04 \x01(\v2\x1d.common.v2.CommonBatchOptionsB\x02(\x01R\aoptions\x12:\n" +
-	"\bmetadata\x18\x05 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xa7\x01\n" +
-	"\rcom.common.v2B\x13BatchOperationProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\bmetadata\x18\x05 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xaa\x01\n" +
+	"\rcom.common.v2B\x13BatchOperationProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_batch_operation_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

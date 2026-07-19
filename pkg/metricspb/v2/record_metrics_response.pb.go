@@ -12,7 +12,7 @@ package metricsv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -387,8 +387,8 @@ const file_metricspb_v2_record_metrics_response_proto_rawDesc = "" +
 	"\x05stats\x18\t \x01(\v2\x1d.metrics.v2.MetricsBatchStatsR\x05stats\x12$\n" +
 	"\bwarnings\x18\n" +
 	" \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\bwarnings\x12L\n" +
-	"\x12validation_summary\x18\v \x01(\v2\x1d.metrics.v2.ValidationSummaryR\x11validationSummaryB\xb5\x01\n" +
-	"\x0ecom.metrics.v2B\x1aRecordMetricsResponseProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x12validation_summary\x18\v \x01(\v2\x1d.metrics.v2.ValidationSummaryR\x11validationSummaryB\xb8\x01\n" +
+	"\x0ecom.metrics.v2B\x1aRecordMetricsResponseProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -85,8 +85,8 @@ const file_commonpb_v2_metrics_export_format_proto_rawDesc = "" +
 	" METRICS_EXPORT_FORMAT_PROMETHEUS\x10\x01\x12\x1e\n" +
 	"\x1aMETRICS_EXPORT_FORMAT_JSON\x10\x02\x12\x1d\n" +
 	"\x19METRICS_EXPORT_FORMAT_CSV\x10\x03\x12'\n" +
-	"#METRICS_EXPORT_FORMAT_OPENTELEMETRY\x10\x04B\xac\x01\n" +
-	"\rcom.common.v2B\x18MetricsExportFormatProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"#METRICS_EXPORT_FORMAT_OPENTELEMETRY\x10\x04B\xaf\x01\n" +
+	"\rcom.common.v2B\x18MetricsExportFormatProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_export_format_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -210,8 +210,8 @@ const file_organizationpb_v2_feature_flag_proto_rawDesc = "" +
 	"\x04name\x18\x01 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04name\x12\x18\n" +
 	"\aenabled\x18\x02 \x01(\bR\aenabled\x12*\n" +
 	"\vdescription\x18\x03 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x12-\n" +
-	"\x12rollout_percentage\x18\x04 \x01(\x05R\x11rolloutPercentageB\xce\x01\n" +
-	"\x13com.organization.v2B\x10FeatureFlagProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x12rollout_percentage\x18\x04 \x01(\x05R\x11rolloutPercentageB\xd1\x01\n" +
+	"\x13com.organization.v2B\x10FeatureFlagProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_feature_flag_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_feature_flag_proto_goTypes = []any{

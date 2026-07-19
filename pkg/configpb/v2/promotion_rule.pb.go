@@ -347,8 +347,8 @@ const file_configpb_v2_promotion_rule_proto_rawDesc = "" +
 	"\bschedule\x18\b \x01(\tR\bschedule\x12\x18\n" +
 	"\afilters\x18\t \x03(\tR\afilters\x12(\n" +
 	"\x0ftransformations\x18\n" +
-	" \x03(\tR\x0ftransformationsB\xa6\x01\n" +
-	"\rcom.config.v2B\x12PromotionRuleProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	" \x03(\tR\x0ftransformationsB\xa9\x01\n" +
+	"\rcom.config.v2B\x12PromotionRuleProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_promotion_rule_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

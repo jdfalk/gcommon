@@ -323,8 +323,8 @@ const file_queuepb_v2_consumer_group_stats_proto_rawDesc = "" +
 	"\ttotal_lag\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\btotalLag\x12A\n" +
 	"\x0frebalance_stats\x18\a \x01(\v2\x18.queue.v2.RebalanceStatsR\x0erebalanceStats\x12=\n" +
 	"\verror_stats\x18\b \x01(\v2\x1c.queue.v2.ConsumerErrorStatsR\n" +
-	"errorStatsB\xa4\x01\n" +
-	"\fcom.queue.v2B\x17ConsumerGroupStatsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"errorStatsB\xa7\x01\n" +
+	"\fcom.queue.v2B\x17ConsumerGroupStatsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_consumer_group_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_consumer_group_stats_proto_goTypes = []any{

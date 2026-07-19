@@ -107,8 +107,8 @@ const file_mediapb_v2_delete_media_file_response_proto_rawDesc = "" +
 	"\n" +
 	"+mediapb/v2/delete_media_file_response.proto\x12\bmedia.v2\x1a!google/protobuf/go_features.proto\"3\n" +
 	"\x17DeleteMediaFileResponse\x12\x18\n" +
-	"\asuccess\x18\x01 \x01(\bR\asuccessB\xa9\x01\n" +
-	"\fcom.media.v2B\x1cDeleteMediaFileResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\asuccess\x18\x01 \x01(\bR\asuccessB\xac\x01\n" +
+	"\fcom.media.v2B\x1cDeleteMediaFileResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_delete_media_file_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_delete_media_file_response_proto_goTypes = []any{

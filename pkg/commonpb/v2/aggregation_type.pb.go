@@ -137,8 +137,8 @@ const file_commonpb_v2_aggregation_type_proto_rawDesc = "" +
 	"\x14AGGREGATION_TYPE_P99\x10\n" +
 	"\x12\x19\n" +
 	"\x15AGGREGATION_TYPE_RATE\x10\v\x12\x1d\n" +
-	"\x19AGGREGATION_TYPE_INCREASE\x10\fB\xa8\x01\n" +
-	"\rcom.common.v2B\x14AggregationTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x19AGGREGATION_TYPE_INCREASE\x10\fB\xab\x01\n" +
+	"\rcom.common.v2B\x14AggregationTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_aggregation_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

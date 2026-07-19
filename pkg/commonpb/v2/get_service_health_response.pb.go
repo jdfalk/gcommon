@@ -168,8 +168,8 @@ const file_commonpb_v2_get_service_health_response_proto_rawDesc = "" +
 	"\x06status\x18\x01 \x01(\x0e2\x1d.common.v2.CommonHealthStatusR\x06status\x129\n" +
 	"\n" +
 	"last_check\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\tlastCheck\x12&\n" +
-	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xb1\x01\n" +
-	"\rcom.common.v2B\x1dGetServiceHealthResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xb4\x01\n" +
+	"\rcom.common.v2B\x1dGetServiceHealthResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_get_service_health_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

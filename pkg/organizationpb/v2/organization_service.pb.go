@@ -41,8 +41,8 @@ const file_organizationpb_v2_organization_service_proto_rawDesc = "" +
 	"\fUpdateMember\x12$.organization.v2.UpdateMemberRequest\x1a%.organization.v2.UpdateMemberResponse\x12X\n" +
 	"\vListMembers\x12#.organization.v2.ListMembersRequest\x1a$.organization.v2.ListMembersResponse\x12|\n" +
 	"\x17GetOrganizationSettings\x12/.organization.v2.GetOrganizationSettingsRequest\x1a0.organization.v2.GetOrganizationSettingsResponse\x12\x85\x01\n" +
-	"\x1aUpdateOrganizationSettings\x122.organization.v2.UpdateOrganizationSettingsRequest\x1a3.organization.v2.UpdateOrganizationSettingsResponseB\xd6\x01\n" +
-	"\x13com.organization.v2B\x18OrganizationServiceProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x1aUpdateOrganizationSettings\x122.organization.v2.UpdateOrganizationSettingsRequest\x1a3.organization.v2.UpdateOrganizationSettingsResponseB\xd9\x01\n" +
+	"\x13com.organization.v2B\x18OrganizationServiceProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_organization_service_proto_goTypes = []any{
 	(*CreateOrganizationRequest)(nil),          // 0: organization.v2.CreateOrganizationRequest

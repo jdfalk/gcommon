@@ -93,9 +93,9 @@ const file_webpb_v2_list_sessions_response_proto_rawDesc = "" +
 	"\n" +
 	"%webpb/v2/list_sessions_response.proto\x12\x06web.v2\x1a\x1bwebpb/v2/session_data.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"T\n" +
 	"\x17WebListSessionsResponse\x129\n" +
-	"\bsessions\x18\x01 \x03(\v2\x13.web.v2.SessionDataB\b\xbaH\x05\x92\x01\x02\b\x01R\bsessionsB\x98\x01\n" +
+	"\bsessions\x18\x01 \x03(\v2\x13.web.v2.SessionDataB\b\xbaH\x05\x92\x01\x02\b\x01R\bsessionsB\x9b\x01\n" +
 	"\n" +
-	"com.web.v2B\x19ListSessionsResponseProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x19ListSessionsResponseProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_list_sessions_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_list_sessions_response_proto_goTypes = []any{

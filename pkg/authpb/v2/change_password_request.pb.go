@@ -312,8 +312,8 @@ const file_authpb_v2_change_password_request_proto_rawDesc = "" +
 	"\x13invalidate_sessions\x18\x04 \x01(\bR\x12invalidateSessions\x12.\n" +
 	"\x13invalidate_api_keys\x18\x05 \x01(\bR\x11invalidateApiKeys\x12!\n" +
 	"\fforce_change\x18\x06 \x01(\bR\vforceChange\x12\x17\n" +
-	"\auser_id\x18\a \x01(\tR\x06userIdB\xa0\x01\n" +
-	"\vcom.auth.v2B\x1aChangePasswordRequestProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\auser_id\x18\a \x01(\tR\x06userIdB\xa3\x01\n" +
+	"\vcom.auth.v2B\x1aChangePasswordRequestProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_change_password_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_change_password_request_proto_goTypes = []any{

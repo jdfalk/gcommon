@@ -214,8 +214,8 @@ const file_commonpb_v2_reset_health_stats_response_proto_rawDesc = "" +
 	"\x0fcleared_entries\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0eclearedEntries\x125\n" +
 	"\breset_at\x18\x03 \x01(\v2\x1a.google.protobuf.TimestampR\aresetAt\x12&\n" +
 	"\x05error\x18\x04 \x01(\v2\x10.common.v2.ErrorR\x05error\x123\n" +
-	"\x10reset_categories\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fresetCategoriesB\xb1\x01\n" +
-	"\rcom.common.v2B\x1dResetHealthStatsResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x10reset_categories\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fresetCategoriesB\xb4\x01\n" +
+	"\rcom.common.v2B\x1dResetHealthStatsResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_reset_health_stats_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

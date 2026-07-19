@@ -113,8 +113,8 @@ const file_healthpb_v2_check_type_proto_rawDesc = "" +
 	"\x13CHECK_TYPE_RESOURCE\x10\x05\x12\x16\n" +
 	"\x12CHECK_TYPE_NETWORK\x10\x06\x12\x17\n" +
 	"\x13CHECK_TYPE_DATABASE\x10\a\x12\x15\n" +
-	"\x11CHECK_TYPE_CUSTOM\x10\bB\xa2\x01\n" +
-	"\rcom.health.v2B\x0eCheckTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\x11CHECK_TYPE_CUSTOM\x10\bB\xa5\x01\n" +
+	"\rcom.health.v2B\x0eCheckTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_check_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

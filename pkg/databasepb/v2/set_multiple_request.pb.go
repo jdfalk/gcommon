@@ -11,7 +11,7 @@
 package databasev2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -187,8 +187,8 @@ const file_databasepb_v2_set_multiple_request_proto_rawDesc = "" +
 	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadata\x1a9\n" +
 	"\vValuesEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\fR\x05value:\x028\x01B\xb9\x01\n" +
-	"\x0fcom.database.v2B\x17SetMultipleRequestProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05value\x18\x02 \x01(\fR\x05value:\x028\x01B\xbc\x01\n" +
+	"\x0fcom.database.v2B\x17SetMultipleRequestProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_set_multiple_request_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_databasepb_v2_set_multiple_request_proto_goTypes = []any{

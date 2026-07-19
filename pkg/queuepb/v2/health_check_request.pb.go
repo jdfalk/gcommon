@@ -14,7 +14,7 @@ package queuev2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -159,8 +159,8 @@ const file_queuepb_v2_health_check_request_proto_rawDesc = "" +
 	"%queuepb/v2/health_check_request.proto\x12\bqueue.v2\x1a\"commonpb/v2/request_metadata.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"t\n" +
 	"\x17QueueHealthCheckRequest\x12\x1d\n" +
 	"\x05queue\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05queue\x12:\n" +
-	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xa4\x01\n" +
-	"\fcom.queue.v2B\x17HealthCheckRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xa7\x01\n" +
+	"\fcom.queue.v2B\x17HealthCheckRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_health_check_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_health_check_request_proto_goTypes = []any{

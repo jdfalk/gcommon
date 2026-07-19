@@ -215,8 +215,8 @@ const file_metricspb_v2_export_destination_update_proto_rawDesc = "" +
 	"\x03url\x18\x02 \x01(\tB\b\xbaH\x05r\x03\x88\x01\x01R\x03url\x12&\n" +
 	"\n" +
 	"auth_token\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tauthToken\x12\x18\n" +
-	"\aenabled\x18\x04 \x01(\bR\aenabledB\xb7\x01\n" +
-	"\x0ecom.metrics.v2B\x1cExportDestinationUpdateProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\aenabled\x18\x04 \x01(\bR\aenabledB\xba\x01\n" +
+	"\x0ecom.metrics.v2B\x1cExportDestinationUpdateProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

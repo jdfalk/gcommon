@@ -196,8 +196,8 @@ const file_commonpb_v2_metrics_error_stats_proto_rawDesc = "" +
 	"\verror_types\x18\x03 \x03(\v2\x19.common.v2.ErrorTypeCountB\b\xbaH\x05\x92\x01\x02\b\x01R\n" +
 	"errorTypes\x12(\n" +
 	"\verror_trend\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\n" +
-	"errorTrendB\xaa\x01\n" +
-	"\rcom.common.v2B\x16MetricsErrorStatsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"errorTrendB\xad\x01\n" +
+	"\rcom.common.v2B\x16MetricsErrorStatsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_error_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

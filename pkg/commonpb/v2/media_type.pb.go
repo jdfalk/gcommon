@@ -111,8 +111,8 @@ const file_commonpb_v2_media_type_proto_rawDesc = "" +
 	"\x12MEDIA_TYPE_LECTURE\x10\b\x12\x18\n" +
 	"\x14MEDIA_TYPE_INTERVIEW\x10\t\x12\x19\n" +
 	"\x15MEDIA_TYPE_RADIO_SHOW\x10\n" +
-	"B\xa2\x01\n" +
-	"\rcom.common.v2B\x0eMediaTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"B\xa5\x01\n" +
+	"\rcom.common.v2B\x0eMediaTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_media_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

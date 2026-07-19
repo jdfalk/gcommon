@@ -244,8 +244,8 @@ const file_metricspb_v2_backup_info_proto_rawDesc = "" +
 	"\x0fbackup_location\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0ebackupLocation\x123\n" +
 	"\x11backup_size_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x0fbackupSizeBytes\x12F\n" +
 	"\x11backup_created_at\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampR\x0fbackupCreatedAt\x122\n" +
-	"\x10backup_retention\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0fbackupRetentionB\xaa\x01\n" +
-	"\x0ecom.metrics.v2B\x0fBackupInfoProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x10backup_retention\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0fbackupRetentionB\xad\x01\n" +
+	"\x0ecom.metrics.v2B\x0fBackupInfoProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

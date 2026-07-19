@@ -12,7 +12,7 @@ package configv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -148,8 +148,8 @@ const file_configpb_v2_health_check_response_proto_rawDesc = "" +
 	"'configpb/v2/health_check_response.proto\x12\tconfig.v2\x1a\x1fcommonpb/v2/health_status.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"u\n" +
 	"\x19ConfigHealthCheckResponse\x125\n" +
 	"\x06status\x18\x01 \x01(\x0e2\x1d.common.v2.CommonHealthStatusR\x06status\x12!\n" +
-	"\amessage\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\amessageB\xac\x01\n" +
-	"\rcom.config.v2B\x18HealthCheckResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\amessage\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\amessageB\xaf\x01\n" +
+	"\rcom.config.v2B\x18HealthCheckResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_health_check_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

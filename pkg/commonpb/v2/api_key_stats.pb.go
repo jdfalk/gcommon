@@ -201,8 +201,8 @@ const file_commonpb_v2_api_key_stats_proto_rawDesc = "" +
 	"\x13successful_requests\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x12successfulRequests\x120\n" +
 	"\x0ffailed_requests\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0efailedRequests\x12)\n" +
 	"\flast_used_at\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
-	"lastUsedAtB\xa4\x01\n" +
-	"\rcom.common.v2B\x10ApiKeyStatsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"lastUsedAtB\xa7\x01\n" +
+	"\rcom.common.v2B\x10ApiKeyStatsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_api_key_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

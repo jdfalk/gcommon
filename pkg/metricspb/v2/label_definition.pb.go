@@ -265,8 +265,8 @@ const file_metricspb_v2_label_definition_proto_rawDesc = "" +
 	"\brequired\x18\x03 \x01(\bR\brequired\x12%\n" +
 	"\x0eallowed_values\x18\x04 \x03(\tR\rallowedValues\x12-\n" +
 	"\x12validation_pattern\x18\x05 \x01(\tR\x11validationPattern\x12#\n" +
-	"\rdefault_value\x18\x06 \x01(\tR\fdefaultValueB\xaf\x01\n" +
-	"\x0ecom.metrics.v2B\x14LabelDefinitionProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\rdefault_value\x18\x06 \x01(\tR\fdefaultValueB\xb2\x01\n" +
+	"\x0ecom.metrics.v2B\x14LabelDefinitionProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

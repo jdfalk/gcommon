@@ -29,9 +29,9 @@ var File_queuepb_v2_queue_proto protoreflect.FileDescriptor
 
 const file_queuepb_v2_queue_proto_rawDesc = "" +
 	"\n" +
-	"\x16queuepb/v2/queue.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.protoB\x97\x01\n" +
+	"\x16queuepb/v2/queue.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.protoB\x9a\x01\n" +
 	"\fcom.queue.v2B\n" +
-	"QueueProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"QueueProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_queue_proto_goTypes = []any{}
 var file_queuepb_v2_queue_proto_depIdxs = []int32{

@@ -1,5 +1,5 @@
 <!-- file: services/README.md -->
-<!-- version: 1.0.0 -->
+<!-- version: 1.1.0 -->
 <!-- guid: d2c3b4a5-f6e7-8a9b-0c1d-2e3f4a5b6c7d -->
 
 # GCommon Service Implementations
@@ -78,7 +78,7 @@ Services can depend on:
 ### 1. Choose a Service
 
 ```go
-import "github.com/falkcorp/gcommon/services/health"
+import "github.com/falkcorp/gcommon/v2/services/health"
 ```
 
 ### 2. Configure Dependencies
@@ -142,7 +142,7 @@ services:
 ### Configuration Loading
 
 ```go
-import "github.com/falkcorp/gcommon/internal/config"
+import "github.com/falkcorp/gcommon/v2/internal/config"
 
 cfg, err := config.Load("config.yaml")
 if err != nil {

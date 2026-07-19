@@ -12,7 +12,7 @@ package configv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -305,8 +305,8 @@ const file_configpb_v2_deprecation_info_proto_rawDesc = "" +
 	"\x0freplacement_key\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0ereplacementKey\x12=\n" +
 	"\fremoval_date\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\vremovalDate\x120\n" +
 	"\x0fmigration_guide\x18\x06 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0emigrationGuide\x121\n" +
-	"\x05level\x18\a \x01(\x0e2\x1b.common.v2.DeprecationLevelR\x05levelB\xa8\x01\n" +
-	"\rcom.config.v2B\x14DeprecationInfoProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05level\x18\a \x01(\x0e2\x1b.common.v2.DeprecationLevelR\x05levelB\xab\x01\n" +
+	"\rcom.config.v2B\x14DeprecationInfoProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_deprecation_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

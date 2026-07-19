@@ -249,8 +249,8 @@ const file_queuepb_v2_external_auth_service_proto_rawDesc = "" +
 	"\x0frequest_headers\x18\x06 \x03(\v21.queue.v2.ExternalAuthService.RequestHeadersEntryR\x0erequestHeaders\x1aA\n" +
 	"\x13RequestHeadersEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa5\x01\n" +
-	"\fcom.queue.v2B\x18ExternalAuthServiceProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa8\x01\n" +
+	"\fcom.queue.v2B\x18ExternalAuthServiceProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_external_auth_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_queuepb_v2_external_auth_service_proto_goTypes = []any{

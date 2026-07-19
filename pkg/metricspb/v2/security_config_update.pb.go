@@ -214,8 +214,8 @@ const file_metricspb_v2_security_config_update_proto_rawDesc = "" +
 	"\vrequire_tls\x18\x03 \x01(\bR\n" +
 	"requireTls\x12G\n" +
 	"\x11tls_config_update\x18\x04 \x01(\v2\x1b.metrics.v2.TLSConfigUpdateR\x0ftlsConfigUpdate\x12Q\n" +
-	"\x15api_key_config_update\x18\x05 \x01(\v2\x1e.metrics.v2.APIKeyConfigUpdateR\x12apiKeyConfigUpdateB\xb4\x01\n" +
-	"\x0ecom.metrics.v2B\x19SecurityConfigUpdateProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x15api_key_config_update\x18\x05 \x01(\v2\x1e.metrics.v2.APIKeyConfigUpdateR\x12apiKeyConfigUpdateB\xb7\x01\n" +
+	"\x0ecom.metrics.v2B\x19SecurityConfigUpdateProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

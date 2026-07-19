@@ -138,8 +138,8 @@ const file_mediapb_v2_split_point_proto_rawDesc = "" +
 	"\n" +
 	"SplitPoint\x127\n" +
 	"\ttimestamp\x18\x01 \x01(\v2\x19.google.protobuf.DurationR\ttimestamp\x12,\n" +
-	"\fsegment_name\x18\x02 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\vsegmentNameB\x9c\x01\n" +
-	"\fcom.media.v2B\x0fSplitPointProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fsegment_name\x18\x02 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\vsegmentNameB\x9f\x01\n" +
+	"\fcom.media.v2B\x0fSplitPointProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_split_point_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_split_point_proto_goTypes = []any{

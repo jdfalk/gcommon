@@ -176,8 +176,8 @@ const file_mediapb_v2_search_media_response_proto_rawDesc = "" +
 	"\x0fnext_page_token\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\rnextPageToken\x12(\n" +
 	"\vtotal_count\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\n" +
 	"totalCount\x12'\n" +
-	"\x0fsuggested_terms\x18\x04 \x03(\tR\x0esuggestedTermsB\xa5\x01\n" +
-	"\fcom.media.v2B\x18SearchMediaResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fsuggested_terms\x18\x04 \x03(\tR\x0esuggestedTermsB\xa8\x01\n" +
+	"\fcom.media.v2B\x18SearchMediaResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_search_media_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_search_media_response_proto_goTypes = []any{

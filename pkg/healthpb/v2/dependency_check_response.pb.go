@@ -11,7 +11,7 @@
 package healthv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -237,8 +237,8 @@ const file_healthpb_v2_dependency_check_response_proto_rawDesc = "" +
 	"\rhealthy_count\x18\x03 \x01(\x05R\fhealthyCount\x12'\n" +
 	"\x0funhealthy_count\x18\x04 \x01(\x05R\x0eunhealthyCount\x127\n" +
 	"\bmetadata\x18\x05 \x01(\v2\x1b.common.v2.ResponseMetadataR\bmetadata\x12\x16\n" +
-	"\x06issues\x18\x06 \x03(\tR\x06issuesB\xb0\x01\n" +
-	"\rcom.health.v2B\x1cDependencyCheckResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\x06issues\x18\x06 \x03(\tR\x06issuesB\xb3\x01\n" +
+	"\rcom.health.v2B\x1cDependencyCheckResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_dependency_check_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

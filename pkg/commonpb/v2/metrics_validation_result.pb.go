@@ -158,8 +158,8 @@ const file_commonpb_v2_metrics_validation_result_proto_rawDesc = "" +
 	"\x05valid\x18\x01 \x01(\bR\x05valid\x12 \n" +
 	"\x06errors\x18\x02 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x06errors\x12$\n" +
 	"\bwarnings\x18\x03 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\bwarnings\x12*\n" +
-	"\vsuggestions\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\vsuggestionsB\xb0\x01\n" +
-	"\rcom.common.v2B\x1cMetricsValidationResultProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\vsuggestions\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\vsuggestionsB\xb3\x01\n" +
+	"\rcom.common.v2B\x1cMetricsValidationResultProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_validation_result_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

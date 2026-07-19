@@ -129,8 +129,8 @@ const file_commonpb_v2_get_auth_config_request_proto_rawDesc = "" +
 	")commonpb/v2/get_auth_config_request.proto\x12\tcommon.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"a\n" +
 	"\x14GetAuthConfigRequest\x12\x1c\n" +
 	"\x04keys\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x04keys\x12+\n" +
-	"\x11include_sensitive\x18\x02 \x01(\bR\x10includeSensitiveB\xad\x01\n" +
-	"\rcom.common.v2B\x19GetAuthConfigRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x11include_sensitive\x18\x02 \x01(\bR\x10includeSensitiveB\xb0\x01\n" +
+	"\rcom.common.v2B\x19GetAuthConfigRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_get_auth_config_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

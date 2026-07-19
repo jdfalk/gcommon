@@ -195,8 +195,8 @@ const file_mediapb_v2_extract_subtitles_response_proto_rawDesc = "" +
 	"\x06job_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05jobId\x12\x16\n" +
 	"\x06status\x18\x02 \x01(\tR\x06status\x12V\n" +
 	"\x13extracted_subtitles\x18\x03 \x03(\v2\x1b.media.v2.ExtractedSubtitleB\b\xbaH\x05\x92\x01\x02\b\x01R\x12extractedSubtitles\x12#\n" +
-	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\xaa\x01\n" +
-	"\fcom.media.v2B\x1dExtractSubtitlesResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\xad\x01\n" +
+	"\fcom.media.v2B\x1dExtractSubtitlesResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_extract_subtitles_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_extract_subtitles_response_proto_goTypes = []any{

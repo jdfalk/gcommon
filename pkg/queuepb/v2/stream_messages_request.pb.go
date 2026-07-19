@@ -12,7 +12,7 @@ package queuev2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -508,8 +508,8 @@ const file_queuepb_v2_stream_messages_request_proto_rawDesc = "" +
 	"\x0epause_on_error\x18\v \x01(\bR\fpauseOnError\x12)\n" +
 	"\x10include_metadata\x18\f \x01(\bR\x0fincludeMetadata\x12-\n" +
 	"\rpartition_ids\x18\r \x03(\x05B\b\xbaH\x05\x92\x01\x02\b\x01R\fpartitionIds\x12;\n" +
-	"\rstream_config\x18\x0e \x01(\v2\x16.queue.v2.StreamConfigR\fstreamConfigB\xa7\x01\n" +
-	"\fcom.queue.v2B\x1aStreamMessagesRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rstream_config\x18\x0e \x01(\v2\x16.queue.v2.StreamConfigR\fstreamConfigB\xaa\x01\n" +
+	"\fcom.queue.v2B\x1aStreamMessagesRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_stream_messages_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_stream_messages_request_proto_goTypes = []any{

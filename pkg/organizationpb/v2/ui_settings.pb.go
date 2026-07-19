@@ -429,8 +429,8 @@ const file_organizationpb_v2_ui_settings_proto_rawDesc = "" +
 	"\vtime_format\x18\t \x01(\tR\n" +
 	"timeFormat\x12*\n" +
 	"\x11dark_mode_default\x18\n" +
-	" \x01(\bR\x0fdarkModeDefaultB\xcd\x01\n" +
-	"\x13com.organization.v2B\x0fUiSettingsProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	" \x01(\bR\x0fdarkModeDefaultB\xd0\x01\n" +
+	"\x13com.organization.v2B\x0fUiSettingsProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_ui_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_ui_settings_proto_goTypes = []any{

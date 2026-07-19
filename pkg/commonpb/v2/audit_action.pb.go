@@ -166,8 +166,8 @@ const file_commonpb_v2_audit_action_proto_rawDesc = "" +
 	"\x1fAUDIT_ACTION_SESSION_TERMINATED\x10\x12\x12\x1f\n" +
 	"\x1bAUDIT_ACTION_CONFIG_UPDATED\x10\x13\x12\x1e\n" +
 	"\x1aAUDIT_ACTION_SYSTEM_BACKUP\x10\x14\x12\x1f\n" +
-	"\x1bAUDIT_ACTION_SYSTEM_RESTORE\x10\x15B\xa4\x01\n" +
-	"\rcom.common.v2B\x10AuditActionProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1bAUDIT_ACTION_SYSTEM_RESTORE\x10\x15B\xa7\x01\n" +
+	"\rcom.common.v2B\x10AuditActionProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_audit_action_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

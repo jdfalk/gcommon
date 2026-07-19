@@ -91,8 +91,8 @@ const file_commonpb_v2_oauth2_flow_type_proto_rawDesc = "" +
 	"#OAUTH2_FLOW_TYPE_AUTHORIZATION_CODE\x10\x01\x12\x1d\n" +
 	"\x19OAUTH2_FLOW_TYPE_IMPLICIT\x10\x02\x12'\n" +
 	"#OAUTH2_FLOW_TYPE_CLIENT_CREDENTIALS\x10\x03\x12 \n" +
-	"\x1cOAUTH2_FLOW_TYPE_DEVICE_CODE\x10\x04B\xa7\x01\n" +
-	"\rcom.common.v2B\x13Oauth2FlowTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1cOAUTH2_FLOW_TYPE_DEVICE_CODE\x10\x04B\xaa\x01\n" +
+	"\rcom.common.v2B\x13Oauth2FlowTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_oauth2_flow_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

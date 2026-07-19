@@ -39,8 +39,8 @@ const file_databasepb_v2_database_admin_service_proto_rawDesc = "" +
 	"\fCreateSchema\x12 .database.v2.CreateSchemaRequest\x1a!.database.v2.CreateSchemaResponse\x12D\n" +
 	"\n" +
 	"DropSchema\x12\x1e.database.v2.DropSchemaRequest\x1a\x16.google.protobuf.Empty\x12P\n" +
-	"\vListSchemas\x12\x1f.database.v2.ListSchemasRequest\x1a .database.v2.ListSchemasResponseB\xbb\x01\n" +
-	"\x0fcom.database.v2B\x19DatabaseAdminServiceProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vListSchemas\x12\x1f.database.v2.ListSchemasRequest\x1a .database.v2.ListSchemasResponseB\xbe\x01\n" +
+	"\x0fcom.database.v2B\x19DatabaseAdminServiceProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_database_admin_service_proto_goTypes = []any{
 	(*CreateDatabaseRequest)(nil),   // 0: database.v2.CreateDatabaseRequest

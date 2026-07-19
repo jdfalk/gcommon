@@ -156,8 +156,8 @@ const file_commonpb_v2_mark_as_read_request_proto_rawDesc = "" +
 	"&commonpb/v2/mark_as_read_request.proto\x12\tcommon.v2\x1a\"commonpb/v2/request_metadata.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"\x81\x01\n" +
 	"\x11MarkAsReadRequest\x120\n" +
 	"\x0fnotification_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0enotificationId\x12:\n" +
-	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xaa\x01\n" +
-	"\rcom.common.v2B\x16MarkAsReadRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xad\x01\n" +
+	"\rcom.common.v2B\x16MarkAsReadRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_mark_as_read_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

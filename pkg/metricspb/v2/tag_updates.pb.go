@@ -115,8 +115,8 @@ const file_metricspb_v2_tag_updates_proto_rawDesc = "" +
 	"tagRemoves\x1a=\n" +
 	"\x0fTagUpdatesEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xaa\x01\n" +
-	"\x0ecom.metrics.v2B\x0fTagUpdatesProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xad\x01\n" +
+	"\x0ecom.metrics.v2B\x0fTagUpdatesProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

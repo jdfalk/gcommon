@@ -259,8 +259,8 @@ const file_mediapb_v2_technical_metadata_proto_rawDesc = "" +
 	"\x10container_format\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0fcontainerFormat\x12/\n" +
 	"\x05video\x18\x05 \x01(\v2\x19.media.v2.VideoStreamInfoR\x05video\x12H\n" +
 	"\raudio_streams\x18\x06 \x03(\v2\x19.media.v2.AudioStreamInfoB\b\xbaH\x05\x92\x01\x02\b\x01R\faudioStreams\x12Q\n" +
-	"\x10subtitle_streams\x18\a \x03(\v2\x1c.media.v2.SubtitleStreamInfoB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fsubtitleStreamsB\xa3\x01\n" +
-	"\fcom.media.v2B\x16TechnicalMetadataProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x10subtitle_streams\x18\a \x03(\v2\x1c.media.v2.SubtitleStreamInfoB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fsubtitleStreamsB\xa6\x01\n" +
+	"\fcom.media.v2B\x16TechnicalMetadataProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_technical_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_technical_metadata_proto_goTypes = []any{

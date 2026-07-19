@@ -265,8 +265,8 @@ const file_metricspb_v2_metric_type_counts_proto_rawDesc = "" +
 	"\rsummary_count\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fsummaryCount\x12(\n" +
 	"\vtimer_count\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
 	"timerCount\x12*\n" +
-	"\fcustom_count\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\vcustomCountB\xb0\x01\n" +
-	"\x0ecom.metrics.v2B\x15MetricTypeCountsProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\fcustom_count\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\vcustomCountB\xb3\x01\n" +
+	"\x0ecom.metrics.v2B\x15MetricTypeCountsProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

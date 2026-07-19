@@ -230,8 +230,8 @@ const file_mediapb_v2_analysis_options_proto_rawDesc = "" +
 	"\x0fanalyze_quality\x18\x02 \x01(\bR\x0eanalyzeQuality\x12#\n" +
 	"\rdetect_scenes\x18\x03 \x01(\bR\fdetectScenes\x12-\n" +
 	"\x12extract_thumbnails\x18\x04 \x01(\bR\x11extractThumbnails\x12#\n" +
-	"\ranalyze_audio\x18\x05 \x01(\bR\fanalyzeAudioB\xa1\x01\n" +
-	"\fcom.media.v2B\x14AnalysisOptionsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\ranalyze_audio\x18\x05 \x01(\bR\fanalyzeAudioB\xa4\x01\n" +
+	"\fcom.media.v2B\x14AnalysisOptionsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_analysis_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_analysis_options_proto_goTypes = []any{

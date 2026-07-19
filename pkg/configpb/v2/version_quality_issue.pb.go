@@ -286,8 +286,8 @@ const file_configpb_v2_version_quality_issue_proto_rawDesc = "" +
 	"\vdescription\x18\x03 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x12\x1a\n" +
 	"\blocation\x18\x04 \x01(\tR\blocation\x12\x12\n" +
 	"\x04rule\x18\x05 \x01(\tR\x04rule\x12%\n" +
-	"\x0efix_suggestion\x18\x06 \x01(\tR\rfixSuggestionB\xac\x01\n" +
-	"\rcom.config.v2B\x18VersionQualityIssueProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x0efix_suggestion\x18\x06 \x01(\tR\rfixSuggestionB\xaf\x01\n" +
+	"\rcom.config.v2B\x18VersionQualityIssueProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_version_quality_issue_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

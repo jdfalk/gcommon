@@ -277,8 +277,8 @@ const file_queuepb_v2_publish_result_proto_rawDesc = "" +
 	"\x05error\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05error\x12*\n" +
 	"\fpartition_id\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vpartitionId\x12\x1f\n" +
 	"\x06offset\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x06offset\x12\x1c\n" +
-	"\ttimestamp\x18\x06 \x01(\x03R\ttimestampB\x9f\x01\n" +
-	"\fcom.queue.v2B\x12PublishResultProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\ttimestamp\x18\x06 \x01(\x03R\ttimestampB\xa2\x01\n" +
+	"\fcom.queue.v2B\x12PublishResultProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_publish_result_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_publish_result_proto_goTypes = []any{

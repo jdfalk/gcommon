@@ -81,8 +81,8 @@ const file_commonpb_v2_conflict_resolution_proto_rawDesc = "" +
 	"&COMMON_CONFLICT_RESOLUTION_UNSPECIFIED\x10\x00\x12$\n" +
 	" COMMON_CONFLICT_RESOLUTION_MERGE\x10\x01\x12(\n" +
 	"$COMMON_CONFLICT_RESOLUTION_OVERWRITE\x10\x02\x12#\n" +
-	"\x1fCOMMON_CONFLICT_RESOLUTION_FAIL\x10\x03B\xab\x01\n" +
-	"\rcom.common.v2B\x17ConflictResolutionProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1fCOMMON_CONFLICT_RESOLUTION_FAIL\x10\x03B\xae\x01\n" +
+	"\rcom.common.v2B\x17ConflictResolutionProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_conflict_resolution_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -11,7 +11,7 @@
 package healthv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -166,8 +166,8 @@ const file_healthpb_v2_register_check_request_proto_rawDesc = "" +
 	"\x14RegisterCheckRequest\x129\n" +
 	"\fhealth_check\x18\x01 \x01(\v2\x16.health.v2.HealthCheckR\vhealthCheck\x126\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataR\bmetadata\x12)\n" +
-	"\x10replace_existing\x18\x03 \x01(\bR\x0freplaceExistingB\xad\x01\n" +
-	"\rcom.health.v2B\x19RegisterCheckRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\x10replace_existing\x18\x03 \x01(\bR\x0freplaceExistingB\xb0\x01\n" +
+	"\rcom.health.v2B\x19RegisterCheckRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_register_check_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

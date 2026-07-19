@@ -12,7 +12,7 @@ package webv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -227,9 +227,9 @@ const file_webpb_v2_proxy_config_proto_rawDesc = "" +
 	"target_url\x18\x02 \x01(\tB\b\xbaH\x05r\x03\x88\x01\x01R\ttargetUrl\x12;\n" +
 	"\x0fforward_headers\x18\x03 \x03(\v2\x12.web.v2.HttpHeaderR\x0eforwardHeaders\x12B\n" +
 	"\x0fconnect_timeout\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\x0econnectTimeout\x122\n" +
-	"\x15trust_forward_headers\x18\x05 \x01(\bR\x13trustForwardHeadersB\x8f\x01\n" +
+	"\x15trust_forward_headers\x18\x05 \x01(\bR\x13trustForwardHeadersB\x92\x01\n" +
 	"\n" +
-	"com.web.v2B\x10ProxyConfigProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x10ProxyConfigProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_proxy_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_proxy_config_proto_goTypes = []any{

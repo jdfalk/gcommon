@@ -148,8 +148,8 @@ const file_authpb_v2_login_request_proto_rawDesc = "" +
 	"\x1dauthpb/v2/login_request.proto\x12\aauth.v2\x1a!google/protobuf/go_features.proto\"F\n" +
 	"\fLoginRequest\x12\x1a\n" +
 	"\busername\x18\x01 \x01(\tR\busername\x12\x1a\n" +
-	"\bpassword\x18\x02 \x01(\tR\bpasswordB\x97\x01\n" +
-	"\vcom.auth.v2B\x11LoginRequestProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bpassword\x18\x02 \x01(\tR\bpasswordB\x9a\x01\n" +
+	"\vcom.auth.v2B\x11LoginRequestProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_login_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_login_request_proto_goTypes = []any{

@@ -83,8 +83,8 @@ const file_commonpb_v2_config_config_change_type_proto_rawDesc = "" +
 	"\x1eCONFIG_CHANGE_TYPE_UNSPECIFIED\x10\x00\x12\x1e\n" +
 	"\x1aCONFIG_CHANGE_TYPE_CREATED\x10\x01\x12\x1e\n" +
 	"\x1aCONFIG_CHANGE_TYPE_UPDATED\x10\x02\x12\x1e\n" +
-	"\x1aCONFIG_CHANGE_TYPE_DELETED\x10\x03B\xaf\x01\n" +
-	"\rcom.common.v2B\x1bConfigConfigChangeTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1aCONFIG_CHANGE_TYPE_DELETED\x10\x03B\xb2\x01\n" +
+	"\rcom.common.v2B\x1bConfigConfigChangeTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_config_config_change_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

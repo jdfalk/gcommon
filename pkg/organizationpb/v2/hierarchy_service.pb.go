@@ -45,8 +45,8 @@ const file_organizationpb_v2_hierarchy_service_proto_rawDesc = "" +
 	"DeleteTeam\x12\".organization.v2.DeleteTeamRequest\x1a#.organization.v2.DeleteTeamResponse\x12R\n" +
 	"\tListTeams\x12!.organization.v2.ListTeamsRequest\x1a\".organization.v2.ListTeamsResponse\x12[\n" +
 	"\fGetHierarchy\x12$.organization.v2.GetHierarchyRequest\x1a%.organization.v2.GetHierarchyResponse\x12d\n" +
-	"\x0fUpdateHierarchy\x12'.organization.v2.UpdateHierarchyRequest\x1a(.organization.v2.UpdateHierarchyResponseB\xd3\x01\n" +
-	"\x13com.organization.v2B\x15HierarchyServiceProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fUpdateHierarchy\x12'.organization.v2.UpdateHierarchyRequest\x1a(.organization.v2.UpdateHierarchyResponseB\xd6\x01\n" +
+	"\x13com.organization.v2B\x15HierarchyServiceProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_hierarchy_service_proto_goTypes = []any{
 	(*CreateDepartmentRequest)(nil),  // 0: organization.v2.CreateDepartmentRequest

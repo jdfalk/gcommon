@@ -123,8 +123,8 @@ const file_databasepb_v2_get_database_info_response_proto_rawDesc = "" +
 	"\n" +
 	".databasepb/v2/get_database_info_response.proto\x12\vdatabase.v2\x1a!databasepb/v2/database_info.proto\x1a!google/protobuf/go_features.proto\"L\n" +
 	"\x17GetDatabaseInfoResponse\x121\n" +
-	"\x04info\x18\x01 \x01(\v2\x19.database.v2.DatabaseInfoB\x02(\x01R\x04infoB\xbe\x01\n" +
-	"\x0fcom.database.v2B\x1cGetDatabaseInfoResponseProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x04info\x18\x01 \x01(\v2\x19.database.v2.DatabaseInfoB\x02(\x01R\x04infoB\xc1\x01\n" +
+	"\x0fcom.database.v2B\x1cGetDatabaseInfoResponseProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_get_database_info_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_get_database_info_response_proto_goTypes = []any{

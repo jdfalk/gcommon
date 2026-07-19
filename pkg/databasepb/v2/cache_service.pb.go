@@ -44,8 +44,8 @@ const file_databasepb_v2_cache_service_proto_rawDesc = "" +
 	"\x04Keys\x12\x18.database.v2.KeysRequest\x1a\x19.database.v2.KeysResponse\x12Q\n" +
 	"\bGetStats\x12!.database.v2.CacheGetStatsRequest\x1a\".database.v2.CacheGetStatsResponse\x12>\n" +
 	"\x05Flush\x12\x19.database.v2.FlushRequest\x1a\x1a.database.v2.FlushResponse\x12\\\n" +
-	"\x0fTouchExpiration\x12#.database.v2.TouchExpirationRequest\x1a$.database.v2.TouchExpirationResponseB\xb3\x01\n" +
-	"\x0fcom.database.v2B\x11CacheServiceProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0fTouchExpiration\x12#.database.v2.TouchExpirationRequest\x1a$.database.v2.TouchExpirationResponseB\xb6\x01\n" +
+	"\x0fcom.database.v2B\x11CacheServiceProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_cache_service_proto_goTypes = []any{
 	(*GetRequest)(nil),              // 0: database.v2.GetRequest

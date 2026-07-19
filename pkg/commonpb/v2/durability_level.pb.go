@@ -101,8 +101,8 @@ const file_commonpb_v2_durability_level_proto_rawDesc = "" +
 	"\x17DURABILITY_LEVEL_MEMORY\x10\x02\x12\x1e\n" +
 	"\x1aDURABILITY_LEVEL_DISK_SYNC\x10\x03\x12\x1f\n" +
 	"\x1bDURABILITY_LEVEL_DISK_ASYNC\x10\x04\x12\x1f\n" +
-	"\x1bDURABILITY_LEVEL_REPLICATED\x10\x05B\xa8\x01\n" +
-	"\rcom.common.v2B\x14DurabilityLevelProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1bDURABILITY_LEVEL_REPLICATED\x10\x05B\xab\x01\n" +
+	"\rcom.common.v2B\x14DurabilityLevelProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_durability_level_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

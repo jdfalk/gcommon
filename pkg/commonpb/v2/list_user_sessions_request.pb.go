@@ -385,8 +385,8 @@ const file_commonpb_v2_list_user_sessions_request_proto_rawDesc = "" +
 	"\x0ecreated_before\x18\x10 \x01(\v2\x1a.google.protobuf.TimestampR\rcreatedBefore\x12'\n" +
 	"\x0finclude_details\x18\x11 \x01(\bR\x0eincludeDetails\x12\x1d\n" +
 	"\n" +
-	"sort_order\x18\x12 \x01(\tR\tsortOrderB\xb0\x01\n" +
-	"\rcom.common.v2B\x1cListUserSessionsRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"sort_order\x18\x12 \x01(\tR\tsortOrderB\xb3\x01\n" +
+	"\rcom.common.v2B\x1cListUserSessionsRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_list_user_sessions_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

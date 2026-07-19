@@ -398,8 +398,8 @@ const file_metricspb_v2_stats_options_proto_rawDesc = "" +
 	"\x13include_top_metrics\x18\b \x01(\bR\x11includeTopMetrics\x123\n" +
 	"\x11top_metrics_limit\x18\t \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0ftopMetricsLimit\x12%\n" +
 	"\x0einclude_trends\x18\n" +
-	" \x01(\bR\rincludeTrendsB\xac\x01\n" +
-	"\x0ecom.metrics.v2B\x11StatsOptionsProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	" \x01(\bR\rincludeTrendsB\xaf\x01\n" +
+	"\x0ecom.metrics.v2B\x11StatsOptionsProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

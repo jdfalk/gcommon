@@ -280,8 +280,8 @@ const file_queuepb_v2_pause_queue_response_proto_rawDesc = "" +
 	"\fpause_status\x18\x03 \x01(\tR\vpauseStatus\x12-\n" +
 	"\x12affected_consumers\x18\x04 \x01(\x05R\x11affectedConsumers\x12'\n" +
 	"\x0fpause_timestamp\x18\x05 \x01(\x03R\x0epauseTimestamp\x12\x14\n" +
-	"\x05error\x18\x06 \x01(\tR\x05errorB\xa4\x01\n" +
-	"\fcom.queue.v2B\x17PauseQueueResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05error\x18\x06 \x01(\tR\x05errorB\xa7\x01\n" +
+	"\fcom.queue.v2B\x17PauseQueueResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_pause_queue_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_pause_queue_response_proto_goTypes = []any{

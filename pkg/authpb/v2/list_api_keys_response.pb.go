@@ -433,8 +433,8 @@ const file_authpb_v2_list_api_keys_response_proto_rawDesc = "" +
 	"totalItems\x12\x1b\n" +
 	"\tpage_size\x18\x04 \x01(\x05R\bpageSize\x12\"\n" +
 	"\rhas_next_page\x18\x05 \x01(\bR\vhasNextPage\x12*\n" +
-	"\x11has_previous_page\x18\x06 \x01(\bR\x0fhasPreviousPageB\x9e\x01\n" +
-	"\vcom.auth.v2B\x18ListApiKeysResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x11has_previous_page\x18\x06 \x01(\bR\x0fhasPreviousPageB\xa1\x01\n" +
+	"\vcom.auth.v2B\x18ListApiKeysResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_list_api_keys_response_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_authpb_v2_list_api_keys_response_proto_goTypes = []any{

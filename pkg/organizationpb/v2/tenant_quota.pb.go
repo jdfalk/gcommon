@@ -325,8 +325,8 @@ const file_organizationpb_v2_tenant_quota_proto_rawDesc = "" +
 	"\rcustom_quotas\x18\b \x03(\v2..organization.v2.TenantQuota.CustomQuotasEntryR\fcustomQuotas\x1a?\n" +
 	"\x11CustomQuotasEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xce\x01\n" +
-	"\x13com.organization.v2B\x10TenantQuotaProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xd1\x01\n" +
+	"\x13com.organization.v2B\x10TenantQuotaProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_tenant_quota_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_organizationpb_v2_tenant_quota_proto_goTypes = []any{

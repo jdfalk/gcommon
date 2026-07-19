@@ -205,8 +205,8 @@ const file_queuepb_v2_replication_config_proto_rawDesc = "" +
 	"\rreplica_count\x18\x01 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\freplicaCount\x12\x1f\n" +
 	"\x06factor\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x06factor\x12 \n" +
 	"\vsynchronous\x18\x03 \x01(\bR\vsynchronous\x128\n" +
-	"\x14min_in_sync_replicas\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x11minInSyncReplicasB\xa3\x01\n" +
-	"\fcom.queue.v2B\x16ReplicationConfigProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x14min_in_sync_replicas\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x11minInSyncReplicasB\xa6\x01\n" +
+	"\fcom.queue.v2B\x16ReplicationConfigProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_replication_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_replication_config_proto_goTypes = []any{

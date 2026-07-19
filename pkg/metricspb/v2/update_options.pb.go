@@ -11,7 +11,7 @@
 package metricsv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -241,8 +241,8 @@ const file_metricspb_v2_update_options_proto_rawDesc = "" +
 	"\adry_run\x18\x02 \x01(\bR\x06dryRun\x12*\n" +
 	"\x11restart_if_needed\x18\x03 \x01(\bR\x0frestartIfNeeded\x12#\n" +
 	"\rbackup_config\x18\x04 \x01(\bR\fbackupConfig\x125\n" +
-	"\bstrategy\x18\x05 \x01(\x0e2\x19.common.v2.UpdateStrategyR\bstrategyB\xad\x01\n" +
-	"\x0ecom.metrics.v2B\x12UpdateOptionsProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\bstrategy\x18\x05 \x01(\x0e2\x19.common.v2.UpdateStrategyR\bstrategyB\xb0\x01\n" +
+	"\x0ecom.metrics.v2B\x12UpdateOptionsProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

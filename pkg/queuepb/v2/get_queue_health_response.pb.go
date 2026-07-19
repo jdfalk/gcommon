@@ -119,8 +119,8 @@ const file_queuepb_v2_get_queue_health_response_proto_rawDesc = "" +
 	"*queuepb/v2/get_queue_health_response.proto\x12\bqueue.v2\x1a\x1fqueuepb/v2/cluster_health.proto\x1a\x1dqueuepb/v2/queue_health.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"\x9c\x01\n" +
 	"\x16GetQueueHealthResponse\x12B\n" +
 	"\fqueue_health\x18\x01 \x03(\v2\x15.queue.v2.QueueHealthB\b\xbaH\x05\x92\x01\x02\b\x01R\vqueueHealth\x12>\n" +
-	"\x0ecluster_health\x18\x02 \x01(\v2\x17.queue.v2.ClusterHealthR\rclusterHealthB\xa8\x01\n" +
-	"\fcom.queue.v2B\x1bGetQueueHealthResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0ecluster_health\x18\x02 \x01(\v2\x17.queue.v2.ClusterHealthR\rclusterHealthB\xab\x01\n" +
+	"\fcom.queue.v2B\x1bGetQueueHealthResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_get_queue_health_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_get_queue_health_response_proto_goTypes = []any{

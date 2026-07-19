@@ -85,8 +85,8 @@ const file_commonpb_v2_offset_reset_strategy_proto_rawDesc = "" +
 	"\x1eOFFSET_RESET_STRATEGY_EARLIEST\x10\x01\x12 \n" +
 	"\x1cOFFSET_RESET_STRATEGY_LATEST\x10\x02\x12\x1e\n" +
 	"\x1aOFFSET_RESET_STRATEGY_NONE\x10\x03\x12#\n" +
-	"\x1fOFFSET_RESET_STRATEGY_TIMESTAMP\x10\x04B\xac\x01\n" +
-	"\rcom.common.v2B\x18OffsetResetStrategyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1fOFFSET_RESET_STRATEGY_TIMESTAMP\x10\x04B\xaf\x01\n" +
+	"\rcom.common.v2B\x18OffsetResetStrategyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_offset_reset_strategy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

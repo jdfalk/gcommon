@@ -39,8 +39,8 @@ const file_commonpb_v2_session_service_proto_rawDesc = "" +
 	"\x10TerminateSession\x12\".common.v2.TerminateSessionRequest\x1a#.common.v2.TerminateSessionResponse\x12Z\n" +
 	"\rDeleteSession\x12#.common.v2.AuthDeleteSessionRequest\x1a$.common.v2.AuthDeleteSessionResponse\x12[\n" +
 	"\x10ListUserSessions\x12\".common.v2.ListUserSessionsRequest\x1a#.common.v2.ListUserSessionsResponse\x12W\n" +
-	"\fListSessions\x12\".common.v2.AuthListSessionsRequest\x1a#.common.v2.AuthListSessionsResponseB\xa7\x01\n" +
-	"\rcom.common.v2B\x13SessionServiceProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\fListSessions\x12\".common.v2.AuthListSessionsRequest\x1a#.common.v2.AuthListSessionsResponseB\xaa\x01\n" +
+	"\rcom.common.v2B\x13SessionServiceProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_session_service_proto_goTypes = []any{

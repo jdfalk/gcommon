@@ -83,8 +83,8 @@ const file_commonpb_v2_route_type_proto_rawDesc = "" +
 	"\x16ROUTE_TYPE_UNSPECIFIED\x10\x00\x12\x1a\n" +
 	"\x16ROUTE_TYPE_STATIC_FILE\x10\x01\x12\x12\n" +
 	"\x0eROUTE_TYPE_API\x10\x02\x12\x17\n" +
-	"\x13ROUTE_TYPE_REDIRECT\x10\x03B\xa2\x01\n" +
-	"\rcom.common.v2B\x0eRouteTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x13ROUTE_TYPE_REDIRECT\x10\x03B\xa5\x01\n" +
+	"\rcom.common.v2B\x0eRouteTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_route_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

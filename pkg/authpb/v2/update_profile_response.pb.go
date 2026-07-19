@@ -223,8 +223,8 @@ const file_authpb_v2_update_profile_response_proto_rawDesc = "" +
 	"\aprofile\x18\x02 \x01(\v2\x14.auth.v2.UserProfileR\aprofile\x12%\n" +
 	"\x0eupdated_fields\x18\x03 \x03(\tR\rupdatedFields\x12\x18\n" +
 	"\amessage\x18\x04 \x01(\tR\amessage\x12#\n" +
-	"\rerror_message\x18\x05 \x01(\tR\ferrorMessageB\xa0\x01\n" +
-	"\vcom.auth.v2B\x1aUpdateProfileResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rerror_message\x18\x05 \x01(\tR\ferrorMessageB\xa3\x01\n" +
+	"\vcom.auth.v2B\x1aUpdateProfileResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_update_profile_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_update_profile_response_proto_goTypes = []any{

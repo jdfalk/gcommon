@@ -164,8 +164,8 @@ const file_commonpb_v2_get_user_permissions_response_proto_rawDesc = "" +
 	"\x10role_permissions\x18\x02 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0frolePermissions\x12=\n" +
 	"\x15effective_permissions\x18\x03 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x14effectivePermissions\x121\n" +
 	"\x05roles\x18\x04 \x03(\v2\x0f.common.v2.RoleB\n" +
-	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\x05rolesB\xb3\x01\n" +
-	"\rcom.common.v2B\x1fGetUserPermissionsResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\x05rolesB\xb6\x01\n" +
+	"\rcom.common.v2B\x1fGetUserPermissionsResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_get_user_permissions_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

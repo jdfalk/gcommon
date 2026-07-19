@@ -12,7 +12,7 @@ package queuev2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -142,8 +142,8 @@ const file_queuepb_v2_stream_metrics_request_proto_rawDesc = "" +
 	"\vqueue_names\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\n" +
 	"queueNames\x12I\n" +
 	"\fmetric_types\x18\x02 \x03(\x0e2\x1c.common.v2.MetricsMetricTypeB\b\xbaH\x05\x92\x01\x02\b\x01R\vmetricTypes\x122\n" +
-	"\x10interval_seconds\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0fintervalSecondsB\xa6\x01\n" +
-	"\fcom.queue.v2B\x19StreamMetricsRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x10interval_seconds\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0fintervalSecondsB\xa9\x01\n" +
+	"\fcom.queue.v2B\x19StreamMetricsRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_stream_metrics_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_stream_metrics_request_proto_goTypes = []any{

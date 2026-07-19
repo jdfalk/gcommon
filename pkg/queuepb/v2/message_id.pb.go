@@ -117,8 +117,8 @@ const file_queuepb_v2_message_id_proto_rawDesc = "" +
 	"\n" +
 	"\x1bqueuepb/v2/message_id.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"*\n" +
 	"\tMessageId\x12\x1d\n" +
-	"\x05value\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05valueB\x9b\x01\n" +
-	"\fcom.queue.v2B\x0eMessageIdProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05value\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05valueB\x9e\x01\n" +
+	"\fcom.queue.v2B\x0eMessageIdProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_message_id_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_message_id_proto_goTypes = []any{

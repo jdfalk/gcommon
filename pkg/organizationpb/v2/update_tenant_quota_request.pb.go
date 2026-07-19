@@ -12,7 +12,7 @@ package organizationv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -166,8 +166,8 @@ const file_organizationpb_v2_update_tenant_quota_request_proto_rawDesc = "" +
 	"\x18UpdateTenantQuotaRequest\x126\n" +
 	"\bmetadata\x18\x01 \x01(\v2\x1a.common.v2.RequestMetadataR\bmetadata\x12$\n" +
 	"\ttenant_id\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\btenantId\x122\n" +
-	"\x05quota\x18\x03 \x01(\v2\x1c.organization.v2.TenantQuotaR\x05quotaB\xdb\x01\n" +
-	"\x13com.organization.v2B\x1dUpdateTenantQuotaRequestProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05quota\x18\x03 \x01(\v2\x1c.organization.v2.TenantQuotaR\x05quotaB\xde\x01\n" +
+	"\x13com.organization.v2B\x1dUpdateTenantQuotaRequestProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_update_tenant_quota_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_update_tenant_quota_request_proto_goTypes = []any{

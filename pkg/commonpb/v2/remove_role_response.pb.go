@@ -408,8 +408,8 @@ const file_commonpb_v2_remove_role_response_proto_rawDesc = "" +
 	"\x13has_remaining_roles\x18\b \x01(\bR\x11hasRemainingRoles\x120\n" +
 	"\x14remaining_role_count\x18\t \x01(\x05R\x12remainingRoleCount\x12\x18\n" +
 	"\amessage\x18\n" +
-	" \x01(\tR\amessageB\xab\x01\n" +
-	"\rcom.common.v2B\x17RemoveRoleResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	" \x01(\tR\amessageB\xae\x01\n" +
+	"\rcom.common.v2B\x17RemoveRoleResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_remove_role_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

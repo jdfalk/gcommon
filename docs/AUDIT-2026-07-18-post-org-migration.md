@@ -1,7 +1,7 @@
 <!-- file: docs/AUDIT-2026-07-18-post-org-migration.md -->
-<!-- version: 1.1.0 -->
+<!-- version: 1.2.0 -->
 <!-- guid: 543a463e-c1e3-45c9-8362-a0230354c7c5 -->
-<!-- last-edited: 2026-07-18 -->
+<!-- last-edited: 2026-07-19 -->
 
 # falkcorp/gcommon — Post-Org-Migration Audit (2026-07-18)
 
@@ -183,3 +183,25 @@ Core migration is essentially done: every `go.mod` (root + all submodules) alrea
 - **Scope of the 31 unimplemented service families:** is implementing all of them actually wanted, or should gcommon's scope be trimmed to only the services its known consumers (subtitle-manager, etc.) actually need? Building out 31 greenfield gRPC services is a materially different, much larger undertaking than "finish the org migration."
 - **Should root even be `go get`-able as a library?** It's `package main` (a server binary); its docs/usage should probably say `go install` explicitly rather than implying library consumption, independent of the `+incompatible` semver issue.
 - **Is `buf.yaml`'s `deps: - buf.build/falkcorp/gcommon` intentional?** It's conceptually circular for a repo that is itself gcommon's Go-generation target — worth a sanity check on why `buf.yaml` exists here at all versus only `buf.gen.yaml`.
+
+## Update 2026-07-19 — Single-module collapse (resolves Phase 5 items 13–14, and the "root as a library" open question)
+
+Phases 1–4 above landed (`eb4ac29e`, `44ede64c`): `buf.gen.yaml` fixed, v1 dropped repo-wide, all 10 `pkg/*pb` families regenerated clean, cross-module pins fixed, CI re-pinned. Phase 5's nested-tag extension to `release-manager.py` was then implemented and run live — cutting a root tag `v2.1.7` alongside 10 nested `pkg/*pb/v2/v2.1.7` submodule tags, per the plan this doc originally recommended (item 13).
+
+That run immediately surfaced a structural bug the original plan didn't anticipate: **root's `go.mod` declared `module github.com/falkcorp/gcommon` with no `/v2` suffix, but was tagged `v2.1.7`.** Go's module resolution validates the whole path chain including the root module even when only fetching an unrelated nested submodule — so root's malformed major-version tag broke resolution for the nested `pkg/commonpb/v2` tag too (`invalid version: module contains a go.mod file, so module path must match major version ("github.com/falkcorp/gcommon/v2")`), not just for root itself. The bad root tag was deleted (`v2.1.7`, local + remote) before it could be consumed.
+
+Rather than patch this one instance (e.g. give root a correct `/v2` suffix and move on), the repo was restructured to remove the whole class of problem: **all 13 go.mod files (root, `internal`, `services`, `services/auth`, and 10× `pkg/*pb/v2`) were collapsed into one Go module, `github.com/falkcorp/gcommon/v2`, at the repo root.** This directly answers this doc's open question about root's `go get`-ability: root is still `package main` (`go install` is the right verb for it), but it's now also the same module that all libraries live in, so there's exactly one thing to tag, not 11.
+
+What changed:
+- `go.mod`: `module github.com/falkcorp/gcommon` → `module github.com/falkcorp/gcommon/v2`. All `replace` directives removed (no longer needed — everything is one module).
+- The 12 other go.mod/go.sum files deleted; their packages (`internal/*`, `services/*`, `services/auth/*`, `pkg/*pb/v2`) are now ordinary packages under the single root module.
+- `buf.gen.yaml`'s `go_package_prefix` overrides updated from `github.com/falkcorp/gcommon/pkg` to `github.com/falkcorp/gcommon/v2/pkg`; regenerated via `buf generate` (not hand-edited — see the Critical Blocker #1 lesson above about why hand-editing generated descriptors is unsafe). On-disk layout (`pkg/<family>pb/v2/*.pb.go`) is unchanged — that's driven by the BSR proto files' own paths, independent of the module collapse.
+- `scripts/fix-go-paths.py` deleted (existed only to create/maintain the per-family go.mod files that no longer exist).
+- `scripts/release-manager.py`: `find_nested_pb_modules()` and the nested-tag loop in `create_and_push_tags()` removed — it now creates exactly one tag per release, with an explicit comment warning against reintroducing nested tags without re-reading this section. `run_go_mod_tidy()` simplified from a multi-directory walk to a single `go mod tidy` at repo root.
+- All hand-written Go source (`main.go`, `services/health/*.go`, `services/auth/*.go`) and docs (`README.md`, `services/README.md`, `services/health/README.md`, `services/auth/SUBTITLE_MANAGER_INTEGRATION.md`) updated to the `.../gcommon/v2/...` import path.
+- Also removed while in here: a 16MB compiled `gcommon` binary that had been accidentally committed at repo root, and a stale duplicate `buf.gen.managed.yaml` (an old, un-regenerated copy of `buf.gen.yaml` carrying the same two config bugs Phase 1 fixed — dead, but a landmine if anyone ever ran `buf generate --template` against it).
+- The 10 stale nested `pkg/*pb/v2/v2.1.7` tags (cut before the collision was found) were deleted; a single new tag replaces them.
+
+Verified: `go build ./...`, `go vet ./...`, and `go test ./...` all pass clean as one module (previously 13 separate `go test` invocations, one of which — `services/health` — was the repo's only real red signal per Critical Blocker #3, now green).
+
+This was a deliberate, user-approved scope expansion beyond this doc's original Phase 5 plan (which assumed the nested-module structure would persist and just needed correct tagging). Given the audit's own framing — "no one uses this stuff, it's all prerelease" — now was judged the cheapest time to make this change, before Phase 6's 31-service build-out creates more nested-module surface area that would have hit the same class of bug repeatedly.

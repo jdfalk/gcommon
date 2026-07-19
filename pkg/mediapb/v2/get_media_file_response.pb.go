@@ -101,8 +101,8 @@ const file_mediapb_v2_get_media_file_response_proto_rawDesc = "" +
 	"(mediapb/v2/get_media_file_response.proto\x12\bmedia.v2\x1a\x1bmediapb/v2/media_file.proto\x1a!google/protobuf/go_features.proto\"J\n" +
 	"\x14GetMediaFileResponse\x122\n" +
 	"\n" +
-	"media_file\x18\x01 \x01(\v2\x13.media.v2.MediaFileR\tmediaFileB\xa6\x01\n" +
-	"\fcom.media.v2B\x19GetMediaFileResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"media_file\x18\x01 \x01(\v2\x13.media.v2.MediaFileR\tmediaFileB\xa9\x01\n" +
+	"\fcom.media.v2B\x19GetMediaFileResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_get_media_file_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_get_media_file_response_proto_goTypes = []any{

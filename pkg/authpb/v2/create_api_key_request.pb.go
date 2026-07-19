@@ -246,8 +246,8 @@ const file_authpb_v2_create_api_key_request_proto_rawDesc = "" +
 	"\tis_active\x18\x06 \x01(\bR\bisActive\x1a;\n" +
 	"\rMetadataEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\x9e\x01\n" +
-	"\vcom.auth.v2B\x18CreateApiKeyRequestProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa1\x01\n" +
+	"\vcom.auth.v2B\x18CreateApiKeyRequestProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_create_api_key_request_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_authpb_v2_create_api_key_request_proto_goTypes = []any{

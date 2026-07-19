@@ -357,8 +357,8 @@ const file_commonpb_v2_token_info_proto_rawDesc = "" +
 	"expires_at\x18\a \x01(\v2\x1a.google.protobuf.TimestampR\texpiresAt\x12\x16\n" +
 	"\x06active\x18\b \x01(\bR\x06active\x12\x1d\n" +
 	"\n" +
-	"expires_in\x18\t \x01(\x03R\texpiresInB\xa2\x01\n" +
-	"\rcom.common.v2B\x0eTokenInfoProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"expires_in\x18\t \x01(\x03R\texpiresInB\xa5\x01\n" +
+	"\rcom.common.v2B\x0eTokenInfoProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_token_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

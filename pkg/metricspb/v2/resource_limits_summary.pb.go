@@ -400,8 +400,8 @@ const file_metricspb_v2_resource_limits_summary_proto_rawDesc = "" +
 	"\x1anetwork_used_bytes_per_sec\x18\b \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x16networkUsedBytesPerSec\x12'\n" +
 	"\x0flimits_enforced\x18\t \x01(\bR\x0elimitsEnforced\x122\n" +
 	"\x10violations_count\x18\n" +
-	" \x01(\rB\a\xbaH\x04*\x02(\x00R\x0fviolationsCountB\xb5\x01\n" +
-	"\x0ecom.metrics.v2B\x1aResourceLimitsSummaryProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	" \x01(\rB\a\xbaH\x04*\x02(\x00R\x0fviolationsCountB\xb8\x01\n" +
+	"\x0ecom.metrics.v2B\x1aResourceLimitsSummaryProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

@@ -210,8 +210,8 @@ const file_commonpb_v2_authorize_response_proto_rawDesc = "" +
 	"authorized\x12*\n" +
 	"\vpermissions\x18\x02 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\vpermissions\x12,\n" +
 	"\rdenial_reason\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\fdenialReason\x12*\n" +
-	"\x05error\x18\x04 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\xaa\x01\n" +
-	"\rcom.common.v2B\x16AuthorizeResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05error\x18\x04 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\xad\x01\n" +
+	"\rcom.common.v2B\x16AuthorizeResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_authorize_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

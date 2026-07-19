@@ -313,8 +313,8 @@ const file_healthpb_v2_readiness_check_proto_rawDesc = "" +
 	"\x14startup_grace_period\x18\x06 \x01(\v2\x19.google.protobuf.DurationR\x12startupGracePeriod\x129\n" +
 	"\n" +
 	"updated_at\x18\a \x01(\v2\x1a.google.protobuf.TimestampR\tupdatedAt\x12\x18\n" +
-	"\aenabled\x18\b \x01(\bR\aenabledB\xa7\x01\n" +
-	"\rcom.health.v2B\x13ReadinessCheckProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\aenabled\x18\b \x01(\bR\aenabledB\xaa\x01\n" +
+	"\rcom.health.v2B\x13ReadinessCheckProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_readiness_check_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

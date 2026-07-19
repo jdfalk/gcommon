@@ -229,8 +229,8 @@ const file_queuepb_v2_subscribe_response_proto_rawDesc = "" +
 	"\x10partition_offset\x18\x02 \x01(\v2\x19.queue.v2.PartitionOffsetR\x0fpartitionOffset\x12J\n" +
 	"\x12connection_details\x18\x03 \x01(\v2\x1b.queue.v2.ConnectionDetailsR\x11connectionDetails\x120\n" +
 	"\x0fsubscription_id\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0esubscriptionId\x12\x1d\n" +
-	"\x05error\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05errorB\xa3\x01\n" +
-	"\fcom.queue.v2B\x16SubscribeResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05error\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05errorB\xa6\x01\n" +
+	"\fcom.queue.v2B\x16SubscribeResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_subscribe_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_subscribe_response_proto_goTypes = []any{

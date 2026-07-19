@@ -183,8 +183,8 @@ const file_commonpb_v2_verify_email_response_proto_rawDesc = "" +
 	"\x13VerifyEmailResponse\x12\x1a\n" +
 	"\bverified\x18\x01 \x01(\bR\bverified\x12#\n" +
 	"\rerror_message\x18\x02 \x01(\tR\ferrorMessage\x12p\n" +
-	"\auser_id\x18\x03 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x06userIdB\xac\x01\n" +
-	"\rcom.common.v2B\x18VerifyEmailResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\auser_id\x18\x03 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x06userIdB\xaf\x01\n" +
+	"\rcom.common.v2B\x18VerifyEmailResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_verify_email_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

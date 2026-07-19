@@ -135,8 +135,8 @@ const file_commonpb_v2_logout_response_proto_rawDesc = "" +
 	"!commonpb/v2/logout_response.proto\x12\tcommon.v2\x1a\x17commonpb/v2/error.proto\x1a!google/protobuf/go_features.proto\"R\n" +
 	"\x0eLogoutResponse\x12\x18\n" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12&\n" +
-	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xa7\x01\n" +
-	"\rcom.common.v2B\x13LogoutResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xaa\x01\n" +
+	"\rcom.common.v2B\x13LogoutResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_logout_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

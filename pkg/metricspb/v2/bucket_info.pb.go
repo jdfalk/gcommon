@@ -175,8 +175,8 @@ const file_metricspb_v2_bucket_info_proto_rawDesc = "" +
 	"\vupper_bound\x18\x01 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\n" +
 	"upperBound\x12\x1d\n" +
 	"\x05count\x18\x02 \x01(\x04B\a\xbaH\x042\x02(\x00R\x05count\x12*\n" +
-	"\fbucket_index\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vbucketIndexB\xaa\x01\n" +
-	"\x0ecom.metrics.v2B\x0fBucketInfoProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\fbucket_index\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vbucketIndexB\xad\x01\n" +
+	"\x0ecom.metrics.v2B\x0fBucketInfoProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

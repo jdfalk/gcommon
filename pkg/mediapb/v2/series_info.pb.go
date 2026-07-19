@@ -236,8 +236,8 @@ const file_mediapb_v2_series_info_proto_rawDesc = "" +
 	"\vseries_name\x18\x03 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\n" +
 	"seriesName\x12#\n" +
 	"\repisode_title\x18\x04 \x01(\tR\fepisodeTitle\x125\n" +
-	"\bair_date\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\aairDateB\x9c\x01\n" +
-	"\fcom.media.v2B\x0fSeriesInfoProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bair_date\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\aairDateB\x9f\x01\n" +
+	"\fcom.media.v2B\x0fSeriesInfoProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_series_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_series_info_proto_goTypes = []any{

@@ -253,8 +253,8 @@ const file_commonpb_v2_verification_status_proto_rawDesc = "" +
 	"\x11identity_verified\x18\x03 \x01(\bR\x10identityVerified\x12F\n" +
 	"\x11email_verified_at\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampR\x0femailVerifiedAt\x12F\n" +
 	"\x11phone_verified_at\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\x0fphoneVerifiedAt\x12L\n" +
-	"\x14identity_verified_at\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\x12identityVerifiedAtB\xab\x01\n" +
-	"\rcom.common.v2B\x17VerificationStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x14identity_verified_at\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\x12identityVerifiedAtB\xae\x01\n" +
+	"\rcom.common.v2B\x17VerificationStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_verification_status_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

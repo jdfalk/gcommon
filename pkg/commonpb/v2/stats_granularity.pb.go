@@ -93,8 +93,8 @@ const file_commonpb_v2_stats_granularity_proto_rawDesc = "" +
 	"\x18STATS_GRANULARITY_MINUTE\x10\x01\x12\x1a\n" +
 	"\x16STATS_GRANULARITY_HOUR\x10\x02\x12\x19\n" +
 	"\x15STATS_GRANULARITY_DAY\x10\x03\x12\x1a\n" +
-	"\x16STATS_GRANULARITY_WEEK\x10\x04B\xa9\x01\n" +
-	"\rcom.common.v2B\x15StatsGranularityProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x16STATS_GRANULARITY_WEEK\x10\x04B\xac\x01\n" +
+	"\rcom.common.v2B\x15StatsGranularityProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_stats_granularity_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

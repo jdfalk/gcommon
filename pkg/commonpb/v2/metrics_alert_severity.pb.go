@@ -85,8 +85,8 @@ const file_commonpb_v2_metrics_alert_severity_proto_rawDesc = "" +
 	"\x1aMETRICS_ALERT_SEVERITY_LOW\x10\x01\x12!\n" +
 	"\x1dMETRICS_ALERT_SEVERITY_MEDIUM\x10\x02\x12\x1f\n" +
 	"\x1bMETRICS_ALERT_SEVERITY_HIGH\x10\x03\x12#\n" +
-	"\x1fMETRICS_ALERT_SEVERITY_CRITICAL\x10\x04B\xad\x01\n" +
-	"\rcom.common.v2B\x19MetricsAlertSeverityProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1fMETRICS_ALERT_SEVERITY_CRITICAL\x10\x04B\xb0\x01\n" +
+	"\rcom.common.v2B\x19MetricsAlertSeverityProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_alert_severity_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

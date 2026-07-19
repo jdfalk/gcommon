@@ -145,8 +145,8 @@ const file_authpb_v2_revoke_token_response_proto_rawDesc = "" +
 	"%authpb/v2/revoke_token_response.proto\x12\aauth.v2\x1a!google/protobuf/go_features.proto\"I\n" +
 	"\x13RevokeTokenResponse\x12\x18\n" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12\x18\n" +
-	"\amessage\x18\x02 \x01(\tR\amessageB\x9e\x01\n" +
-	"\vcom.auth.v2B\x18RevokeTokenResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\amessage\x18\x02 \x01(\tR\amessageB\xa1\x01\n" +
+	"\vcom.auth.v2B\x18RevokeTokenResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_revoke_token_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_revoke_token_response_proto_goTypes = []any{

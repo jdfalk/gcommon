@@ -272,8 +272,8 @@ const file_queuepb_v2_restore_status_proto_rawDesc = "" +
 	"\rcurrent_phase\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\fcurrentPhase\x12J\n" +
 	"\x13estimated_remaining\x18\x05 \x01(\v2\x19.google.protobuf.DurationR\x12estimatedRemaining\x12;\n" +
 	"\vlast_update\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\n" +
-	"lastUpdateB\x9f\x01\n" +
-	"\fcom.queue.v2B\x12RestoreStatusProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"lastUpdateB\xa2\x01\n" +
+	"\fcom.queue.v2B\x12RestoreStatusProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_restore_status_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_restore_status_proto_goTypes = []any{

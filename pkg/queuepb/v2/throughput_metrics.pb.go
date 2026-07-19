@@ -260,8 +260,8 @@ const file_queuepb_v2_throughput_metrics_proto_rawDesc = "" +
 	"\x17messages_per_second_15m\x18\x03 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x14messagesPerSecond15m\x12C\n" +
 	"\x16messages_per_second_1h\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x13messagesPerSecond1h\x12G\n" +
 	"\x18peak_messages_per_second\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x15peakMessagesPerSecond\x12A\n" +
-	"\x0epeak_timestamp\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\rpeakTimestampB\xa3\x01\n" +
-	"\fcom.queue.v2B\x16ThroughputMetricsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0epeak_timestamp\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\rpeakTimestampB\xa6\x01\n" +
+	"\fcom.queue.v2B\x16ThroughputMetricsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_throughput_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_throughput_metrics_proto_goTypes = []any{

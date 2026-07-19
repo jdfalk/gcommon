@@ -103,8 +103,8 @@ const file_metricspb_v2_set_metric_config_request_proto_rawDesc = "" +
 	",metricspb/v2/set_metric_config_request.proto\x12\n" +
 	"metrics.v2\x1a metricspb/v2/metric_config.proto\x1a!google/protobuf/go_features.proto\"J\n" +
 	"\x16SetMetricConfigRequest\x120\n" +
-	"\x06config\x18\x01 \x01(\v2\x18.metrics.v2.MetricConfigR\x06configB\xb6\x01\n" +
-	"\x0ecom.metrics.v2B\x1bSetMetricConfigRequestProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x06config\x18\x01 \x01(\v2\x18.metrics.v2.MetricConfigR\x06configB\xb9\x01\n" +
+	"\x0ecom.metrics.v2B\x1bSetMetricConfigRequestProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

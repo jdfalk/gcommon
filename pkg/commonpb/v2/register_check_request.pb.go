@@ -187,8 +187,8 @@ const file_commonpb_v2_register_check_request_proto_rawDesc = "" +
 	"\x14RegisterCheckRequest\x12!\n" +
 	"\aservice\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\aservice\x129\n" +
 	"\x05check\x18\x02 \x01(\v2#.common.v2.HealthHealthCheckRequestR\x05check\x12:\n" +
-	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xad\x01\n" +
-	"\rcom.common.v2B\x19RegisterCheckRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xb0\x01\n" +
+	"\rcom.common.v2B\x19RegisterCheckRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_register_check_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

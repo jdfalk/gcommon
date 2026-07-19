@@ -206,8 +206,8 @@ const file_metricspb_v2_query_plan_proto_rawDesc = "" +
 	"\x12estimated_duration\x18\x02 \x01(\v2\x19.google.protobuf.DurationR\x11estimatedDuration\x12;\n" +
 	"\x15estimated_data_points\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x13estimatedDataPoints\x125\n" +
 	"\x05steps\x18\x04 \x03(\v2\x15.metrics.v2.QueryStepB\b\xbaH\x05\x92\x01\x02\b\x01R\x05steps\x123\n" +
-	"\x10storage_backends\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fstorageBackendsB\xa9\x01\n" +
-	"\x0ecom.metrics.v2B\x0eQueryPlanProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x10storage_backends\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0fstorageBackendsB\xac\x01\n" +
+	"\x0ecom.metrics.v2B\x0eQueryPlanProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

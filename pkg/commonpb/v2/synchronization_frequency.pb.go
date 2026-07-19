@@ -89,8 +89,8 @@ const file_commonpb_v2_synchronization_frequency_proto_rawDesc = "" +
 	" SYNCHRONIZATION_FREQUENCY_HOURLY\x10\x02\x12#\n" +
 	"\x1fSYNCHRONIZATION_FREQUENCY_DAILY\x10\x03\x12$\n" +
 	" SYNCHRONIZATION_FREQUENCY_WEEKLY\x10\x04\x12'\n" +
-	"#SYNCHRONIZATION_FREQUENCY_ON_CHANGE\x10\x05B\xb1\x01\n" +
-	"\rcom.common.v2B\x1dSynchronizationFrequencyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"#SYNCHRONIZATION_FREQUENCY_ON_CHANGE\x10\x05B\xb4\x01\n" +
+	"\rcom.common.v2B\x1dSynchronizationFrequencyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_synchronization_frequency_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

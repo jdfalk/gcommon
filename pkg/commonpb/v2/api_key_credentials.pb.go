@@ -150,8 +150,8 @@ const file_commonpb_v2_api_key_credentials_proto_rawDesc = "" +
 	"%commonpb/v2/api_key_credentials.proto\x12\tcommon.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"N\n" +
 	"\x11APIKeyCredentials\x12\x19\n" +
 	"\x03key\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x03key\x12\x1e\n" +
-	"\x06key_id\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05keyIdB\xaa\x01\n" +
-	"\rcom.common.v2B\x16ApiKeyCredentialsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x06key_id\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05keyIdB\xad\x01\n" +
+	"\rcom.common.v2B\x16ApiKeyCredentialsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_api_key_credentials_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

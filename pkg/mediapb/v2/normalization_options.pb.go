@@ -169,8 +169,8 @@ const file_mediapb_v2_normalization_options_proto_rawDesc = "" +
 	"\vtarget_lufs\x18\x01 \x01(\x01R\n" +
 	"targetLufs\x12\x1e\n" +
 	"\vmax_peak_db\x18\x02 \x01(\x01R\tmaxPeakDb\x12%\n" +
-	"\x0eenable_limiter\x18\x03 \x01(\bR\renableLimiterB\xa6\x01\n" +
-	"\fcom.media.v2B\x19NormalizationOptionsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0eenable_limiter\x18\x03 \x01(\bR\renableLimiterB\xa9\x01\n" +
+	"\fcom.media.v2B\x19NormalizationOptionsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_normalization_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_normalization_options_proto_goTypes = []any{

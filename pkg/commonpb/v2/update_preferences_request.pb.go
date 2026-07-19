@@ -163,8 +163,8 @@ const file_commonpb_v2_update_preferences_request_proto_rawDesc = "" +
 	",commonpb/v2/update_preferences_request.proto\x12\tcommon.v2\x1a\"commonpb/v2/request_metadata.proto\x1a*commonpb/v2/subscription_preferences.proto\x1a!google/protobuf/go_features.proto\"\xa0\x01\n" +
 	"\x18UpdatePreferencesRequest\x12H\n" +
 	"\vpreferences\x18\x01 \x01(\v2\".common.v2.SubscriptionPreferencesB\x02(\x01R\vpreferences\x12:\n" +
-	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xb1\x01\n" +
-	"\rcom.common.v2B\x1dUpdatePreferencesRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xb4\x01\n" +
+	"\rcom.common.v2B\x1dUpdatePreferencesRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_update_preferences_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

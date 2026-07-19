@@ -236,9 +236,9 @@ const file_webpb_v2_file_metadata_proto_rawDesc = "" +
 	"\tmime_type\x18\x03 \x01(\v2\x10.web.v2.MimeTypeR\bmimeType\x12\x1a\n" +
 	"\bchecksum\x18\x04 \x01(\tR\bchecksum\x12;\n" +
 	"\vmodified_at\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\n" +
-	"modifiedAtB\x90\x01\n" +
+	"modifiedAtB\x93\x01\n" +
 	"\n" +
-	"com.web.v2B\x11FileMetadataProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x11FileMetadataProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_file_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_file_metadata_proto_goTypes = []any{

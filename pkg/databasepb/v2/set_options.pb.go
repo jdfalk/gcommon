@@ -221,8 +221,8 @@ const file_databasepb_v2_set_options_proto_rawDesc = "" +
 	"\x0eonly_if_absent\x18\x01 \x01(\bR\fonlyIfAbsent\x12&\n" +
 	"\x0fonly_if_present\x18\x02 \x01(\bR\ronlyIfPresent\x12/\n" +
 	"\x03ttl\x18\x03 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\x03ttl\x12'\n" +
-	"\x0freturn_previous\x18\x04 \x01(\bR\x0ereturnPreviousB\xb1\x01\n" +
-	"\x0fcom.database.v2B\x0fSetOptionsProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0freturn_previous\x18\x04 \x01(\bR\x0ereturnPreviousB\xb4\x01\n" +
+	"\x0fcom.database.v2B\x0fSetOptionsProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_set_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_set_options_proto_goTypes = []any{

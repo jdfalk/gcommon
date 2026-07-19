@@ -186,8 +186,8 @@ const file_mediapb_v2_subtitle_extraction_options_proto_rawDesc = "" +
 	"\routput_format\x18\x01 \x01(\tR\foutputFormat\x128\n" +
 	"\x18include_hearing_impaired\x18\x02 \x01(\bR\x16includeHearingImpaired\x12%\n" +
 	"\x0einclude_forced\x18\x03 \x01(\bR\rincludeForced\x12\x1c\n" +
-	"\tlanguages\x18\x04 \x03(\tR\tlanguagesB\xab\x01\n" +
-	"\fcom.media.v2B\x1eSubtitleExtractionOptionsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\tlanguages\x18\x04 \x03(\tR\tlanguagesB\xae\x01\n" +
+	"\fcom.media.v2B\x1eSubtitleExtractionOptionsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_subtitle_extraction_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_subtitle_extraction_options_proto_goTypes = []any{

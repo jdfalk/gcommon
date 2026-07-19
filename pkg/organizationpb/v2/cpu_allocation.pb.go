@@ -205,8 +205,8 @@ const file_organizationpb_v2_cpu_allocation_proto_rawDesc = "" +
 	"\rfrequency_mhz\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\ffrequencyMhz\x12:\n" +
 	"\x13usage_limit_percent\x18\x03 \x01(\x05B\n" +
 	"\xbaH\a\x1a\x05\x18\x96\x01(\x00R\x11usageLimitPercent\x12#\n" +
-	"\bpriority\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\bpriorityB\xd0\x01\n" +
-	"\x13com.organization.v2B\x12CpuAllocationProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bpriority\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\bpriorityB\xd3\x01\n" +
+	"\x13com.organization.v2B\x12CpuAllocationProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_cpu_allocation_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_cpu_allocation_proto_goTypes = []any{

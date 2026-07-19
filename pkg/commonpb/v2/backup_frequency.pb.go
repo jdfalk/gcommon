@@ -93,8 +93,8 @@ const file_commonpb_v2_backup_frequency_proto_rawDesc = "" +
 	"\x16BACKUP_FREQUENCY_DAILY\x10\x03\x12\x1b\n" +
 	"\x17BACKUP_FREQUENCY_WEEKLY\x10\x04\x12\x1c\n" +
 	"\x18BACKUP_FREQUENCY_MONTHLY\x10\x05\x12\x1e\n" +
-	"\x1aBACKUP_FREQUENCY_ON_CHANGE\x10\x06B\xa8\x01\n" +
-	"\rcom.common.v2B\x14BackupFrequencyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1aBACKUP_FREQUENCY_ON_CHANGE\x10\x06B\xab\x01\n" +
+	"\rcom.common.v2B\x14BackupFrequencyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_backup_frequency_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

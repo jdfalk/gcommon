@@ -12,7 +12,7 @@ package configv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -95,8 +95,8 @@ const file_configpb_v2_get_config_history_response_proto_rawDesc = "" +
 	"\n" +
 	"-configpb/v2/get_config_history_response.proto\x12\tconfig.v2\x1a'commonpb/v2/metrics_config_change.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"^\n" +
 	"\x18GetConfigHistoryResponse\x12B\n" +
-	"\achanges\x18\x01 \x03(\v2\x1e.common.v2.MetricsConfigChangeB\b\xbaH\x05\x92\x01\x02\b\x01R\achangesB\xb1\x01\n" +
-	"\rcom.config.v2B\x1dGetConfigHistoryResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\achanges\x18\x01 \x03(\v2\x1e.common.v2.MetricsConfigChangeB\b\xbaH\x05\x92\x01\x02\b\x01R\achangesB\xb4\x01\n" +
+	"\rcom.config.v2B\x1dGetConfigHistoryResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_get_config_history_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

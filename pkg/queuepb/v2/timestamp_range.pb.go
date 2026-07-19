@@ -134,8 +134,8 @@ const file_queuepb_v2_timestamp_range_proto_rawDesc = "" +
 	" queuepb/v2/timestamp_range.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"u\n" +
 	"\x13QueueTimestampRange\x120\n" +
 	"\x05start\x18\x01 \x01(\v2\x1a.google.protobuf.TimestampR\x05start\x12,\n" +
-	"\x03end\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\x03endB\xa0\x01\n" +
-	"\fcom.queue.v2B\x13TimestampRangeProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x03end\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\x03endB\xa3\x01\n" +
+	"\fcom.queue.v2B\x13TimestampRangeProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_timestamp_range_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_timestamp_range_proto_goTypes = []any{

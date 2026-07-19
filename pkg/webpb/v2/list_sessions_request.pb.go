@@ -112,9 +112,9 @@ const file_webpb_v2_list_sessions_request_proto_rawDesc = "" +
 	"\n" +
 	"$webpb/v2/list_sessions_request.proto\x12\x06web.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"\x8a\x01\n" +
 	"\x16WebListSessionsRequest\x12p\n" +
-	"\auser_id\x18\x01 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x06userIdB\x97\x01\n" +
+	"\auser_id\x18\x01 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x06userIdB\x9a\x01\n" +
 	"\n" +
-	"com.web.v2B\x18ListSessionsRequestProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x18ListSessionsRequestProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_list_sessions_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_list_sessions_request_proto_goTypes = []any{

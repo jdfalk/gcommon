@@ -337,8 +337,8 @@ const file_metricspb_v2_unregistration_options_proto_rawDesc = "" +
 	"\fgrace_period\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vgracePeriod\x12\x17\n" +
 	"\adry_run\x18\x06 \x01(\bR\x06dryRun\x12\x14\n" +
 	"\x05force\x18\a \x01(\bR\x05force\x12#\n" +
-	"\rcreate_backup\x18\b \x01(\bR\fcreateBackupB\xb5\x01\n" +
-	"\x0ecom.metrics.v2B\x1aUnregistrationOptionsProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\rcreate_backup\x18\b \x01(\bR\fcreateBackupB\xb8\x01\n" +
+	"\x0ecom.metrics.v2B\x1aUnregistrationOptionsProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

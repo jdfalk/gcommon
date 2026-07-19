@@ -124,8 +124,8 @@ const file_commonpb_v2_token_type_proto_rawDesc = "" +
 	"\x1dTOKEN_TYPE_EMAIL_VERIFICATION\x10\b\x12!\n" +
 	"\x1dTOKEN_TYPE_PHONE_VERIFICATION\x10\t\x12\x19\n" +
 	"\x15TOKEN_TYPE_INVITATION\x10\n" +
-	"B\xa2\x01\n" +
-	"\rcom.common.v2B\x0eTokenTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"B\xa5\x01\n" +
+	"\rcom.common.v2B\x0eTokenTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_token_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

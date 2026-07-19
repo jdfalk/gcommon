@@ -284,8 +284,8 @@ const file_authpb_v2_oauth_initiate_response_proto_rawDesc = "" +
 	"session_id\x18\x04 \x01(\tR\tsessionId\x12\x1d\n" +
 	"\n" +
 	"expires_at\x18\x05 \x01(\x03R\texpiresAt\x12#\n" +
-	"\rerror_message\x18\x06 \x01(\tR\ferrorMessageB\xa0\x01\n" +
-	"\vcom.auth.v2B\x1aOauthInitiateResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rerror_message\x18\x06 \x01(\tR\ferrorMessageB\xa3\x01\n" +
+	"\vcom.auth.v2B\x1aOauthInitiateResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_oauth_initiate_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_oauth_initiate_response_proto_goTypes = []any{

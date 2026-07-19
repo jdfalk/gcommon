@@ -205,8 +205,8 @@ const file_metricspb_v2_network_usage_proto_rawDesc = "" +
 	"\x13bytes_in_per_second\x18\x01 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x10bytesInPerSecond\x128\n" +
 	"\x14bytes_out_per_second\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x11bytesOutPerSecond\x12:\n" +
 	"\x15packets_in_per_second\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x12packetsInPerSecond\x12<\n" +
-	"\x16packets_out_per_second\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x13packetsOutPerSecondB\xac\x01\n" +
-	"\x0ecom.metrics.v2B\x11NetworkUsageProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x16packets_out_per_second\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x13packetsOutPerSecondB\xaf\x01\n" +
+	"\x0ecom.metrics.v2B\x11NetworkUsageProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

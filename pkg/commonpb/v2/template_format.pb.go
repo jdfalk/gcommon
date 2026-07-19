@@ -97,8 +97,8 @@ const file_commonpb_v2_template_format_proto_rawDesc = "" +
 	"\x13TEMPLATE_FORMAT_XML\x10\x04\x12\x1e\n" +
 	"\x1aTEMPLATE_FORMAT_PROPERTIES\x10\x05\x12\x17\n" +
 	"\x13TEMPLATE_FORMAT_INI\x10\x06\x12\x1a\n" +
-	"\x16TEMPLATE_FORMAT_CUSTOM\x10\aB\xa7\x01\n" +
-	"\rcom.common.v2B\x13TemplateFormatProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x16TEMPLATE_FORMAT_CUSTOM\x10\aB\xaa\x01\n" +
+	"\rcom.common.v2B\x13TemplateFormatProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_template_format_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -219,8 +219,8 @@ const file_queuepb_v2_size_distribution_proto_rawDesc = "" +
 	"\x0emin_size_bytes\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fminSizeBytes\x12-\n" +
 	"\x0emax_size_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fmaxSizeBytes\x12<\n" +
 	"\x12average_size_bytes\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x10averageSizeBytes\x12:\n" +
-	"\x11median_size_bytes\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x0fmedianSizeBytesB\xa2\x01\n" +
-	"\fcom.queue.v2B\x15SizeDistributionProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x11median_size_bytes\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x0fmedianSizeBytesB\xa5\x01\n" +
+	"\fcom.queue.v2B\x15SizeDistributionProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_size_distribution_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_size_distribution_proto_goTypes = []any{

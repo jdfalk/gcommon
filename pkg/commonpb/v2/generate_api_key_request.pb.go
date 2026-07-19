@@ -208,8 +208,8 @@ const file_commonpb_v2_generate_api_key_request_proto_rawDesc = "" +
 	"\x04name\x18\x02 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04name\x12\x1d\n" +
 	"\n" +
 	"expires_in\x18\x03 \x01(\x05R\texpiresIn\x126\n" +
-	"\bmetadata\x18\x04 \x01(\v2\x1a.common.v2.RequestMetadataR\bmetadataB\xae\x01\n" +
-	"\rcom.common.v2B\x1aGenerateApiKeyRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\bmetadata\x18\x04 \x01(\v2\x1a.common.v2.RequestMetadataR\bmetadataB\xb1\x01\n" +
+	"\rcom.common.v2B\x1aGenerateApiKeyRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_generate_api_key_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -160,8 +160,8 @@ const file_commonpb_v2_metrics_api_key_config_proto_rawDesc = "" +
 	"\vheader_name\x18\x01 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\n" +
 	"headerName\x12\x1a\n" +
 	"\brequired\x18\x02 \x01(\bR\brequired\x12!\n" +
-	"\fallowed_keys\x18\x03 \x03(\tR\vallowedKeysB\xac\x01\n" +
-	"\rcom.common.v2B\x18MetricsApiKeyConfigProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\fallowed_keys\x18\x03 \x03(\tR\vallowedKeysB\xaf\x01\n" +
+	"\rcom.common.v2B\x18MetricsApiKeyConfigProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_api_key_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

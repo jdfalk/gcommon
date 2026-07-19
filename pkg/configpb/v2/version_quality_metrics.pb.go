@@ -346,8 +346,8 @@ const file_configpb_v2_version_quality_metrics_proto_rawDesc = "" +
 	"\x14technical_debt_score\x18\x06 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x12technicalDebtScore\x12.\n" +
 	"\x13quality_gate_passed\x18\a \x01(\bR\x11qualityGatePassed\x12@\n" +
 	"\x06issues\x18\b \x03(\v2\x1e.config.v2.VersionQualityIssueB\b\xbaH\x05\x92\x01\x02\b\x01R\x06issues\x128\n" +
-	"\ttimestamp\x18\t \x01(\v2\x1a.google.protobuf.TimestampR\ttimestampB\xae\x01\n" +
-	"\rcom.config.v2B\x1aVersionQualityMetricsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\ttimestamp\x18\t \x01(\v2\x1a.google.protobuf.TimestampR\ttimestampB\xb1\x01\n" +
+	"\rcom.config.v2B\x1aVersionQualityMetricsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_version_quality_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
