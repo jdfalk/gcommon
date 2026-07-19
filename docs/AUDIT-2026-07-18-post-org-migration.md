@@ -1,5 +1,5 @@
 <!-- file: docs/AUDIT-2026-07-18-post-org-migration.md -->
-<!-- version: 1.2.0 -->
+<!-- version: 1.3.0 -->
 <!-- guid: 543a463e-c1e3-45c9-8362-a0230354c7c5 -->
 <!-- last-edited: 2026-07-19 -->
 
@@ -205,3 +205,16 @@ What changed:
 Verified: `go build ./...`, `go vet ./...`, and `go test ./...` all pass clean as one module (previously 13 separate `go test` invocations, one of which — `services/health` — was the repo's only real red signal per Critical Blocker #3, now green).
 
 This was a deliberate, user-approved scope expansion beyond this doc's original Phase 5 plan (which assumed the nested-module structure would persist and just needed correct tagging). Given the audit's own framing — "no one uses this stuff, it's all prerelease" — now was judged the cheapest time to make this change, before Phase 6's 31-service build-out creates more nested-module surface area that would have hit the same class of bug repeatedly.
+
+## Update 2026-07-19 (cont.) — CI verification after the collapse: three more bugs, all now green
+
+Local `go build`/`vet`/`test` passing (previous section) is not the same as CI passing — `ci.yml` had run **zero jobs, ever**, since before this session's Phase B re-pin (`44ede64c`), so nothing about the actual GitHub Actions path had been exercised. Once that re-pin let jobs execute for the first time, three more previously-invisible bugs surfaced in sequence, each blocking the next:
+
+1. **`go-version` mismatch** (run `29704788435`, the collapse-merge commit itself): `go.mod` requires `go 1.25.0`, but `ci.yml` pinned `go-version: "1.24"`. With `GOTOOLCHAIN=local` this is a hard failure, not an auto-upgrade. Fixed in `ci.yml` (`2a633178`).
+2. **actionlint/shellcheck (SC2086) failures in `sync-protos.yml`** (run `29705145580`): 8 unquoted `$GITHUB_OUTPUT`/`$GITHUB_STEP_SUMMARY` redirects. `ci / Workflow Lint` gates the rest of the `needs:` chain, so this alone was enough to skip `Go CI`, `Python CI`, etc. entirely — the go-version fix above had never actually been exercised. Fixed by quoting all 6 redirect sites (`fd928316`).
+3. **Missing Python dependency manifest** (same run): `actions/setup-python`'s `cache: pip` step errored `No file ... matched to [**/requirements.txt or **/pyproject.toml]` — the repo had neither, despite `scripts/create_github_issue.py` depending on PyGithub (everything else in `scripts/` is stdlib-only). Added `requirements.txt` pinning `PyGithub>=2.0,<3.0`, plus ran `ruff format`/`ruff check --fix` across `scripts/` since the same CI job lints it and it had never been linted before (mechanical: unused imports, one dead variable) (`f2e15f65`).
+4. **Aggregate go-test coverage gate structurally unreachable** (run `29705542114`, the first to actually reach `Go CI` and get past `Build`/tests themselves — all real tests passed): the reusable workflow's hard coverage gate runs `go test ./... -coverprofile=...` then a blunt `go tool cover -func` total, with **no path-exclusion support**. Post-collapse, `./...` includes buf-generated `*.pb.go` for all 10 `pkg/*pb/v2` families, which dwarfs hand-written code by line count — aggregate coverage measured 10.9% against an 80% default threshold, even though the actual hand-written packages are well-tested (`services/auth` 75%, `services/health` 81.7%). This will only get further from reachable once Phase 6 adds 31 more generated service families. Disabled via a per-repo `coverage-threshold: "0"` override in `ci.yml` rather than chasing an unmeetable aggregate number (`12fa2be3`).
+
+Also found in passing and fixed for standards compliance, since it doubled as a legitimate way to force a real `Go CI` run against actual `.go` changes (path-filtering is diff-based per push, so YAML-only or Python-only pushes never touch `go_files` and don't exercise `Go CI` at all): 11 hand-written Go files (`main.go` plus 10 files under `services/`) had their import paths rewritten for the collapse (`3012c956`) without a version-header bump, several missing `last-edited` entirely (`6d04ac2d`, `d088e4e2`).
+
+Run `29705800650` (touching real `.go` files, with all four fixes above in place) is the first fully green `Go CI` run since the org migration began. Phase B is complete.
