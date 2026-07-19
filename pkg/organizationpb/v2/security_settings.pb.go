@@ -394,8 +394,8 @@ const file_organizationpb_v2_security_settings_proto_rawDesc = "" +
 	"\x12api_access_enabled\x18\t \x01(\bR\x10apiAccessEnabled\x12R\n" +
 	"\x0eapi_rate_limit\x18\n" +
 	" \x01(\v2,.organization.v2.OrganizationRateLimitConfigR\fapiRateLimit\x12@\n" +
-	"\x18audit_log_retention_days\x18\v \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x15auditLogRetentionDaysB\xd3\x01\n" +
-	"\x13com.organization.v2B\x15SecuritySettingsProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x18audit_log_retention_days\x18\v \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x15auditLogRetentionDaysB\xd6\x01\n" +
+	"\x13com.organization.v2B\x15SecuritySettingsProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_security_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_security_settings_proto_goTypes = []any{

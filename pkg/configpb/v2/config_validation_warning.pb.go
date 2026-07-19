@@ -183,8 +183,8 @@ const file_configpb_v2_config_validation_warning_proto_rawDesc = "" +
 	"\x17ConfigValidationWarning\x12\x19\n" +
 	"\x03key\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x03key\x12!\n" +
 	"\amessage\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\amessage\x12\x1b\n" +
-	"\x04code\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x04codeB\xb0\x01\n" +
-	"\rcom.config.v2B\x1cConfigValidationWarningProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x04code\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x04codeB\xb3\x01\n" +
+	"\rcom.config.v2B\x1cConfigValidationWarningProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_config_validation_warning_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

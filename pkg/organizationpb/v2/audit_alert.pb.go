@@ -243,8 +243,8 @@ const file_organizationpb_v2_audit_alert_proto_rawDesc = "" +
 	"\bseverity\x18\x03 \x01(\tR\bseverity\x123\n" +
 	"\x15notification_channels\x18\x04 \x03(\tR\x14notificationChannels\x12\x1c\n" +
 	"\tthreshold\x18\x05 \x01(\x05R\tthreshold\x12.\n" +
-	"\x13time_window_minutes\x18\x06 \x01(\x05R\x11timeWindowMinutesB\xcd\x01\n" +
-	"\x13com.organization.v2B\x0fAuditAlertProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13time_window_minutes\x18\x06 \x01(\x05R\x11timeWindowMinutesB\xd0\x01\n" +
+	"\x13com.organization.v2B\x0fAuditAlertProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_audit_alert_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_audit_alert_proto_goTypes = []any{

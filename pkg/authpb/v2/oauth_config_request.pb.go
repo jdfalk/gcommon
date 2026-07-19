@@ -553,8 +553,8 @@ const file_authpb_v2_oauth_config_request_proto_rawDesc = "" +
 	"\x14CONFIG_OPERATION_GET\x10\x01\x12\x18\n" +
 	"\x14CONFIG_OPERATION_SET\x10\x02\x12\x1b\n" +
 	"\x17CONFIG_OPERATION_DELETE\x10\x03\x12\x19\n" +
-	"\x15CONFIG_OPERATION_LIST\x10\x04B\x9d\x01\n" +
-	"\vcom.auth.v2B\x17OauthConfigRequestProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x15CONFIG_OPERATION_LIST\x10\x04B\xa0\x01\n" +
+	"\vcom.auth.v2B\x17OauthConfigRequestProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_oauth_config_request_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_authpb_v2_oauth_config_request_proto_msgTypes = make([]protoimpl.MessageInfo, 3)

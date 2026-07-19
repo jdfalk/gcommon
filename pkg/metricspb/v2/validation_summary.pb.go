@@ -193,8 +193,8 @@ const file_metricspb_v2_validation_summary_proto_rawDesc = "" +
 	"validCount\x12,\n" +
 	"\rinvalid_count\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\finvalidCount\x12-\n" +
 	"\rcommon_errors\x18\x03 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\fcommonErrors\x12>\n" +
-	"\x0eschema_version\x18\x04 \x01(\tB\x17\xbaH\x14r\x122\x10^v?\\d+\\.\\d+\\.\\d+R\rschemaVersionB\xb1\x01\n" +
-	"\x0ecom.metrics.v2B\x16ValidationSummaryProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x0eschema_version\x18\x04 \x01(\tB\x17\xbaH\x14r\x122\x10^v?\\d+\\.\\d+\\.\\d+R\rschemaVersionB\xb4\x01\n" +
+	"\x0ecom.metrics.v2B\x16ValidationSummaryProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

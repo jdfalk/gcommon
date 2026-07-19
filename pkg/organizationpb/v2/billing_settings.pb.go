@@ -251,8 +251,8 @@ const file_organizationpb_v2_billing_settings_proto_rawDesc = "" +
 	"\x0fbilling_address\x18\x02 \x01(\tR\x0ebillingAddress\x12\x15\n" +
 	"\x06tax_id\x18\x03 \x01(\tR\x05taxId\x12\x1a\n" +
 	"\bcurrency\x18\x04 \x01(\tR\bcurrency\x12#\n" +
-	"\rbilling_cycle\x18\x05 \x01(\tR\fbillingCycleB\xd2\x01\n" +
-	"\x13com.organization.v2B\x14BillingSettingsProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rbilling_cycle\x18\x05 \x01(\tR\fbillingCycleB\xd5\x01\n" +
+	"\x13com.organization.v2B\x14BillingSettingsProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_billing_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_billing_settings_proto_goTypes = []any{

@@ -36,8 +36,8 @@ const file_queuepb_v2_queue_service_proto_rawDesc = "" +
 	"\x04Peek\x12\x15.queue.v2.PeekRequest\x1a\x16.queue.v2.PeekResponse\x12M\n" +
 	"\fGetQueueInfo\x12\x1d.queue.v2.GetQueueInfoRequest\x1a\x1e.queue.v2.GetQueueInfoResponse\x12K\n" +
 	"\tSubscribe\x12\x1f.queue.v2.QueueSubscribeRequest\x1a\x1b.queue.v2.SubscribeResponse0\x01\x12C\n" +
-	"\aPublish\x12\x1d.queue.v2.QueuePublishRequest\x1a\x19.queue.v2.PublishResponseB\x9e\x01\n" +
-	"\fcom.queue.v2B\x11QueueServiceProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\aPublish\x12\x1d.queue.v2.QueuePublishRequest\x1a\x19.queue.v2.PublishResponseB\xa1\x01\n" +
+	"\fcom.queue.v2B\x11QueueServiceProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_queue_service_proto_goTypes = []any{
 	(*EnqueueRequest)(nil),        // 0: queue.v2.EnqueueRequest

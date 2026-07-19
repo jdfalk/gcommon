@@ -11,7 +11,7 @@
 package webv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -137,9 +137,9 @@ const file_webpb_v2_list_servers_request_proto_rawDesc = "" +
 	"#webpb/v2/list_servers_request.proto\x12\x06web.v2\x1a\"commonpb/v2/request_metadata.proto\x1a!google/protobuf/go_features.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"\x9a\x01\n" +
 	"\x12ListServersRequest\x12E\n" +
 	"\x10request_metadata\x18\v \x01(\v2\x1a.common.v2.RequestMetadataR\x0frequestMetadata\x12=\n" +
-	"\frequested_at\x183 \x01(\v2\x1a.google.protobuf.TimestampR\vrequestedAtB\x96\x01\n" +
+	"\frequested_at\x183 \x01(\v2\x1a.google.protobuf.TimestampR\vrequestedAtB\x99\x01\n" +
 	"\n" +
-	"com.web.v2B\x17ListServersRequestProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x17ListServersRequestProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_list_servers_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_list_servers_request_proto_goTypes = []any{

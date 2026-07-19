@@ -33,8 +33,8 @@ const file_healthpb_v2_health_service_proto_rawDesc = "" +
 	"\rHealthService\x12F\n" +
 	"\x05Check\x12\x1d.health.v2.HealthCheckRequest\x1a\x1e.health.v2.HealthCheckResponse\x12U\n" +
 	"\x0eCheckReadiness\x12 .health.v2.ReadinessCheckRequest\x1a!.health.v2.ReadinessCheckResponse\x12N\n" +
-	"\vWatchHealth\x12\x1d.health.v2.WatchHealthRequest\x1a\x1e.health.v2.WatchHealthResponse0\x01B\xa6\x01\n" +
-	"\rcom.health.v2B\x12HealthServiceProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	"\vWatchHealth\x12\x1d.health.v2.WatchHealthRequest\x1a\x1e.health.v2.WatchHealthResponse0\x01B\xa9\x01\n" +
+	"\rcom.health.v2B\x12HealthServiceProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_health_service_proto_goTypes = []any{

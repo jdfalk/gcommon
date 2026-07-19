@@ -288,8 +288,8 @@ const file_metricspb_v2_data_volume_stats_proto_rawDesc = "" +
 	"\x1fingestion_rate_bytes_per_second\x18\x04 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x1bingestionRateBytesPerSecond\x12V\n" +
 	" ingestion_rate_points_per_second\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x1cingestionRatePointsPerSecond\x12;\n" +
 	"\x11compression_ratio\x18\x06 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\x10compressionRatio\x12V\n" +
-	"\x11volume_timeseries\x18\a \x03(\v2\x1f.metrics.v2.DataVolumeDataPointB\b\xbaH\x05\x92\x01\x02\b\x01R\x10volumeTimeseriesB\xaf\x01\n" +
-	"\x0ecom.metrics.v2B\x14DataVolumeStatsProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x11volume_timeseries\x18\a \x03(\v2\x1f.metrics.v2.DataVolumeDataPointB\b\xbaH\x05\x92\x01\x02\b\x01R\x10volumeTimeseriesB\xb2\x01\n" +
+	"\x0ecom.metrics.v2B\x14DataVolumeStatsProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

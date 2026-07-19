@@ -176,8 +176,8 @@ const file_databasepb_v2_set_response_proto_rawDesc = "" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12 \n" +
 	"\voverwritten\x18\x02 \x01(\bR\voverwritten\x12&\n" +
 	"\n" +
-	"size_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\tsizeBytesB\xb2\x01\n" +
-	"\x0fcom.database.v2B\x10SetResponseProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"size_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\tsizeBytesB\xb5\x01\n" +
+	"\x0fcom.database.v2B\x10SetResponseProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_set_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_set_response_proto_goTypes = []any{

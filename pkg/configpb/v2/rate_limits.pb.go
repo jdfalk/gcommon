@@ -174,8 +174,8 @@ const file_configpb_v2_rate_limits_proto_rawDesc = "" +
 	"\x13requests_per_second\x18\x01 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x11requestsPerSecond\x12&\n" +
 	"\n" +
 	"burst_size\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tburstSize\x12.\n" +
-	"\x0ewindow_seconds\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\rwindowSecondsB\xa3\x01\n" +
-	"\rcom.config.v2B\x0fRateLimitsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x0ewindow_seconds\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\rwindowSecondsB\xa6\x01\n" +
+	"\rcom.config.v2B\x0fRateLimitsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_rate_limits_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

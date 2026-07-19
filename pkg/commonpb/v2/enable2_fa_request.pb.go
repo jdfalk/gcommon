@@ -215,8 +215,8 @@ const file_commonpb_v2_enable2_fa_request_proto_rawDesc = "" +
 	"\auser_id\x18\x01 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x06userId\x12!\n" +
 	"\fphone_number\x18\x02 \x01(\tR\vphoneNumber\x12+\n" +
 	"\x11use_authenticator\x18\x03 \x01(\bR\x10useAuthenticator\x122\n" +
-	"\x15generate_backup_codes\x18\x04 \x01(\bR\x13generateBackupCodesB\xa9\x01\n" +
-	"\rcom.common.v2B\x15Enable2FaRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x15generate_backup_codes\x18\x04 \x01(\bR\x13generateBackupCodesB\xac\x01\n" +
+	"\rcom.common.v2B\x15Enable2FaRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_enable2_fa_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

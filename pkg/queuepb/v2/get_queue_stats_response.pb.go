@@ -12,7 +12,7 @@ package queuev2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -276,8 +276,8 @@ const file_queuepb_v2_get_queue_stats_response_proto_rawDesc = "" +
 	"\verror_stats\x18\x06 \x01(\v2\x1c.common.v2.MetricsErrorStatsR\n" +
 	"errorStats\x12M\n" +
 	"\x13performance_metrics\x18\a \x01(\v2\x1c.queue.v2.PerformanceMetricsR\x12performanceMetrics\x12=\n" +
-	"\fgenerated_at\x18\b \x01(\v2\x1a.google.protobuf.TimestampR\vgeneratedAtB\xa7\x01\n" +
-	"\fcom.queue.v2B\x1aGetQueueStatsResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fgenerated_at\x18\b \x01(\v2\x1a.google.protobuf.TimestampR\vgeneratedAtB\xaa\x01\n" +
+	"\fcom.queue.v2B\x1aGetQueueStatsResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_get_queue_stats_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_get_queue_stats_response_proto_goTypes = []any{

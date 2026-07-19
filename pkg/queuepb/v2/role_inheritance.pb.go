@@ -106,8 +106,8 @@ const file_queuepb_v2_role_inheritance_proto_rawDesc = "" +
 	"!queuepb/v2/role_inheritance.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"\x81\x01\n" +
 	"\x0fRoleInheritance\x12-\n" +
 	"\rinherits_from\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\finheritsFrom\x12?\n" +
-	"\x16additional_permissions\x18\x02 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x15additionalPermissionsB\xa1\x01\n" +
-	"\fcom.queue.v2B\x14RoleInheritanceProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x16additional_permissions\x18\x02 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x15additionalPermissionsB\xa4\x01\n" +
+	"\fcom.queue.v2B\x14RoleInheritanceProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_role_inheritance_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_role_inheritance_proto_goTypes = []any{

@@ -265,8 +265,8 @@ const file_queuepb_v2_message_state_counts_proto_rawDesc = "" +
 	"\x06failed\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x06failed\x12#\n" +
 	"\bretrying\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\bretrying\x12(\n" +
 	"\vdead_letter\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
-	"deadLetterB\xa4\x01\n" +
-	"\fcom.queue.v2B\x17MessageStateCountsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"deadLetterB\xa7\x01\n" +
+	"\fcom.queue.v2B\x17MessageStateCountsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_message_state_counts_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_message_state_counts_proto_goTypes = []any{

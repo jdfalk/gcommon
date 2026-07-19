@@ -92,8 +92,8 @@ const file_commonpb_v2_metric_status_proto_rawDesc = "" +
 	"\x14METRIC_STATUS_ACTIVE\x10\x01\x12\x1a\n" +
 	"\x16METRIC_STATUS_DISABLED\x10\x02\x12\x17\n" +
 	"\x13METRIC_STATUS_ERROR\x10\x03\x12\x19\n" +
-	"\x15METRIC_STATUS_DELETED\x10\x04B\xa5\x01\n" +
-	"\rcom.common.v2B\x11MetricStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x15METRIC_STATUS_DELETED\x10\x04B\xa8\x01\n" +
+	"\rcom.common.v2B\x11MetricStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metric_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

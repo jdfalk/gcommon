@@ -146,8 +146,8 @@ const file_commonpb_v2_error_code_proto_rawDesc = "" +
 	"\x12ERROR_CODE_ABORTED\x10\v\x12\x1b\n" +
 	"\x17ERROR_CODE_OUT_OF_RANGE\x10\f\x12\x1c\n" +
 	"\x18ERROR_CODE_UNIMPLEMENTED\x10\r\x12\x18\n" +
-	"\x14ERROR_CODE_DATA_LOSS\x10\x0eB\xa2\x01\n" +
-	"\rcom.common.v2B\x0eErrorCodeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x14ERROR_CODE_DATA_LOSS\x10\x0eB\xa5\x01\n" +
+	"\rcom.common.v2B\x0eErrorCodeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_error_code_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

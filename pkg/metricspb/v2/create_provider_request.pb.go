@@ -11,7 +11,7 @@
 package metricsv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -228,8 +228,8 @@ const file_metricspb_v2_create_provider_request_proto_rawDesc = "" +
 	"\x0fvalidate_config\x18\x03 \x01(\bR\x0evalidateConfig\x12\x17\n" +
 	"\adry_run\x18\x04 \x01(\bR\x06dryRun\x12\x1d\n" +
 	"\n" +
-	"auto_start\x18\x05 \x01(\bR\tautoStartB\xb5\x01\n" +
-	"\x0ecom.metrics.v2B\x1aCreateProviderRequestProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"auto_start\x18\x05 \x01(\bR\tautoStartB\xb8\x01\n" +
+	"\x0ecom.metrics.v2B\x1aCreateProviderRequestProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

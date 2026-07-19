@@ -372,8 +372,8 @@ const file_healthpb_v2_check_config_proto_rawDesc = "" +
 	"\x10retention_period\x18\t \x01(\v2\x19.google.protobuf.DurationR\x0fretentionPeriod\x12\x1d\n" +
 	"\n" +
 	"auto_retry\x18\n" +
-	" \x01(\bR\tautoRetryB\xa4\x01\n" +
-	"\rcom.health.v2B\x10CheckConfigProtoP\x01Z4github.com/falkcorp/gcommon/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
+	" \x01(\bR\tautoRetryB\xa7\x01\n" +
+	"\rcom.health.v2B\x10CheckConfigProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/healthpb/v2;healthv2\xa2\x02\x03HXX\xaa\x02\tHealth.V2\xca\x02\tHealth\\V2\xe2\x02\x15Health\\V2\\GPBMetadata\xea\x02\n" +
 	"Health::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_healthpb_v2_check_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -16,7 +16,7 @@ package metricsv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -189,8 +189,8 @@ const file_metricspb_v2_get_stats_request_proto_rawDesc = "" +
 	"\x16MetricsGetStatsRequest\x12\x1f\n" +
 	"\x06metric\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06metric\x127\n" +
 	"\x05range\x18\x02 \x01(\v2!.metrics.v2.MetricsTimestampRangeR\x05range\x12:\n" +
-	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xaf\x01\n" +
-	"\x0ecom.metrics.v2B\x14GetStatsRequestProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\bmetadata\x18\x03 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadataB\xb2\x01\n" +
+	"\x0ecom.metrics.v2B\x14GetStatsRequestProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

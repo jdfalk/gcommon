@@ -546,8 +546,8 @@ const file_commonpb_v2_template_parameter_proto_rawDesc = "" +
 	"\bexamples\x18\f \x03(\tR\bexamples\x12$\n" +
 	"\rdocumentation\x18\r \x01(\tR\rdocumentation\x12,\n" +
 	"\fdisplay_name\x18\x0e \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\vdisplayName\x12 \n" +
-	"\vplaceholder\x18\x0f \x01(\tR\vplaceholderB\xaa\x01\n" +
-	"\rcom.common.v2B\x16TemplateParameterProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\vplaceholder\x18\x0f \x01(\tR\vplaceholderB\xad\x01\n" +
+	"\rcom.common.v2B\x16TemplateParameterProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_template_parameter_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

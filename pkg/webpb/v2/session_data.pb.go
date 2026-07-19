@@ -12,7 +12,7 @@ package webv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -408,9 +408,9 @@ const file_webpb_v2_session_data_proto_rawDesc = "" +
 	"\bmetadata\x18\t \x03(\v2!.web.v2.SessionData.MetadataEntryR\bmetadata\x1a;\n" +
 	"\rMetadataEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\x8f\x01\n" +
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\x92\x01\n" +
 	"\n" +
-	"com.web.v2B\x10SessionDataProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x10SessionDataProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_session_data_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_webpb_v2_session_data_proto_goTypes = []any{

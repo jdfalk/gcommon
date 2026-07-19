@@ -12,7 +12,7 @@ package organizationv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -127,8 +127,8 @@ const file_organizationpb_v2_delete_tenant_response_proto_rawDesc = "" +
 	".organizationpb/v2/delete_tenant_response.proto\x12\x0forganization.v2\x1a\x17commonpb/v2/error.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"d\n" +
 	"\x14DeleteTenantResponse\x122\n" +
 	"\x06errors\x18\x01 \x03(\v2\x10.common.v2.ErrorB\b\xbaH\x05\x92\x01\x02\b\x01R\x06errors\x12\x18\n" +
-	"\asuccess\x18\x02 \x01(\bR\asuccessB\xd7\x01\n" +
-	"\x13com.organization.v2B\x19DeleteTenantResponseProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\asuccess\x18\x02 \x01(\bR\asuccessB\xda\x01\n" +
+	"\x13com.organization.v2B\x19DeleteTenantResponseProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_delete_tenant_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_delete_tenant_response_proto_goTypes = []any{

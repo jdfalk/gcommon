@@ -123,8 +123,8 @@ const file_authpb_v2_auth_status_proto_rawDesc = "" +
 	"\x1bAUTH_STATUS_INVALID_REQUEST\x10\b\x12\x1e\n" +
 	"\x1aAUTH_STATUS_INTERNAL_ERROR\x10\t\x12#\n" +
 	"\x1fAUTH_STATUS_SERVICE_UNAVAILABLE\x10\n" +
-	"B\x95\x01\n" +
-	"\vcom.auth.v2B\x0fAuthStatusProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"B\x98\x01\n" +
+	"\vcom.auth.v2B\x0fAuthStatusProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_auth_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_authpb_v2_auth_status_proto_goTypes = []any{

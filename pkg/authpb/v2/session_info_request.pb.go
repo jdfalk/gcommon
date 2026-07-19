@@ -175,8 +175,8 @@ const file_authpb_v2_session_info_request_proto_rawDesc = "" +
 	"\x12SessionInfoRequest\x12#\n" +
 	"\rsession_token\x18\x01 \x01(\tR\fsessionToken\x12'\n" +
 	"\x0finclude_details\x18\x02 \x01(\bR\x0eincludeDetails\x12,\n" +
-	"\x12update_access_time\x18\x03 \x01(\bR\x10updateAccessTimeB\x9d\x01\n" +
-	"\vcom.auth.v2B\x17SessionInfoRequestProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x12update_access_time\x18\x03 \x01(\bR\x10updateAccessTimeB\xa0\x01\n" +
+	"\vcom.auth.v2B\x17SessionInfoRequestProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_session_info_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_session_info_request_proto_goTypes = []any{

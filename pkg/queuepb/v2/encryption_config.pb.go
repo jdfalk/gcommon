@@ -315,8 +315,8 @@ const file_queuepb_v2_encryption_config_proto_rawDesc = "" +
 	"\x06key_id\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x05keyId\x12'\n" +
 	"\x0fencrypt_headers\x18\x05 \x01(\bR\x0eencryptHeaders\x120\n" +
 	"\x14encrypt_routing_keys\x18\x06 \x01(\bR\x12encryptRoutingKeys\x12?\n" +
-	"\x17rotation_interval_hours\x18\a \x01(\rB\a\xbaH\x04*\x02(\x00R\x15rotationIntervalHoursB\xa2\x01\n" +
-	"\fcom.queue.v2B\x15EncryptionConfigProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x17rotation_interval_hours\x18\a \x01(\rB\a\xbaH\x04*\x02(\x00R\x15rotationIntervalHoursB\xa5\x01\n" +
+	"\fcom.queue.v2B\x15EncryptionConfigProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_encryption_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_encryption_config_proto_goTypes = []any{

@@ -163,8 +163,8 @@ const file_commonpb_v2_time_range_metrics_proto_rawDesc = "" +
 	"\x10TimeRangeMetrics\x120\n" +
 	"\x05start\x18\x01 \x01(\v2\x1a.google.protobuf.TimestampR\x05start\x12,\n" +
 	"\x03end\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\x03end\x122\n" +
-	"\x10duration_seconds\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02 \x00R\x0fdurationSecondsB\xa9\x01\n" +
-	"\rcom.common.v2B\x15TimeRangeMetricsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x10duration_seconds\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02 \x00R\x0fdurationSecondsB\xac\x01\n" +
+	"\rcom.common.v2B\x15TimeRangeMetricsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_time_range_metrics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

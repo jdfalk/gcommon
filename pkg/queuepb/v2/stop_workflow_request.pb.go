@@ -148,8 +148,8 @@ const file_queuepb_v2_stop_workflow_request_proto_rawDesc = "" +
 	"&queuepb/v2/stop_workflow_request.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"b\n" +
 	"\x13StopWorkflowRequest\x12*\n" +
 	"\fexecution_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vexecutionId\x12\x1f\n" +
-	"\x06reason\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06reasonB\xa5\x01\n" +
-	"\fcom.queue.v2B\x18StopWorkflowRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x06reason\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06reasonB\xa8\x01\n" +
+	"\fcom.queue.v2B\x18StopWorkflowRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_stop_workflow_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_stop_workflow_request_proto_goTypes = []any{

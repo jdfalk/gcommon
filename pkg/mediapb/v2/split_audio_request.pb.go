@@ -126,8 +126,8 @@ const file_mediapb_v2_split_audio_request_proto_rawDesc = "" +
 	"$mediapb/v2/split_audio_request.proto\x12\bmedia.v2\x1a!google/protobuf/go_features.proto\x1a\x1cmediapb/v2/split_point.proto\"p\n" +
 	"\x11SplitAudioRequest\x12\"\n" +
 	"\raudio_file_id\x18\x01 \x01(\tR\vaudioFileId\x127\n" +
-	"\fsplit_points\x18\x02 \x03(\v2\x14.media.v2.SplitPointR\vsplitPointsB\xa3\x01\n" +
-	"\fcom.media.v2B\x16SplitAudioRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fsplit_points\x18\x02 \x03(\v2\x14.media.v2.SplitPointR\vsplitPointsB\xa6\x01\n" +
+	"\fcom.media.v2B\x16SplitAudioRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_split_audio_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_split_audio_request_proto_goTypes = []any{

@@ -223,8 +223,8 @@ const file_commonpb_v2_validate_token_request_proto_rawDesc = "" +
 	"\faccess_token\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vaccessToken\x12:\n" +
 	"\bmetadata\x18\x02 \x01(\v2\x1a.common.v2.RequestMetadataB\x02(\x01R\bmetadata\x12*\n" +
 	"\x11include_user_info\x18\x03 \x01(\bR\x0fincludeUserInfo\x12/\n" +
-	"\x13include_permissions\x18\x04 \x01(\bR\x12includePermissionsB\xad\x01\n" +
-	"\rcom.common.v2B\x19ValidateTokenRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x13include_permissions\x18\x04 \x01(\bR\x12includePermissionsB\xb0\x01\n" +
+	"\rcom.common.v2B\x19ValidateTokenRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_validate_token_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

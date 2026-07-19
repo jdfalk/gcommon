@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/falkcorp/gcommon/services/auth/types"
+	"github.com/falkcorp/gcommon/v2/services/auth/types"
 )
 
 func TestPureV2Methods(t *testing.T) {

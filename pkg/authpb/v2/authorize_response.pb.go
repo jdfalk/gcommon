@@ -163,8 +163,8 @@ const file_authpb_v2_authorize_response_proto_rawDesc = "" +
 	"authorized\x18\x01 \x01(\bR\n" +
 	"authorized\x12\x16\n" +
 	"\x06reason\x18\x02 \x01(\tR\x06reason\x12\x14\n" +
-	"\x05roles\x18\x03 \x03(\tR\x05rolesB\x9c\x01\n" +
-	"\vcom.auth.v2B\x16AuthorizeResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05roles\x18\x03 \x03(\tR\x05rolesB\x9f\x01\n" +
+	"\vcom.auth.v2B\x16AuthorizeResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_authorize_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_authorize_response_proto_goTypes = []any{

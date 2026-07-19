@@ -122,8 +122,8 @@ const file_commonpb_v2_retention_policy_proto_rawDesc = "" +
 	"\x1bRETENTION_POLICY_COMPLIANCE\x10\b\x12\x1e\n" +
 	"\x1aRETENTION_POLICY_REAL_TIME\x10\t\x12\x1e\n" +
 	"\x1aRETENTION_POLICY_AGGREGATE\x10\n" +
-	"B\xa8\x01\n" +
-	"\rcom.common.v2B\x14RetentionPolicyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"B\xab\x01\n" +
+	"\rcom.common.v2B\x14RetentionPolicyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_retention_policy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

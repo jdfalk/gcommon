@@ -243,8 +243,8 @@ const file_databasepb_v2_pebble_config_proto_rawDesc = "" +
 	"cache_size\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\tcacheSize\x12,\n" +
 	"\rmemtable_size\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fmemtableSize\x12-\n" +
 	"\x0emax_open_files\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\fmaxOpenFiles\x12 \n" +
-	"\vcompression\x18\x05 \x01(\bR\vcompressionB\xb3\x01\n" +
-	"\x0fcom.database.v2B\x11PebbleConfigProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vcompression\x18\x05 \x01(\bR\vcompressionB\xb6\x01\n" +
+	"\x0fcom.database.v2B\x11PebbleConfigProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_pebble_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_pebble_config_proto_goTypes = []any{

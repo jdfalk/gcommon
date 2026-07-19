@@ -116,8 +116,8 @@ const file_databasepb_v2_row_proto_rawDesc = "" +
 	"\x17databasepb/v2/row.proto\x12\vdatabase.v2\x1a\x19google/protobuf/any.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"?\n" +
 	"\x03Row\x128\n" +
 	"\x06values\x18\x01 \x03(\v2\x14.google.protobuf.AnyB\n" +
-	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\x06valuesB\xaa\x01\n" +
-	"\x0fcom.database.v2B\bRowProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\xbaH\x05\x92\x01\x02\b\x01(\x01R\x06valuesB\xad\x01\n" +
+	"\x0fcom.database.v2B\bRowProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_row_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_row_proto_goTypes = []any{

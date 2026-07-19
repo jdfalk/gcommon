@@ -96,8 +96,8 @@ const file_commonpb_v2_http_status_proto_rawDesc = "" +
 	"\x18HTTP_STATUS_UNAUTHORIZED\x10\x91\x03\x12\x1a\n" +
 	"\x15HTTP_STATUS_FORBIDDEN\x10\x93\x03\x12\x1a\n" +
 	"\x15HTTP_STATUS_NOT_FOUND\x10\x94\x03\x12\x1f\n" +
-	"\x1aHTTP_STATUS_INTERNAL_ERROR\x10\xf4\x03B\xa3\x01\n" +
-	"\rcom.common.v2B\x0fHttpStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1aHTTP_STATUS_INTERNAL_ERROR\x10\xf4\x03B\xa6\x01\n" +
+	"\rcom.common.v2B\x0fHttpStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_http_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

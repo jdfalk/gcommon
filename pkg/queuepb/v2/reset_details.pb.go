@@ -338,8 +338,8 @@ const file_queuepb_v2_reset_details_proto_rawDesc = "" +
 	"\x11reset_duration_ms\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02 \x00R\x0fresetDurationMs\x12#\n" +
 	"\rpartial_reset\x18\x06 \x01(\bR\fpartialReset\x12*\n" +
 	"\freset_reason\x18\a \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vresetReason\x12*\n" +
-	"\finitiated_by\x18\b \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vinitiatedByB\x9e\x01\n" +
-	"\fcom.queue.v2B\x11ResetDetailsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\finitiated_by\x18\b \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vinitiatedByB\xa1\x01\n" +
+	"\fcom.queue.v2B\x11ResetDetailsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_reset_details_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_reset_details_proto_goTypes = []any{

@@ -290,8 +290,8 @@ const file_configpb_v2_versioning_settings_proto_rawDesc = "" +
 	"\bmetadata\x18\a \x03(\v2+.config.v2.VersioningSettings.MetadataEntryR\bmetadata\x1a;\n" +
 	"\rMetadataEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xab\x01\n" +
-	"\rcom.config.v2B\x17VersioningSettingsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xae\x01\n" +
+	"\rcom.config.v2B\x17VersioningSettingsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_versioning_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 2)

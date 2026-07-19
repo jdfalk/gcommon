@@ -111,8 +111,8 @@ const file_mediapb_v2_get_media_file_request_proto_rawDesc = "" +
 	"\n" +
 	"'mediapb/v2/get_media_file_request.proto\x12\bmedia.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"~\n" +
 	"\x13GetMediaFileRequest\x12g\n" +
-	"\x02id\x18\x01 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x02idB\xa5\x01\n" +
-	"\fcom.media.v2B\x18GetMediaFileRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x02id\x18\x01 \x01(\tBW\xbaHT\xc8\x01\x01rO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\x02idB\xa8\x01\n" +
+	"\fcom.media.v2B\x18GetMediaFileRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_get_media_file_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_get_media_file_request_proto_goTypes = []any{

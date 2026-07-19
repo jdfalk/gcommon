@@ -38,8 +38,8 @@ const file_commonpb_v2_health_service_proto_rawDesc = "" +
 	"\fListServices\x12\x1e.common.v2.ListServicesRequest\x1a\x1f.common.v2.ListServicesResponse\x12R\n" +
 	"\rRegisterCheck\x12\x1f.common.v2.RegisterCheckRequest\x1a .common.v2.RegisterCheckResponse\x12X\n" +
 	"\x0fUnregisterCheck\x12!.common.v2.UnregisterCheckRequest\x1a\".common.v2.UnregisterCheckResponse\x12[\n" +
-	"\x10GetHealthMetrics\x12\".common.v2.GetHealthMetricsRequest\x1a#.common.v2.GetHealthMetricsResponseB\xa6\x01\n" +
-	"\rcom.common.v2B\x12HealthServiceProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x10GetHealthMetrics\x12\".common.v2.GetHealthMetricsRequest\x1a#.common.v2.GetHealthMetricsResponseB\xa9\x01\n" +
+	"\rcom.common.v2B\x12HealthServiceProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_health_service_proto_goTypes = []any{

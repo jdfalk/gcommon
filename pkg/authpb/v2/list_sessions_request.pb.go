@@ -338,8 +338,8 @@ const file_authpb_v2_list_sessions_request_proto_rawDesc = "" +
 	"\rcreated_after\x18\x05 \x01(\x03R\fcreatedAfter\x12%\n" +
 	"\x0ecreated_before\x18\x06 \x01(\x03R\rcreatedBefore\x12'\n" +
 	"\x0finclude_expired\x18\a \x01(\bR\x0eincludeExpired\x12\x17\n" +
-	"\asort_by\x18\b \x01(\tR\x06sortByB\x9e\x01\n" +
-	"\vcom.auth.v2B\x18ListSessionsRequestProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\asort_by\x18\b \x01(\tR\x06sortByB\xa1\x01\n" +
+	"\vcom.auth.v2B\x18ListSessionsRequestProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_list_sessions_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_list_sessions_request_proto_goTypes = []any{

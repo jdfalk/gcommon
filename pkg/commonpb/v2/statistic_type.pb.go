@@ -110,8 +110,8 @@ const file_commonpb_v2_statistic_type_proto_rawDesc = "" +
 	"\x1bSTATISTIC_TYPE_MESSAGE_SIZE\x10\b\x12#\n" +
 	"\x1fSTATISTIC_TYPE_AGE_DISTRIBUTION\x10\t\x12\x1f\n" +
 	"\x1bSTATISTIC_TYPE_SUCCESS_RATE\x10\n" +
-	"B\xa6\x01\n" +
-	"\rcom.common.v2B\x12StatisticTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"B\xa9\x01\n" +
+	"\rcom.common.v2B\x12StatisticTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_statistic_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

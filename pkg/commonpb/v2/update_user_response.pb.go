@@ -339,8 +339,8 @@ const file_commonpb_v2_update_user_response_proto_rawDesc = "" +
 	"updated_at\x18\a \x01(\v2\x1a.google.protobuf.TimestampR\tupdatedAt\x129\n" +
 	"\n" +
 	"expires_at\x18\b \x01(\v2\x1a.google.protobuf.TimestampR\texpiresAt\x12%\n" +
-	"\x0eupdated_fields\x18\t \x03(\tR\rupdatedFieldsB\xab\x01\n" +
-	"\rcom.common.v2B\x17UpdateUserResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x0eupdated_fields\x18\t \x03(\tR\rupdatedFieldsB\xae\x01\n" +
+	"\rcom.common.v2B\x17UpdateUserResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_update_user_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

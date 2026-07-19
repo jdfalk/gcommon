@@ -173,8 +173,8 @@ const file_configpb_v2_usage_trend_proto_rawDesc = "" +
 	"\ttimestamp\x18\x01 \x01(\v2\x1a.google.protobuf.TimestampR\ttimestamp\x12(\n" +
 	"\vusage_count\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
 	"usageCount\x12%\n" +
-	"\tdirection\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tdirectionB\xa3\x01\n" +
-	"\rcom.config.v2B\x0fUsageTrendProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\tdirection\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tdirectionB\xa6\x01\n" +
+	"\rcom.config.v2B\x0fUsageTrendProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_usage_trend_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

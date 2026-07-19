@@ -89,8 +89,8 @@ const file_mediapb_v2_split_audio_response_proto_rawDesc = "" +
 	"\n" +
 	"%mediapb/v2/split_audio_response.proto\x12\bmedia.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"H\n" +
 	"\x12SplitAudioResponse\x122\n" +
-	"\x10segment_file_ids\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0esegmentFileIdsB\xa4\x01\n" +
-	"\fcom.media.v2B\x17SplitAudioResponseProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x10segment_file_ids\x18\x01 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x0esegmentFileIdsB\xa7\x01\n" +
+	"\fcom.media.v2B\x17SplitAudioResponseProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_split_audio_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_split_audio_response_proto_goTypes = []any{

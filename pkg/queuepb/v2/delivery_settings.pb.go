@@ -210,8 +210,8 @@ const file_queuepb_v2_delivery_settings_proto_rawDesc = "" +
 	"\rdelivery_mode\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\fdeliveryMode\x12,\n" +
 	"\rpush_endpoint\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\fpushEndpoint\x127\n" +
 	"\x13delivery_timeout_ms\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02 \x00R\x11deliveryTimeoutMs\x12)\n" +
-	"\x10ordered_delivery\x18\x04 \x01(\bR\x0forderedDeliveryB\xa2\x01\n" +
-	"\fcom.queue.v2B\x15DeliverySettingsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x10ordered_delivery\x18\x04 \x01(\bR\x0forderedDeliveryB\xa5\x01\n" +
+	"\fcom.queue.v2B\x15DeliverySettingsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_delivery_settings_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_delivery_settings_proto_goTypes = []any{

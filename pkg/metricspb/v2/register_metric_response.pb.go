@@ -12,7 +12,7 @@ package metricsv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -377,8 +377,8 @@ const file_metricspb_v2_register_metric_response_proto_rawDesc = "" +
 	"\x06result\x18\b \x01(\v2\x1e.metrics.v2.RegistrationResultR\x06result\x12\x1a\n" +
 	"\bwarnings\x18\t \x03(\tR\bwarnings\x12+\n" +
 	"\x11replaced_existing\x18\n" +
-	" \x01(\bR\x10replacedExistingB\xb6\x01\n" +
-	"\x0ecom.metrics.v2B\x1bRegisterMetricResponseProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	" \x01(\bR\x10replacedExistingB\xb9\x01\n" +
+	"\x0ecom.metrics.v2B\x1bRegisterMetricResponseProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

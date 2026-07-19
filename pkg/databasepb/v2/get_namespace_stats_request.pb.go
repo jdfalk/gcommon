@@ -177,8 +177,8 @@ const file_databasepb_v2_get_namespace_stats_request_proto_rawDesc = "" +
 	"\x18GetNamespaceStatsRequest\x12*\n" +
 	"\fnamespace_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vnamespaceId\x128\n" +
 	"\x18include_detailed_metrics\x18\x02 \x01(\bR\x16includeDetailedMetrics\x128\n" +
-	"\x18include_key_distribution\x18\x03 \x01(\bR\x16includeKeyDistributionB\xbf\x01\n" +
-	"\x0fcom.database.v2B\x1dGetNamespaceStatsRequestProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x18include_key_distribution\x18\x03 \x01(\bR\x16includeKeyDistributionB\xc2\x01\n" +
+	"\x0fcom.database.v2B\x1dGetNamespaceStatsRequestProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_get_namespace_stats_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_get_namespace_stats_request_proto_goTypes = []any{

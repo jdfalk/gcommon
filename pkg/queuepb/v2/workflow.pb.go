@@ -252,8 +252,8 @@ const file_queuepb_v2_workflow_proto_rawDesc = "" +
 	"\x04name\x18\x02 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04name\x12\x18\n" +
 	"\aversion\x18\x03 \x01(\tR\aversion\x12*\n" +
 	"\vdescription\x18\x04 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x12\x18\n" +
-	"\aenabled\x18\x05 \x01(\bR\aenabledB\x9a\x01\n" +
-	"\fcom.queue.v2B\rWorkflowProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\aenabled\x18\x05 \x01(\bR\aenabledB\x9d\x01\n" +
+	"\fcom.queue.v2B\rWorkflowProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_workflow_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_workflow_proto_goTypes = []any{

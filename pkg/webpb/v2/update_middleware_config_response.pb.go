@@ -11,7 +11,7 @@
 package webv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -137,9 +137,9 @@ const file_webpb_v2_update_middleware_config_response_proto_rawDesc = "" +
 	"0webpb/v2/update_middleware_config_response.proto\x12\x06web.v2\x1a#commonpb/v2/response_metadata.proto\x1a!google/protobuf/go_features.proto\"s\n" +
 	"\x1eUpdateMiddlewareConfigResponse\x127\n" +
 	"\bmetadata\x18\x01 \x01(\v2\x1b.common.v2.ResponseMetadataR\bmetadata\x12\x18\n" +
-	"\aupdated\x18\x02 \x01(\bR\aupdatedB\xa2\x01\n" +
+	"\aupdated\x18\x02 \x01(\bR\aupdatedB\xa5\x01\n" +
 	"\n" +
-	"com.web.v2B#UpdateMiddlewareConfigResponseProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B#UpdateMiddlewareConfigResponseProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_update_middleware_config_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_update_middleware_config_response_proto_goTypes = []any{

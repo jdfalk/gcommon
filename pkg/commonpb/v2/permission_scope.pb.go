@@ -98,8 +98,8 @@ const file_commonpb_v2_permission_scope_proto_rawDesc = "" +
 	"\x1dPERMISSION_SCOPE_ORGANIZATION\x10\x02\x12\x1c\n" +
 	"\x18PERMISSION_SCOPE_PROJECT\x10\x03\x12\x1d\n" +
 	"\x19PERMISSION_SCOPE_RESOURCE\x10\x04\x12\x19\n" +
-	"\x15PERMISSION_SCOPE_USER\x10\x05B\xa8\x01\n" +
-	"\rcom.common.v2B\x14PermissionScopeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x15PERMISSION_SCOPE_USER\x10\x05B\xab\x01\n" +
+	"\rcom.common.v2B\x14PermissionScopeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_permission_scope_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

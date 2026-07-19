@@ -246,8 +246,8 @@ const file_commonpb_v2_device_info_proto_rawDesc = "" +
 	"\x02os\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x02os\x12!\n" +
 	"\abrowser\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\abrowser\x12\x1d\n" +
 	"\n" +
-	"is_trusted\x18\x05 \x01(\bR\tisTrustedB\xa3\x01\n" +
-	"\rcom.common.v2B\x0fDeviceInfoProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"is_trusted\x18\x05 \x01(\bR\tisTrustedB\xa6\x01\n" +
+	"\rcom.common.v2B\x0fDeviceInfoProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_device_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

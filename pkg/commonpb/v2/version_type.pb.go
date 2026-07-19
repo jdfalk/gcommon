@@ -101,8 +101,8 @@ const file_commonpb_v2_version_type_proto_rawDesc = "" +
 	"\x17VERSION_TYPE_PRERELEASE\x10\x05\x12\x19\n" +
 	"\x15VERSION_TYPE_SNAPSHOT\x10\x06\x12\x17\n" +
 	"\x13VERSION_TYPE_BRANCH\x10\a\x12\x14\n" +
-	"\x10VERSION_TYPE_TAG\x10\bB\xa4\x01\n" +
-	"\rcom.common.v2B\x10VersionTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x10VERSION_TYPE_TAG\x10\bB\xa7\x01\n" +
+	"\rcom.common.v2B\x10VersionTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_version_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -128,8 +128,8 @@ const file_queuepb_v2_queue_stats_point_proto_rawDesc = "" +
 	"\"queuepb/v2/queue_stats_point.proto\x12\bqueue.v2\x1a\x1cqueuepb/v2/queue_stats.proto\x1a!google/protobuf/go_features.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"w\n" +
 	"\x0fQueueStatsPoint\x128\n" +
 	"\ttimestamp\x18\x01 \x01(\v2\x1a.google.protobuf.TimestampR\ttimestamp\x12*\n" +
-	"\x05stats\x18\x02 \x01(\v2\x14.queue.v2.QueueStatsR\x05statsB\xa1\x01\n" +
-	"\fcom.queue.v2B\x14QueueStatsPointProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05stats\x18\x02 \x01(\v2\x14.queue.v2.QueueStatsR\x05statsB\xa4\x01\n" +
+	"\fcom.queue.v2B\x14QueueStatsPointProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_queue_stats_point_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_queue_stats_point_proto_goTypes = []any{

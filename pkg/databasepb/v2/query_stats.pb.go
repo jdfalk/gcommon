@@ -257,8 +257,8 @@ const file_databasepb_v2_query_stats_proto_rawDesc = "" +
 	"\fcolumn_count\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vcolumnCount\x12&\n" +
 	"\n" +
 	"query_plan\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tqueryPlan\x123\n" +
-	"\rcost_estimate\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\fcostEstimateB\xb1\x01\n" +
-	"\x0fcom.database.v2B\x0fQueryStatsProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rcost_estimate\x18\x05 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\fcostEstimateB\xb4\x01\n" +
+	"\x0fcom.database.v2B\x0fQueryStatsProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_query_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_query_stats_proto_goTypes = []any{

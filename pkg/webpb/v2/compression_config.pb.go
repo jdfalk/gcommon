@@ -12,7 +12,7 @@ package webv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -178,9 +178,9 @@ const file_webpb_v2_compression_config_proto_rawDesc = "" +
 	"\x10compression_type\x18\x01 \x01(\x0e2\x1d.common.v2.LogCompressionTypeR\x0fcompressionType\x12&\n" +
 	"\n" +
 	"min_length\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tminLength\x12\x1d\n" +
-	"\x05level\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x05levelB\x95\x01\n" +
+	"\x05level\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x05levelB\x98\x01\n" +
 	"\n" +
-	"com.web.v2B\x16CompressionConfigProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x16CompressionConfigProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_compression_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_compression_config_proto_goTypes = []any{

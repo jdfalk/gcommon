@@ -87,8 +87,8 @@ const file_commonpb_v2_resolution_proto_rawDesc = "" +
 	"\x0fRESOLUTION_480P\x10\x01\x12\x13\n" +
 	"\x0fRESOLUTION_720P\x10\x02\x12\x14\n" +
 	"\x10RESOLUTION_1080P\x10\x03\x12\x11\n" +
-	"\rRESOLUTION_4K\x10\x04B\xa3\x01\n" +
-	"\rcom.common.v2B\x0fResolutionProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rRESOLUTION_4K\x10\x04B\xa6\x01\n" +
+	"\rcom.common.v2B\x0fResolutionProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_resolution_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -210,9 +210,9 @@ const file_webpb_v2_file_upload_proto_rawDesc = "" +
 	"\tfile_name\x18\x01 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\bfileName\x123\n" +
 	"\fcontent_type\x18\x02 \x01(\v2\x10.web.v2.MimeTypeR\vcontentType\x12\x12\n" +
 	"\x04data\x18\x03 \x01(\fR\x04data\x12 \n" +
-	"\vdestination\x18\x04 \x01(\tR\vdestinationB\x8e\x01\n" +
+	"\vdestination\x18\x04 \x01(\tR\vdestinationB\x91\x01\n" +
 	"\n" +
-	"com.web.v2B\x0fFileUploadProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x0fFileUploadProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_file_upload_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_file_upload_proto_goTypes = []any{

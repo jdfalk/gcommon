@@ -101,8 +101,8 @@ const file_commonpb_v2_flush_policy_proto_rawDesc = "" +
 	"\x12FLUSH_POLICY_BATCH\x10\x02\x12\x16\n" +
 	"\x12FLUSH_POLICY_TIMED\x10\x03\x12\x1c\n" +
 	"\x18FLUSH_POLICY_BUFFER_FULL\x10\x04\x12\x17\n" +
-	"\x13FLUSH_POLICY_MANUAL\x10\x05B\xa4\x01\n" +
-	"\rcom.common.v2B\x10FlushPolicyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x13FLUSH_POLICY_MANUAL\x10\x05B\xa7\x01\n" +
+	"\rcom.common.v2B\x10FlushPolicyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_flush_policy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

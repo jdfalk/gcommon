@@ -106,8 +106,8 @@ const file_commonpb_v2_replication_mode_proto_rawDesc = "" +
 	"\x16REPLICATION_MODE_ASYNC\x10\x03\x12\x1b\n" +
 	"\x17REPLICATION_MODE_QUORUM\x10\x04\x12$\n" +
 	" REPLICATION_MODE_LEADER_FOLLOWER\x10\x05\x12!\n" +
-	"\x1dREPLICATION_MODE_MASTER_SLAVE\x10\x06B\xa8\x01\n" +
-	"\rcom.common.v2B\x14ReplicationModeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1dREPLICATION_MODE_MASTER_SLAVE\x10\x06B\xab\x01\n" +
+	"\rcom.common.v2B\x14ReplicationModeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_replication_mode_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

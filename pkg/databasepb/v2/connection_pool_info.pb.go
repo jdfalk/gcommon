@@ -264,8 +264,8 @@ const file_databasepb_v2_connection_pool_info_proto_rawDesc = "" +
 	"\x12active_connections\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x11activeConnections\x122\n" +
 	"\x10idle_connections\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x0fidleConnections\x12@\n" +
 	"\favg_lifetime\x18\x04 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\vavgLifetime\x120\n" +
-	"\x05stats\x18\x05 \x01(\v2\x16.database.v2.PoolStatsB\x02(\x01R\x05statsB\xb9\x01\n" +
-	"\x0fcom.database.v2B\x17ConnectionPoolInfoProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05stats\x18\x05 \x01(\v2\x16.database.v2.PoolStatsB\x02(\x01R\x05statsB\xbc\x01\n" +
+	"\x0fcom.database.v2B\x17ConnectionPoolInfoProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_connection_pool_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_connection_pool_info_proto_goTypes = []any{

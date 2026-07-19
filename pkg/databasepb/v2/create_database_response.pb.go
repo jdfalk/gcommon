@@ -11,7 +11,7 @@
 package databasev2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -156,8 +156,8 @@ const file_databasepb_v2_create_database_response_proto_rawDesc = "" +
 	",databasepb/v2/create_database_response.proto\x12\vdatabase.v2\x1a\x17commonpb/v2/error.proto\x1a!google/protobuf/go_features.proto\"^\n" +
 	"\x16CreateDatabaseResponse\x12\x18\n" +
 	"\asuccess\x18\x01 \x01(\bR\asuccess\x12*\n" +
-	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\xbd\x01\n" +
-	"\x0fcom.database.v2B\x1bCreateDatabaseResponseProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\xc0\x01\n" +
+	"\x0fcom.database.v2B\x1bCreateDatabaseResponseProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_create_database_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_create_database_response_proto_goTypes = []any{

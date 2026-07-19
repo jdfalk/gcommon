@@ -346,16 +346,16 @@ All implementation must strictly follow these coding standards:
 - **Protobuf v2 APIs**: `pkg/authpb/v2/` - Generated protobuf definitions
 
 ### Generated Protobuf Packages Available (v1 dropped repo-wide, v2 only)
-- `github.com/falkcorp/gcommon/pkg/authpb/v2`
-- `github.com/falkcorp/gcommon/pkg/commonpb/v2`
-- `github.com/falkcorp/gcommon/pkg/configpb/v2`
-- `github.com/falkcorp/gcommon/pkg/databasepb/v2`
-- `github.com/falkcorp/gcommon/pkg/healthpb/v2`
-- `github.com/falkcorp/gcommon/pkg/mediapb/v2`
-- `github.com/falkcorp/gcommon/pkg/metricspb/v2`
-- `github.com/falkcorp/gcommon/pkg/organizationpb/v2`
-- `github.com/falkcorp/gcommon/pkg/queuepb/v2`
-- `github.com/falkcorp/gcommon/pkg/webpb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/authpb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/commonpb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/configpb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/databasepb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/healthpb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/mediapb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/metricspb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/organizationpb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/queuepb/v2`
+- `github.com/falkcorp/gcommon/v2/pkg/webpb/v2`
 
 ### Build & Generation Workflow
 ```bash

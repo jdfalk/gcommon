@@ -93,8 +93,8 @@ const file_commonpb_v2_buffer_overflow_strategy_proto_rawDesc = "" +
 	"$BUFFER_OVERFLOW_STRATEGY_DROP_OLDEST\x10\x01\x12(\n" +
 	"$BUFFER_OVERFLOW_STRATEGY_DROP_NEWEST\x10\x02\x12\"\n" +
 	"\x1eBUFFER_OVERFLOW_STRATEGY_BLOCK\x10\x03\x12\"\n" +
-	"\x1eBUFFER_OVERFLOW_STRATEGY_ERROR\x10\x04B\xaf\x01\n" +
-	"\rcom.common.v2B\x1bBufferOverflowStrategyProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1eBUFFER_OVERFLOW_STRATEGY_ERROR\x10\x04B\xb2\x01\n" +
+	"\rcom.common.v2B\x1bBufferOverflowStrategyProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_buffer_overflow_strategy_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

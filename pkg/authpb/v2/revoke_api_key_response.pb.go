@@ -212,8 +212,8 @@ const file_authpb_v2_revoke_api_key_response_proto_rawDesc = "" +
 	"\x06status\x18\x01 \x01(\x0e2\x13.auth.v2.AuthStatusR\x06status\x12\x18\n" +
 	"\amessage\x18\x02 \x01(\tR\amessage\x12-\n" +
 	"\x12tokens_invalidated\x18\x03 \x01(\x05R\x11tokensInvalidated\x12#\n" +
-	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\x9f\x01\n" +
-	"\vcom.auth.v2B\x19RevokeApiKeyResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rerror_message\x18\x04 \x01(\tR\ferrorMessageB\xa2\x01\n" +
+	"\vcom.auth.v2B\x19RevokeApiKeyResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_revoke_api_key_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_authpb_v2_revoke_api_key_response_proto_goTypes = []any{

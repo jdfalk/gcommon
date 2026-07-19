@@ -98,8 +98,8 @@ const file_commonpb_v2_approval_status_proto_rawDesc = "" +
 	"\x18APPROVAL_STATUS_APPROVED\x10\x02\x12\x1c\n" +
 	"\x18APPROVAL_STATUS_REJECTED\x10\x03\x12\x1d\n" +
 	"\x19APPROVAL_STATUS_CANCELLED\x10\x04\x12\x1b\n" +
-	"\x17APPROVAL_STATUS_EXPIRED\x10\x05B\xa7\x01\n" +
-	"\rcom.common.v2B\x13ApprovalStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x17APPROVAL_STATUS_EXPIRED\x10\x05B\xaa\x01\n" +
+	"\rcom.common.v2B\x13ApprovalStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_approval_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

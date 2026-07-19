@@ -33,9 +33,9 @@ const file_webpb_v2_web_service_proto_rawDesc = "" +
 	"\n" +
 	"WebService\x12L\n" +
 	"\rHandleRequest\x12\x1c.web.v2.HandleRequestRequest\x1a\x1d.web.v2.HandleRequestResponse\x12L\n" +
-	"\vHealthCheck\x12\x1d.web.v2.WebHealthCheckRequest\x1a\x1e.web.v2.WebHealthCheckResponseB\x8e\x01\n" +
+	"\vHealthCheck\x12\x1d.web.v2.WebHealthCheckRequest\x1a\x1e.web.v2.WebHealthCheckResponseB\x91\x01\n" +
 	"\n" +
-	"com.web.v2B\x0fWebServiceProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x0fWebServiceProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_web_service_proto_goTypes = []any{
 	(*HandleRequestRequest)(nil),   // 0: web.v2.HandleRequestRequest

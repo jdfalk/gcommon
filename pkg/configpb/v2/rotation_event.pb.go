@@ -244,8 +244,8 @@ const file_configpb_v2_rotation_event_proto_rawDesc = "" +
 	"\ttimestamp\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\ttimestamp\x12%\n" +
 	"\x0eprevious_value\x18\x03 \x01(\tR\rpreviousValue\x12\x1b\n" +
 	"\tnew_value\x18\x04 \x01(\tR\bnewValue\x12\x16\n" +
-	"\x06reason\x18\x05 \x01(\tR\x06reasonB\xa6\x01\n" +
-	"\rcom.config.v2B\x12RotationEventProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x06reason\x18\x05 \x01(\tR\x06reasonB\xa9\x01\n" +
+	"\rcom.config.v2B\x12RotationEventProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_rotation_event_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

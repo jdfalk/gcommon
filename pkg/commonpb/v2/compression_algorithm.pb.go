@@ -102,8 +102,8 @@ const file_commonpb_v2_compression_algorithm_proto_rawDesc = "" +
 	"\x19COMPRESSION_ALGORITHM_LZ4\x10\x03\x12 \n" +
 	"\x1cCOMPRESSION_ALGORITHM_SNAPPY\x10\x04\x12\x1e\n" +
 	"\x1aCOMPRESSION_ALGORITHM_ZSTD\x10\x05\x12 \n" +
-	"\x1cCOMPRESSION_ALGORITHM_BROTLI\x10\x06B\xad\x01\n" +
-	"\rcom.common.v2B\x19CompressionAlgorithmProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1cCOMPRESSION_ALGORITHM_BROTLI\x10\x06B\xb0\x01\n" +
+	"\rcom.common.v2B\x19CompressionAlgorithmProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_compression_algorithm_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

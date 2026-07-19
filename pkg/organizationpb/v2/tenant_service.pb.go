@@ -39,8 +39,8 @@ const file_organizationpb_v2_tenant_service_proto_rawDesc = "" +
 	"\x18ConfigureTenantIsolation\x120.organization.v2.ConfigureTenantIsolationRequest\x1a1.organization.v2.ConfigureTenantIsolationResponse\x12m\n" +
 	"\x12GetTenantIsolation\x12*.organization.v2.GetTenantIsolationRequest\x1a+.organization.v2.GetTenantIsolationResponse\x12j\n" +
 	"\x11UpdateTenantQuota\x12).organization.v2.UpdateTenantQuotaRequest\x1a*.organization.v2.UpdateTenantQuotaResponse\x12a\n" +
-	"\x0eGetTenantUsage\x12&.organization.v2.GetTenantUsageRequest\x1a'.organization.v2.GetTenantUsageResponseB\xd0\x01\n" +
-	"\x13com.organization.v2B\x12TenantServiceProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x0eGetTenantUsage\x12&.organization.v2.GetTenantUsageRequest\x1a'.organization.v2.GetTenantUsageResponseB\xd3\x01\n" +
+	"\x13com.organization.v2B\x12TenantServiceProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_tenant_service_proto_goTypes = []any{
 	(*CreateTenantRequest)(nil),              // 0: organization.v2.CreateTenantRequest

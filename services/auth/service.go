@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/falkcorp/gcommon/services/auth/types"
+	"github.com/falkcorp/gcommon/v2/services/auth/types"
 	"golang.org/x/crypto/bcrypt"
 )
 

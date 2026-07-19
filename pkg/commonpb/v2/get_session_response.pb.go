@@ -133,8 +133,8 @@ const file_commonpb_v2_get_session_response_proto_rawDesc = "" +
 	"&commonpb/v2/get_session_response.proto\x12\tcommon.v2\x1a\x17commonpb/v2/error.proto\x1a\x19commonpb/v2/session.proto\x1a!google/protobuf/go_features.proto\"n\n" +
 	"\x16AuthGetSessionResponse\x12,\n" +
 	"\asession\x18\x01 \x01(\v2\x12.common.v2.SessionR\asession\x12&\n" +
-	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xab\x01\n" +
-	"\rcom.common.v2B\x17GetSessionResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xae\x01\n" +
+	"\rcom.common.v2B\x17GetSessionResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_get_session_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

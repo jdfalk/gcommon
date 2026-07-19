@@ -204,8 +204,8 @@ const file_commonpb_v2_batch_options_proto_rawDesc = "" +
 	"\fmax_parallel\x18\x01 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\vmaxParallel\x12\x1b\n" +
 	"\tfail_fast\x18\x02 \x01(\bR\bfailFast\x123\n" +
 	"\atimeout\x18\x03 \x01(\v2\x19.google.protobuf.DurationR\atimeout\x12%\n" +
-	"\x0ereturn_partial\x18\x04 \x01(\bR\rreturnPartialB\xa5\x01\n" +
-	"\rcom.common.v2B\x11BatchOptionsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x0ereturn_partial\x18\x04 \x01(\bR\rreturnPartialB\xa8\x01\n" +
+	"\rcom.common.v2B\x11BatchOptionsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_batch_options_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

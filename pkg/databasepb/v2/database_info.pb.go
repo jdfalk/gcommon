@@ -235,8 +235,8 @@ const file_databasepb_v2_database_info_proto_rawDesc = "" +
 	"\aversion\x18\x02 \x01(\tR\aversion\x12\x12\n" +
 	"\x04type\x18\x03 \x01(\tR\x04type\x12+\n" +
 	"\x11connection_string\x18\x04 \x01(\tR\x10connectionString\x12\x1a\n" +
-	"\bfeatures\x18\x05 \x03(\tR\bfeaturesB\xb3\x01\n" +
-	"\x0fcom.database.v2B\x11DatabaseInfoProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bfeatures\x18\x05 \x03(\tR\bfeaturesB\xb6\x01\n" +
+	"\x0fcom.database.v2B\x11DatabaseInfoProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_database_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_database_info_proto_goTypes = []any{

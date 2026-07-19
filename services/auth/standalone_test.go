@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/falkcorp/gcommon/services/auth/types"
+	"github.com/falkcorp/gcommon/v2/services/auth/types"
 )
 
 // TestAuthServiceV2Features tests the new v2 authentication features without protobuf dependencies

@@ -179,8 +179,8 @@ const file_metricspb_v2_api_key_config_update_proto_rawDesc = "" +
 	"headerName\x12\x1a\n" +
 	"\brequired\x18\x02 \x01(\bR\brequired\x12.\n" +
 	"\x13allowed_key_updates\x18\x03 \x03(\tR\x11allowedKeyUpdates\x12.\n" +
-	"\x13allowed_key_removes\x18\x04 \x03(\tR\x11allowedKeyRemovesB\xb2\x01\n" +
-	"\x0ecom.metrics.v2B\x17ApiKeyConfigUpdateProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x13allowed_key_removes\x18\x04 \x03(\tR\x11allowedKeyRemovesB\xb5\x01\n" +
+	"\x0ecom.metrics.v2B\x17ApiKeyConfigUpdateProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

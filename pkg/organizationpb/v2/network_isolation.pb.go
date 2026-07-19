@@ -293,8 +293,8 @@ const file_organizationpb_v2_network_isolation_proto_rawDesc = "" +
 	"\x11dedicated_network\x18\x05 \x01(\bR\x10dedicatedNetwork\x12T\n" +
 	"\rload_balancer\x18\x06 \x01(\v2/.organization.v2.OrganizationLoadBalancerConfigR\floadBalancer\x12,\n" +
 	"\x03cdn\x18\a \x01(\v2\x1a.organization.v2.CDNConfigR\x03cdn\x125\n" +
-	"\x06domain\x18\b \x01(\v2\x1d.organization.v2.DomainConfigR\x06domainB\xd3\x01\n" +
-	"\x13com.organization.v2B\x15NetworkIsolationProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x06domain\x18\b \x01(\v2\x1d.organization.v2.DomainConfigR\x06domainB\xd6\x01\n" +
+	"\x13com.organization.v2B\x15NetworkIsolationProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_network_isolation_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_network_isolation_proto_goTypes = []any{

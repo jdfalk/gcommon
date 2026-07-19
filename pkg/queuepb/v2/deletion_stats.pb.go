@@ -236,8 +236,8 @@ const file_queuepb_v2_deletion_stats_proto_rawDesc = "" +
 	"\x12data_deleted_bytes\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x10dataDeletedBytes\x12<\n" +
 	"\x15subscriptions_deleted\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x14subscriptionsDeleted\x126\n" +
 	"\x12partitions_deleted\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x11partitionsDeleted\x129\n" +
-	"\x14deletion_duration_ms\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02 \x00R\x12deletionDurationMsB\x9f\x01\n" +
-	"\fcom.queue.v2B\x12DeletionStatsProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x14deletion_duration_ms\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02 \x00R\x12deletionDurationMsB\xa2\x01\n" +
+	"\fcom.queue.v2B\x12DeletionStatsProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_deletion_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_deletion_stats_proto_goTypes = []any{

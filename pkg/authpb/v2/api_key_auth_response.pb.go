@@ -540,8 +540,8 @@ const file_authpb_v2_api_key_auth_response_proto_rawDesc = "" +
 	"\flast_used_at\x18\x05 \x01(\x03R\n" +
 	"lastUsedAt\x12\x16\n" +
 	"\x06scopes\x18\x06 \x03(\tR\x06scopes\x12\x1b\n" +
-	"\tis_active\x18\a \x01(\bR\bisActiveB\x9d\x01\n" +
-	"\vcom.auth.v2B\x17ApiKeyAuthResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\tis_active\x18\a \x01(\bR\bisActiveB\xa0\x01\n" +
+	"\vcom.auth.v2B\x17ApiKeyAuthResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_api_key_auth_response_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_authpb_v2_api_key_auth_response_proto_goTypes = []any{

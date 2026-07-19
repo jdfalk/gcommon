@@ -271,8 +271,8 @@ const file_commonpb_v2_log_statistics_proto_rawDesc = "" +
 	"total_size\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\ttotalSize\x12(\n" +
 	"\verror_count\x18\x05 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\n" +
 	"errorCount\x12,\n" +
-	"\rwarning_count\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fwarningCountB\xa6\x01\n" +
-	"\rcom.common.v2B\x12LogStatisticsProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\rwarning_count\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\fwarningCountB\xa9\x01\n" +
+	"\rcom.common.v2B\x12LogStatisticsProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_log_statistics_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

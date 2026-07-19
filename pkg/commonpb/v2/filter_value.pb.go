@@ -428,8 +428,8 @@ const file_commonpb_v2_filter_value_proto_rawDesc = "" +
 	"\fstring_array\x18\x05 \x01(\v2\x16.common.v2.StringArrayB\x02(\x01H\x00R\vstringArray\x128\n" +
 	"\tint_array\x18\x06 \x01(\v2\x15.common.v2.Int64ArrayB\x02(\x01H\x00R\bintArray\x128\n" +
 	"\toperation\x18\a \x01(\x0e2\x1a.common.v2.FilterOperationR\toperationB\a\n" +
-	"\x05valueB\xa4\x01\n" +
-	"\rcom.common.v2B\x10FilterValueProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05valueB\xa7\x01\n" +
+	"\rcom.common.v2B\x10FilterValueProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_filter_value_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

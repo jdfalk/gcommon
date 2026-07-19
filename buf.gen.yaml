@@ -1,5 +1,5 @@
-# file: buf.gen.managed.yaml
-# version: 3.0.0
+# file: buf.gen.yaml
+# version: 4.0.0
 # guid: buf-gen-managed-mode-gcommon
 # last-edited: 2026-07-19
 
@@ -31,43 +31,43 @@ managed:
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: commonpb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: configpb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: databasepb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: healthpb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: mediapb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: metricspb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: organizationpb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: queuepb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: webpb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
       path: authpb/v2
-      value: github.com/falkcorp/gcommon/pkg
+      value: github.com/falkcorp/gcommon/v2/pkg
 plugins:
   - local: protoc-gen-go
     out: pkg

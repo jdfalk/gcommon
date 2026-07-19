@@ -85,8 +85,8 @@ const file_commonpb_v2_secret_validation_severity_proto_rawDesc = "" +
 	"\x1fSECRET_VALIDATION_SEVERITY_INFO\x10\x01\x12&\n" +
 	"\"SECRET_VALIDATION_SEVERITY_WARNING\x10\x02\x12$\n" +
 	" SECRET_VALIDATION_SEVERITY_ERROR\x10\x03\x12'\n" +
-	"#SECRET_VALIDATION_SEVERITY_CRITICAL\x10\x04B\xb1\x01\n" +
-	"\rcom.common.v2B\x1dSecretValidationSeverityProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"#SECRET_VALIDATION_SEVERITY_CRITICAL\x10\x04B\xb4\x01\n" +
+	"\rcom.common.v2B\x1dSecretValidationSeverityProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_secret_validation_severity_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

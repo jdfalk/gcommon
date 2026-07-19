@@ -175,8 +175,8 @@ const file_commonpb_v2_error_type_count_proto_rawDesc = "" +
 	"\x05count\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x05count\x127\n" +
 	"\n" +
 	"percentage\x18\x03 \x01(\x01B\x17\xbaH\x14\x12\x12\x19\x00\x00\x00\x00\x00\x00Y@)\x00\x00\x00\x00\x00\x00\x00\x00R\n" +
-	"percentageB\xa7\x01\n" +
-	"\rcom.common.v2B\x13ErrorTypeCountProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"percentageB\xaa\x01\n" +
+	"\rcom.common.v2B\x13ErrorTypeCountProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_error_type_count_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -11,7 +11,7 @@
 package databasev2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -138,8 +138,8 @@ const file_databasepb_v2_exists_response_proto_rawDesc = "" +
 	"#databasepb/v2/exists_response.proto\x12\vdatabase.v2\x1a\x17commonpb/v2/error.proto\x1a!google/protobuf/go_features.proto\"P\n" +
 	"\x0eExistsResponse\x12\x16\n" +
 	"\x06exists\x18\x01 \x01(\bR\x06exists\x12&\n" +
-	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xb5\x01\n" +
-	"\x0fcom.database.v2B\x13ExistsResponseProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05error\x18\x02 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xb8\x01\n" +
+	"\x0fcom.database.v2B\x13ExistsResponseProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_exists_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_exists_response_proto_goTypes = []any{

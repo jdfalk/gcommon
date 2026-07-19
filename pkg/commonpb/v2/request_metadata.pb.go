@@ -295,8 +295,8 @@ const file_commonpb_v2_request_metadata_proto_rawDesc = "" +
 	"session_id\x18\a \x01(\tR\tsessionId\x1a:\n" +
 	"\fHeadersEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa8\x01\n" +
-	"\rcom.common.v2B\x14RequestMetadataProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xab\x01\n" +
+	"\rcom.common.v2B\x14RequestMetadataProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_request_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 2)

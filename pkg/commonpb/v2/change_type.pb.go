@@ -87,8 +87,8 @@ const file_commonpb_v2_change_type_proto_rawDesc = "" +
 	"\x11CHANGE_TYPE_ADDED\x10\x01\x12\x17\n" +
 	"\x13CHANGE_TYPE_UPDATED\x10\x02\x12\x17\n" +
 	"\x13CHANGE_TYPE_REMOVED\x10\x03\x12\x18\n" +
-	"\x14CHANGE_TYPE_REPLACED\x10\x04B\xa3\x01\n" +
-	"\rcom.common.v2B\x0fChangeTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x14CHANGE_TYPE_REPLACED\x10\x04B\xa6\x01\n" +
+	"\rcom.common.v2B\x0fChangeTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_change_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

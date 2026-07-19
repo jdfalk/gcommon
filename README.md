@@ -1,113 +1,95 @@
 <!-- file: README.md -->
-<!-- version: 2.0.0 -->
+<!-- version: 3.0.0 -->
 <!-- guid: readme-gcommon-go -->
 
-# gcommon-go
+# gcommon
 
-Go SDK for gcommon protocol buffers with generated Go bindings
+Protocol buffer definitions and generated Go bindings for falkcorp's shared
+service types (auth, common, config, database, health, media, metrics,
+organization, queue, web).
 
 ## Overview
 
-This repository provides Go bindings for the [gcommon](https://github.com/falkcorp/gcommon) protocol buffer definitions via the [Buf Schema Registry](https://buf.build/falkcorp/gcommon). It includes all generated Go code and provides a stable Go module for consuming gcommon services.
+Proto sources live on the [Buf Schema Registry](https://buf.build/falkcorp/gcommon)
+(`buf.build/falkcorp/gcommon`). This repository generates and vendors the Go
+bindings for that schema, and also hosts the reference gRPC service
+implementations under `services/`.
 
-## Features
+The whole repository is a single Go module:
 
-- **BSR Integration**: Uses buf.build/falkcorp/gcommon for protocol buffer definitions
-- **Generated Go Code**: Pre-generated Go bindings for all gcommon services
-- **Versioned Releases**: Follows semantic versioning for compatibility
-- **Module Support**: Proper Go module with github.com/falkcorp/gcommon path
-- **Documentation**: Comprehensive API documentation
+```
+module github.com/falkcorp/gcommon/v2
+```
+
+There is no per-package submodule and no v1 - only the current (v2) schema
+is generated. See `docs/AUDIT-2026-07-18-post-org-migration.md` for the
+history of why (nested per-family modules used to exist and caused Go
+module-resolution tag collisions; they were collapsed into this one module).
 
 ## Installation
 
 ```bash
-go get github.com/falkcorp/gcommon
+go get github.com/falkcorp/gcommon/v2
 ```
 
 ## Usage
 
-### Import the Generated Code
-
 ```go
 import (
-    "github.com/falkcorp/gcommon/common/v1"
-    "github.com/falkcorp/gcommon/health/v1"
-    "github.com/falkcorp/gcommon/metrics/v1"
-    // ... other modules
-)
-```
-
-### Example Usage
-
-```go
-package main
-
-import (
-    "context"
-    "log"
-
-    commonv1 "github.com/falkcorp/gcommon/common/v1"
-    healthv1 "github.com/falkcorp/gcommon/health/v1"
+    commonv2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
+    healthv2 "github.com/falkcorp/gcommon/v2/pkg/healthpb/v2"
 )
 
 func main() {
-    // Create a health check request
-    req := &healthv1.HealthCheckRequest{
+    req := &healthv2.HealthCheckRequest{
         Service: "my-service",
     }
-
-    // Use with your gRPC client
-    // client := healthv1.NewHealthServiceClient(conn)
+    // Use with your gRPC client:
+    // client := healthv2.NewHealthServiceClient(conn)
     // resp, err := client.Check(context.Background(), req)
+    _ = req
 }
-
 ```
 
-## Available Modules
+## Available Packages
 
-The Go SDK includes bindings for all 9 gcommon modules:
+| Family           | Package Path                                          |
+| ---------------- | ------------------------------------------------------ |
+| **auth**         | `github.com/falkcorp/gcommon/v2/pkg/authpb/v2`         |
+| **common**       | `github.com/falkcorp/gcommon/v2/pkg/commonpb/v2`       |
+| **config**       | `github.com/falkcorp/gcommon/v2/pkg/configpb/v2`       |
+| **database**     | `github.com/falkcorp/gcommon/v2/pkg/databasepb/v2`     |
+| **health**       | `github.com/falkcorp/gcommon/v2/pkg/healthpb/v2`       |
+| **media**        | `github.com/falkcorp/gcommon/v2/pkg/mediapb/v2`        |
+| **metrics**      | `github.com/falkcorp/gcommon/v2/pkg/metricspb/v2`      |
+| **organization** | `github.com/falkcorp/gcommon/v2/pkg/organizationpb/v2` |
+| **queue**        | `github.com/falkcorp/gcommon/v2/pkg/queuepb/v2`        |
+| **web**          | `github.com/falkcorp/gcommon/v2/pkg/webpb/v2`          |
 
-| Module           | Package Path                                | Description                      |
-| ---------------- | ------------------------------------------- | -------------------------------- |
-| **common**       | `github.com/falkcorp/gcommon/common/v1`       | Shared types, errors, pagination |
-| **config**       | `github.com/falkcorp/gcommon/config/v1`       | Configuration management         |
-| **database**     | `github.com/falkcorp/gcommon/database/v1`     | Database operations              |
-| **health**       | `github.com/falkcorp/gcommon/health/v1`       | Health checks and monitoring     |
-| **media**        | `github.com/falkcorp/gcommon/media/v1`        | Media processing                 |
-| **metrics**      | `github.com/falkcorp/gcommon/metrics/v1`      | System metrics                   |
-| **organization** | `github.com/falkcorp/gcommon/organization/v1` | Organization management          |
-| **queue**        | `github.com/falkcorp/gcommon/queue/v1`        | Message queuing                  |
-| **web**          | `github.com/falkcorp/gcommon/web/v1`          | Web services                     |
+Service implementations (currently `health`, `auth`; the rest are tracked in
+`docs/agent-tasks/`) live under `github.com/falkcorp/gcommon/v2/services/...`.
 
 ## Development
 
-### Building from Source
-
 ```bash
-git clone https://github.com/falkcorp/gcommon-go.git
-cd gcommon-go
+git clone --recurse-submodules https://github.com/falkcorp/gcommon.git
+cd gcommon
 make build
 ```
 
 ### Regenerating Code
 
-The generated code is updated automatically via GitHub Actions when the upstream gcommon repository changes. To regenerate locally:
+Generated code is refreshed automatically via `.github/workflows/sync-protos.yml`
+when the upstream BSR schema changes. To regenerate locally:
 
 ```bash
-buf generate
+make generate
 ```
-
-## Related Repositories
-
-- **[gcommon](https://github.com/falkcorp/gcommon)** - Protocol buffer definitions (BSR: buf.build/falkcorp/gcommon)
-- **[gcommon-py](https://github.com/falkcorp/gcommon-py)** - Python SDK
 
 ## Contributing
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

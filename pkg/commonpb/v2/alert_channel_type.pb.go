@@ -132,8 +132,8 @@ const file_commonpb_v2_alert_channel_type_proto_rawDesc = "" +
 	"\x17ALERT_CHANNEL_TYPE_JIRA\x10\n" +
 	"\x12!\n" +
 	"\x1dALERT_CHANNEL_TYPE_SERVICENOW\x10\v\x12\x1d\n" +
-	"\x19ALERT_CHANNEL_TYPE_CUSTOM\x10\fB\xa9\x01\n" +
-	"\rcom.common.v2B\x15AlertChannelTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x19ALERT_CHANNEL_TYPE_CUSTOM\x10\fB\xac\x01\n" +
+	"\rcom.common.v2B\x15AlertChannelTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_alert_channel_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -190,8 +190,8 @@ const file_metricspb_v2_validation_rules_proto_rawDesc = "" +
 	"\tmax_value\x18\x02 \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\bmaxValue\x12\x1d\n" +
 	"\n" +
 	"allow_null\x18\x03 \x01(\bR\tallowNull\x12?\n" +
-	"\x16validation_expressions\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x15validationExpressionsB\xaf\x01\n" +
-	"\x0ecom.metrics.v2B\x14ValidationRulesProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x16validation_expressions\x18\x04 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x15validationExpressionsB\xb2\x01\n" +
+	"\x0ecom.metrics.v2B\x14ValidationRulesProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

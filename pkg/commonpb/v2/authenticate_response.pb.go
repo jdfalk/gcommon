@@ -367,8 +367,8 @@ const file_commonpb_v2_authenticate_response_proto_rawDesc = "" +
 	"\tuser_info\x18\x06 \x01(\v2\x13.common.v2.UserInfoB\x02(\x01R\buserInfo\x120\n" +
 	"\asession\x18\a \x01(\v2\x12.common.v2.SessionB\x02(\x01R\asession\x127\n" +
 	"\n" +
-	"rate_limit\x18\b \x01(\v2\x14.common.v2.RateLimitB\x02(\x01R\trateLimitB\xad\x01\n" +
-	"\rcom.common.v2B\x19AuthenticateResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"rate_limit\x18\b \x01(\v2\x14.common.v2.RateLimitB\x02(\x01R\trateLimitB\xb0\x01\n" +
+	"\rcom.common.v2B\x19AuthenticateResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_authenticate_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -11,7 +11,7 @@
 package webv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -200,9 +200,9 @@ const file_webpb_v2_health_check_response_proto_rawDesc = "" +
 	"\x16WebHealthCheckResponse\x125\n" +
 	"\x06status\x18\x01 \x01(\x0e2\x1d.common.v2.CommonHealthStatusR\x06status\x12B\n" +
 	"\rresponse_time\x18\x02 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\fresponseTime\x12*\n" +
-	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\x97\x01\n" +
+	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorB\x02(\x01R\x05errorB\x9a\x01\n" +
 	"\n" +
-	"com.web.v2B\x18HealthCheckResponseProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x18HealthCheckResponseProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_health_check_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_webpb_v2_health_check_response_proto_goTypes = []any{

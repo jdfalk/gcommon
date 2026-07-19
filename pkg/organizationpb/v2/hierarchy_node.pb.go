@@ -12,7 +12,7 @@ package organizationv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -471,8 +471,8 @@ const file_organizationpb_v2_hierarchy_node_proto_rawDesc = "" +
 	"manager_id\x18\n" +
 	" \x01(\tR\tmanagerId\x123\n" +
 	"\bmetadata\x18\v \x03(\v2\x13.common.v2.KeyValueB\x02(\x01R\bmetadata\x12\x16\n" +
-	"\x06active\x18\f \x01(\bR\x06activeB\xd0\x01\n" +
-	"\x13com.organization.v2B\x12HierarchyNodeProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x06active\x18\f \x01(\bR\x06activeB\xd3\x01\n" +
+	"\x13com.organization.v2B\x12HierarchyNodeProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_hierarchy_node_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_hierarchy_node_proto_goTypes = []any{

@@ -271,8 +271,8 @@ const file_queuepb_v2_batch_config_proto_rawDesc = "" +
 	"\x12enable_compression\x18\x04 \x01(\bR\x11enableCompression\x12*\n" +
 	"\fworker_count\x18\x05 \x01(\rB\a\xbaH\x04*\x02(\x00R\vworkerCount\x12(\n" +
 	"\vbuffer_size\x18\x06 \x01(\rB\a\xbaH\x04*\x02(\x00R\n" +
-	"bufferSizeB\x9d\x01\n" +
-	"\fcom.queue.v2B\x10BatchConfigProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"bufferSizeB\xa0\x01\n" +
+	"\fcom.queue.v2B\x10BatchConfigProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_batch_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_batch_config_proto_goTypes = []any{

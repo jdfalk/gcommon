@@ -200,8 +200,8 @@ const file_commonpb_v2_rate_limit_proto_rawDesc = "" +
 	"\x06window\x18\x02 \x01(\v2\x19.google.protobuf.DurationR\x06window\x12%\n" +
 	"\tremaining\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tremaining\x128\n" +
 	"\n" +
-	"reset_time\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\tresetTimeB\xa2\x01\n" +
-	"\rcom.common.v2B\x0eRateLimitProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"reset_time\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\tresetTimeB\xa5\x01\n" +
+	"\rcom.common.v2B\x0eRateLimitProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_rate_limit_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

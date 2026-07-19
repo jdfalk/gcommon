@@ -652,8 +652,8 @@ const file_authpb_v2_oauth_callback_response_proto_rawDesc = "" +
 	"\rprovider_data\x18\b \x03(\v2(.auth.v2.OAuthUserInfo.ProviderDataEntryR\fproviderData\x1a?\n" +
 	"\x11ProviderDataEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa0\x01\n" +
-	"\vcom.auth.v2B\x1aOauthCallbackResponseProtoP\x01Z0github.com/falkcorp/gcommon/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa3\x01\n" +
+	"\vcom.auth.v2B\x1aOauthCallbackResponseProtoP\x01Z3github.com/falkcorp/gcommon/v2/pkg/authpb/v2;authv2\xa2\x02\x03AXX\xaa\x02\aAuth.V2\xca\x02\aAuth\\V2\xe2\x02\x13Auth\\V2\\GPBMetadata\xea\x02\bAuth::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_authpb_v2_oauth_callback_response_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
 var file_authpb_v2_oauth_callback_response_proto_goTypes = []any{

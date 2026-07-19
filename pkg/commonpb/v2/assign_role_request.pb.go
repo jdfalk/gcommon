@@ -356,8 +356,8 @@ const file_commonpb_v2_assign_role_request_proto_rawDesc = "" +
 	"\x06reason\x18\x06 \x01(\tR\x06reason\x12\x1c\n" +
 	"\ttemporary\x18\a \x01(\bR\ttemporary\x12\x1d\n" +
 	"\n" +
-	"expires_at\x18\b \x01(\x03R\texpiresAtB\xaa\x01\n" +
-	"\rcom.common.v2B\x16AssignRoleRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"expires_at\x18\b \x01(\x03R\texpiresAtB\xad\x01\n" +
+	"\rcom.common.v2B\x16AssignRoleRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_assign_role_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

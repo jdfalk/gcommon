@@ -315,8 +315,8 @@ const file_commonpb_v2_revoke_role_request_proto_rawDesc = "" +
 	"\n" +
 	"revoked_by\x18\x05 \x01(\tR\trevokedBy\x12\x16\n" +
 	"\x06reason\x18\x06 \x01(\tR\x06reason\x12\x14\n" +
-	"\x05force\x18\a \x01(\bR\x05forceB\xaa\x01\n" +
-	"\rcom.common.v2B\x16RevokeRoleRequestProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05force\x18\a \x01(\bR\x05forceB\xad\x01\n" +
+	"\rcom.common.v2B\x16RevokeRoleRequestProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_revoke_role_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

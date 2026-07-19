@@ -255,8 +255,8 @@ const file_mediapb_v2_chapter_info_proto_rawDesc = "" +
 	"start_time\x18\x03 \x01(\v2\x19.google.protobuf.DurationR\tstartTime\x124\n" +
 	"\bend_time\x18\x04 \x01(\v2\x19.google.protobuf.DurationR\aendTime\x125\n" +
 	"\bduration\x18\x05 \x01(\v2\x19.google.protobuf.DurationR\bduration\x12 \n" +
-	"\vdescription\x18\x06 \x01(\tR\vdescriptionB\x9d\x01\n" +
-	"\fcom.media.v2B\x10ChapterInfoProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vdescription\x18\x06 \x01(\tR\vdescriptionB\xa0\x01\n" +
+	"\fcom.media.v2B\x10ChapterInfoProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_chapter_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_chapter_info_proto_goTypes = []any{

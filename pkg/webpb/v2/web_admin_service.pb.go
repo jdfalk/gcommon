@@ -38,9 +38,9 @@ const file_webpb_v2_web_admin_service_proto_rawDesc = "" +
 	"\x0eGetCacheConfig\x12\x1d.web.v2.GetCacheConfigRequest\x1a\x1e.web.v2.GetCacheConfigResponse\x12X\n" +
 	"\x11UpdateCacheConfig\x12 .web.v2.UpdateCacheConfigRequest\x1a!.web.v2.UpdateCacheConfigResponse\x12C\n" +
 	"\n" +
-	"FlushCache\x12\x19.web.v2.FlushCacheRequest\x1a\x1a.web.v2.FlushCacheResponseB\x93\x01\n" +
+	"FlushCache\x12\x19.web.v2.FlushCacheRequest\x1a\x1a.web.v2.FlushCacheResponseB\x96\x01\n" +
 	"\n" +
-	"com.web.v2B\x14WebAdminServiceProtoP\x01Z.github.com/falkcorp/gcommon/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"com.web.v2B\x14WebAdminServiceProtoP\x01Z1github.com/falkcorp/gcommon/v2/pkg/webpb/v2;webv2\xa2\x02\x03WXX\xaa\x02\x06Web.V2\xca\x02\x06Web\\V2\xe2\x02\x12Web\\V2\\GPBMetadata\xea\x02\aWeb::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_webpb_v2_web_admin_service_proto_goTypes = []any{
 	(*GetCacheConfigRequest)(nil),     // 0: web.v2.GetCacheConfigRequest

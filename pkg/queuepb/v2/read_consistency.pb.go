@@ -12,7 +12,7 @@ package queuev2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -267,8 +267,8 @@ const file_queuepb_v2_read_consistency_proto_rawDesc = "" +
 	"\x0fmonotonic_reads\x18\x04 \x01(\bR\x0emonotonicReads\x12&\n" +
 	"\n" +
 	"timeout_ms\x18\x05 \x01(\x05B\a\xbaH\x04\x1a\x02 \x00R\ttimeoutMs\x12<\n" +
-	"\fretry_config\x18\x06 \x01(\v2\x19.queue.v2.ReadRetryConfigR\vretryConfigB\xa1\x01\n" +
-	"\fcom.queue.v2B\x14ReadConsistencyProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fretry_config\x18\x06 \x01(\v2\x19.queue.v2.ReadRetryConfigR\vretryConfigB\xa4\x01\n" +
+	"\fcom.queue.v2B\x14ReadConsistencyProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_read_consistency_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_read_consistency_proto_goTypes = []any{

@@ -210,8 +210,8 @@ const file_organizationpb_v2_api_key_config_proto_rawDesc = "" +
 	"masked_key\x18\x02 \x01(\tR\tmaskedKey\x12\x16\n" +
 	"\x06scopes\x18\x03 \x03(\tR\x06scopes\x12=\n" +
 	"\n" +
-	"expires_at\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\texpiresAtB\xcf\x01\n" +
-	"\x13com.organization.v2B\x11ApiKeyConfigProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"expires_at\x18\x04 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\texpiresAtB\xd2\x01\n" +
+	"\x13com.organization.v2B\x11ApiKeyConfigProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_api_key_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_api_key_config_proto_goTypes = []any{

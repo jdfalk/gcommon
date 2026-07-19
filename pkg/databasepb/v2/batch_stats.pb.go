@@ -222,8 +222,8 @@ const file_databasepb_v2_batch_stats_proto_rawDesc = "" +
 	"total_time\x18\x01 \x01(\v2\x19.google.protobuf.DurationB\x02(\x01R\ttotalTime\x12<\n" +
 	"\x15successful_operations\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x14successfulOperations\x124\n" +
 	"\x11failed_operations\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\x10failedOperations\x127\n" +
-	"\x13total_affected_rows\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x11totalAffectedRowsB\xb1\x01\n" +
-	"\x0fcom.database.v2B\x0fBatchStatsProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x13total_affected_rows\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x11totalAffectedRowsB\xb4\x01\n" +
+	"\x0fcom.database.v2B\x0fBatchStatsProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_batch_stats_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_batch_stats_proto_goTypes = []any{

@@ -385,8 +385,8 @@ const file_queuepb_v2_get_partition_info_request_proto_rawDesc = "" +
 	"\n" +
 	"time_range\x18\t \x01(\v2\x19.queue.v2.TimeRangeFilterR\ttimeRange\x12*\n" +
 	"\faccess_token\x18\n" +
-	" \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vaccessTokenB\xa9\x01\n" +
-	"\fcom.queue.v2B\x1cGetPartitionInfoRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	" \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vaccessTokenB\xac\x01\n" +
+	"\fcom.queue.v2B\x1cGetPartitionInfoRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_get_partition_info_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_get_partition_info_request_proto_goTypes = []any{

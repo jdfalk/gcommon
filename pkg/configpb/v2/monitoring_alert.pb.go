@@ -245,8 +245,8 @@ const file_configpb_v2_monitoring_alert_proto_rawDesc = "" +
 	"\x04name\x18\x02 \x01(\tB\t\xbaH\x06r\x04\x10\x01\x18dR\x04name\x12\x1c\n" +
 	"\tcondition\x18\x03 \x01(\tR\tcondition\x12\x1c\n" +
 	"\tthreshold\x18\x04 \x01(\x01R\tthreshold\x12\x18\n" +
-	"\aenabled\x18\x05 \x01(\bR\aenabledB\xa8\x01\n" +
-	"\rcom.config.v2B\x14MonitoringAlertProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\aenabled\x18\x05 \x01(\bR\aenabledB\xab\x01\n" +
+	"\rcom.config.v2B\x14MonitoringAlertProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_monitoring_alert_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

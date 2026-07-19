@@ -263,8 +263,8 @@ const file_commonpb_v2_health_metric_data_proto_rawDesc = "" +
 	"\vdescription\x18\x06 \x01(\tB\b\xbaH\x05r\x03\x18\xe8\aR\vdescription\x1a9\n" +
 	"\vLabelsEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xa9\x01\n" +
-	"\rcom.common.v2B\x15HealthMetricDataProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B\xac\x01\n" +
+	"\rcom.common.v2B\x15HealthMetricDataProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_health_metric_data_proto_msgTypes = make([]protoimpl.MessageInfo, 2)

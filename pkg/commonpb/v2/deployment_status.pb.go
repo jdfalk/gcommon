@@ -103,8 +103,8 @@ const file_commonpb_v2_deployment_status_proto_rawDesc = "" +
 	"\x19DEPLOYMENT_STATUS_SUCCESS\x10\x03\x12\x1c\n" +
 	"\x18DEPLOYMENT_STATUS_FAILED\x10\x04\x12!\n" +
 	"\x1dDEPLOYMENT_STATUS_ROLLED_BACK\x10\x05\x12\x1f\n" +
-	"\x1bDEPLOYMENT_STATUS_CANCELLED\x10\x06B\xa9\x01\n" +
-	"\rcom.common.v2B\x15DeploymentStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x1bDEPLOYMENT_STATUS_CANCELLED\x10\x06B\xac\x01\n" +
+	"\rcom.common.v2B\x15DeploymentStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_deployment_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

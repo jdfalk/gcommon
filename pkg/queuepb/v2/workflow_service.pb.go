@@ -32,8 +32,8 @@ const file_queuepb_v2_workflow_service_proto_rawDesc = "" +
 	"!queuepb/v2/workflow_service.proto\x12\bqueue.v2\x1a'queuepb/v2/start_workflow_request.proto\x1a(queuepb/v2/start_workflow_response.proto\x1a&queuepb/v2/stop_workflow_request.proto\x1a'queuepb/v2/stop_workflow_response.proto\x1a!google/protobuf/go_features.proto2\xb2\x01\n" +
 	"\x0fWorkflowService\x12P\n" +
 	"\rStartWorkflow\x12\x1e.queue.v2.StartWorkflowRequest\x1a\x1f.queue.v2.StartWorkflowResponse\x12M\n" +
-	"\fStopWorkflow\x12\x1d.queue.v2.StopWorkflowRequest\x1a\x1e.queue.v2.StopWorkflowResponseB\xa1\x01\n" +
-	"\fcom.queue.v2B\x14WorkflowServiceProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\fStopWorkflow\x12\x1d.queue.v2.StopWorkflowRequest\x1a\x1e.queue.v2.StopWorkflowResponseB\xa4\x01\n" +
+	"\fcom.queue.v2B\x14WorkflowServiceProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_workflow_service_proto_goTypes = []any{
 	(*StartWorkflowRequest)(nil),  // 0: queue.v2.StartWorkflowRequest

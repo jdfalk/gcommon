@@ -11,7 +11,7 @@
 package configv2
 
 import (
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -164,8 +164,8 @@ const file_configpb_v2_get_config_response_proto_rawDesc = "" +
 	"\x11GetConfigResponse\x12,\n" +
 	"\x05entry\x18\x01 \x01(\v2\x16.config.v2.ConfigEntryR\x05entry\x12\x14\n" +
 	"\x05found\x18\x02 \x01(\bR\x05found\x12&\n" +
-	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xaa\x01\n" +
-	"\rcom.config.v2B\x16GetConfigResponseProtoP\x01Z4github.com/falkcorp/gcommon/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
+	"\x05error\x18\x03 \x01(\v2\x10.common.v2.ErrorR\x05errorB\xad\x01\n" +
+	"\rcom.config.v2B\x16GetConfigResponseProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/configpb/v2;configv2\xa2\x02\x03CXX\xaa\x02\tConfig.V2\xca\x02\tConfig\\V2\xe2\x02\x15Config\\V2\\GPBMetadata\xea\x02\n" +
 	"Config::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_configpb_v2_get_config_response_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -37,8 +37,8 @@ const file_mediapb_v2_media_service_proto_rawDesc = "" +
 	"\x0fUpdateMediaFile\x12 .media.v2.UpdateMediaFileRequest\x1a!.media.v2.UpdateMediaFileResponse\x12V\n" +
 	"\x0fDeleteMediaFile\x12 .media.v2.DeleteMediaFileRequest\x1a!.media.v2.DeleteMediaFileResponse\x12S\n" +
 	"\x0eListMediaFiles\x12\x1f.media.v2.ListMediaFilesRequest\x1a .media.v2.ListMediaFilesResponse\x12J\n" +
-	"\vSearchMedia\x12\x1c.media.v2.SearchMediaRequest\x1a\x1d.media.v2.SearchMediaResponseB\x9e\x01\n" +
-	"\fcom.media.v2B\x11MediaServiceProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vSearchMedia\x12\x1c.media.v2.SearchMediaRequest\x1a\x1d.media.v2.SearchMediaResponseB\xa1\x01\n" +
+	"\fcom.media.v2B\x11MediaServiceProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_media_service_proto_goTypes = []any{
 	(*UploadMediaRequest)(nil),      // 0: media.v2.UploadMediaRequest

@@ -110,8 +110,8 @@ const file_mediapb_v2_analyze_audio_quality_request_proto_rawDesc = "" +
 	"\n" +
 	".mediapb/v2/analyze_audio_quality_request.proto\x12\bmedia.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"I\n" +
 	"\x1aAnalyzeAudioQualityRequest\x12+\n" +
-	"\raudio_file_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vaudioFileIdB\xac\x01\n" +
-	"\fcom.media.v2B\x1fAnalyzeAudioQualityRequestProtoP\x01Z2github.com/falkcorp/gcommon/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\raudio_file_id\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vaudioFileIdB\xaf\x01\n" +
+	"\fcom.media.v2B\x1fAnalyzeAudioQualityRequestProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/mediapb/v2;mediav2\xa2\x02\x03MXX\xaa\x02\bMedia.V2\xca\x02\bMedia\\V2\xe2\x02\x14Media\\V2\\GPBMetadata\xea\x02\tMedia::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_mediapb_v2_analyze_audio_quality_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_mediapb_v2_analyze_audio_quality_request_proto_goTypes = []any{

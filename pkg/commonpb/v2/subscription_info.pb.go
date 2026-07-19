@@ -288,8 +288,8 @@ const file_commonpb_v2_subscription_info_proto_rawDesc = "" +
 	"subscriber\x18\x05 \x01(\v2\x15.common.v2.ClientInfoR\n" +
 	"subscriber\x128\n" +
 	"\aoptions\x18\x06 \x01(\v2\x1e.common.v2.SubscriptionOptionsR\aoptions\x125\n" +
-	"\x06status\x18\a \x01(\x0e2\x1d.common.v2.SubscriptionStatusR\x06statusB\xa9\x01\n" +
-	"\rcom.common.v2B\x15SubscriptionInfoProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x06status\x18\a \x01(\x0e2\x1d.common.v2.SubscriptionStatusR\x06statusB\xac\x01\n" +
+	"\rcom.common.v2B\x15SubscriptionInfoProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_subscription_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

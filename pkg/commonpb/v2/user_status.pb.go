@@ -104,8 +104,8 @@ const file_commonpb_v2_user_status_proto_rawDesc = "" +
 	"\x15USER_STATUS_SUSPENDED\x10\x03\x12$\n" +
 	" USER_STATUS_PENDING_VERIFICATION\x10\x04\x12\x16\n" +
 	"\x12USER_STATUS_LOCKED\x10\x05\x12\x17\n" +
-	"\x13USER_STATUS_DELETED\x10\x06B\xa3\x01\n" +
-	"\rcom.common.v2B\x0fUserStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x13USER_STATUS_DELETED\x10\x06B\xa6\x01\n" +
+	"\rcom.common.v2B\x0fUserStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_user_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

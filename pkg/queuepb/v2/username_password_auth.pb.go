@@ -146,8 +146,8 @@ const file_queuepb_v2_username_password_auth_proto_rawDesc = "" +
 	"'queuepb/v2/username_password_auth.proto\x12\bqueue.v2\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"`\n" +
 	"\x14UsernamePasswordAuth\x12#\n" +
 	"\busername\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\busername\x12#\n" +
-	"\bpassword\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\bR\bpasswordB\xa6\x01\n" +
-	"\fcom.queue.v2B\x19UsernamePasswordAuthProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bpassword\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\bR\bpasswordB\xa9\x01\n" +
+	"\fcom.queue.v2B\x19UsernamePasswordAuthProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_username_password_auth_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_username_password_auth_proto_goTypes = []any{

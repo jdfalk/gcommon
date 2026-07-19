@@ -212,8 +212,8 @@ const file_databasepb_v2_list_namespaces_request_proto_rawDesc = "" +
 	"\xbaH\a\x1a\x05\x18\x96\x01(\x00R\bpageSize\x12(\n" +
 	"\vname_filter\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\n" +
 	"nameFilter\x12#\n" +
-	"\rinclude_stats\x18\x04 \x01(\bR\fincludeStatsB\xbc\x01\n" +
-	"\x0fcom.database.v2B\x1aListNamespacesRequestProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\rinclude_stats\x18\x04 \x01(\bR\fincludeStatsB\xbf\x01\n" +
+	"\x0fcom.database.v2B\x1aListNamespacesRequestProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_list_namespaces_request_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_list_namespaces_request_proto_goTypes = []any{

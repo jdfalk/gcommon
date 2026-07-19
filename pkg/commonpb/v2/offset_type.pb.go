@@ -94,8 +94,8 @@ const file_commonpb_v2_offset_type_proto_rawDesc = "" +
 	"\x14OFFSET_TYPE_EARLIEST\x10\x01\x12\x16\n" +
 	"\x12OFFSET_TYPE_LATEST\x10\x02\x12\x17\n" +
 	"\x13OFFSET_TYPE_CURRENT\x10\x03\x12\x19\n" +
-	"\x15OFFSET_TYPE_COMMITTED\x10\x04B\xa3\x01\n" +
-	"\rcom.common.v2B\x0fOffsetTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x15OFFSET_TYPE_COMMITTED\x10\x04B\xa6\x01\n" +
+	"\rcom.common.v2B\x0fOffsetTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_offset_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

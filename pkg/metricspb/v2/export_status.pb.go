@@ -184,8 +184,8 @@ const file_metricspb_v2_export_status_proto_rawDesc = "" +
 	"\x0efailed_exports\x18\x02 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\rfailedExports\x12;\n" +
 	"\vlast_export\x18\x03 \x01(\v2\x1a.google.protobuf.TimestampR\n" +
 	"lastExport\x12B\n" +
-	"\texporters\x18\x04 \x03(\v2\x1a.metrics.v2.ExporterStatusB\b\xbaH\x05\x92\x01\x02\b\x01R\texportersB\xac\x01\n" +
-	"\x0ecom.metrics.v2B\x11ExportStatusProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\texporters\x18\x04 \x03(\v2\x1a.metrics.v2.ExporterStatusB\b\xbaH\x05\x92\x01\x02\b\x01R\texportersB\xaf\x01\n" +
+	"\x0ecom.metrics.v2B\x11ExportStatusProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

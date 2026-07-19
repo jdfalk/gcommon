@@ -12,7 +12,7 @@ package metricsv2
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v2 "github.com/falkcorp/gcommon/pkg/commonpb/v2"
+	v2 "github.com/falkcorp/gcommon/v2/pkg/commonpb/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/gofeaturespb"
@@ -277,8 +277,8 @@ const file_metricspb_v2_metric_aggregation_proto_rawDesc = "" +
 	"\x0fcustom_function\x18\x05 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x0ecustomFunction\x12#\n" +
 	"\rinclude_nulls\x18\x06 \x01(\bR\fincludeNulls\x12(\n" +
 	"\vmin_samples\x18\a \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\n" +
-	"minSamplesB\xb1\x01\n" +
-	"\x0ecom.metrics.v2B\x16MetricAggregationProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"minSamplesB\xb4\x01\n" +
+	"\x0ecom.metrics.v2B\x16MetricAggregationProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

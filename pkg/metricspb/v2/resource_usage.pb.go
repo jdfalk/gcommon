@@ -205,8 +205,8 @@ const file_metricspb_v2_resource_usage_proto_rawDesc = "" +
 	"\x11memory_used_bytes\x18\x01 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x0fmemoryUsedBytes\x12A\n" +
 	"\x10cpu_used_percent\x18\x02 \x01(\x01B\x17\xbaH\x14\x12\x12\x19\x00\x00\x00\x00\x00\x00Y@)\x00\x00\x00\x00\x00\x00\x00\x00R\x0ecpuUsedPercent\x12/\n" +
 	"\x0fdisk_used_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\rdiskUsedBytes\x12M\n" +
-	"\x1fnetwork_bandwidth_bytes_per_sec\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x1bnetworkBandwidthBytesPerSecB\xad\x01\n" +
-	"\x0ecom.metrics.v2B\x12ResourceUsageProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\x1fnetwork_bandwidth_bytes_per_sec\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x1bnetworkBandwidthBytesPerSecB\xb0\x01\n" +
+	"\x0ecom.metrics.v2B\x12ResourceUsageProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

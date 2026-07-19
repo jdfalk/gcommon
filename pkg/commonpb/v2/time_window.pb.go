@@ -133,8 +133,8 @@ const file_commonpb_v2_time_window_proto_rawDesc = "" +
 	"\x13TIME_WINDOW_1_MONTH\x10\n" +
 	"\x12\x16\n" +
 	"\x12TIME_WINDOW_1_YEAR\x10\v\x12\x16\n" +
-	"\x12TIME_WINDOW_CUSTOM\x10\fB\xa3\x01\n" +
-	"\rcom.common.v2B\x0fTimeWindowProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x12TIME_WINDOW_CUSTOM\x10\fB\xa6\x01\n" +
+	"\rcom.common.v2B\x0fTimeWindowProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_time_window_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

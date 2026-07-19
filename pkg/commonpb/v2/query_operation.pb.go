@@ -139,8 +139,8 @@ const file_commonpb_v2_query_operation_proto_rawDesc = "" +
 	"\x14QUERY_OPERATION_SORT\x10\n" +
 	"\x12\x19\n" +
 	"\x15QUERY_OPERATION_LIMIT\x10\v\x12\x18\n" +
-	"\x14QUERY_OPERATION_JOIN\x10\fB\xa7\x01\n" +
-	"\rcom.common.v2B\x13QueryOperationProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x14QUERY_OPERATION_JOIN\x10\fB\xaa\x01\n" +
+	"\rcom.common.v2B\x13QueryOperationProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_query_operation_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

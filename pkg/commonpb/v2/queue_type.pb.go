@@ -91,8 +91,8 @@ const file_commonpb_v2_queue_type_proto_rawDesc = "" +
 	"\x11QUEUE_TYPE_MEMORY\x10\x01\x12\x14\n" +
 	"\x10QUEUE_TYPE_REDIS\x10\x02\x12\x13\n" +
 	"\x0fQUEUE_TYPE_NATS\x10\x03\x12\x14\n" +
-	"\x10QUEUE_TYPE_CLOUD\x10\x04B\xa2\x01\n" +
-	"\rcom.common.v2B\x0eQueueTypeProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x10QUEUE_TYPE_CLOUD\x10\x04B\xa5\x01\n" +
+	"\rcom.common.v2B\x0eQueueTypeProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_queue_type_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

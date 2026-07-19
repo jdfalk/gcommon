@@ -103,8 +103,8 @@ const file_commonpb_v2_token_status_proto_rawDesc = "" +
 	"\x14TOKEN_STATUS_REVOKED\x10\x03\x12\x1a\n" +
 	"\x16TOKEN_STATUS_SUSPENDED\x10\x04\x12\x18\n" +
 	"\x14TOKEN_STATUS_PENDING\x10\x05\x12\x18\n" +
-	"\x14TOKEN_STATUS_INVALID\x10\x06B\xa4\x01\n" +
-	"\rcom.common.v2B\x10TokenStatusProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x14TOKEN_STATUS_INVALID\x10\x06B\xa7\x01\n" +
+	"\rcom.common.v2B\x10TokenStatusProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_token_status_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

@@ -315,8 +315,8 @@ const file_metricspb_v2_timer_statistics_proto_rawDesc = "" +
 	"varianceMs\x12*\n" +
 	"\fsample_count\x18\x06 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\vsampleCount\x126\n" +
 	"\x0frate_per_second\x18\a \x01(\x01B\x0e\xbaH\v\x12\t)\x00\x00\x00\x00\x00\x00\x00\x00R\rratePerSecond\x12>\n" +
-	"\rlast_duration\x18\b \x01(\v2\x19.google.protobuf.DurationR\flastDurationB\xaf\x01\n" +
-	"\x0ecom.metrics.v2B\x14TimerStatisticsProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"\rlast_duration\x18\b \x01(\v2\x19.google.protobuf.DurationR\flastDurationB\xb2\x01\n" +
+	"\x0ecom.metrics.v2B\x14TimerStatisticsProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 

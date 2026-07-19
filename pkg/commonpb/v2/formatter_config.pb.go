@@ -145,8 +145,8 @@ const file_commonpb_v2_formatter_config_proto_rawDesc = "" +
 	"\"commonpb/v2/formatter_config.proto\x12\tcommon.v2\x1a commonpb/v2/formatter_type.proto\x1a!google/protobuf/go_features.proto\x1a\x1bbuf/validate/validate.proto\"e\n" +
 	"\x12LogFormatterConfig\x12,\n" +
 	"\x04type\x18\x01 \x01(\x0e2\x18.common.v2.FormatterTypeR\x04type\x12!\n" +
-	"\apattern\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\apatternB\xa8\x01\n" +
-	"\rcom.common.v2B\x14FormatterConfigProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\apattern\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\apatternB\xab\x01\n" +
+	"\rcom.common.v2B\x14FormatterConfigProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_formatter_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

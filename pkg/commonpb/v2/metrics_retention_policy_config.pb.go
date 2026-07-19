@@ -176,8 +176,8 @@ const file_commonpb_v2_metrics_retention_policy_config_proto_rawDesc = "" +
 	"\x1cMetricsRetentionPolicyConfig\x125\n" +
 	"\bduration\x18\x01 \x01(\v2\x19.google.protobuf.DurationR\bduration\x12*\n" +
 	"\fstorage_tier\x18\x02 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vstorageTier\x12)\n" +
-	"\vcompression\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vcompressionB\xb5\x01\n" +
-	"\rcom.common.v2B!MetricsRetentionPolicyConfigProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\vcompression\x18\x03 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\vcompressionB\xb8\x01\n" +
+	"\rcom.common.v2B!MetricsRetentionPolicyConfigProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metrics_retention_policy_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

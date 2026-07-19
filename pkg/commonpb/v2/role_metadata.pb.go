@@ -205,8 +205,8 @@ const file_commonpb_v2_role_metadata_proto_rawDesc = "" +
 	"\n" +
 	"updated_at\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\tupdatedAt\x12s\n" +
 	"\n" +
-	"created_by\x18\x03 \x01(\tBT\xbaHQrO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\tcreatedByB\xa5\x01\n" +
-	"\rcom.common.v2B\x11RoleMetadataProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"created_by\x18\x03 \x01(\tBT\xbaHQrO2M^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$R\tcreatedByB\xa8\x01\n" +
+	"\rcom.common.v2B\x11RoleMetadataProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_role_metadata_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

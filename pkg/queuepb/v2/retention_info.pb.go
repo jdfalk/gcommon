@@ -262,8 +262,8 @@ const file_queuepb_v2_retention_info_proto_rawDesc = "" +
 	"\x0fretention_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x0eretentionBytes\x124\n" +
 	"\x11retained_messages\x18\x04 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x10retainedMessages\x12J\n" +
 	"\x13oldest_message_time\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampR\x11oldestMessageTime\x12F\n" +
-	"\x11next_cleanup_time\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\x0fnextCleanupTimeB\x9f\x01\n" +
-	"\fcom.queue.v2B\x12RetentionInfoProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x11next_cleanup_time\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\x0fnextCleanupTimeB\xa2\x01\n" +
+	"\fcom.queue.v2B\x12RetentionInfoProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_retention_info_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_retention_info_proto_goTypes = []any{

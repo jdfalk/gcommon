@@ -283,8 +283,8 @@ const file_commonpb_v2_event_notification_proto_rawDesc = "" +
 	"\revent_payload\x18\x03 \x01(\v2\x14.google.protobuf.AnyB\x02(\x01R\feventPayload\x12F\n" +
 	"\fnotification\x18\x04 \x01(\v2\x1e.common.v2.NotificationMessageB\x02(\x01R\fnotification\x12=\n" +
 	"\n" +
-	"event_time\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\teventTimeB\xaa\x01\n" +
-	"\rcom.common.v2B\x16EventNotificationProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"event_time\x18\x05 \x01(\v2\x1a.google.protobuf.TimestampB\x02(\x01R\teventTimeB\xad\x01\n" +
+	"\rcom.common.v2B\x16EventNotificationProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_event_notification_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

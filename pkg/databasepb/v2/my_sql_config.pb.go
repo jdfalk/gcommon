@@ -209,8 +209,8 @@ const file_databasepb_v2_my_sql_config_proto_rawDesc = "" +
 	"\x03dsn\x18\x01 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x03dsn\x12-\n" +
 	"\x0emax_open_conns\x18\x02 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\fmaxOpenConns\x12-\n" +
 	"\x0emax_idle_conns\x18\x03 \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\fmaxIdleConns\x12?\n" +
-	"\x17connect_timeout_seconds\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02 \x00R\x15connectTimeoutSecondsB\xb2\x01\n" +
-	"\x0fcom.database.v2B\x10MySqlConfigProtoP\x01Z8github.com/falkcorp/gcommon/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x17connect_timeout_seconds\x18\x04 \x01(\x05B\a\xbaH\x04\x1a\x02 \x00R\x15connectTimeoutSecondsB\xb5\x01\n" +
+	"\x0fcom.database.v2B\x10MySqlConfigProtoP\x01Z;github.com/falkcorp/gcommon/v2/pkg/databasepb/v2;databasev2\xa2\x02\x03DXX\xaa\x02\vDatabase.V2\xca\x02\vDatabase\\V2\xe2\x02\x17Database\\V2\\GPBMetadata\xea\x02\fDatabase::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_databasepb_v2_my_sql_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_databasepb_v2_my_sql_config_proto_goTypes = []any{

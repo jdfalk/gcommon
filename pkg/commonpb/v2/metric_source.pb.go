@@ -142,8 +142,8 @@ const file_commonpb_v2_metric_source_proto_rawDesc = "" +
 	"\x14METRIC_SOURCE_CUSTOM\x10\v\x12\x1d\n" +
 	"\x19METRIC_SOURCE_THIRD_PARTY\x10\f\x12\x1b\n" +
 	"\x17METRIC_SOURCE_SYNTHETIC\x10\r\x12\x1d\n" +
-	"\x19METRIC_SOURCE_LOG_DERIVED\x10\x0eB\xa5\x01\n" +
-	"\rcom.common.v2B\x11MetricSourceProtoP\x01Z4github.com/falkcorp/gcommon/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
+	"\x19METRIC_SOURCE_LOG_DERIVED\x10\x0eB\xa8\x01\n" +
+	"\rcom.common.v2B\x11MetricSourceProtoP\x01Z7github.com/falkcorp/gcommon/v2/pkg/commonpb/v2;commonv2\xa2\x02\x03CXX\xaa\x02\tCommon.V2\xca\x02\tCommon\\V2\xe2\x02\x15Common\\V2\\GPBMetadata\xea\x02\n" +
 	"Common::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_commonpb_v2_metric_source_proto_enumTypes = make([]protoimpl.EnumInfo, 1)

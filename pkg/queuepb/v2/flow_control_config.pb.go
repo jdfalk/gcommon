@@ -208,8 +208,8 @@ const file_queuepb_v2_flow_control_config_proto_rawDesc = "" +
 	"\x18max_outstanding_messages\x18\x02 \x01(\x05B\n" +
 	"\xbaH\a\x1a\x05\x18\x96\x01(\x00R\x16maxOutstandingMessages\x12;\n" +
 	"\x15max_outstanding_bytes\x18\x03 \x01(\x03B\a\xbaH\x04\"\x02(\x00R\x13maxOutstandingBytes\x12%\n" +
-	"\talgorithm\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\talgorithmB\xa3\x01\n" +
-	"\fcom.queue.v2B\x16FlowControlConfigProtoP\x01Z2github.com/falkcorp/gcommon/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\talgorithm\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\talgorithmB\xa6\x01\n" +
+	"\fcom.queue.v2B\x16FlowControlConfigProtoP\x01Z5github.com/falkcorp/gcommon/v2/pkg/queuepb/v2;queuev2\xa2\x02\x03QXX\xaa\x02\bQueue.V2\xca\x02\bQueue\\V2\xe2\x02\x14Queue\\V2\\GPBMetadata\xea\x02\tQueue::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_queuepb_v2_flow_control_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_queuepb_v2_flow_control_config_proto_goTypes = []any{

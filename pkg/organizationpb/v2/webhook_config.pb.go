@@ -194,8 +194,8 @@ const file_organizationpb_v2_webhook_config_proto_rawDesc = "" +
 	"\x03url\x18\x01 \x01(\tB\b\xbaH\x05r\x03\x88\x01\x01R\x03url\x12 \n" +
 	"\x06events\x18\x02 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x06events\x12\x16\n" +
 	"\x06active\x18\x03 \x01(\bR\x06active\x12\x1f\n" +
-	"\x06secret\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06secretB\xd0\x01\n" +
-	"\x13com.organization.v2B\x12WebhookConfigProtoP\x01Z@github.com/falkcorp/gcommon/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x06secret\x18\x04 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\x06secretB\xd3\x01\n" +
+	"\x13com.organization.v2B\x12WebhookConfigProtoP\x01ZCgithub.com/falkcorp/gcommon/v2/pkg/organizationpb/v2;organizationv2\xa2\x02\x03OXX\xaa\x02\x0fOrganization.V2\xca\x02\x0fOrganization\\V2\xe2\x02\x1bOrganization\\V2\\GPBMetadata\xea\x02\x10Organization::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_organizationpb_v2_webhook_config_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_organizationpb_v2_webhook_config_proto_goTypes = []any{

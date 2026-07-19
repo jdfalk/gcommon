@@ -245,8 +245,8 @@ const file_metricspb_v2_export_config_update_proto_rawDesc = "" +
 	"\x13destination_removes\x18\x05 \x03(\tB\b\xbaH\x05\x92\x01\x02\b\x01R\x12destinationRemoves\x12%\n" +
 	"\tfrequency\x18\x06 \x01(\tB\a\xbaH\x04r\x02\x10\x01R\tfrequency\x12&\n" +
 	"\n" +
-	"batch_size\x18\a \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tbatchSizeB\xb2\x01\n" +
-	"\x0ecom.metrics.v2B\x17ExportConfigUpdateProtoP\x01Z6github.com/falkcorp/gcommon/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
+	"batch_size\x18\a \x01(\x05B\a\xbaH\x04\x1a\x02(\x00R\tbatchSizeB\xb5\x01\n" +
+	"\x0ecom.metrics.v2B\x17ExportConfigUpdateProtoP\x01Z9github.com/falkcorp/gcommon/v2/pkg/metricspb/v2;metricsv2\xa2\x02\x03MXX\xaa\x02\n" +
 	"Metrics.V2\xca\x02\n" +
 	"Metrics\\V2\xe2\x02\x16Metrics\\V2\\GPBMetadata\xea\x02\vMetrics::V2\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
