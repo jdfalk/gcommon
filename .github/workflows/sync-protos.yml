@@ -1,6 +1,7 @@
 # file: .github/workflows/sync-protos.yml
-# version: 3.1.2
+# version: 3.1.3
 # guid: sync-protos-workflow-gcommon
+# last-edited: 2026-07-19
 
 name: Generate Go Code from BSR
 
@@ -68,11 +69,11 @@ jobs:
           git config --local user.name "GitHub Action"
 
           if [ -n "$(git status --porcelain)" ]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
             echo "Changes detected:"
             git status --porcelain
           else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
             echo "No changes detected"
           fi
 
@@ -89,12 +90,12 @@ jobs:
 
       - name: Summary
         run: |
-          echo "## Go Code Generation Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Go Code Generation Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
           if [ "${{ steps.changes.outputs.has_changes }}" == "true" ] || [ "${{ inputs.force_regenerate }}" == "true" ]; then
-            echo "✅ Successfully regenerated Go code from BSR" >> $GITHUB_STEP_SUMMARY
-            echo "📦 Generated Go code has been updated" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Successfully regenerated Go code from BSR" >> "$GITHUB_STEP_SUMMARY"
+            echo "📦 Generated Go code has been updated" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "ℹ️ No changes detected - generated code is up to date" >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️ No changes detected - generated code is up to date" >> "$GITHUB_STEP_SUMMARY"
           fi
-          echo "🔗 Source: buf.build/falkcorp/gcommon" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 Source: buf.build/falkcorp/gcommon" >> "$GITHUB_STEP_SUMMARY"
