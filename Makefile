@@ -18,7 +18,7 @@ install-tools: ## Install required tools
 	go install github.com/bufbuild/buf/cmd/buf@latest
 
 generate: ## Generate Go code from protocol buffers using BSR (managed mode)
-	@echo "📡 Generating Go code from buf.build/jdfalk/gcommon using managed mode..."
+	@echo "📡 Generating Go code from buf.build/falkcorp/gcommon using managed mode..."
 	buf generate
 	@echo "🔧 Fixing Go module paths for v1/v2+ compatibility..."
 	python3 scripts/fix-go-paths.py

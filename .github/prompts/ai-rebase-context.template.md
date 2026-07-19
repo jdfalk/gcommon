@@ -11,7 +11,7 @@ prompts. Copy this template to your repository and customize it with project-spe
 
 - AGENTS.md and CLAUDE.md are now in the **repository root**, not .github/
 - Use **copilot-agent-util** tool for safe git operations (available at
-  <https://github.com/jdfalk/copilot-agent-util-rust/releases/latest>)
+  <https://github.com/falkcorp/safe-ai-util/releases/latest>)
 - Use **direct-edit workflow** for documentation (no doc-update scripts)
 - All files require versioned headers with file path, version, and GUID
 
@@ -106,7 +106,7 @@ Examples:
 <!--
 Mention key tools used in development workflow:
 - copilot-agent-util: Safe git operations with enhanced logging
-  Download: https://github.com/jdfalk/copilot-agent-util-rust/releases/latest
+  Download: https://github.com/falkcorp/safe-ai-util/releases/latest
 - VS Code Tasks: Prefer tasks over manual commands
 - Super Linter: Automated code quality checks
 -->

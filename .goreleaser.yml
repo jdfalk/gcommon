@@ -46,7 +46,7 @@ changelog:
 
 release:
   github:
-    owner: jdfalk
+    owner: falkcorp
     name: gcommon
   draft: false
   prerelease: auto

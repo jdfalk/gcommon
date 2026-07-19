@@ -27,7 +27,7 @@ from typing import List, Dict, Optional
 from datetime import datetime
 
 class GitHubReleaseManager:
-    def __init__(self, repo_owner: str = "jdfalk", repo_name: str = "gcommon"):
+    def __init__(self, repo_owner: str = "falkcorp", repo_name: str = "gcommon"):
         self.repo_owner = repo_owner
         self.repo_name = repo_name
         self.repo_full = f"{repo_owner}/{repo_name}"
@@ -110,7 +110,7 @@ class GitHubReleaseManager:
             ["git", "tag", "-l"],
             capture_output=True,
             text=True,
-            cwd="/Users/jdfalk/repos/github.com/jdfalk/gcommon"
+            cwd="/Users/jdfalk/repos/github.com/falkcorp/gcommon"
         )
 
         if result.returncode != 0:
@@ -159,17 +159,17 @@ Protocol buffer definitions and Go SDK for common types and services.
 
 ## Installation
 ```go
-go get github.com/falkcorp/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/commonpb/v2@{tag}
 ```
 
 ## BSR Registry
 ```bash
-buf dep update buf.build/jdfalk/gcommon:{tag}
+buf dep update buf.build/falkcorp/gcommon:{tag}
 ```
 
 ---
 *Released: {current_date}*
-*BSR: buf.build/jdfalk/gcommon*"""
+*BSR: buf.build/falkcorp/gcommon*"""
 
             else:  # v2 patch
                 return f"""# gcommon {tag} (v2 Series)
@@ -189,17 +189,17 @@ Next-generation protocol buffer definitions with enhanced features.
 
 ## Installation
 ```go
-go get github.com/falkcorp/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/commonpb/v2@{tag}
 ```
 
 ## BSR Registry
 ```bash
-buf dep update buf.build/jdfalk/gcommon:{tag}
+buf dep update buf.build/falkcorp/gcommon:{tag}
 ```
 
 ---
 *Released: {current_date}*
-*BSR: buf.build/jdfalk/gcommon*"""
+*BSR: buf.build/falkcorp/gcommon*"""
 
         elif tag.count('.') == 1:  # Minor version
             series = "v1" if 'v1.' in tag else "v2"
@@ -214,7 +214,7 @@ Latest {series} series release with all recent fixes and improvements.
 
 ## Quick Start
 ```go
-go get github.com/falkcorp/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/commonpb/v2@{tag}
 ```
 
 ---
@@ -228,7 +228,7 @@ Latest {series} release with all fixes and features.
 
 ## Installation
 ```go
-go get github.com/falkcorp/gcommon/pkg/common@{tag}
+go get github.com/falkcorp/gcommon/pkg/commonpb/v2@{tag}
 ```
 
 ---
@@ -298,7 +298,7 @@ def main():
     parser.add_argument("--delete-all", action="store_true", help="Delete all existing releases")
     parser.add_argument("--create-all", action="store_true", help="Create releases for all tags")
     parser.add_argument("--list", action="store_true", help="List current releases")
-    parser.add_argument("--repo", default="jdfalk/gcommon", help="Repository (owner/name)")
+    parser.add_argument("--repo", default="falkcorp/gcommon", help="Repository (owner/name)")
 
     args = parser.parse_args()
 

@@ -27,7 +27,7 @@ The AuthService v2 has been expanded from 6 methods to 18 methods specifically t
 
 **ADD to subtitle-manager:**
 ```go
-import "github.com/jdfalk/gcommon/services/auth"
+import "github.com/falkcorp/gcommon/services/auth"
 
 // Replace existing auth with gcommon AuthService
 authService, err := auth.NewAuthService([]byte("your-jwt-secret"))

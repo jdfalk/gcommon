@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # file: scripts/release-manager.py
-# version: 1.0.0
-#!/usr/bin/env python3
-# file: scripts/release-manager.py
-# version: 1.1.0
+# version: 1.2.0
 # guid: b9f7c8d3-2a4e-4c5b-8f1a-9e6d7b2c1a3f
+# last-edited: 2026-07-19
 
 """
 Automated Release Management Script
@@ -154,13 +152,21 @@ class ReleaseManager:
         self.next_version = next_version
         return next_version
 
+    def find_nested_pb_modules(self) -> List[str]:
+        """Find every pkg/*pb/v2 submodule directory (relative to repo root)."""
+        result = self.run_command(["find", "pkg", "-mindepth", "3", "-maxdepth", "3", "-name", "go.mod", "-type", "f"])
+        go_mod_files = [f.strip() for f in result.stdout.split('\n') if f.strip()]
+        return sorted(str(Path(f).parent) for f in go_mod_files)
+
     def run_go_mod_tidy(self) -> bool:
-        """Run go mod tidy on all modules."""
+        """Run go mod tidy on all modules (root, internal, services, services/auth, and every pkg/*pb/v2)."""
         logger.info("🔧 Running go mod tidy on all modules...")
 
-        # Find all go.mod files
-        result = self.run_command(["find", "pkg", "-name", "go.mod", "-type", "f"])
-        go_mod_files = [f.strip() for f in result.stdout.split('\n') if f.strip()]
+        # Find every go.mod in the repo, not just pkg/ - root/internal/services/
+        # services/auth all need tidying too (a prior version of this script
+        # only walked pkg/, silently skipping the others).
+        result = self.run_command(["find", ".", "-name", "go.mod", "-type", "f", "-not", "-path", "./.git/*"])
+        go_mod_files = [f.strip().lstrip("./") for f in result.stdout.split('\n') if f.strip()]
 
         if not go_mod_files:
             logger.info("No go.mod files found, skipping go mod tidy")
@@ -254,37 +260,50 @@ class ReleaseManager:
         except subprocess.CalledProcessError:
             return "## Changes\n\n- Package updates and improvements"
 
+    def _create_and_push_one_tag(self, tag_name: str, message: str) -> bool:
+        """Create one annotated tag and push it to origin."""
+        result = self.run_command(["git", "tag", "-a", tag_name, "-m", message], check=False)
+        if result.returncode != 0:
+            logger.error(f"Failed to create tag: {tag_name}")
+            return False
+
+        result = self.run_command(["git", "push", "origin", tag_name], check=False)
+        if result.returncode != 0:
+            logger.error(f"Failed to push tag: {tag_name}")
+            return False
+
+        logger.info(f"    ✅ {tag_name}")
+        return True
+
     def create_and_push_tags(self) -> bool:
-        """Create and push git tags."""
+        """Create and push git tags: the root tag plus one nested tag per
+        pkg/*pb/v2 submodule, all at the same version (lockstep versioning).
+        Go's nested-module convention requires the tag name to equal the
+        module's subdirectory path relative to the repo root, e.g.
+        pkg/commonpb/v2/v1.0.1 for module github.com/falkcorp/gcommon/pkg/commonpb/v2.
+        """
         if not self.next_version:
             logger.error("Next version not calculated")
             return False
 
-        logger.info(f"🏷️  Creating tag: {self.next_version}")
-
-        # Create annotated tag
-        tag_message = f"Release {self.next_version}"
-        result = self.run_command([
-            "git", "tag", "-a", self.next_version,
-            "-m", tag_message
-        ], check=False)
-
-        if result.returncode != 0:
-            logger.error(f"Failed to create tag: {self.next_version}")
+        logger.info(f"🏷️  Creating tag: {self.next_version} (root)")
+        if not self._create_and_push_one_tag(self.next_version, f"Release {self.next_version}"):
             return False
 
-        # Push tag
-        logger.info(f"📤 Pushing tag: {self.next_version}")
-        result = self.run_command([
-            "git", "push", "origin", self.next_version
-        ], check=False)
+        nested_modules = self.find_nested_pb_modules()
+        logger.info(f"🏷️  Creating {len(nested_modules)} nested pkg/*pb/v2 tags at {self.next_version}...")
+        success_count = 0
+        for module_dir in nested_modules:
+            nested_tag = f"{module_dir}/{self.next_version}"
+            if self._create_and_push_one_tag(nested_tag, f"Release {nested_tag}"):
+                success_count += 1
 
-        if result.returncode != 0:
-            logger.error(f"Failed to push tag: {self.next_version}")
-            return False
+        logger.info(f"🏷️  Nested tags: {success_count}/{len(nested_modules)} successful")
+        if success_count != len(nested_modules):
+            logger.warning(f"⚠️ {len(nested_modules) - success_count} nested tags failed")
 
         logger.info(f"✅ Successfully created and pushed tag: {self.next_version}")
-        return True
+        return success_count == len(nested_modules)
 
     def create_github_release(self, changelog: str) -> bool:
         """Create GitHub release using gh CLI."""

@@ -345,9 +345,8 @@ All implementation must strictly follow these coding standards:
 - **AuthService v1**: `services/auth/` - Base implementation to extend
 - **Protobuf v2 APIs**: `pkg/authpb/v2/` - Generated protobuf definitions
 
-### Generated Protobuf Packages Available
-- `github.com/falkcorp/gcommon/pkg/authpb` (v1)
-- `github.com/falkcorp/gcommon/pkg/authpb/v2` (v2)
+### Generated Protobuf Packages Available (v1 dropped repo-wide, v2 only)
+- `github.com/falkcorp/gcommon/pkg/authpb/v2`
 - `github.com/falkcorp/gcommon/pkg/commonpb/v2`
 - `github.com/falkcorp/gcommon/pkg/configpb/v2`
 - `github.com/falkcorp/gcommon/pkg/databasepb/v2`
@@ -551,7 +550,7 @@ def main():
         "--token", help="GitHub personal access token (or use GITHUB_TOKEN env var)"
     )
     parser.add_argument(
-        "--repo", default="jdfalk/gcommon", help="Repository in owner/repo format"
+        "--repo", default="falkcorp/gcommon", help="Repository in owner/repo format"
     )
 
     args = parser.parse_args()
