@@ -1,5 +1,5 @@
 # file: .github/workflows/ci.yml
-# version: 2.0.3
+# version: 2.0.4
 # guid: ci-workflow-gcommon-go
 # last-edited: 2026-07-19
 
@@ -25,7 +25,7 @@ jobs:
   ci:
     uses: falkcorp/github-common/.github/workflows/reusable-ci.yml@92800b463b184b62b62e74cfc9568aa6ba55e8ae # main
     with:
-      go-version: "1.24"
+      go-version: "1.25"
       skip-protobuf: false # Need protobuf generation for Go SDK (from BSR)
       skip-tests: false
       skip-linting: false
