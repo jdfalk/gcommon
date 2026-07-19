@@ -1,101 +1,73 @@
 # file: buf.gen.managed.yaml
-# version: 2.1.0
+# version: 3.0.0
 # guid: buf-gen-managed-mode-gcommon
+# last-edited: 2026-07-19
 
 version: v2
 inputs:
   - module: buf.build/falkcorp/gcommon
+    # v1 is dropped repo-wide (deprecated, no real consumers exist) - only
+    # generate v2. See docs/AUDIT-2026-07-18-post-org-migration.md Phase A.
+    exclude_paths:
+      - authpb/v1
+      - commonpb/v1
+      - configpb/v1
+      - databasepb/v1
+      - healthpb/v1
+      - mediapb/v1
+      - metricspb/v1
+      - organizationpb/v1
+      - queuepb/v1
+      - webpb/v1
 managed:
   enabled: true
   disable:
     - file_option: go_package_prefix
       module: buf.build/googleapis/googleapis
   override:
-    # Map old BSR paths to new pb-suffixed Go packages
-    # BSR still has old structure (common/v1/) but we want new Go packages (pkg/commonpb)
-    # v1 files: common/v1/ -> pkg/commonpb (no v1 subdirectory)
+    # go_package_prefix is the BSR file's own directory (e.g. commonpb/v2)
+    # appended to this bare prefix - do NOT repeat the per-module suffix here
+    # (that doubles the path, see audit finding #6).
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: common/v1
-      value: github.com/falkcorp/gcommon/pkg/commonpb
+      path: commonpb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: config/v1
-      value: github.com/falkcorp/gcommon/pkg/configpb
+      path: configpb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: database/v1
-      value: github.com/falkcorp/gcommon/pkg/databasepb
+      path: databasepb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: health/v1
-      value: github.com/falkcorp/gcommon/pkg/healthpb
+      path: healthpb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: media/v1
-      value: github.com/falkcorp/gcommon/pkg/mediapb
+      path: mediapb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: metrics/v1
-      value: github.com/falkcorp/gcommon/pkg/metricspb
+      path: metricspb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: organization/v1
-      value: github.com/falkcorp/gcommon/pkg/organizationpb
+      path: organizationpb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: queue/v1
-      value: github.com/falkcorp/gcommon/pkg/queuepb
+      path: queuepb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: web/v1
-      value: github.com/falkcorp/gcommon/pkg/webpb
+      path: webpb/v2
+      value: github.com/falkcorp/gcommon/pkg
     - file_option: go_package_prefix
       module: buf.build/falkcorp/gcommon
-      path: auth/v1
-      value: github.com/falkcorp/gcommon/pkg/authpb
-
-    # v2 files: old BSR paths to new pb-suffixed Go packages with v2 subdirectory
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: common/v2
-      value: github.com/falkcorp/gcommon/pkg/commonpb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: config/v2
-      value: github.com/falkcorp/gcommon/pkg/configpb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: database/v2
-      value: github.com/falkcorp/gcommon/pkg/databasepb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: health/v2
-      value: github.com/falkcorp/gcommon/pkg/healthpb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: media/v2
-      value: github.com/falkcorp/gcommon/pkg/mediapb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: metrics/v2
-      value: github.com/falkcorp/gcommon/pkg/metricspb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: organization/v2
-      value: github.com/falkcorp/gcommon/pkg/organizationpb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: queue/v2
-      value: github.com/falkcorp/gcommon/pkg/queuepb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: web/v2
-      value: github.com/falkcorp/gcommon/pkg/webpb/v2
-    - file_option: go_package_prefix
-      module: buf.build/falkcorp/gcommon
-      path: auth/v2
-      value: github.com/falkcorp/gcommon/pkg/authpb/v2
+      path: authpb/v2
+      value: github.com/falkcorp/gcommon/pkg
 plugins:
   - local: protoc-gen-go
     out: pkg

@@ -11,13 +11,13 @@ replace github.com/falkcorp/gcommon => ../
 
 replace github.com/falkcorp/gcommon/internal => ../internal/
 
-replace github.com/falkcorp/gcommon/pkg/commonpb => ../pkg/commonpb
+replace github.com/falkcorp/gcommon/pkg/commonpb/v2 => ../pkg/commonpb/v2
 
-replace github.com/falkcorp/gcommon/pkg/healthpb => ../pkg/healthpb
+replace github.com/falkcorp/gcommon/pkg/healthpb/v2 => ../pkg/healthpb/v2
 
 require (
-	github.com/falkcorp/gcommon/pkg/commonpb v0.0.0-20251003134307-5cabf522c911
-	github.com/falkcorp/gcommon/pkg/healthpb v0.0.0-20250926191523-27df7a7ed049
+	github.com/falkcorp/gcommon/pkg/commonpb/v2 v2.0.0-20251003134307-5cabf522c911
+	github.com/falkcorp/gcommon/pkg/healthpb/v2 v2.0.0-00010101000000-000000000000
 	github.com/spf13/viper v1.21.0
 	google.golang.org/grpc v1.79.3
 )

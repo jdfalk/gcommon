@@ -7,8 +7,6 @@ replace github.com/falkcorp/gcommon/internal => ./internal
 
 replace github.com/falkcorp/gcommon/services => ./services
 
-replace github.com/falkcorp/gcommon/services/health => ./services/health
-
 replace github.com/falkcorp/gcommon/services/auth => ./services/auth
 
 replace github.com/falkcorp/gcommon/pkg/authpb/v2 => ./pkg/authpb/v2

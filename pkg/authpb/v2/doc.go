@@ -38,4 +38,4 @@
 //
 //	The v2 API includes all v1 methods with improved implementations
 //	plus 12 additional methods for enhanced functionality.
-package authpb
+package authv2
